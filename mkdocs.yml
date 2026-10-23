@@ -1,0 +1,100 @@
+site_name: Devil x Slime Wiki
+site_description: The wiki for Devil x Slime, the High School DxD addon for Tensura Reincarnated.
+site_url: https://malwikpl.github.io/devil-x-slime-wiki/
+repo_url: https://github.com/Malwikpl/devil-x-slime-wiki
+repo_name: Edit this wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  font: false
+  icon:
+    repo: material/pencil
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Your first Sacred Gear: getting-started/first-gear.md
+  - Boosted Gear:
+      - boosted-gear/index.md
+      - Forms and mastery: boosted-gear/forms-and-mastery.md
+      - Boost, Transfer and Dragon Shot: boosted-gear/modes.md
+      - Balance Breaker: boosted-gear/balance-breaker.md
+      - Ddraig and his Bargain: boosted-gear/ddraig.md
+      - Juggernaut Drive: boosted-gear/juggernaut-drive.md
+      - Penetrate: boosted-gear/penetrate.md
+      - Ascalon: boosted-gear/ascalon.md
+      - Divide (Albion's power): boosted-gear/divide.md
+  - Divine Dividing:
+      - divine-dividing/index.md
+      - Balance Breaker (white Scale Mail): divine-dividing/balance-breaker.md
+  - World:
+      - The White Dragon Emperor: world/white-dragon-emperor.md
+      - Structures: world/structures.md
+  - Reference:
+      - Commands: reference/commands.md
+      - Configuration: reference/configuration.md
+      - Looks, cutscenes and effects: reference/looks.md
+      - Status effects: reference/status-effects.md
+      - Compatibility and known limits: reference/compatibility.md
+  - FAQ: faq.md
+  - Roadmap: roadmap.md
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: warn

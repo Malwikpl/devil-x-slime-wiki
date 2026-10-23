@@ -1,0 +1,80 @@
+/* Devil x Slime: crimson like the Boosted Gear, green like its jewel. */
+:root {
+  --md-primary-fg-color: #9e1b24;
+  --md-primary-fg-color--light: #c62f38;
+  --md-primary-fg-color--dark: #6e0f16;
+  --md-accent-fg-color: #2fbf71;
+  --md-accent-fg-color--transparent: rgba(47, 191, 113, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #16131a;
+  --md-typeset-a-color: #ff6b6b;
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #b3202a;
+}
+
+/* Divine Dividing pages get Albion's white and blue. */
+.albion {
+  --md-typeset-a-color: #4aa8ff;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 0.4rem;
+}
+
+.md-typeset img {
+  border-radius: 0.3rem;
+}
+
+.md-typeset figure img {
+  box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.35);
+  max-height: 24rem;
+  width: auto;
+}
+
+.md-typeset figcaption {
+  max-width: none;
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+}
+
+/* The home page hero. */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.hero img {
+  width: 112px;
+  height: 112px;
+  image-rendering: auto;
+}
+
+.hero p {
+  flex: 1 1 18rem;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hero p:first-child {
+  flex: 0 0 auto;
+}
+
+.md-typeset .grid figure {
+  margin: 0;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.7rem;
+}
+
+.md-typeset table:not([class]) code {
+  white-space: nowrap;
+}
