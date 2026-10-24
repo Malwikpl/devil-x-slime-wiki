@@ -15,7 +15,7 @@ are under 20% health**, the past hosts chant through you instead of the rage bur
 words!") and the dragon forms.
 
 When it's over, Ddraig teaches you the words: the five lines of the incantation in chat (click one to put it in your
-chat box) and a book to keep.
+chat box) and a book to keep. Lost the book? `/dxdtensura incantation` gives you a new one.
 
 ## The incantation
 

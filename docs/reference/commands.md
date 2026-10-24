@@ -2,7 +2,7 @@
 
 ## Devil x Slime's commands
 
-All of them need operator permission (level 2).
+All of them need operator permission (level 2), except `/dxdtensura incantation` for yourself.
 
 | Command | What it does |
 |---|---|
@@ -13,6 +13,7 @@ All of them need operator permission (level 2).
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
 | `/dxdtensura eastereggs reset` | Makes both easter eggs happen again |
+| `/dxdtensura incantation [players]` | Gives a fresh copy of Ddraig's [incantation](../boosted-gear/juggernaut-drive.md#the-incantation) book, for a lost one. Only works once the words are learned. **Anyone can use it for themselves**; giving it to other players needs operator permission |
 
 `[players]` is optional; without it, the command applies to you.
 

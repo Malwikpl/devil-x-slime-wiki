@@ -65,7 +65,8 @@ The **Ascalon Blade** mode (the Boosted Gear's mode 5) appears while you hold As
 ## The blade
 
 The blade comes out of the back of your fist, on every form and on the Scale Mail. Hinged at the knuckles, it points
-ahead like a held sword while your arm hangs, and lines up with your forearm as you strike.
+ahead like a held sword while your arm hangs, and lines up with your forearm as you strike. In first person it
+carries straight on from your fist.
 
 With the blade out and your **main hand empty**, your hand hits with it: **+2 attack**, and the sword's speed and reach.
 These count as **bare-handed hits** for the gear: the Explosion multiplies them, they train mastery, fill the rage meter,
