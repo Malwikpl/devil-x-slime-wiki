@@ -85,8 +85,9 @@ in it sees their view squeeze and ripple.
 *Mode 4, in the armour.*
 
 Each press is a Divide's slash, your hands taking turns, that lands the **next Divide at once** on the target you're
-dividing (or on what you're looking at, starting a chain). Keep pressing until it has all the Divides you can give it;
-then a **60 second cooldown**.
+dividing (or on what you're looking at, starting a chain). Presses need **half a second** between them, so every slash
+plays out; a faster press doesn't count. Keep pressing until it has all the Divides you can give it; then a **60 second
+cooldown**.
 
 ## The power you took
 
