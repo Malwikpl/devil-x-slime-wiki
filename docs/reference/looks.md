@@ -100,6 +100,8 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Rage burst | A dark red aura pulsing with each quick boost, and the edges of your screen throb red |
 | Penetrate | A crimson crack where the hit breaks through |
 | Divide | A thin white line across your view through the target, a burst of light and blue-white stars |
+| Demonic Power | A dark crimson orb that bursts on what it hits |
+| Magic circle | A crimson circle with a sigil opens under you while it hums, and you arrive at your respawn point |
 
 ### LambDynamicLights
 

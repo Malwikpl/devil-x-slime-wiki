@@ -66,6 +66,23 @@
     The strain gauge overloaded: you took in more power than you could hold. Watch the gauge (the ring) and let the
     wings vent. See [The strain gauge](divine-dividing/balance-breaker.md#the-strain-gauge).
 
+## Devils
+
+??? question "How do I become a Devil?"
+    Pick **Low-class Devil** in Tensura's race menu: when you start, after the Reincarnation spell, or with a Race Reset
+    Scroll on an existing character. See [Becoming a Devil](races/devil.md#becoming-a-devil).
+
+??? question "Can a Devil use the Boosted Gear or Divine Dividing?"
+    Yes, as before. The life prices are the same. See [Devils and the Sacred Gears](races/devil.md#devils-and-the-sacred-gears).
+
+??? question "Why am I slower in the daytime?"
+    That's **Under the Sun**: in the daytime sun a Devil is 10% slower and loses the class's attack bonus. Go indoors or
+    wait for the night, when Demonic Power hits harder. See [Night and day](races/devil.md#night-and-day).
+
+??? question "My wings won't open."
+    Use Tensura's **Race/Mount Ability** key, not a skill slot. While you wear a Scale Mail or have Divine Dividing's
+    wings out, the gear's wings show instead.
+
 ## Settings
 
 ??? question "Can I get the old blocky models back?"

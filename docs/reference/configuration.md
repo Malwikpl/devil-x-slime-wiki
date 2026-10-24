@@ -185,6 +185,26 @@ The White Dragon Emperor boss and Albion's jewel.
 | `penetrateResistanceLevel` | 2.0 | 0–3 | Tensura's resistance bypass level: 1 ignores Resistances and makes Nullifications act as Resistances, 2 ignores both |
 | `penetrateBarrierLevel` | 1.5 | 0–3 | Tensura's barrier bypass level: 1 Multilayer Barrier and Full Counter, 1.5 Guardian, 1.75 Pride and Infinite Regeneration's death save, 2 Strengthen Body and shields, 3 Anti-Skill |
 
+## `[devil]`
+
+The [Devil race](../races/devil.md)'s powers. The races' own stats, EP ranges and requirements are in a separate file,
+`config/dxdtensura/race/devil_config.toml`, which is read when the game starts (a change there needs a restart).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `devilInRaceMenu` | true | — | Low-class Devil in Tensura's race menu (its starting, random and Reincarnation lists) |
+| `devilFlightSpeed` | 0.8, 1.0, 1.2, 1.5, 2.0 | 0+ | Flight speed on the wings per class (Low to Satan), times creative flight |
+| `devilNightBonusPercent` | 25 | 0–1000 | % more Demonic Power damage at night and in Hell |
+| `devilNightRegenPercent` | 25 | 0–1000 | % faster magicule regeneration at night and in Hell |
+| `devilSunSlowPercent` | 10 | 0–100 | % slower under the daytime sun (the class's attack bonus goes too) |
+| `demonicPowerDamage` | 6, 12, 24, 48, 96 | 0+ | Demonic Power's damage per class |
+| `demonicPowerCost` | 100, 400, 1800, 7500, 30000 | 0+ | Its magicule cost per class |
+| `demonicPowerCooldownSeconds` | 1 | 0–3600 | Between shots |
+| `magicCircleSeconds` | 3 | 0–60 | The circle's channel |
+| `magicCircleCostPercent` | 10 | 0–100 | % of max magicules it costs, paid on arrival |
+| `magicCircleCooldownSeconds` | 60 | 0–86400 | After arriving |
+| `holyWaterDamage` | 8 | 0+ | Holy Water's holy damage at the centre of its splash (half at the edge) |
+
 ## Client settings
 
 Each player also has a **client** config, `config/dxdtensura-client.toml`. You can edit it in game: Mods → Devil x

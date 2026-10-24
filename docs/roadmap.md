@@ -16,10 +16,8 @@ world. These are plans, not promises, and the order can change.
 - **Divide in the Boosted Gear**
 - **Penetrate**
 - Smooth models (with the classic look kept), cutscenes, callouts and effects
-
-## In progress
-
-- **The Devil race**: Tensura's races and DxD's Devils, with bat wings, Demonic Power and the Devil classes.
+- **[The Devil race](races/devil.md)**: five classes from Low-class to Satan-class, bat wings, Demonic Power, the magic
+  circle, night and day, and **Holy Water**
 
 ## Next
 

@@ -10,8 +10,9 @@ hide:
 ![Devil x Slime logo](assets/images/logo.png)
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
-(Minecraft 1.21.1, NeoForge). It starts with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears, and
-is growing into the whole DxD world: Devils, Angels, Fallen Angels, Evil Pieces and more Sacred Gears.
+(Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears, and
+now has its first race, the Devils. It is growing into the whole DxD world: Angels, Fallen Angels, Evil Pieces and more
+Sacred Gears.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -47,6 +48,13 @@ is growing into the whole DxD world: Devils, Angels, Fallen Angels, Evil Pieces 
 
     Albion's wings of light. Fly, Divide your enemy's power and take it for yourself, then break the limit into the
     white Scale Mail.
+
+-   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
+
+    ---
+
+    Play as a Devil, from Low-class to Satan-class: bat wings, Demonic Power, a magic circle home, and a weakness to holy
+    things.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 
@@ -92,7 +100,7 @@ is growing into the whole DxD world: Devils, Angels, Fallen Angels, Evil Pieces 
 
 !!! tip "New here?"
     Start with [Your first Sacred Gear](getting-started/first-gear.md), then read the page for the gear you rolled. The
-    [FAQ](faq.md) answers the questions players ask most.
+    [FAQ](faq.md) answers the questions players ask most. Want to play a Devil? See [Devils](races/devil.md).
 
 ## Good to know
 

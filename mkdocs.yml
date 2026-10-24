@@ -78,6 +78,8 @@ nav:
   - Divine Dividing:
       - divine-dividing/index.md
       - Balance Breaker (white Scale Mail): divine-dividing/balance-breaker.md
+  - Races:
+      - Devils: races/devil.md
   - World:
       - The White Dragon Emperor: world/white-dragon-emperor.md
       - Structures: world/structures.md

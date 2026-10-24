@@ -50,6 +50,9 @@ glowing under a hole in the roof.
 **It burns dragons.** A dragon holding Ascalon in either hand loses **5% of max health a second** to holy light, never
 below one heart. That includes Boosted Gear holders: Ddraig warns you the first time.
 
+**Devils too.** Ascalon burns a [Devil](../races/devil.md#holy-things) who holds it, as it burns a dragon, and its holy
+strike hits Devils.
+
 ## The Blade mode
 
 The **Ascalon Blade** mode (the Boosted Gear's mode 5) appears while you hold Ascalon or keep it in the gear.

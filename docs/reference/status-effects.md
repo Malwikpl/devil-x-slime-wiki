@@ -12,6 +12,8 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Divided** (I to III) | Being divided by [Divine Dividing](../divine-dividing/index.md#divide) | Attack halved once per level; lasts 30 s after the last Divide |
 | **Absorbed Power** | Dividing an enemy with Divine Dividing | The attack you took, added to yours while it lasts |
 | **Divine Dividing Scale Mail** | Wearing the [white Scale Mail](../divine-dividing/balance-breaker.md) | Shows the transformation |
+| **Devil's Night** | Being a [Devil](../races/devil.md#night-and-day) at night or in Hell | Demonic Power hits 25% harder; magicules regenerate 25% faster |
+| **Under the Sun** | Being a [Devil](../races/devil.md#night-and-day) in the daytime sun (open sky, no rain) | 10% slower; your class's attack bonus is gone |
 
 Juggernaut Drive also leaves vanilla and Tensura effects behind: Weakness II, Slowness II, Mining Fatigue, Fragility and
 Paralysis. See [After it](../boosted-gear/juggernaut-drive.md#after-it).
