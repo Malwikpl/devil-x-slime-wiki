@@ -43,6 +43,7 @@ world. These are plans, not promises, and the order can change.
 
 ## Maybe later
 
+- Physical Evil Pieces: the pieces as real items you can hold, not only picked from a menu
 - Devil clan powers, like the Power of Destruction
 - Hybrids, like a Fallen Angel reborn as a Devil
 - Rating Games
