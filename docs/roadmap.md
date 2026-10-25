@@ -38,7 +38,8 @@ world. These are plans, not promises, and the order can change.
 
 - **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
 - **More Sacred Gears**, one at a time. Ideas so far: Twilight Healing, Sword Birth, Forbidden Balor View.
-- **Divine Dividing**: its own Juggernaut Drive, plus Reflect and Reduce.
+- **Divine Dividing gets stronger**: a finishing compress for Compression Divider (once per Balance Breaker, the last
+  Divide crushes what's left of the target's power), its own Juggernaut Drive, and Reflect and Reduce.
 
 ## Maybe later
 
