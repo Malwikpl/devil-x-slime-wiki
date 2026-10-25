@@ -105,6 +105,9 @@ Demonic Power's **second mode** opens at **Middle-class**. Switch to it the way 
 
 A passive race skill: **you see in the dark**. It's on from the start. To switch it off, use the Status Menu.
 
+Night vision comes on where the light is **7 or darker** and, once on, stays until the light reaches **11**, so it
+doesn't blink at the edge of a torch's reach.
+
 ## Night and day
 
 An effect icon shows when either one is on.
