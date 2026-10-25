@@ -60,8 +60,15 @@ Sacred Gears.
 
     ---
 
-    High-class Devils are Kings with 15 Evil Pieces. Make a friend or a beaten monster your servant, and promote your
-    Pawns in enemy territory.
+    High-class Devils are Kings with 15 Evil Pieces. Make a friend, a beaten monster or an otherworlder your servant,
+    and promote your Pawns in enemy territory.
+
+-   :material-account-tie:{ .lg .middle } **[Rias Gremory](races/rias.md)**
+
+    ---
+
+    The NPC King in the old school building. Join her peerage in single player, and carry her flyer for a second
+    chance at death.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 

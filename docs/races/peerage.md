@@ -1,9 +1,11 @@
 # The Peerage
 
 DxD's peerages, added in **0.1.52**. A High-class [Devil](devil.md) is a **King** with 15 **Evil Pieces**: 8 Pawns,
-2 Knights, 2 Bishops, 2 Rooks and a Queen. A piece turns a willing player, or a beaten monster, into the King's
-**servant**. Each piece gives its own strengths, Pawns can **promote**, and King and servants find each other by magic
-circle.
+2 Knights, 2 Bishops, 2 Rooks and a Queen. A piece turns a willing player, a beaten monster or one of Tensura's
+otherworlders into the King's **servant**. Each piece gives its own strengths, Pawns can **promote**, and King and
+servants find each other by magic circle.
+
+No King among your friends? [Rias Gremory](rias.md), the NPC King, offers her pieces to everyone, single player too.
 
 <div class="grid" markdown>
 
@@ -52,7 +54,7 @@ Right-click a player or a monster with the case. The case opens on them and show
 - Kinds never mix: you can't pay with a Knight plus two Pawns.
 - **Anyone as strong as you refuses.**
 - **A Longinus holder** (the [Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md))
-  is worth at least **8**, so they take all 8 Pawns or the Queen.
+  takes **all 8 Pawns**, whatever their EP, and never the Queen. A King with fewer than 8 Pawns left can't take them.
 
 ### Players
 
@@ -84,9 +86,10 @@ and gives them **60 seconds** to answer.
     - someone bound to another master.
 - A player with Ddraig's Bargain open can't be offered a piece until they answer it.
 
-### Monsters
+### Monsters and otherworlders
 
-A monster takes a piece at once if it has **submitted**, by Tensura's own Naming rule. That means one of these:
+A monster or an otherworlder takes a piece at once if it has **submitted**, by Tensura's own Naming rule. That means one
+of these:
 
 - it's at **a quarter of its health** or less;
 - it's under your **Fear**;
@@ -95,16 +98,23 @@ A monster takes a piece at once if it has **submitted**, by Tensura's own Naming
 These can take a piece:
 
 - Tensura's nameable monsters, such as goblins, orcs, lizardmen and direwolves;
-- vanilla's tameable animals.
+- vanilla's tameable animals;
+- Tensura's **otherworlders**: Shizu, Folgen, Kirara Mizutani, Kyoya Tachibana, Mai Furuki, Mark Lauren, Shin Ryusei,
+  Shinji Tanimura and Shogo Taguchi.
 
 These can't:
 
-- bosses;
+- bosses, Hinata Sakaguchi among them;
 - summons;
-- another player's pets or subordinates.
+- another player's pets or subordinates, including the otherworlders they summoned.
 
 A servant monster is yours to command like a named monster, with Tensura's follow, stay and wander orders. **Its pieces
 come back when it dies.**
+
+- A serving otherworlder keeps its own name and forgets its old bed. A serving Shizu's Ifrit stays sealed.
+- A servant drops no unique skills when it dies.
+- **Release it** and it goes wild again, unless it was already your named subordinate or tamed pet before it took the
+  piece. It forgets its target, so it doesn't attack you on the spot.
 
 !!! note "Creative mode"
     A King in creative mode skips the "beat it down first" rule and the strength limit, and can still hit their own
@@ -154,6 +164,9 @@ rises behind them, with a **PROMOTION!** callout and a sound.
 
 </div>
 
+The Knight, Bishop and Rook are free. **The Queen costs 2% of your max magicules** when you promote, and again every 5
+seconds. If you can't pay the first 2%, you can't promote to Queen.
+
 **Where it works:**
 
 - **in enemy territory:**
@@ -162,11 +175,13 @@ rises behind them, with a **PROMOTION!** callout and a sound.
     - Tensura's labyrinth and boss arena;
     - inside the [Ascalon church](../boosted-gear/ascalon.md) or the
       [White Dragon's colosseum](../world/white-dragon-emperor.md);
-- **anywhere, for 10 minutes,** on the King's **word**, given from the peerage menu.
+- **anywhere, for 10 minutes,** on the King's **word**, given from the peerage menu ([Rias](rias.md#serving-her)
+  gives hers when you ask).
 
 **When it ends:**
 
 - 5 seconds after you leave enemy territory, or when the word runs out;
+- as a Queen, when you can't pay her cost;
 - when you press it again;
 - when you die.
 
@@ -196,7 +211,8 @@ with their piece, their health and where they are.
     - It costs **5% of your max magicules**.
     - You can call each servant once every 30 seconds.
 - **Word** (Pawns only): lets that Pawn promote anywhere for 10 minutes.
-- **Release:** the servant's pieces come back to you. They stay a Devil.
+- **Release:** the servant's pieces come back to you. A player stays a Devil; a monster goes wild again (see
+  [Monsters and otherworlders](#monsters-and-otherworlders)).
 
 ### A servant's side
 
@@ -217,7 +233,8 @@ A servant's skill, **Evil Piece**, opens on **My King**. It shows:
 - **Leave the peerage:** you get a warning first. Leaving marks you a **Stray Devil**. The mark does nothing yet; it
   will mean something once Stray Devils are in the mod.
 
-Either way, released or gone, you can join another King later.
+Either way, released or gone, you can join another King later. Leave [Rias](rias.md#leaving-her) and she makes you
+wait 10 in-game days.
 
 **About the circles:**
 
@@ -247,7 +264,6 @@ dimension if the King is in another world. You can turn it off with the client s
 
 These are coming later:
 
-- **Rias Gremory:** an NPC King who recruits single-player players into her peerage. She's next.
 - **Stray Devils:** what the Stray Devil mark does.
 - **Hybrids.**
 - **Mutation Pieces.**

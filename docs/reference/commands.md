@@ -17,6 +17,18 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 
 `[players]` is optional; without it, the command applies to you.
 
+### Rias Gremory
+
+For [Rias Gremory](../races/rias.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura rias where` | Where her home is, and the old school building's state: not placed yet, standing, or waiting further out for its land to be explored |
+| `/dxdtensura rias home` | Brings her back to her desk |
+| `/dxdtensura rias flyer <player>` | Gives that player one of her flyers (at their feet if their inventory is full) |
+| `/dxdtensura rias release <player>` | Releases that player from her peerage (she never does it herself) |
+| `/dxdtensura rias rejoin <player>` | Ends that player's wait to rejoin her after leaving |
+
 ## Useful Tensura commands
 
 Tensura's own commands work on Devil x Slime's skills too.
@@ -33,4 +45,5 @@ Tensura's own commands work on Devil x Slime's skills too.
 ```
 /locate structure dxdtensura:ascalon_church
 /locate structure dxdtensura:white_dragon_colosseum
+/locate structure dxdtensura:old_school_building
 ```

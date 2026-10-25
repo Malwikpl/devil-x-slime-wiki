@@ -1,6 +1,7 @@
 # Structures
 
-Devil x Slime adds two structures to the overworld. Both are about as rare as a pillager outpost.
+Devil x Slime adds three structures to the overworld. The church and the colosseum are about as rare as a pillager
+outpost; the old school building stands once per world.
 
 ## Ruined church
 
@@ -35,3 +36,23 @@ Emperor**, once the Ender Dragon is dead.
 </figure>
 
 See [The White Dragon Emperor](white-dragon-emperor.md).
+
+## Old school building
+
+The Occult Research Club's old school building, with a clock tower and a walled yard, home of
+[Rias Gremory](../races/rias.md). Upstairs is her clubroom, with the Gremory circle in the floor.
+
+- There's **one per world**, about 300 to 600 blocks from the middle of the world (0, 0). It moves up to 112 blocks to
+  stand in forest or taiga if there's some nearby.
+- **In a world played before 0.1.60**, or if its spot is water, it waits further out, in land nobody has explored yet,
+  and appears when that land is first generated. `/locate` can't find it then; her flyer's arrow and
+  `/dxdtensura rias where` can.
+
+```
+/locate structure dxdtensura:old_school_building
+```
+
+<figure markdown="span">
+  ![The old school building](../assets/images/rias-school.jpg){ loading=lazy }
+  <figcaption>The old school building.</figcaption>
+</figure>

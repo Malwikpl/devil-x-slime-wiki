@@ -148,8 +148,9 @@ as before. The life prices of [Juggernaut Drive](../boosted-gear/juggernaut-driv
 
 ## Kings and the Peerage
 
-At **High-class** and up, a Devil is a **King** with 15 Evil Pieces, and can make a player or a beaten monster their
-servant. See [The Peerage](peerage.md).
+At **High-class** and up, a Devil is a **King** with 15 Evil Pieces, and can make a player, a beaten monster or an
+otherworlder their servant. See [The Peerage](peerage.md). To serve a King yourself, find
+[Rias Gremory](rias.md).
 
 ## Leaving the race
 

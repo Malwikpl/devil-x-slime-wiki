@@ -18,13 +18,16 @@ world. These are plans, not promises, and the order can change.
 - Smooth models (with the classic look kept), cutscenes, callouts and effects
 - **[The Devil race](races/devil.md)**: five classes from Low-class to Satan-class, bat wings, Demonic Power, the magic
   circle, night and day, and **Holy Water**
-- **[The Peerage](races/peerage.md)**: High-class Devils are **Kings** with 15 Evil Pieces that make a player or a
-  beaten monster their servant, each piece with its strengths, **Promotion** for Pawns, and magic circles to call each
-  other
+- **[The Peerage](races/peerage.md)**: High-class Devils are **Kings** with 15 Evil Pieces that make a player, a
+  beaten monster or an otherworlder their servant, each piece with its strengths, **Promotion** for Pawns, and magic
+  circles to call each other
+- **[Rias Gremory](races/rias.md)**: an NPC King in the old school building who recruits you into her peerage, so
+  single-player worlds get it too, and whose flyer can save you from death
 
 ## Next up
 
-- **Rias Gremory**: an NPC King who can recruit you into her peerage, so single-player worlds get it too.
+- **Divine Dividing gets stronger**: a finishing compress for Compression Divider (once per Balance Breaker, the last
+  Divide crushes what's left of the target's power), its own Juggernaut Drive, and Reflect and Reduce.
 
 ## After that
 
@@ -38,8 +41,6 @@ world. These are plans, not promises, and the order can change.
 
 - **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
 - **More Sacred Gears**, one at a time. Ideas so far: Twilight Healing, Sword Birth, Forbidden Balor View.
-- **Divine Dividing gets stronger**: a finishing compress for Compression Divider (once per Balance Breaker, the last
-  Divide crushes what's left of the target's power), its own Juggernaut Drive, and Reflect and Reduce.
 
 ## Maybe later
 

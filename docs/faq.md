@@ -79,6 +79,11 @@
     That's **Under the Sun**: in the daytime sun a Devil is 10% slower and loses the class's attack bonus. Go indoors or
     wait for the night, when Demonic Power hits harder. See [Night and day](races/devil.md#night-and-day).
 
+??? question "Can I join a peerage in single player?"
+    Yes: [Rias Gremory](races/rias.md) offers her Evil Pieces to everyone. Her bat brings you her flyer on your first
+    night; follow its arrow to the old school building. Keep the flyer on you, and if you die she comes to offer you a
+    piece.
+
 ??? question "My wings won't open."
     Use Tensura's **Race/Mount Ability** key, not a skill slot. While you wear a Scale Mail or have Divine Dividing's
     wings out, the gear's wings show instead.

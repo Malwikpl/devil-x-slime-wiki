@@ -221,18 +221,34 @@ channel is the Devil's `magicCircleSeconds`.
 | `rookArmor` | 4 | 0–1000 | A Rook's (and the Queen's) extra armour |
 | `rookToughness` | 2 | 0–1000 | A Rook's (and the Queen's) extra armour toughness |
 | `rookKnockbackResistance` | 0.3 | 0–1 | A Rook's (and the Queen's) extra knockback resistance |
-| `longinusMinimumWorth` | 8 | 1–9 | The least a Longinus holder is worth |
+| `longinusMinimumWorth` | 8 | 1–8 | How many Pawns a Longinus holder takes (never anything else) |
 | `offerSeconds` | 60 | 5–600 | How long a player has to answer an offer |
 | `declineCooldownSeconds` | 30 | 0–86400 | Before the same King can offer again to a player who said no |
 | `promotionWordMinutes` | 10 | 1–1440 | How long the King's word lets a Pawn promote anywhere |
 | `promotionGraceSeconds` | 5 | 0–600 | How long a Promotion lasts after leaving enemy territory |
 | `promotionCooldownSeconds` | 60 | 0–86400 | Before a Pawn can promote again |
+| `queenDrainPercent` | 2 | 0–100 | % of max magicules Promotion to Queen costs, at once and then every `queenDrainSeconds`; 0 makes it free |
+| `queenDrainSeconds` | 5 | 1–3600 | How often the Queen's cost is paid |
 | `promotionDimensions` | the Nether, the End, `tensura:labyrinth`, `tensura:boss_area` | — | Enemy territory: these dimensions |
 | `promotionStructures` | `dxdtensura:ascalon_church`, `dxdtensura:white_dragon_colosseum` | — | Enemy territory: standing inside these structures |
 | `callCostPercent` | 5 | 0–100 | % of the King's max magicules a call costs, paid on arrival |
 | `callCooldownSeconds` | 30 | 0–86400 | Before the King can call the same servant again |
 | `travelCostPercent` | 10 | 0–100 | % of a servant's max magicules going to their King costs, paid on arrival |
 | `travelCooldownSeconds` | 60 | 0–86400 | Before a servant can go to their King again |
+
+## `[rias]`
+
+[Rias Gremory](../races/rias.md), her flyer and her bat. Her building generates whatever these say.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `enabled` | true | — | Rias appears, her bat comes and her flyer revives; off, none of them |
+| `flyerRevive` | true | — | Dying with her flyer calls her to offer you a piece and a second life |
+| `familiarFlyer` | true | — | Her bat brings each player a flyer on their first night in the Overworld |
+| `riasEP` | 300000 | 1–1e12 | Her EP, which a player's worth is measured against |
+| `rejoinWaitDays` | 10 | 0–3650 | In-game days someone who left her waits before she takes them back |
+| `wordCooldownDays` | 1 | 0–3650 | In-game days between her words to one of her Pawns |
+| `villageFlyerChance` | 0.05 | 0–1 | The chance a village house chest holds a flyer |
 
 ## Client settings
 
@@ -241,7 +257,7 @@ Slime → Config.
 
 | Option | Default | Meaning |
 |---|---|---|
-| `ddraigLines` | `ALL` | How much of Ddraig you see: `ALL`, `IMPORTANT` (teaching, warnings and story lines) or `OFF` |
+| `ddraigLines` | `ALL` | How much of Ddraig you see: `ALL`, `IMPORTANT` (teaching, warnings and story lines; Rias's lines count as important) or `OFF` |
 | `screenShake` | true | Shake the camera for the Explosion, the Scale Mail forming and a Dragon Shot landing close by |
 | `gearEffects` | `ALL` | `ALL`; `MOMENTS` (no lingering auras or motes); or `OFF` (no effects, no light from the gear, no rage tint). Poses and sounds always play |
 | `cutscenes` | true | Film Balance Breaker (both Scale Mails) and Juggernaut Drive forming: the full cutscene the first time, a short one after (the white Scale Mail plays its full one every time). Off, they form at once |
