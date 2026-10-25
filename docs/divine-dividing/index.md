@@ -61,8 +61,8 @@ blue-white stars scatter. Then, **every 10 seconds**, it is divided again by its
 
 - **takes half its magicules and aura** and pours them into you, up to your own maximum. What you can't hold, your wings
   vent away as light. Tensura's energy-drain immunity and Energy Protection stop this part.
-- **halves its attack** (not its speed). It shows as the **Divided** effect, I to III, lasting 30 seconds after the last
-  Divide.
+- **halves everything it deals**: melee, skills, magic and its projectiles, every hit (not its speed). It shows as the
+  **Divided** effect, I to III, lasting 30 seconds after the last Divide. Its summons and pets aren't Divided with it.
 - **turns the attack it lost into Absorbed Power**, a flat attack bonus for you, never more than 7× your own attack
   (8× in all). The stronger the enemy, the stronger you get.
 - **takes a Boosted Gear holder's stack**: they drop one held Boost stack (×2ⁿ to ×2ⁿ⁻¹, exactly half).
@@ -72,7 +72,7 @@ power is beyond us.", and the press costs nothing.
 
 ### How deep you can Divide
 
-| Your mastery | Divides on one target | Its attack |
+| Your mastery | Divides on one target | Its hits deal |
 |---|---|---|
 | new host | 1 | ½ |
 | 40% | 2 | ¼ |

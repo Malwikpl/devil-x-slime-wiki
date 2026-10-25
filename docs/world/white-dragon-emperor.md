@@ -41,8 +41,9 @@ Disintegration gets past the cap; only `/kill` and the void do.
 === "Phase 1: the wings"
 
     On his wings of light he circles you, **Divides you every 10 seconds**, throws orbs of light and dives in to punch.
-    Each Divide takes down to a quarter of your attack and half your magicules and aura; a Boosted Gear holder loses a
-    held Boost stack.
+    Each Divide halves everything you deal, skills and magic included (down to a quarter), and takes half your
+    magicules and aura; a Boosted Gear holder also loses a held Boost stack, so a Dragon Shot hits for a quarter per
+    Divide.
 
 === "Phase 2: the white Scale Mail"
 

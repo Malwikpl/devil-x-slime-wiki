@@ -27,7 +27,7 @@ You never get Divine Dividing itself, and Tensura's copying skills don't copy th
 
 Your left hand strikes what you look at, up to **8 blocks** away, and lands one Divide:
 
-- its **attack halves for 30 seconds** (not its speed);
+- **everything it deals halves for 30 seconds**: melee, skills and magic alike (not its speed);
 - **half its magicules and aura flow into yours** (what doesn't fit is lost);
 - a Boosted Gear enemy loses a held stack.
 

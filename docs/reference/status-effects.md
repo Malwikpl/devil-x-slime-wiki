@@ -9,7 +9,7 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Juggernaut Drive** | Being the [dragon](../boosted-gear/juggernaut-drive.md) | Shows the transformation |
 | **Shortened Lifespan** | The [Juggernaut Drive's price](../boosted-gear/juggernaut-drive.md#the-price) | Lower max health. It follows your life debt, so `/effect clear` doesn't remove it; a dragon race or `/dxdtensura lifespan clear` does |
 | **Spent Dragon** | The end of a Juggernaut Drive | Max magicules and aura halved for 2 minutes |
-| **Divided** (I to III) | Being divided by [Divine Dividing](../divine-dividing/index.md#divide) | Attack halved once per level; lasts 30 s after the last Divide |
+| **Divided** (I to III) | Being divided by [Divine Dividing](../divine-dividing/index.md#divide) | Every hit it deals (melee, skills, magic, projectiles) halved once per level; lasts 30 s after the last Divide |
 | **Absorbed Power** | Dividing an enemy with Divine Dividing | The attack you took, added to yours while it lasts |
 | **Divine Dividing Scale Mail** | Wearing the [white Scale Mail](../divine-dividing/balance-breaker.md) | Shows the transformation |
 | **Devil's Night** | Being a [Devil](../races/devil.md#night-and-day) at night or in Hell | Demonic Power hits 25% harder; magicules regenerate 25% faster |
