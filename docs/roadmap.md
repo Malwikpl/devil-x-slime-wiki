@@ -18,13 +18,12 @@ world. These are plans, not promises, and the order can change.
 - Smooth models (with the classic look kept), cutscenes, callouts and effects
 - **[The Devil race](races/devil.md)**: five classes from Low-class to Satan-class, bat wings, Demonic Power, the magic
   circle, night and day, and **Holy Water**
+- **[The Peerage](races/peerage.md)**: High-class Devils are **Kings** with 15 Evil Pieces that make a player or a
+  beaten monster their servant, each piece with its strengths, **Promotion** for Pawns, and magic circles to call each
+  other
 
 ## Next up
 
-- **The Peerage (Evil Pieces)**: High-class Devils become **Kings** with 15 pieces (8 Pawns, 2 Knights, 2 Bishops,
-  2 Rooks and a Queen). A piece reincarnates a player or a mob as the King's servant, and each piece gives its own
-  strengths. Its design is done.
-- **Promotion**: a Pawn turns into any other piece in enemy territory, or on their King's word.
 - **Rias Gremory**: an NPC King who can recruit you into her peerage, so single-player worlds get it too.
 
 ## After that

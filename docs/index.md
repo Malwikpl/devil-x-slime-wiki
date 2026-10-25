@@ -11,7 +11,7 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears, and
-now has its first race, the Devils. It is growing into the whole DxD world: Angels, Fallen Angels, Evil Pieces and more
+now has its first race, the Devils, with their Evil Pieces. It is growing into the whole DxD world: Angels, Fallen Angels, Evil Pieces and more
 Sacred Gears.
 </div>
 
@@ -55,6 +55,13 @@ Sacred Gears.
 
     Play as a Devil, from Low-class to Satan-class: bat wings, Demonic Power, a magic circle home, and a weakness to holy
     things.
+
+-   :material-chess-queen:{ .lg .middle } **[The Peerage](races/peerage.md)**
+
+    ---
+
+    High-class Devils are Kings with 15 Evil Pieces. Make a friend or a beaten monster your servant, and promote your
+    Pawns in enemy territory.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 

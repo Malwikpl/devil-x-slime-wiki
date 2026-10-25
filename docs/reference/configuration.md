@@ -205,6 +205,35 @@ The [Devil race](../races/devil.md)'s powers. The races' own stats, EP ranges an
 | `magicCircleCooldownSeconds` | 60 | 0–86400 | After arriving |
 | `holyWaterDamage` | 8 | 0+ | Holy Water's holy damage at the centre of its splash (half at the edge) |
 
+## `[peerage]`
+
+[The Peerage](../races/peerage.md): the pieces' strengths, offers, Promotion and the calling circles. The circle's
+channel is the Devil's `magicCircleSeconds`.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `knightSpeedPercent` | 20 | 0–1000 | A Knight's (and the Queen's) extra movement speed, % |
+| `knightAttackSpeed` | 0.3 | 0–100 | A Knight's (and the Queen's) extra attack speed |
+| `bishopMagiculePercent` | 25 | 0–1000 | A Bishop's (and the Queen's) extra max magicules, % |
+| `bishopRegenPercent` | 25 | 0–1000 | A Bishop's (and the Queen's) faster magicule regeneration, % |
+| `bishopDemonicPowerPercent` | 25 | 0–1000 | A Bishop's (and the Queen's) stronger Demonic Power, %, added to the night's |
+| `rookAttack` | 2 | 0–1000 | A Rook's (and the Queen's) extra attack, flat |
+| `rookArmor` | 4 | 0–1000 | A Rook's (and the Queen's) extra armour |
+| `rookToughness` | 2 | 0–1000 | A Rook's (and the Queen's) extra armour toughness |
+| `rookKnockbackResistance` | 0.3 | 0–1 | A Rook's (and the Queen's) extra knockback resistance |
+| `longinusMinimumWorth` | 8 | 1–9 | The least a Longinus holder is worth |
+| `offerSeconds` | 60 | 5–600 | How long a player has to answer an offer |
+| `declineCooldownSeconds` | 30 | 0–86400 | Before the same King can offer again to a player who said no |
+| `promotionWordMinutes` | 10 | 1–1440 | How long the King's word lets a Pawn promote anywhere |
+| `promotionGraceSeconds` | 5 | 0–600 | How long a Promotion lasts after leaving enemy territory |
+| `promotionCooldownSeconds` | 60 | 0–86400 | Before a Pawn can promote again |
+| `promotionDimensions` | the Nether, the End, `tensura:labyrinth`, `tensura:boss_area` | — | Enemy territory: these dimensions |
+| `promotionStructures` | `dxdtensura:ascalon_church`, `dxdtensura:white_dragon_colosseum` | — | Enemy territory: standing inside these structures |
+| `callCostPercent` | 5 | 0–100 | % of the King's max magicules a call costs, paid on arrival |
+| `callCooldownSeconds` | 30 | 0–86400 | Before the King can call the same servant again |
+| `travelCostPercent` | 10 | 0–100 | % of a servant's max magicules going to their King costs, paid on arrival |
+| `travelCooldownSeconds` | 60 | 0–86400 | Before a servant can go to their King again |
+
 ## Client settings
 
 Each player also has a **client** config, `config/dxdtensura-client.toml`. You can edit it in game: Mods → Devil x
@@ -218,3 +247,4 @@ Slime → Config.
 | `cutscenes` | true | Film Balance Breaker (both Scale Mails) and Juggernaut Drive forming: the full cutscene the first time, a short one after (the white Scale Mail plays its full one every time). Off, they form at once |
 | `modelStyle` | `NEW` | `NEW` (the remodelled, outlined models) or `CLASSIC` (the blocky models from before); changes at once. The gauntlet's three forms, the Scale Mail, Juggernaut Drive's dragon and Ascalon's blade on the gauntlet and the Scale Mail (the sword itself, its relic and the skull keep their look). The first time you hold the Boosted Gear a screen asks which look you want, with a picture of each |
 | `modelStyleAsked` | `false` | Whether that screen has been answered (any way out counts, keeping the current look); set it back to `false` to be asked again |
+| `kingMarker` | true | As a servant in a peerage, show where your King is at the top of the screen |

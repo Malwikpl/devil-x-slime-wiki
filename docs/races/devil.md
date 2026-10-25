@@ -143,6 +143,12 @@ A Devil keeps the [Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](
 as before. The life prices of [Juggernaut Drive](../boosted-gear/juggernaut-drive.md#the-price) and the Boosted Gear's
 [Divide](../boosted-gear/divide.md) are the same for a Devil.
 
+## Kings and the Peerage
+
+At **High-class** and up, a Devil is a **King** with 15 Evil Pieces, and can make a player or a beaten monster their
+servant. See [The Peerage](peerage.md).
+
 ## Leaving the race
 
-Demonic Power and Night Sight are learned with the race, and you lose them if you change race.
+Demonic Power, Night Sight and Evil Pieces are learned with the race, and you lose them if you change race. A King who
+stops being a Devil releases their whole [peerage](peerage.md#endings).
