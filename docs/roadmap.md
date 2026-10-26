@@ -26,19 +26,25 @@ world. These are plans, not promises, and the order can change.
 
 ## Next up
 
-- **Divine Dividing gets stronger**: a finishing compress for Compression Divider (once per Balance Breaker, the last
-  Divide crushes what's left of the target's power), its own Juggernaut Drive, and Reflect and Reduce.
+- **Divine Dividing gets stronger** (being built now): Reflect, Reduce, more strength from Divide, and a finishing
+  compress for Compression Divider (once per Balance Breaker, the last Divide crushes what's left of the target's
+  power).
+- **Angels and Fallen Angels** (design done): two new races with light spears and feathered wings that grow
+  with rank. A Fallen Angel reborn as a Devil becomes a hybrid.
 
 ## After that
 
 - **Stray Devils**: monstrous Devils who betrayed their Kings, to hunt down.
-- **Angels and Fallen Angels**: two new races with feathered wings that grow with rank, and light spears.
 - **Brave Saint**: the Angels' card system for turning people into Angels.
 - **A city in Hell**: Devil NPCs, a castle, a market and Stray Devil bounties, in Tensura's Hell.
 - **Nekomata** (maybe): a cat race with Senjutsu.
 
 ## Between the big items
 
+- **More bosses** to fight, alongside the White Dragon Emperor.
+- **Divine Dividing's own Juggernaut Drive.**
+- **Fenrir**, the god-slaying wolf, after that: only a Divine Dividing holder in Juggernaut Drive can Divide it
+  down into a smaller, weaker wolf you can tame.
 - **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
 - **More Sacred Gears**, one at a time. Ideas so far: Twilight Healing, Sword Birth, Forbidden Balor View.
 
@@ -46,5 +52,4 @@ world. These are plans, not promises, and the order can change.
 
 - Physical Evil Pieces: the pieces as real items you can hold, not only picked from a menu
 - Devil clan powers, like the Power of Destruction
-- Hybrids, like a Fallen Angel reborn as a Devil
 - Rating Games
