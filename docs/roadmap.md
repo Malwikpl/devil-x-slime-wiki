@@ -53,6 +53,7 @@ world. These are plans, not promises, and the order can change.
 - **Growing into your Pawns**: a Longinus holder who takes 8 Pawns starts with the power of only one, like Issei,
   and unlocks the rest as their body grows stronger.
 - **Lore mode**: a server setting that drops the balancing, so the Longinus gears are as overpowered as in the story.
+  In the Scale Mails, Boost and Divide skip the long wait.
 
 ## Maybe later
 
