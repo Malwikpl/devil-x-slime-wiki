@@ -42,7 +42,9 @@ world. These are plans, not promises, and the order can change.
 ## Between the big items
 
 - **More bosses** to fight, alongside the White Dragon Emperor.
-- **Divine Dividing's own Juggernaut Drive.**
+- **Divine Dividing's own Juggernaut Drive**, and with it **Transfer overload** (Noroi's idea): a Boosted Gear
+  Transfer into a rival in the white Scale Mail floods their strain gauge instead of boosting them, and an overflow
+  breaks the armour.
 - **Fenrir**, the god-slaying wolf, after that: only a Divine Dividing holder in Juggernaut Drive can Divide it
   down into a smaller, weaker wolf you can tame.
 - **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
