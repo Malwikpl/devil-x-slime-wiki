@@ -80,9 +80,17 @@ Dismissing or dying while **still charging** just clears the stacks, with no coo
 </figure>
 
 Gives your held stacks to the creature or player under your crosshair, up to **8 blocks** away. Allies are fine. They get
-**Transferred Boost** at level n for **30 seconds**: everything they damage takes ×2ⁿ.
+**Transferred Boost** at level n for **30 seconds**: **half the Boost's extra power**. Everything they damage takes
+×(1 + ½ × (2ⁿ − 1)), because whoever receives it can use weapons the gauntlet can't.
 
+| Stacks | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Their hits | ×1.5 | ×2.5 | ×4.5 | ×8.5 | ×16.5 | ×32.5 |
+
+- It multiplies everything they cause, Demonic Power and the [Angels' light](../races/angels.md#light-spear) included.
 - If they also have their own Boost running, the higher of the two applies, never both multiplied.
+- Server owners can change the share with [`transferEfficiency`](../reference/configuration.md#boosted_gear) (1 gives
+  the whole ×2ⁿ, as before 0.1.66).
 - It spends your stacks and starts your Boost cooldown.
 - A green-gold stream flows from your jewel into them and wraps them in green light, and **TRANSFER!** floats over them.
 

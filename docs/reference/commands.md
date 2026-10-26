@@ -11,6 +11,9 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 | `/dxdtensura albion take [players]` | Takes it away again |
 | `/dxdtensura divinedividing holder` | Names the players who hold Divine Dividing in this world |
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
+| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, and the white Scale Mail awakened and trained |
+| `/dxdtensura sin <player>` | Shows an [Angel](../races/angels.md#sin-and-the-fall)'s hidden sin, 0 to 100 |
+| `/dxdtensura sin <player> set <0-100>` | Sets it, with what that level brings: the warning and the flicker from 50, the fall at 100 |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
 | `/dxdtensura eastereggs reset` | Makes both easter eggs happen again |
 | `/dxdtensura incantation [players]` | Gives a fresh copy of Ddraig's [incantation](../boosted-gear/juggernaut-drive.md#the-incantation) book, for a lost one. Only works once the words are learned. **Anyone can use it for themselves**; giving it to other players needs operator permission |

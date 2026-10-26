@@ -88,6 +88,25 @@
     Use Tensura's **Race/Mount Ability** key, not a skill slot. While you wear a Scale Mail or have Divine Dividing's
     wings out, the gear's wings show instead.
 
+## Angels and Fallen Angels
+
+??? question "How do I become an Angel or a Fallen Angel?"
+    Pick **Low-class Angel** or **Low-class Fallen Angel** in Tensura's race menu: when you start, after the
+    Reincarnation spell, or with a Race Reset Scroll. An Angel who falls becomes a Fallen Angel. See
+    [Becoming one](races/angels.md#becoming-one).
+
+??? question "My Angel's wings are flickering black."
+    That's sin. Killing villagers, golems, pets or players who didn't attack you, or learning a Deadly Sin skill, fills
+    it; it fades every day. At 100 you fall. See [Sin and the fall](races/angels.md#sin-and-the-fall).
+
+??? question "Can an Angel join a peerage?"
+    No: Angels refuse Evil Pieces, and Rias won't take them. A Fallen Angel can, and becomes a Devil with Fallen Angel
+    blood, a [hybrid](races/angels.md#hybrids).
+
+??? question "I don't have Holy Barrier or Holy Lightning."
+    They're rare birth skills: a 10% chance, rolled once per player, the first time you become an Angel (Holy Barrier)
+    or a Fallen Angel (Holy Lightning). See [Birth skills](races/angels.md#birth-skills).
+
 ## Settings
 
 ??? question "Can I get the old blocky models back?"

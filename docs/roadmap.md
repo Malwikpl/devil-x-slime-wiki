@@ -23,17 +23,18 @@ world. These are plans, not promises, and the order can change.
   circles to call each other
 - **[Rias Gremory](races/rias.md)**: an NPC King in the old school building who recruits you into her peerage, so
   single-player worlds get it too, and whose flyer can save you from death
+- **Divine Dividing gets stronger**: every Divide doubles your strength, [Reduce](divine-dividing/index.md#reduce),
+  [Reflect](divine-dividing/balance-breaker.md#reflect), a finishing compress for Compression Divider, and
+  [rival fights](divine-dividing/index.md#rival-fights) against the Boosted Gear
+- **[Angels and Fallen Angels](races/angels.md)**: two races with feathered wings that grow with rank, spears of
+  light, Blessing, the Great Spear, sin and the fall, and hybrids when a Fallen Angel takes an Evil Piece
 
 ## Next up
 
-- **Divine Dividing gets stronger** (done, in the next update): Reflect, Reduce, more strength from Divide, and a
-  finishing compress for Compression Divider.
-- **Angels and Fallen Angels** (built, being tested): two new races with light spears and feathered wings that
-  grow with rank. A Fallen Angel reborn as a Devil becomes a hybrid.
+- **Stray Devils**: monstrous Devils who betrayed their Kings, to hunt down.
 
 ## After that
 
-- **Stray Devils**: monstrous Devils who betrayed their Kings, to hunt down.
 - **Brave Saint**: the Angels' card system for turning people into Angels.
 - **A city in Hell**: Devil NPCs, a castle, a market and Stray Devil bounties, in Tensura's Hell.
 - **Nekomata** (maybe): a cat race with Senjutsu.

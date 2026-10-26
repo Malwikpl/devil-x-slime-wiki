@@ -30,6 +30,7 @@ The Boosted Gear: Boost, Transfer, Dragon Shot, mastery and body strain.
 | `baseStackCost` | 100.0 | 0–1e9 | Magicule cost of the first stack; each next stack costs double |
 | `transferRange` | 8.0 | 1–32 | Transfer reach in blocks |
 | `transferDurationTicks` | 600 | 20–72000 | Transferred Boost duration (600 = 30 s) |
+| `transferEfficiency` | 0.5 | 0–1 | How much of the Boost's extra power a Transfer gives: the receiver of n stacks hits for 1 + this × (2ⁿ − 1), or their own Boost if higher (1 is the whole ×2ⁿ) |
 | `dragonShotBaseDamage` | 5.0 | 0–1e6 | Dragon Shot damage at 0 stacks (× 2ⁿ when fired) (it was 20 in older versions) |
 | `dragonShotCost` | 500.0 | 0–1e9 | Magicules per Dragon Shot |
 | `dragonShotCooldownSeconds` | 5 | 0–3600 | Dragon Shot cooldown |
@@ -132,21 +133,32 @@ Divine Dividing, its white Scale Mail, and the Boosted Gear's Divide.
 | `divideEnergyPercent` | 50 | 0–100 | Share of current magicules and aura each Divide takes |
 | `divideWeakenPercent` | 50 | 0–100 | Attack each Divide takes (compounding) |
 | `dividedSeconds` | 30 | 1–3600 | How long the weakness and your bonus last after the last Divide |
-| `absorbedPowerCapPercent` | 700 | 0–1000 | Your bonus never passes this share of your own attack (700: 8× in all) |
+| `absorbedPowerCapPercent` | 700 | 0–1000 | Your bonus never passes this share of your own attack (700: ×8 in all) |
+| `divideStrengthFloor` | true | — | Every Divide doubles your strength even on a weak target (×2, ×4, ×8), under the cap; false: only the attack the target lost |
 | `divideMasteryPoints` | 1 | 0–100 | Mastery per Divide |
 | `divineFlight` / `divineFlightCostPercent` | true / 0.5 | — / 0–100 | The wings fly; % of max magicules a second in the air |
 | `divineSprintFlightMultiplier` | 2.0 | 1–10 | How much faster sprint-flying on the wings is once mastered (grows with mastery) |
 | `divideMaxEpRatio` | 10.0 | 0–1e6 | Divide fails on a target with more than this many times your max EP; 0 turns it off |
 | `breakerDivideIntervalSeconds` | 5 | 1–600 | Between Divides in the white Scale Mail |
 | `halfDimensionRadius` / `halfDimensionCooldownSeconds` | 12.0 / 60 | 1–64 / 0–3600 | Half Dimension's reach and cooldown |
-| `compressionCooldownSeconds` | 60 | 0–3600 | Compression Divider's cooldown, once its target has all its Divides |
+| `compressionCooldownSeconds` | 60 | 0–3600 | Compression Divider's cooldown |
+| `compressionMasteryPercent` | 100 | 0–100 | The Divine Dividing mastery Compression Divider unlocks at (100: mastered) |
+| `compressEnergyPercent` | 5 | 0–100 | The compress crushes magicules and aura to this % of max and holds them there while the target stays Divided |
+| `compressExecutePercent` | 5 | 0–100 | A mob (not a player or a boss) at or under this % of its magicules and aura when compressed is crushed out of existence |
 | `divineBreakerLongCooldownSeconds` | 150 | 0–3600 | The white Scale Mail's cooldown after a long wear (the red one's is `breakerLongCooldownSeconds`) |
 | `breakerAbsorbedPowerCapPercent` | 1500 | 0–5000 | In the white Scale Mail your bonus never passes this share of your own attack (1500: ×16 in all) |
+| `strongEnemyEpPercent` | 75 | 0–1000 | In the white Scale Mail, a target with at least this % of your max EP counts one Divide more for the doubling |
 | `strainCapacityPercent` / `strainVentPercent` / `strainWarnPercent` | 200 / 4 / 75 | — | The gauge's size (% of max EP), what the wings vent a second (% of the gauge), Albion's warning |
 | `boostedDivideLifePercent` | 2.0 | 0–50 | Max health each of the Boosted Gear's Divides takes (it grows back) |
 | `boostedDivideRecoveryMinutes` | 10 | 1–1440 | Minutes of play for 1% of it to grow back |
 | `boostedDivideCooldownSeconds` | 5 | 0–600 | Between the Boosted Gear's Divides |
 | `dragonDivideRadius` / `dragonDivideDamagePercent` | 8.0 / 50 | 1–64 / 0–100 | With Albion's power, how close shots at the dragon are divided away, and the share of other damage that lands |
+| `reduceSeconds` / `reduceCooldownSeconds` | 10 / 60 | 1–600 / 0–3600 | How long Reduce's poison lasts, and its cooldown |
+| `reduceSpiritualPercent` | 2.0 | 0–100 | % of the target's max spiritual health Reduce takes each second, on top of your attack |
+| `reflectWindowTicks` / `reflectCooldownSeconds` | 30 / 20 | 1–200 / 0–3600 | How long Reflect stays open (30 = 1.5 s), and its cooldown from the press |
+| `rivalsUncapped` | true | — | In a fight between a Divine Dividing holder and a Boosted Gear holder, both caps lift |
+| `rivalsSeconds` | 30 | 1–600 | How long a rival fight lasts after the last hit or Divide between the two |
+| `rivalsCeiling` | 24 | 3–30 | In a rival fight, neither the Divides on the rival nor the rival's Boost stacks pass this |
 
 ## `[white_dragon_emperor]`
 
@@ -249,6 +261,40 @@ channel is the Devil's `magicCircleSeconds`.
 | `rejoinWaitDays` | 10 | 0–3650 | In-game days someone who left her waits before she takes them back |
 | `wordCooldownDays` | 1 | 0–3650 | In-game days between her words to one of her Pawns |
 | `villageFlyerChance` | 0.05 | 0–1 | The chance a village house chest holds a flyer |
+
+## `[angel]`
+
+The [Angels' and Fallen Angels'](../races/angels.md) powers. The races' own stats, EP ranges and requirements are in
+`config/dxdtensura/race/angel_config.toml` and `fallen_angel_config.toml`, which are read when the game starts (a change
+there needs a restart). The lists by rank go Low, Middle, High, then rank 4 and rank 5.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `angelInRaceMenu` / `fallenAngelInRaceMenu` | true / true | — | Low-class Angel and Low-class Fallen Angel in Tensura's race menu (its starting, random and Reincarnation lists) |
+| `angelFlightSpeed` / `fallenAngelFlightSpeed` | 0.8, 1.0, 1.2, 1.5, 2.0 | 0+ | Flight speed on the wings per rank, times creative flight |
+| `lightSpearDamage` | 6, 12, 24, 48, 96 | 0+ | Light Spear's damage per rank (a hybrid's by Devil class); the Boost never multiplies it |
+| `lightSpearCost` | 100, 400, 1800, 7500, 30000 | 0+ | Its magicule cost per rank (also the Great Spear's at its shortest charge) |
+| `lightSpearCooldownSeconds` | 1 | 0–3600 | Between Light Spears |
+| `holyBurnSeconds` | 2 | 0–60 | Seconds of Tensura's Holy Damage the races' light leaves on what holy things hurt |
+| `holyBurnAmplifier` | 0, 0, 0, 1, 2 | 0+ | The burn's strength per rank (0: 2 damage every 5 ticks, 1: 4, 2: 6) |
+| `blessingHeal` / `blessingCost` | 4 … 64 / 300 … 90000 | 0+ | Health Blessing heals, and its magicule cost, per Angel rank |
+| `blessingRadius` / `blessingCooldownSeconds` | 8.0 / 20 | 0–64 / 0–3600 | Blessing's reach and cooldown |
+| `greatSpearFullDamage` / `greatSpearFullCost` | 24 … 384 / 500 … 150000 | 0+ | The Great Spear's damage and magicule cost at full charge, per Fallen Angel rank |
+| `greatSpearMinSeconds` / `greatSpearFullSeconds` | 0.5 / 3.0 | 0–60 | The shortest hold that throws, and the hold for a full charge |
+| `greatSpearRadius` / `greatSpearCooldownSeconds` | 4.0 / 10 | 0–32 / 0–3600 | The burst's reach, and the cooldown |
+| `holyBarrierChancePercent` | 10 | 0–100 | % chance of being born with Holy Barrier, rolled once per player the first time they become an Angel |
+| `holyBarrierRadius` / `holyBarrierSeconds` | 4.0 / 10 | 0–32 / 0–3600 | The dome's radius and how long it lasts |
+| `holyBarrierCostPercent` / `holyBarrierCooldownSeconds` | 10.0 / 60 | 0–100 / 0–86400 | % of max magicules it costs, and the wait after it ends |
+| `holyLightningChancePercent` | 10 | 0–100 | % chance of being born with Holy Lightning, rolled once per player the first time they become a Fallen Angel |
+| `holyLightningDamage` / `holyLightningCost` | 12 … 192 / 200 … 60000 | 0+ | Holy Lightning's holy damage and magicule cost per rank |
+| `holyLightningRange` / `holyLightningRadius` | 32.0 / 2.0 | 0–128 / 0–16 | How far it reaches, and how far around the strike it hits |
+| `holyLightningCooldownSeconds` | 5 | 0–3600 | Between strikes |
+| `angelDayBonusPercent` / `angelDayRegenPercent` | 25 / 25 | 0–1000 | Heaven's Grace: % more Light Spear damage and % faster magicules under the open daytime sky |
+| `angelHellSlowPercent` | 10 | 0–100 | Hell's Weight: % slower in Hell |
+| `sinInnocent` / `sinGuardian` / `sinPet` / `sinPlayer` / `sinDeadlySkill` | 20 / 10 / 20 / 40 / 60 | 0–100 | Sin for killing a villager or trader, a golem, a pet or subordinate, a player who hadn't hurt the Angel, and for learning a Deadly Sin skill (100 makes an Angel fall) |
+| `sinPlayerGraceSeconds` | 30 | 0–3600 | How long a hit is remembered: a player who hurt the Angel within it is fair game, isn't blessed, and is pushed out of Holy Barrier |
+| `sinFadePerDay` | 10 | 0–100 | Sin that fades each in-game day |
+| `sinWarning` | 50 | 0–100 | Sin at which the wings start to flicker black and the warning shows |
 
 ## Client settings
 

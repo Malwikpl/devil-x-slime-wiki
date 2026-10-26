@@ -4,6 +4,9 @@ Rias Gremory, president of the Occult Research Club, is an **NPC King**, added i
 [Evil Pieces](peerage.md) and offers them to every player, so you can join a peerage in single player too. There's one
 Rias per world, and her pieces go to whoever comes first.
 
+Since **0.1.66** she wears a new look made by **Noroi**: an HD skin and long 3D hair, with her ahoge on top. Noroi's Rias
+resource pack is no longer needed.
+
 <div class="grid" markdown>
 
 <figure markdown="span">
@@ -116,8 +119,13 @@ She doesn't come:
 
 - for `/kill` or the void;
 - in Tensura's boss arena, or during a Balance Breaker or Juggernaut Drive cutscene;
-- to anyone she couldn't take: someone with 300,000 EP or more, a True Hero, another King's servant, someone bound to
-  another master, or when none of her pieces fit.
+- to anyone she couldn't take: someone with 300,000 EP or more, a True Hero, an Angel, another King's servant, someone
+  bound to another master, or when none of her pieces fit.
+
+!!! note "Angels"
+    Rias can't take an [Angel](angels.md#rias-and-angels): "An Angel? I'm sorry. Heaven would never let me have you."
+    Her bat brings an Angel no flyer until they fall. A Fallen Angel who joins her becomes a
+    [hybrid](angels.md#hybrids).
 
 ## Serving her
 

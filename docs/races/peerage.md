@@ -71,6 +71,8 @@ and gives them **60 seconds** to answer.
     - They **keep** their EP, their gears and their learned skills.
     - They **lose** only their old race's own skills, as with Tensura's Race Reset Scroll.
     - They become **Majin**: holy things hurt them, and the Hero path closes.
+    - A **Fallen Angel** becomes a Devil with Fallen Angel blood, a [hybrid](angels.md#hybrids), and keeps the Light
+      Spear.
 - **A Devil** just takes the piece.
 - These all count as a **no**:
     - walking more than 16 blocks away;
@@ -81,6 +83,7 @@ and gives them **60 seconds** to answer.
 
 - These players can't take a piece:
     - a True Hero;
+    - an [Angel](angels.md#evil-pieces-and-hybrids): "Heaven's system won't let a piece into an Angel.";
     - someone who already serves a King;
     - your own King;
     - someone bound to another master.

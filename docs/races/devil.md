@@ -127,6 +127,7 @@ As Majin, Devils are hurt by holiness:
 - **[Ascalon](../boosted-gear/ascalon.md)** burns a Devil who holds it, as it burns a dragon, and its holy strike hits
   Devils.
 - **[Holy Water](#holy-water)** hurts them where it bursts.
+- **[Angels' and Fallen Angels'](angels.md#the-holy-burn) light** (their spears and Holy Lightning) leaves a holy burn.
 
 **Hell is different:** its Magicule Poison spares Devils.
 
@@ -138,7 +139,8 @@ Devil x Slime's own Holy Water. Tensura 2.0.1.3 has none you can throw.
   centre, half that 2.5 blocks out.
 - It hurts only what Tensura counts as hurt by holy things (its monsters and Majin races), not humans or animals.
 - It stacks to 16.
-- **Get it** from the mod's creative tab, or **craft it** from a **water bottle and a gold nugget** (shapeless).
+- **Get it** from the mod's creative tab, or **craft it** from a **water bottle and a gold nugget** (shapeless). An
+  Angel's [Blessing](angels.md#blessing-angels) turns the water bottles they carry into Holy Water too.
 
 ## Devils and the Sacred Gears
 
