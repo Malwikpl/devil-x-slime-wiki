@@ -26,11 +26,11 @@ world. These are plans, not promises, and the order can change.
 
 ## Next up
 
-- **Divine Dividing gets stronger** (being built now): Reflect, Reduce, more strength from Divide, and a finishing
-  compress for Compression Divider (once per Balance Breaker, the last Divide crushes what's left of the target's
-  power).
-- **Angels and Fallen Angels** (design done): two new races with light spears and feathered wings that grow
-  with rank. A Fallen Angel reborn as a Devil becomes a hybrid.
+- **Divine Dividing gets stronger** (done, in the next update): Reflect, Reduce, more strength from Divide, and a
+  finishing compress for Compression Divider (once per Balance Breaker, the last Divide crushes what's left of the
+  target's power).
+- **Angels and Fallen Angels** (built, being tested): two new races with light spears and feathered wings that
+  grow with rank. A Fallen Angel reborn as a Devil becomes a hybrid.
 
 ## After that
 
@@ -47,6 +47,9 @@ world. These are plans, not promises, and the order can change.
   down into a smaller, weaker wolf you can tame.
 - **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
 - **More Sacred Gears**, one at a time. Ideas so far: Twilight Healing, Sword Birth, Forbidden Balor View.
+- **Growing into your Pawns**: a Longinus holder who takes 8 Pawns starts with the power of only one, like Issei,
+  and unlocks the rest as their body grows stronger.
+- **Lore mode**: a server setting that drops the balancing, so the Longinus gears are as overpowered as in the story.
 
 ## Maybe later
 
