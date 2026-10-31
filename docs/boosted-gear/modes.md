@@ -17,6 +17,9 @@ stacks. The stacks are locked while it runs.
 
 A second press with 0 stacks just stops charging.
 
+**The Boost's speed.** While the Explosion runs, every held stack makes you **20% faster**, up to **+100%** (at 5
+stacks). Ddraig points it out the first time. The [Scale Mail](balance-breaker.md#wearing-it) gets it too.
+
 <div class="grid" markdown>
 
 <figure markdown="span">
@@ -97,6 +100,11 @@ Gives your held stacks to the creature or player under your crosshair, up to **8
 !!! tip "Transfer into Ascalon"
     With [Ascalon's blade](ascalon.md#transfer-into-the-blade) out, **sneak** and Transfer to put your stacks into the
     blade instead.
+
+!!! warning "Transfer overload"
+    A Transfer at a **Divine Dividing rival you're fighting** who wears the white Scale Mail, or is the white dragon,
+    doesn't help them: it floods their strain gauge, and an overflow breaks the armour or ends the Drive. See
+    [Transfer overload](../divine-dividing/juggernaut-drive.md#transfer-overload).
 
 ## Dragon Shot
 

@@ -10,9 +10,9 @@ hide:
 ![Devil x Slime logo](assets/images/logo.png)
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
-(Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears, and
-now has the three races of the Three Factions: Devils with their Evil Pieces, Angels and Fallen Angels. It is growing
-into the whole DxD world: Stray Devils, Brave Saints and more Sacred Gears.
+(Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
+and now has Asia's Twilight Healing, the three races of the Three Factions (Devils with their Evil Pieces, Angels with
+their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -47,7 +47,14 @@ into the whole DxD world: Stray Devils, Brave Saints and more Sacred Gears.
     ---
 
     Albion's wings of light. Fly, Divide your enemy's power and take it for yourself, then break the limit into the
-    white Scale Mail.
+    white Scale Mail, and become the white dragon in its Juggernaut Drive.
+
+-   :material-ring:{ .lg .middle } **[Twilight Healing](twilight-healing/index.md)**
+
+    ---
+
+    Asia's silver rings. Heal with a touch, with arrows of light for your allies, and with a field of light around
+    you.
 
 -   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
 
@@ -67,8 +74,8 @@ into the whole DxD world: Stray Devils, Brave Saints and more Sacred Gears.
 
     ---
 
-    The NPC King in the old school building. Join her peerage in single player, and carry her flyer for a second
-    chance at death.
+    The NPC King in the old school building. Join her peerage in single player, carry her flyer for a second
+    chance at death, and hunt Stray Devils for her.
 
 -   :material-spear:{ .lg .middle } **[Angels and Fallen Angels](races/angels.md)**
 
@@ -76,6 +83,19 @@ into the whole DxD world: Stray Devils, Brave Saints and more Sacred Gears.
 
     Feathered wings that multiply with rank, spears of light, Blessing and the Great Spear. Sin makes an Angel fall,
     and a Fallen Angel with an Evil Piece becomes a hybrid.
+
+-   :material-cards-playing:{ .lg .middle } **[Brave Saints](races/brave-saints.md)**
+
+    ---
+
+    A Seraph's twelve cards. Make a human an Angel, then play Poker or Blackjack together for a hand's power, up to a
+    Royal Flush and Heaven's Judgement.
+
+-   :material-skull:{ .lg .middle } **[Stray Devils](world/stray-devils.md)**
+
+    ---
+
+    Devils twisted by the Evil Piece they stole. They rise on dark nights and rule ruined mansions, Viser first.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 
@@ -113,7 +133,8 @@ into the whole DxD world: Stray Devils, Brave Saints and more Sacred Gears.
 ## Quick start
 
 1. **Install** the mod and its requirements on the client and the server: see [Installation](getting-started/installation.md).
-2. **Reincarnate** and roll the Boosted Gear or Divine Dividing as your Unique Skill (you can never have both).
+2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing or Twilight Healing as your Unique Skill (only
+   one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
 3. **Put the skill on an ability slot** in Tensura's Status Menu (default **B**) and press the slot key (**Z**, **X** or
    **C**) to summon your gear.
 4. **Use it.** Every use earns mastery, and mastery unlocks the rest. [Your first Sacred Gear](getting-started/first-gear.md)

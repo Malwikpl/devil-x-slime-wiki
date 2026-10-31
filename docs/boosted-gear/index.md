@@ -34,6 +34,8 @@ The numbers are the mode numbers for `/ability set dxdtensura:boosted_gear <mode
 - Dismissing while charging clears your stacks. Dismissing during an Explosion counts as releasing the power, so the
   Boost cooldown starts.
 - Tensura's cooldown badges keep counting while the gauntlet is away.
+- **Ddraig's fire.** With the gauntlet out, fire hurts you **half** as much: burning, lava, campfires, magma blocks,
+  fireballs and Tensura's flame types. The [Scale Mail](balance-breaker.md#wearing-it) goes further.
 
 !!! info "The Passive Ability toggle"
     The skill's **Passive Ability** toggle in Tensura's Status Menu does **not** summon or dismiss the gauntlet. From

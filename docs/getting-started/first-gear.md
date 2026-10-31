@@ -1,22 +1,52 @@
 # Your first Sacred Gear
 
-Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are two, the rival Heavenly Dragons:
+Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are three: the rival Heavenly Dragons, and Asia's
+healing rings.
 
-| Sacred Gear | Dragon | What it is |
+| Sacred Gear | Inside | What it is |
 |---|---|---|
 | [Boosted Gear](../boosted-gear/index.md) | Ddraig, the Red Dragon Emperor | A crimson gauntlet that doubles your power again and again |
 | [Divine Dividing](../divine-dividing/index.md) | Albion, the White Dragon Emperor | Wings of light that halve your enemy's power and take it for you |
+| [Twilight Healing](../twilight-healing/index.md) | no dragon | Two silver rings that heal with a touch, arrows of light and a field |
 
 ## Getting one
 
-**Reincarnate.** When Tensura rolls your Unique Skill, the Boosted Gear and Divine Dividing are in the roll, with the
-same odds as every other skill in it.
+**Reincarnate as a human.** When Tensura rolls a human's Unique Skill, the three gears are in the roll, with the same
+odds as every other skill in it.
 
-- **One Heavenly Dragon per player.** You can never hold both. If you have one, the other can't be given to you in
-  any way: "Albion and Ddraig can't share a host."
+- **One Sacred Gear per player.** You can never hold two. If you have one, no other can be given to you in any way:
+  "Albion and Ddraig can't share a host.", or "You already carry a Sacred Gear."
 - **One Divine Dividing per world.** While a player holds Divine Dividing, the roll skips it. Its other way in is the
   [White Dragon Emperor](../world/white-dragon-emperor.md)'s jewel.
-- Tensura's plundering skills can't steal either gear.
+- Tensura's plundering skills can't steal any of them.
+
+### Only in humans
+
+Since **0.1.84**, as in DxD, a Sacred Gear is born only in a human: Tensura's **Human** line (Human, Enlightened Human,
+Human Saint, Divine Human).
+
+- **The roll.** Only a human's reincarnation roll has the gears in it. Pick any other race and you roll a normal Unique
+  Skill; you never lose a roll to them.
+- **Albion's jewel** gives Divine Dividing only to a human.
+- **Keeping it.** Your gear stays through everything DxD and Tensura's evolution do to you: an Evil Piece making you a
+  Devil, a Brave Saint card making you an Angel, an Angel's fall, Tensura's own evolutions.
+- **Losing it.** Pick another race in **Tensura's race menu** (a Race Reset Scroll, the Reincarnation spell) and the gear
+  leaves you: Ddraig or Albion says goodbye, and you roll a new Unique Skill in its place. The race menu warns you first:
+  "Pick Human to keep your Boosted Gear." Divine Dividing goes back into the roll for someone else. A Juggernaut Drive's
+  life debt stays with you.
+- **Gears held before 0.1.84** stay with their holders, whatever their race, until their next race-menu pick.
+
+So the road to a Devil with a Sacred Gear is Issei's: start human, roll a gear, then take an
+[Evil Piece](../races/peerage.md).
+
+<figure markdown="span">
+  ![The race menu's warning](../assets/images/rebirth-warning.jpg){ loading=lazy }
+  <figcaption>The race menu warns a gear holder first.</figcaption>
+</figure>
+
+!!! info "For server owners"
+    [`humanOnly`](../reference/configuration.md#sacred_gears) in `[sacred_gears]` turns the rule off. Which races count
+    as human is a race tag, `dxdtensura:sacred_gear_hosts`, that a datapack can add to.
 
 !!! note "Operators and testing"
     With cheats on (or operator level 2), you can grant a gear straight away:
@@ -24,7 +54,10 @@ same odds as every other skill in it.
     ```
     /tensura edit ability grant @s dxdtensura:boosted_gear
     /tensura edit ability grant @s dxdtensura:divine_dividing
+    /tensura edit ability grant @s dxdtensura:twilight_healing
     ```
+
+    Commands give a gear to any race, for testing.
 
 ## Putting it on a key
 
@@ -51,6 +84,8 @@ Using your gear earns Tensura **mastery** for it, the bar in Tensura's skill scr
   [Forms and mastery](../boosted-gear/forms-and-mastery.md).
 - Divine Dividing can **Divide deeper** and **fly faster** as its mastery grows, and its Balance Breaker can awaken
   from 40%. See [Divine Dividing](../divine-dividing/index.md).
+- Twilight Healing opens **Healing Arrows** at 40% and the **Healing Field** at 70%, and heals more for less once
+  mastered. See [Twilight Healing](../twilight-healing/index.md).
 
 ## The Sacred Gear panel
 
@@ -60,7 +95,7 @@ see it, and **F1** hides it. Each gear's page explains what its panel shows.
 
 ## Your partner
 
-The dragon sealed in your gear talks to you. Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
+The dragon sealed in a Heavenly Dragon gear talks to you (Twilight Healing has no voice). Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
 first time you use it, warn you when you're running low, and react to what you do, in a small speech box above the
 panel. The client setting `ddraigLines` sets how much of them you see. See [Ddraig and his Bargain](../boosted-gear/ddraig.md).
 
@@ -71,7 +106,8 @@ Tensura picks the reincarnation Unique Skill from a list in its own config file,
 its gears into that list** every time a world or server starts:
 
 - `"dxdtensura:boosted_gear"`, switched by `addToReincarnationPool` in `config/dxdtensura-server.toml`;
-- `"dxdtensura:divine_dividing"`, switched by `addDivineDividingToReincarnationPool`.
+- `"dxdtensura:divine_dividing"`, switched by `addDivineDividingToReincarnationPool`;
+- `"dxdtensura:twilight_healing"`, switched by `addTwilightHealingToReincarnationPool` (in `[twilight]`).
 
 It adds each entry once and leaves the rest of the file alone. Set a switch to `false` and the next start **removes**
 that entry, even one you added by hand. If you uninstall Devil x Slime, a leftover entry is harmless: Tensura skips

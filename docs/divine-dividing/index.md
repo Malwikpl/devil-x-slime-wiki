@@ -20,9 +20,10 @@ and they **Divide**, halving an enemy's power and taking it for you. It is a Ten
 
 ## Getting it
 
-- **Reincarnation** can roll it, at the same odds as the Boosted Gear.
-- **Albion's jewel**, dropped by the [White Dragon Emperor](../world/white-dragon-emperor.md), gives it to a player with
-  no gear.
+- **Reincarnation** can roll it, at the same odds as the Boosted Gear, if you're
+  [human](../getting-started/first-gear.md#only-in-humans).
+- **Albion's jewel**, dropped by the [White Dragon Emperor](../world/white-dragon-emperor.md), gives it to a human
+  player with no gear.
 - **One Heavenly Dragon per player.** A Boosted Gear holder can't learn Divine Dividing, and the other way round.
 - **One Divine Dividing per world.** While someone holds it, the reincarnation roll skips it and nothing else gives it.
   Players who already held it keep it.
@@ -40,6 +41,9 @@ and they **Divide**, halving an enemy's power and taking it for you. It is a Ten
 | 6 | **[Reflect](balance-breaker.md#reflect)** | awakening; in the armour only | Turn blows and shots back on their attacker |
 
 While the wings are away, any press only summons them ("Divine Dividing!"). The Wings mode puts them away.
+
+Master the gear with the white Scale Mail awakened and Albion teaches you Vali's chant: then the Balance Breaker key,
+in the armour, becomes the white dragon's [Juggernaut Drive](juggernaut-drive.md).
 
 ## Flight
 
@@ -65,9 +69,11 @@ blue-white stars scatter. Then, **every 10 seconds**, it is divided again by its
   vent away as light. Tensura's energy-drain immunity and Energy Protection stop this part.
 - **halves everything it deals**: melee, skills, magic and its projectiles, every hit (not its speed). It shows as the
   **Divided** effect, I to III, lasting 30 seconds after the last Divide. Its summons and pets aren't Divided with it.
-- **doubles your strength** as Absorbed Power: **×2, ×4, ×8** at 1, 2 and 3 Divides, even on a weak mob. A hard-hitting
-  enemy can push it further with the attack it lost, but never past **×8** in all (×16 in the
-  [white Scale Mail](balance-breaker.md#in-the-armour)).
+- **gives you the strength it loses** as Absorbed Power: half its attack with the first Divide, three quarters with
+  two, seven eighths with three, added to yours. A weak mob gives you little, a hard hitter a lot, but never past
+  **×8** your own in all (×16 in the [white Scale Mail](balance-breaker.md#in-the-armour), ×32 in the
+  [white dragon](juggernaut-drive.md)). A server can switch back to a flat ×2, ×4, ×8 on any target with
+  [`divideStrengthFloor`](../reference/configuration.md#divine_dividing).
 - **takes a Boosted Gear holder's stack**: they drop one held Boost stack (×2ⁿ to ×2ⁿ⁻¹, exactly half).
 
 **Too strong.** A target with more than **ten times your max EP** (max magicules plus max aura) is beyond you: "Its
@@ -119,8 +125,11 @@ It lasts until **30 seconds** after the last blow or Divide between them.
   costs what the last one did, and adds no body strain.
 - **A Divide takes no magicules or aura from the rival.** It cancels one held Boost stack, or halves their hits if they
   hold none.
-- The white one's strength stays capped (×8, ×16 in the armour). The red one's extra stacks count only on blows against
-  the rival: Dragon Shot, Transfer, the Longinus Smasher and blows on anyone else stay at the normal cap.
+- The white one's strength stays capped (×8, ×16 in the armour, ×32 in the dragon). The red one's extra stacks count
+  only on blows against the rival: Dragon Shot, Transfer, the Longinus Smasher and blows on anyone else stay at the
+  normal cap.
+- **Transfer overload.** The red one's Transfer at a white rival in the Scale Mail or the dragon fills their strain
+  gauge instead of helping them. See [Transfer overload](juggernaut-drive.md#transfer-overload).
 - Compression Divider and Half Dimension keep the normal caps. When it ends, stacks and Divides fall back to their caps.
 
 Server owners can turn it off with [`rivalsUncapped`](../reference/configuration.md#divine_dividing).

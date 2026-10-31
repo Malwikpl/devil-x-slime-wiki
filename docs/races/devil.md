@@ -85,6 +85,23 @@ Demonic Power is a race skill. It's on Tensura's skill bar, so put it on an abil
   <figcaption>The orb bursting on what it hit.</figcaption>
 </figure>
 
+### Mastery and the Demonic Blast
+
+Since **0.1.84** Demonic Power has mastery, out of **1,000** on Tensura's skill screen. Each orb that hurts a living
+thing (not an armour stand or a training dummy) gives it 2.
+
+**Mastered**, the orb costs **half** and hits **25% harder**, and a third mode opens: the **Demonic Blast**.
+
+- A crimson-black orb twice the size, slower, for **1.5 times** the orb's damage and **twice** its cost.
+- It **explodes** where it hits: everything else within **2 blocks** takes half, less behind cover.
+- You, your pets and allies are spared, even struck straight on, and no blocks break.
+- One every **3 seconds**. It hits what its disc touches.
+
+<figure markdown="span">
+  ![The Demonic Blast in flight](../assets/images/demonic-blast.jpg){ loading=lazy }
+  <figcaption>The Demonic Blast.</figcaption>
+</figure>
+
 ## The magic circle
 
 Demonic Power's **second mode** opens at **Middle-class**. Switch to it the way you switch the gears' modes.
@@ -144,8 +161,9 @@ Devil x Slime's own Holy Water. Tensura 2.0.1.3 has none you can throw.
 
 ## Devils and the Sacred Gears
 
-A Devil keeps the [Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md) and uses it
-as before. The life prices of [Juggernaut Drive](../boosted-gear/juggernaut-drive.md#the-price) and the Boosted Gear's
+A Sacred Gear is [born only in a human](../getting-started/first-gear.md#only-in-humans), so a Devil from the race menu
+rolls none. The way to a Devil with a gear is Issei's: roll a gear as a human, then take an
+[Evil Piece](peerage.md). The gear stays through the rebirth and every class-up, and the Devil uses it as anyone does. The life prices of [Juggernaut Drive](../boosted-gear/juggernaut-drive.md#the-price) and the Boosted Gear's
 [Divide](../boosted-gear/divide.md) are the same for a Devil.
 
 ## Kings and the Peerage

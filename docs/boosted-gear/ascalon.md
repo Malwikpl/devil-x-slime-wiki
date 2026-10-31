@@ -5,7 +5,8 @@ fight with its blade coming out of their fist.
 
 ## Finding it
 
-Ascalon waits in a **ruined church**: a chapel in plains, meadows and forests, about as rare as a pillager outpost.
+Ascalon waits in a **ruined church**: a chapel in plains, meadows and forests, rarer than a pillager outpost (half as common in chunks generated since
+0.1.84).
 Inside, a dragon's skeleton lies across the nave, and Ascalon is driven down through its skull at the chancel steps,
 glowing under a hole in the roof.
 

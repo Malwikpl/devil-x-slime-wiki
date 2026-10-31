@@ -86,6 +86,7 @@ She chooses from your strengths, from the top of this table down:
 
 | If you are | She gives you |
 |---|---|
+| A [Twilight Healing](../twilight-healing/index.md) holder worth up to 3, while she has a Bishop | Her Bishop, as Asia was |
 | A Longinus holder ([Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md)) | All 8 Pawns |
 | Worth 9, or worth 6 or more with aura and magicules each at least 40% of your EP | Her Queen |
 | Worth up to 5, with 3 attack and 30 max health bare-handed and with no potions | A Rook |
@@ -133,14 +134,17 @@ As your King, she's calm:
 
 - her name and where she is show on your **My King** screen, the King marker points to her, and **Go to my King** takes
   you to the circle in her clubroom;
-- she never calls you away, and she never releases you.
+- she calls you to her hunts in the speech box but never moves you, and she never releases you.
+
+She also sends you **hunting Stray Devils** every few days, and comes herself to finish them with the Power of
+Destruction. See [Rias's hunts](../world/stray-devils.md#riass-hunts).
 
 Her Pawns can **ask for her word** on her talk screen: Promotion anywhere for 10 minutes, once an in-game day.
 
 ## Leaving her
 
-Leave the peerage from your **Evil Piece** skill, as with any King. You're marked a **Stray Devil** (the mark does
-nothing yet), and she won't take you back for **10 in-game days**. Sleeping counts, and setting the clock back never
+Leave the peerage from your **Evil Piece** skill, as with any King. You're marked a
+**[Stray Devil](../world/stray-devils.md#the-stray-devil-mark)**, and she won't take you back for **10 in-game days**. Sleeping counts, and setting the clock back never
 makes the wait longer.
 
 Joining her again clears her Stray Devil mark, but not one from a player King's peerage.

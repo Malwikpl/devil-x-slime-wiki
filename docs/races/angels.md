@@ -101,9 +101,10 @@ switch its modes the way you switch the gears' modes.
 
 | Skill | Race | Modes |
 |---|---|---|
-| **Heaven's Light** | Angels | Light Spear, Blessing, Fall |
+| **Heaven's Light** | Angels | Light Spear, Blessing, Fall, and the gold Great Spear from 40% [mastery](#mastery) |
 | **Fallen Light** | Fallen Angels | Light Spear, Great Spear |
 | **Fallen Blood** | [Hybrids](#hybrids) | Light Spear |
+| **[Brave Saints](brave-saints.md)** | Ultimate-class Angels and Seraphs | The suit picker, then Take Out / Put Away, Poker and Blackjack |
 
 ### Light Spear
 
@@ -152,9 +153,13 @@ Tensura subordinates, your team, and other players who haven't hurt you in the l
   <figcaption>Blessing.</figcaption>
 </figure>
 
-### Great Spear (Fallen Angels)
+### Great Spear
 
-**Hold the key**: your arm rises and a spear of light forms above your hand, growing as you hold.
+A Fallen Angel's from the start, and an Angel's in **gold** from 40% [mastery](#mastery) (with the Fallen Angels'
+numbers, and no Heaven's Grace on it).
+
+**Hold the key**: your arm stands out to the side and a spear of light forms over your hand, growing as you hold. As you
+throw, the arm swings forward.
 
 - **Let go** after at least **half a second** to throw it. A shorter hold throws nothing, costs nothing and starts no
   cooldown.
@@ -163,10 +168,19 @@ Tensura subordinates, your team, and other players who haven't hurt you in the l
 - It **bursts** where it lands, hitting everything within **4 blocks** except you, your pets and your allies.
 - Its cooldown is **10 seconds**. Short of magicules when you let go, it throws at the charge you can pay for.
 
+<div class="grid" markdown>
+
 <figure markdown="span">
   ![A Great Spear charging](../assets/images/great-spear-charge.jpg){ loading=lazy }
-  <figcaption>A Great Spear at full charge.</figcaption>
+  <figcaption>A Fallen Angel's Great Spear at full charge.</figcaption>
 </figure>
+
+<figure markdown="span">
+  ![An Angel's gold Great Spear](../assets/images/great-spear-gold.jpg){ loading=lazy }
+  <figcaption>An Angel's gold Great Spear.</figcaption>
+</figure>
+
+</div>
 
 ### Damage and cost by rank
 
@@ -177,6 +191,15 @@ Tensura subordinates, your team, and other players who haven't hurt you in the l
 | 3 | 24 damage, 1,800 magicules | 16, for 5,400 | 96 damage, 9,000 |
 | 4 | 48 damage, 7,500 magicules | 32, for 22,500 | 192 damage, 37,500 |
 | 5 | 96 damage, 30,000 magicules | 64, for 90,000 | 384 damage, 150,000 |
+
+## Mastery
+
+Since **0.1.84**, Heaven's Light, Fallen Light and Fallen Blood count to **1,000 mastery** on Tensura's skill screen: 2
+for each spear (or Great Spear burst) that hurts a living thing (not an armour stand or a training dummy), and each
+Blessing that heals someone. A line in chat tells you as you reach each step.
+
+- **40%:** an Angel's Heaven's Light opens a fourth mode, the **gold Great Spear**.
+- **100%:** every power of the skill costs **half** and hits (or heals) **25% more**, on top of Heaven's Grace by day.
 
 ## Birth skills
 
@@ -297,8 +320,14 @@ bring an Angel her flyer, and she doesn't come when an Angel dies. Fall, and tha
 
 ## The Sacred Gears
 
-Both races keep the [Boosted Gear](../boosted-gear/index.md) and [Divine Dividing](../divine-dividing/index.md) and use
-them as anyone does.
+A Sacred Gear is [born only in a human](../getting-started/first-gear.md#only-in-humans), so an Angel or a Fallen Angel
+from the race menu rolls none. A human with a gear who takes a [Brave Saint card](brave-saints.md) becomes an Angel and
+keeps it, through a fall too, and uses it as anyone does.
+
+## The Brave Saints
+
+At **Ultimate-class** an Angel deals the twelve cards of a suit: [Brave Saints](brave-saints.md), Heaven's answer to the
+Evil Pieces.
 
 ## Leaving the race
 

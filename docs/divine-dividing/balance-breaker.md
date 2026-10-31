@@ -50,6 +50,8 @@ Press the mode again in the armour to end it.
 | Knockback resistance | +0.5 |
 | Speed | a little faster |
 | Flight | costs nothing more; sprint-flight always twice as fast |
+| Every hit | 20% less, after armour (not `/kill` or the void) |
+| Magic and projectiles | halved before armour ([below](#the-armour-halves)) |
 | Upkeep | 0.6% of your max magicules a second |
 | Time limit | 3 minutes |
 
@@ -61,11 +63,21 @@ wear it waits **150 seconds**, half the red one's 300. See [the red Scale Mail's
 - Divide lands **every 5 seconds**, and moving to a new target has **no cooldown**.
 - Bosses take your full Divides, and **no target is too strong**. What limits you is what you can hold: the strain
   gauge.
-- Your strength from Divides goes up to **×16** (×8 outside it). An enemy with at least **75%** of your max EP (max
-  magicules plus max aura) counts one Divide more for the doubling, so three Divides on it make you ×16.
+- Your strength from Divides goes up to **×16** (×8 outside it).
 
 **Wings away.** In the armour, the **Wings** mode folds the wings away and takes their flight with them (you fall), but
 the armour and its powers stay. Press it again and they come back, flight and all.
+
+## The armour halves
+
+Every **magic hit** (vanilla's, Tensura's spells, Dragon Shots, the Longinus Smasher, Demonic Power) and every
+**projectile** (arrows, tridents, fireballs, Light Spears, other mods' bullets) lands at **half**, before armour. A hit
+that is both is halved once. A small **DIVIDE!** comes off you, at most once a second, and the first time Albion says
+"Whatever they throw at us, I halve."
+
+- Then the armour's own 20% cut comes on top: an arrow lands at **40%** of what your armour lets through.
+- **Penetrate breaks through it**, as it does through [Reflect](#reflect).
+- The same goes for the [white dragon](juggernaut-drive.md).
 
 ## The strain gauge
 
@@ -103,9 +115,9 @@ compressed with a single press.
 magicules and aura to **5%** of their max (destroyed, not taken), and holds them there while it stays Divided: the
 **Compressed** effect. With the compress spent, the third press is only the last Divide.
 
-**Noroi's execute.** A mob (not a player, not a boss) that is already at **5%** or less of its magicules and aura when
-you compress it is crushed out of existence: **VANISH!** It counts as your kill, with its loot and EP. Bosses and players
-are only compressed.
+**Noroi's execute.** The compress crushes a mob out of existence, **VANISH!**, when it is already at **5%** or less of
+its magicules and aura, or when its max EP is **70%** of yours or less, however full it is. It counts as your kill, with
+its loot and EP. Bosses, players and Rias are only compressed.
 
 <div class="grid" markdown>
 
@@ -152,3 +164,8 @@ In the armour the panel reads **SCALE MAIL**:
 - a row shows Half Dimension's, Compression Divider's and Reflect's cooldowns, with a dot on Compression while the
   compress is unused;
 - the bar and the clock show the armour's time left.
+
+## Beyond the armour
+
+Master Divine Dividing with the white Scale Mail awakened, and Albion offers you Vali's words: in the armour, chant them
+and you become the white dragon. See [Juggernaut Drive (the white dragon)](juggernaut-drive.md).

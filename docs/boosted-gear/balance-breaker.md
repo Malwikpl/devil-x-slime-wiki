@@ -53,7 +53,9 @@ limited Scale Mail at a permanent price. See [Ddraig's Bargain](ddraig.md#ddraig
 |---|---|
 | Armour | +20 armour, +8 toughness |
 | Knockback resistance | +50% |
-| Speed | a little faster |
+| Speed | a little faster, or the [Boost's speed](modes.md#boost) when that is the faster |
+| Every hit | 30% less, after armour and Tensura's resistances (not `/kill` or the void) |
+| Fire | vanilla fire does nothing and never sets you alight; Tensura's flame spells and skills hurt half |
 | Flight | creative-style; the wings unfold with a whoosh as you take off, and you lean into it flying forward |
 | Upkeep | 0.6% of your max magicules per second |
 | Time limit | 3 minutes |
@@ -63,6 +65,9 @@ Your worn armour, elytra and cape are hidden under it.
 **The Boost inside.** Charging starts by itself at the normal pace, and your bare fist gets the ×2ⁿ the whole time, no
 Explosion needed. There is no body strain. Dragon Shot and Transfer still spend the stacks, and charging just carries
 on. The Boost press does nothing in the armour.
+
+**A fire dragon's armour.** The 30% cut and the fire immunity are the same in Ddraig's Bargain armour and in the
+[Juggernaut Drive](juggernaut-drive.md) dragon.
 
 ## The rage meter
 

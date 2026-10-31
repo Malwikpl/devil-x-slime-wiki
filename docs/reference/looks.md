@@ -48,6 +48,7 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 | Balance Breaker (red Scale Mail) | full, about 7 s | short, 3 s |
 | Juggernaut Drive | full, about 7 s | short, 3 s |
 | Divine Dividing's Balance Breaker (white Scale Mail) | full | full, every time |
+| Divine Dividing's Juggernaut Drive (the white dragon) | full, about 7 s | short, 3 s |
 | Taking Albion's power | a short cutscene | |
 
 - You stand still and **can't be hurt** while it plays, and your head stays level; the mouse can't turn you.
@@ -64,7 +65,10 @@ The gear calls out what it does in bold italic letters that float up and fade, c
 - **TRANSFER!** floats over whoever receives it.
 - The big moments appear over your head in larger letters: **WELSH DRAGON BALANCE BREAKER!**, **DRAGON BOOSTER!**,
   **SECOND LIBERATION!**, **JUGGERNAUT DRIVE!**, **LONGINUS SMASHER!** and **PENETRATE!**.
-- Divine Dividing's **DIVIDE!** floats beside the target, and **VENT!** beside you.
+- Divine Dividing's **DIVIDE!** floats beside the target, and **VENT!** beside you. In the white Scale Mail a small
+  **DIVIDE!** comes off you when the armour halves a magic hit or a projectile; **COMPRESS!**, **VANISH!**, **REDUCE!**
+  and **REFLECT!** mark its other powers, and **OVERLOAD!** a Transfer that floods its strain gauge.
+- A Brave Saints hand's name rises over everyone in it ("FLUSH!"), with the cards fanned out in gold.
 
 <div class="grid" markdown>
 
@@ -102,6 +106,12 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Divide | A thin white line across your view through the target, a burst of light and blue-white stars |
 | Demonic Power | A dark crimson orb that bursts on what it hits |
 | Magic circle | A crimson circle with a sigil opens under you while it hums, and you arrive at your respawn point |
+| Demonic Blast | A crimson-black orb twice the size that explodes where it hits |
+| The white dragon | Wings of starry blue light edged with white blades; the core blazes as the white Longinus Smasher charges, and its jewels and eyes turn violet in the berserk |
+| Twilight Healing | Silver rings on both hands; green light from the hands to the one you heal; a bow and arrows of green light; the Healing Field's ring with motes rising inside |
+| Stray Devils | A dark circle as they rise or hop away; a crimson Demonic Power orb from a Bishop; a lair's circle in the hall's floor |
+| Power of Destruction | Rias's power holds a Stray still in a crimson ring, then erases it |
+| Brave Saints | A card sinking into its new holder; gold halos on monster holders; gold circles for calls; light falling for Heaven's Judgement |
 
 ### LambDynamicLights
 
@@ -119,3 +129,5 @@ big moments flash.
 | `cutscenes` | `true` | The transformation cutscenes. Off, you transform at once |
 | `modelStyle` | `NEW` | `NEW` or `CLASSIC` models |
 | `modelStyleAsked` | `false` | Whether the model style screen has been answered; set it to `false` to be asked again |
+| `flightLean` | `true` | Lean into the flight on the mod's wings or in a Scale Mail; off, you fly upright (and TR: Nightmare's pose can take over) |
+| `gpuModels` | `true` | Draw the race wings from the graphics card, far faster; off, the old way |

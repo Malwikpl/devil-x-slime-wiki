@@ -176,8 +176,9 @@ seconds. If you can't pay the first 2%, you can't promote to Queen.
     - the Nether;
     - the End;
     - Tensura's labyrinth and boss arena;
-    - inside the [Ascalon church](../boosted-gear/ascalon.md) or the
-      [White Dragon's colosseum](../world/white-dragon-emperor.md);
+    - inside the [Ascalon church](../boosted-gear/ascalon.md), the
+      [White Dragon's colosseum](../world/white-dragon-emperor.md) or a
+      [Stray mansion](../world/stray-devils.md#lairs);
 - **anywhere, for 10 minutes,** on the King's **word**, given from the peerage menu ([Rias](rias.md#serving-her)
   gives hers when you ask).
 
@@ -233,8 +234,8 @@ A servant's skill, **Evil Piece**, opens on **My King**. It shows:
 - **Go to my King:** the same circle takes you to your King.
     - It costs **10% of your max magicules**.
     - You can use it once a minute.
-- **Leave the peerage:** you get a warning first. Leaving marks you a **Stray Devil**. The mark does nothing yet; it
-  will mean something once Stray Devils are in the mod.
+- **Leave the peerage:** you get a warning first. Leaving marks you a **Stray Devil**, and
+  [Strays](../world/stray-devils.md#the-stray-devil-mark) take you for one of their own.
 
 Either way, released or gone, you can join another King later. Leave [Rias](rias.md#leaving-her) and she makes you
 wait 10 in-game days.
@@ -267,8 +268,6 @@ dimension if the King is in another world. You can turn it off with the client s
 
 These are coming later:
 
-- **Stray Devils:** what the Stray Devil mark does.
-- **Hybrids.**
 - **Mutation Pieces.**
 - **Rating Games.**
 - **Trading pieces.**

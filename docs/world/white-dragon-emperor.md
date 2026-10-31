@@ -6,7 +6,7 @@ him for **Albion's jewel**: Divine Dividing itself, or the Divide for a Boosted 
 ## Finding him
 
 The **White Dragon Colosseum** stands on high ground: meadows, cherry groves, windswept hills and forests, and savanna
-plateaus. It is about as rare as Ascalon's church: a broken ring of white stone, with Albion's wings inlaid in blue
+plateaus. It is about twice as common as Ascalon's church: a broken ring of white stone, with Albion's wings inlaid in blue
 around the altar in the middle.
 
 ```
@@ -74,7 +74,7 @@ A blue orb of light. **Hold use on it for 5 seconds**; a ring fills as you chann
 
 | Who takes it | What they get |
 |---|---|
-| A player with **no Sacred Gear** | [Divine Dividing](../divine-dividing/index.md) |
+| A **human** player with **no Sacred Gear** | [Divine Dividing](../divine-dividing/index.md) |
 | A **Boosted Gear holder in Balance Breaker** | [Divide (Albion's power)](../boosted-gear/divide.md) |
 
 The jewel fades 5 minutes after the fight.
@@ -85,6 +85,11 @@ The jewel fades 5 minutes after the fight.
 </figure>
 
 **One Divine Dividing per world.** While someone holds Divine Dividing, the jewel only serves Boosted Gear holders.
+
+**Humans only.** A Sacred Gear is born only in a human, so a Devil, an Angel or any other race can't take Divine
+Dividing from it: "The jewel's light won't settle in you. Albion only takes a human host." A Twilight Healing holder is
+turned away at once. The Boosted Gear's Divide is the same for every race. See
+[Only in humans](../getting-started/first-gear.md#only-in-humans).
 
 ## Rewards
 

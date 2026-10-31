@@ -66,6 +66,9 @@ Every Drive **heals you to full** as the dragon forms, right after taking its pr
 - **Every bare-handed hit sends a shockwave** through everything around the target, for half the hit.
 - **Your hand is the dragon's claw.** What you held is put away and items can't be used.
 - **It can't fly.** The Scale Mail's flight is gone while you're the dragon; in the air, you fall.
+- **Its head is a long helm** with the gold face horns and the mouth open (since 0.1.72).
+- **A fire dragon's armour**, as in the Scale Mail: every hit lands 30% lighter, vanilla fire does nothing, and
+  Tensura's flame spells and skills hurt half.
 - **It walks with slow, heavy strides.** Each footfall thuds, kicks up dust and shakes the screen of anyone within
   16 blocks, harder when it charges. Standing still it breathes, and after 6 seconds it stretches its wing-arms out wide
   and folds them back, again every 20 seconds.
