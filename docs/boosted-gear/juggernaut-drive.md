@@ -82,7 +82,7 @@ With your stacks full, press the **Dragon Shot** key:
 
 1. The chest plates part and the core charges through Ddraig's two lines, about **16.7 seconds**. You can still move and
    turn.
-2. A green-white beam fires where you look: **64 blocks long, 5 blocks around**, dealing **40 × 2ⁿ** to everything in
+2. A green-white beam fires where you look: **64 blocks long, 10 blocks around**, dealing **40 × 2ⁿ** to everything in
    it. That is **10,240** at ×256.
 3. It is an energy beam: armour and Physical Attack Nullification don't stop it. It bores a tunnel until it meets a
    block it can't break.

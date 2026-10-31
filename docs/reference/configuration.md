@@ -118,7 +118,7 @@ Juggernaut Drive and the Longinus Smasher.
 | `juggernautLifespanPercent` / `lifespanFloorPercent` | 10 / 50 | 0–100 | Max health each Drive takes for good, and the debt it never passes |
 | `smasherBaseDamage` | 40.0 | 0–1e6 | Longinus Smasher's damage before the Boost (× 2ⁿ) |
 | `smasherChargeTicks` | 334 | 20–1200 | The charge (the two clips back to back) |
-| `smasherRange` / `smasherRadius` | 64 / 5.0 | 8–256 / 0.5–16 | The beam (it bores a tunnel 0.8 of its radius) |
+| `smasherRange` / `smasherRadius` | 64 / 10.0 | 8–256 / 0.5–16 | The beam, both dragons' (it bores a tunnel 0.8 of its radius; its blast and the flash at the chest grow with it) |
 | `smasherCostPercent` | 10.0 | 0–100 | % of max magicules a shot costs (the rest burns spiritual health) |
 | `juggernautArmor`, `juggernautToughness`, `juggernautKnockbackResistance`, `juggernautSpeed`, `juggernautStepHeight`, `juggernautJumpStrength`, `juggernautSafeFall`, `juggernautReach` | 10, 4, 0.5, 0.06, 1.5, 0.2, 20, 6 | — | What the dragon adds |
 | `incantationLine1` … `incantationLine5` | the English lines | — | The accepted ways to type each line (edit or translate them) |

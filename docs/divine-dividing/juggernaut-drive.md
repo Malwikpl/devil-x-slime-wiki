@@ -45,7 +45,7 @@ The first time, the camera films the white dragon rising out of a column of ligh
 ## The white Longinus Smasher
 
 The **Wings** key in the dragon. From **half a full gauge**: a 5 second charge, the core blazing, then a white beam
-**64 blocks** long and 5 around that fires what you divided but couldn't hold.
+**64 blocks** long and 10 around that fires what you divided but couldn't hold.
 
 | Gauge | Damage |
 |---|---|
