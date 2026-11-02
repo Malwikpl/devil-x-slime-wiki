@@ -116,7 +116,7 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Brave Saints | A card sinking into its new holder; gold halos on monster holders; gold circles for calls; light falling for Heaven's Judgement |
 | Holy Lightning | Golden-white bolts, thinner or thicker by the mode; the Blast's jagged beam from your hand; bolts falling all around in the storm |
 | Durandal | Blue-white sparks off a wild blade; the wave's fan of aura and low rumble, debris and a fading fissure of cracks and blue light; a crescent in the air; a flash for a tamed cut; a pillar of light as the seal breaks |
-| Nekomata | Ears and tails that move with you; a ring under an air step; Touki's white aura; a white bolt; wheels of orange, white or black flame rolling along the ground; a dark violet mist; a dark burst for the berserk |
+| Nekomata | Ears and tails that move with you; a ring under an air step; Touki's white aura; a white bolt; wheels of orange, white or black flame rolling along the ground; a dark violet mist; a patch of mud welling up; a Veil's wisps, which only you see; copies stepping out and popping in dark smoke; a dark burst for the berserk |
 | Sword Birth | A violet sheen on a copy, breaking into black shards when it fades; huge blades tinted by your element rising through dust, thrown rocks and a violet haze, then crumbling |
 
 ### LambDynamicLights

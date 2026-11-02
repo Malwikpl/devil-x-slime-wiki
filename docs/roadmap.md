@@ -52,7 +52,7 @@ world. These are plans, not promises, and the order can change.
   structures, other mods' included
 - **A bigger Longinus Smasher** (0.1.92), twice as wide for both dragons
 - **[Nekomata and Nekoshou](races/nekomata.md)** (0.2.0): Koneko's and Kuroka's race, with ears and tails, Senjutsu, Kasha,
-  Poison Mist and Malice
+  Youjutsu's Poison Mist, Mud Bind, Veil and Mirage, and Malice
 - **[Sword Birth](sword-birth/index.md)** (0.2.0): Kiba's Sacred Gear, fading copies of swords and blades from the ground
 - **[Lore mode](lore-mode.md)** (0.2.0): a game rule for each world that makes the Longinus gears as strong as in the
   story

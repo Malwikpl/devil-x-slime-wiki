@@ -233,6 +233,10 @@
     That's Malice. Senjutsu gathers it, it flickers from 50, and at 100 you go berserk for 15 seconds, so give it time to fade between
     fights. It fades faster by day, and never in Hell. See [Malice](races/nekomata.md#malice).
 
+??? question "How do I open Mud Bind, Veil and Mirage?"
+    Use Youjutsu on something: each use that poisons, holds or fools it earns mastery. They open at 25%, 50% and 75%, with a line
+    in chat. An armour stand or a Training Dummy earns none. See [Youjutsu](races/nekomata.md#youjutsu).
+
 ??? question "Can a Nekomata have a Sacred Gear?"
     No. A cat never rolls a Sacred Gear, the Holy Factor or a Brave Saint card.
 

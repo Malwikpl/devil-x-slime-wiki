@@ -512,12 +512,26 @@ The races' own stats, EP ranges and requirements are in `config/dxdtensura/race/
 | `kashaCooldownSeconds` | 10 | 0–3600 | Its cooldown |
 | `kashaRange` | 24 | 1–128 | How far the wheels roll, blocks |
 | `kashaBurnSeconds` | 5 | 0–3600 | How long a plain Nekomata's Kasha burns a target |
+| `youjutsuMasteryPerUse` | 8.0 | 0–1000 | Youjutsu's mastery (times Tensura's per-use gain) for each art that poisons, holds or fools something |
 | `poisonMistCost` | 300, 1200, 5400, 22500, 90000 | list | Poison Mist's magicule cost |
 | `poisonMistDamage` | 2, 4, 8, 16, 32 | list | Its damage a second; twice this on Devils and Youkai |
 | `poisonMistRange` | 24 | 1–128 | How far away it can be cast, blocks |
 | `poisonMistRadius` | 5.0 | 0.5–32 | Its radius, blocks |
 | `poisonMistSeconds` | 8 | 1–3600 | How long it lasts |
 | `poisonMistCooldownSeconds` | 30 | 0–3600 | Its cooldown |
+| `mudBindCost` | 200, 800, 3600, 15000, 60000 | list | Mud Bind's magicule cost |
+| `mudBindSeconds` | 2, 2, 3, 3, 4 | list | How long it holds a target, from when it's first caught |
+| `mudBindRadius` | 3.5 | 0.5–32 | The mud's radius, blocks |
+| `mudBindPatchSeconds` | 4 | 1–3600 | How long the mud lies |
+| `mudBindCooldownSeconds` | 20 | 0–3600 | Its cooldown |
+| `veilCost` | 300, 1200, 5400, 22500, 90000 | list | Veil's magicule cost |
+| `veilSeconds` | 15 | 1–3600 | How long it lasts |
+| `veilCooldownSeconds` | 45 | 0–3600 | Its cooldown, from when it ends |
+| `veilReach` | 3.0 | 0–64 | How close a mob must be to find someone in a Veil, blocks |
+| `mirageCost` | 400, 1600, 7200, 30000, 120000 | list | Mirage's magicule cost |
+| `mirageCopies` | 1, 2, 2, 3, 3 | list | How many copies it makes |
+| `mirageSeconds` | 10 | 1–3600 | How long a copy lasts if nothing hits it |
+| `mirageCooldownSeconds` | 40 | 0–3600 | Its cooldown |
 | `maliceTouki` / `maliceBullet` / `maliceHeal` / `maliceKasha` | 1 / 1 / 1 / 5 | 0–100 | Malice for 10 s of Touki, a bullet, 2 s of healing, a cast |
 | `maliceDarkFactor` | 3 | — | How much faster it gathers in Hell and miasma |
 | `maliceFadeDay` / `maliceFadeNight` | 2 / 1 | — | How much fades a minute |

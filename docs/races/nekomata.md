@@ -1,6 +1,6 @@
 # Nekomata and Nekoshou
 
-Koneko's and Kuroka's race, added in **0.2.0**: cat Youkai with ears and tails, Senjutsu's ki and Youjutsu's poison. Each line has
+Koneko's and Kuroka's race, added in **0.2.0**: cat Youkai with ears and tails, Senjutsu's ki and Youjutsu's poison and tricks. Each line has
 five ranks, and each rank is a race of its own on Tensura's evolution screen.
 
 - **Nekomata** pick a coat of their own, and have the whole set of powers.
@@ -222,24 +222,102 @@ climbing one-block steps.
 
 ## Youjutsu
 
-Paid in **magicules**.
+Youkai magic, paid in **magicules**, with mastery to **1,000**.
 
-**Poison Mist:** a dark violet cloud on the ground where you look within 24 blocks, through leaves, or with Sneak on yourself. Its radius
-is 5 blocks, it lasts 8 seconds, and you can cast it every 30 seconds.
+| # | Mode | Unlocks | What it does |
+|---|---|---|---|
+| 0 | **[Poison Mist](#poison-mist)** | from the start | A cloud of poison on the ground |
+| 1 | **[Mud Bind](#mud-bind)** | 25% mastery | A patch of mud that holds what stands in it |
+| 2 | **[Veil](#veil)** | 50% mastery | You turn invisible, and mobs lose you |
+| 3 | **[Mirage](#mirage)** | 75% mastery | Copies of you that draw enemies off |
+
+The mode key skips what isn't open yet, and a line in chat marks each one as it opens.
+
+- **Mastery:** a use that poisons, holds or fools something earns **8**, so Mud Bind takes about 32 uses. An armour stand or Tensura's
+  Training Dummy earns none.
+- **A Nekoshou's full mastery** halves all four's costs and makes them last a quarter longer. A plain Nekomata still opens them all.
+
+By rank:
 
 | Rank | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
-| Damage a second | 2 | 4 | 8 | 16 | 32 |
-| Magicules | 300 | 1,200 | 5,400 | 22,500 | 90,000 |
+| Poison Mist: damage a second | 2 | 4 | 8 | 16 | 32 |
+| Poison Mist: magicules | 300 | 1,200 | 5,400 | 22,500 | 90,000 |
+| Mud Bind: seconds held | 2 | 2 | 3 | 3 | 4 |
+| Mud Bind: magicules | 200 | 800 | 3,600 | 15,000 | 60,000 |
+| Veil: magicules | 300 | 1,200 | 5,400 | 22,500 | 90,000 |
+| Mirage: copies | 1 | 2 | 2 | 3 | 3 |
+| Mirage: magicules | 400 | 1,600 | 7,200 | 30,000 | 120,000 |
 
-- It does **twice that** on Devils, Strays and cats.
+### Poison Mist
+
+A dark violet cloud on the ground where you look within 24 blocks, through leaves, or with Sneak on yourself. Its radius is 5 blocks, it
+lasts 8 seconds, and you can cast it every 30 seconds.
+
+- It does **twice the table's damage** on Devils, Strays and cats.
 - It does **nothing** on dragons or Heavenly Dragon holders.
-- Only a Nekoshou gets the mastered bonus: half the cost, and 10 seconds.
 
 <figure markdown="span">
   ![Poison Mist](../assets/images/neko-poison-mist.jpg){ loading=lazy }
   <figcaption>Poison Mist.</figcaption>
 </figure>
+
+### Mud Bind
+
+*Mode 1, from 25% mastery.*
+
+A patch of mud, radius **3.5 blocks**, where you look, or with Sneak at your feet. It lies for 4 seconds, and you can cast it every 20 seconds.
+
+- What stands in it can **barely move or jump** for the table's time, but can still swing and cast.
+- A patch holds nothing twice.
+- It does no damage, and spares you, your allies and your pets.
+- Anything that refuses effects only wades through.
+
+<figure markdown="span">
+  ![Mud Bind](../assets/images/neko-mud-bind.jpg){ loading=lazy }
+  <figcaption>Mud Bind.</figcaption>
+</figure>
+
+### Veil
+
+*Mode 2, from 50% mastery.*
+
+You turn **invisible for 15 seconds**, though armour still shows.
+
+- Mobs within 32 blocks drop you, and none can pick you up from further than **3 blocks**.
+- **A hit you land, a second press or the berserk ends it.** Being hit doesn't, and nor do Thorns or your Poison Mist's ticks.
+- The **45 second** cooldown starts when it ends.
+- The wisps and the sound are yours alone, so they don't give away where you went.
+
+<figure markdown="span">
+  ![Fading into a Veil](../assets/images/neko-veil.jpg){ loading=lazy }
+  <figcaption>Fading into a Veil, as you see it.</figcaption>
+</figure>
+
+### Mirage
+
+*Mode 3, from 75% mastery.*
+
+Copies of you step out, in your skin, armour, held item, ears and tails, with your name. They last **10 seconds**, and you can cast it every
+40 seconds.
+
+- A mob within 24 blocks going for you goes for a copy, and those already after you turn to one.
+- **Any hit pops a copy** in dark smoke, with no loot, XP, EP or souls.
+- Casting again replaces them. Logging out, dying or changing dimension takes them away.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![Three Mirage copies](../assets/images/neko-mirage.jpg){ loading=lazy }
+  <figcaption>Copies wear what you wear.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Copies popping in dark smoke](../assets/images/neko-mirage-pop.jpg){ loading=lazy }
+  <figcaption>Popping in dark smoke.</figcaption>
+</figure>
+
+</div>
 
 ## Malice
 
