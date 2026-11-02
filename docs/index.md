@@ -17,6 +17,7 @@ Devils to hunt. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
+[Join the Discord](https://discord.gg/kvE52ppS9Z){ .md-button }
 [Install it](getting-started/installation.md){ .md-button }
 
 ## What's in the mod
