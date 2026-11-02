@@ -99,7 +99,8 @@ black.
 The **race key** shows and hides them. On a [hybrid](#evil-pieces-and-hybrids) it's **Sneak + race key**.
 
 They move with you. The tails swish when you stand, stream out at a run, swing away from a step or a turn, and droop or lift as you
-rise and fall. They hide under invisibility, a Scale Mail and the dragon, and the ears still show over a helmet.
+rise and fall. They grow in and shrink away when you show or hide them. They hide under invisibility, a Scale Mail and the dragon, and
+the ears still show over a helmet.
 
 **Out,** you get:
 
@@ -107,7 +108,7 @@ rise and fall. They hide under invisibility, a Scale Mail and the dragon, and th
 |---|---|---|---|---|---|
 | Speed | +10% | +12% | +15% | +20% | +25% |
 | Jump (blocks) | 2 | 2 | 2.5 | 3 | 4 |
-| Air steps | 1 | 1 | 2 | 2 | 3 |
+| Air steps | 1 | 1 | 2 | 4 | 6 |
 
 - Press jump in mid-air for an **air step**. They come back when you land.
 - You take **no fall damage**.
@@ -152,7 +153,8 @@ By rank:
 A white aura. Your bare-handed hits do the table's extra damage and spirit damage, push back, and block the target's energy regeneration for
 3 seconds. A sword gets only the defence and the +5% speed.
 
-It costs **1% of your max aura a second**, won't start below 5%, and has a 5 second cooldown.
+It costs **1% of your max aura a second**, won't start below 5%, and has a 5 second cooldown. A
+[Divide](../divine-dividing/index.md#divide) on you cuts the extra and the spirit damage, as it does every hit.
 
 ### Ki Bullet
 
@@ -222,8 +224,8 @@ climbing one-block steps.
 
 Paid in **magicules**.
 
-**Poison Mist:** a dark violet cloud on the block you look at within 24 blocks, or with Sneak on yourself. Its radius is 5 blocks, it lasts
-8 seconds, and you can cast it every 30 seconds.
+**Poison Mist:** a dark violet cloud on the ground where you look within 24 blocks, through leaves, or with Sneak on yourself. Its radius
+is 5 blocks, it lasts 8 seconds, and you can cast it every 30 seconds.
 
 | Rank | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|

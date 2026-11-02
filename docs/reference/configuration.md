@@ -486,7 +486,7 @@ The races' own stats, EP ranges and requirements are in `config/dxdtensura/race/
 | `nekoshouChancePercent` | 10 | 0–100 | The chance a player becoming a Nekomata is born a Nekoshou; one roll per player |
 | `catSpeedPercent` | 10, 12, 15, 20, 25 | list | Cat form's extra speed, % |
 | `catJumpBlocks` | 2, 2, 2.5, 3, 4 | list | How high a cat jumps in cat form, blocks |
-| `catAirSteps` | 1, 1, 2, 2, 3 | list | Air steps, back on landing |
+| `catAirSteps` | 1, 1, 2, 4, 6 | list | Air steps, back on landing |
 | `catKeepsCreepersAway` | true | — | Creepers and phantoms keep away from anyone with ears and tails out |
 | `toukiHandDamage` | 4, 8, 16, 32, 64 | list | Touki's extra damage on a bare-handed hit |
 | `toukiSpiritDamage` | 1, 2, 4, 8, 16 | list | Its spirit damage |
