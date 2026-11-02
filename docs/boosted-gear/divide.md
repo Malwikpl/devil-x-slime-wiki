@@ -45,6 +45,7 @@ max EP is beyond you.
 - It counts toward [Juggernaut Drive's](juggernaut-drive.md#the-price) half. At that floor Ddraig refuses ("Your life
   can't pay for another Divide, partner."), and he refuses Drives too while your Divides fill it.
 - Becoming a dragon race clears it along with the Drive's debt, and so does `/dxdtensura lifespan clear`.
+- A [Nekoshou's Ki Healing](../races/nekomata.md#ki-healing) gives a little of it back, 2 points every 20 minutes.
 - Misses and refusals cost nothing.
 - There are 5 seconds between Divides.
 - Creative pays nothing.

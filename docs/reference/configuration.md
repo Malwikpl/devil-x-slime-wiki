@@ -395,6 +395,7 @@ mastered one.
 | `epShare` | 1.0 | 0–10 | A sword opens at this share of its own EP in Tensura's data, compared with the holder's max EP |
 | `lifeSecondsNew` / `lifeSecondsMastered` | 60 / 180 | 1–3600 | How long a copy lasts, in seconds |
 | `maxCopies` | 2 | 1–36 | How many copies a holder can have at once; one more makes the oldest fade |
+| `maxAttack` | 30 | 0–10000 | The most attack a copy or a blade takes from its sword; weaker swords keep their own |
 | `priceFloorPercent` / `priceTopPercent` | 1 / 10 | 0–100 | % of max magicules a sword with no EP, and a sword at the holder's own EP, costs |
 | `priceMasteredCut` | 0.5 | 0–1 | How much of the price full mastery takes off |
 | `elementsAtMastery` / `lineAtMastery` / `ringAtMastery` | 0.50 / 0.40 / 0.70 | 0–1 | The mastery share at which the elements, Blade Line and Blade Ring open |
@@ -462,6 +463,8 @@ every lower card gives its share of the Ace's numbers by place (the 7 half).
 | `waveCooldownSeconds` | 3 | 0–3600 | Seconds between Holy Waves |
 | `waveRange` | 20.0 | 1–128 | Blocks a Holy Wave flies |
 | `waveBreaksBlocks` | false | — | Whether a Holy Wave breaks the soft blocks in its way and digs the line it runs along (hardness 1.5 or less, no block entities, with `mobGriefing` on) |
+| `tamedAttack` | 70.0 | 0–10000 | Durandal's attack, two-handed, at 1,000 mastery (it starts at 23) |
+| `replicaTamedAttack` | 37.0 | 0–10000 | A replica's attack at 1,000 mastery; in Lore mode it gains `replicaPower`'s share of the true sword's growth instead |
 | `holyStrikePercent` | 50 | 0–1000 | Durandal's holy strike, % of the hit, on what holy things hurt and Stray Devils |
 | `wildSplashPercent` | 6.0 | 0–100 | % of max health a wave splashes its wielder for while the aura is wholly wild (never below half) |
 | `masteryPerWave` | 4 | 0–1000 | Durandal mastery (out of 1,000) a wave earns when it hits a foe |
@@ -471,6 +474,57 @@ every lower card gives its share of the Ace's numbers by place (the 7 half).
 | `refusalDamage` | 2.0 | 0–100 | Damage Durandal deals someone who isn't a holy wielder taking it in hand (never below one heart) |
 | `tamedCuts` | true | — | Whether a fully tamed Durandal cuts through Resistances, Nullifications and barriers up to Guardian (Penetrate's level settings set how far) |
 | `tamedCutCostPercent` | 0.5 | 0–100 | % of max magicules a tamed cut costs when it meets one of those defences, once a tick at most |
+
+## `[nekomata]`
+
+The [Nekomata and Nekoshou](../races/nekomata.md). Each list goes by rank: Low, Middle, High, Elder, Daiyoukai, or a hybrid's Devil class.
+The races' own stats, EP ranges and requirements are in `config/dxdtensura/race/nekomata_config.toml` and `nekoshou_config.toml`.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `nekomataInRaceMenu` | true | — | Low-class Nekomata in Tensura's race menu (its starting, random and Reincarnation lists) |
+| `nekoshouChancePercent` | 10 | 0–100 | The chance a player becoming a Nekomata is born a Nekoshou; one roll per player |
+| `catSpeedPercent` | 10, 12, 15, 20, 25 | list | Cat form's extra speed, % |
+| `catJumpBlocks` | 2, 2, 2.5, 3, 4 | list | How high a cat jumps in cat form, blocks |
+| `catAirSteps` | 1, 1, 2, 2, 3 | list | Air steps, back on landing |
+| `catKeepsCreepersAway` | true | — | Creepers and phantoms keep away from anyone with ears and tails out |
+| `toukiHandDamage` | 4, 8, 16, 32, 64 | list | Touki's extra damage on a bare-handed hit |
+| `toukiSpiritDamage` | 1, 2, 4, 8, 16 | list | Its spirit damage |
+| `toukiCutPercent` | 10, 12, 15, 20, 25 | list | How much less damage the holder takes, % |
+| `toukiSpeedPercent` | 5.0 | 0–100 | Touki's extra speed, % |
+| `toukiUpkeepPercent` | 1.0 | 0–100 | % of max aura a second |
+| `toukiStartPercent` | 5.0 | 0–100 | It won't start under this % of max aura |
+| `toukiCooldownSeconds` | 5 | 0–3600 | Its cooldown after it ends |
+| `toukiBlockadeSeconds` | 3 | 0–3600 | Tensura's Energy Blockade on a target hit bare-handed |
+| `kiBulletDamage` | 6, 12, 24, 48, 96 | list | Ki Bullet's damage |
+| `kiBulletCost` | 100, 400, 1800, 7500, 30000 | list | Its aura cost |
+| `kiBulletSpiritPercent` | 25.0 | 0–1000 | Its spirit damage, % of its damage |
+| `kiBulletCooldownSeconds` | 1 | 0–3600 | Its cooldown |
+| `kiHealBarSeconds` | 10 | 1–3600 | Ki Healing: seconds held to restore a whole bar |
+| `kiHealBarPercent` / `kiHealMasteredPercent` | 30.0 / 15.0 | 0–100 | % of max aura for a whole bar restored, and the same at full mastery |
+| `kiHealCooldownSeconds` | 3 | 0–3600 | Its cooldown after it ends |
+| `kiLifeDrivePoints` / `kiLifeDividePoints` | 1.0 / 2.0 | 0–100 | A Nekoshou's payback: points of the Drive's life debt, and of the Divides' |
+| `kiLifeMinutes` | 20 | 0–10080 | How long a Nekoshou waits between paybacks, minutes |
+| `auraSenseRadius` | 16, 24, 32, 48, 64 | list | Aura Sense's reach, blocks |
+| `auraSenseUpkeepPercent` | 0.2 | 0–100 | % of max aura a second |
+| `kashaDamage` | 12, 24, 48, 96, 192 | list | Kasha's damage; a cast hits a target once |
+| `kashaCost` | 500, 2000, 9000, 37500, 150000 | list | Its aura cost |
+| `kashaCooldownSeconds` | 10 | 0–3600 | Its cooldown |
+| `kashaRange` | 24 | 1–128 | How far the wheels roll, blocks |
+| `kashaBurnSeconds` | 5 | 0–3600 | How long a plain Nekomata's Kasha burns a target |
+| `poisonMistCost` | 300, 1200, 5400, 22500, 90000 | list | Poison Mist's magicule cost |
+| `poisonMistDamage` | 2, 4, 8, 16, 32 | list | Its damage a second; twice this on Devils and Youkai |
+| `poisonMistRange` | 24 | 1–128 | How far away it can be cast, blocks |
+| `poisonMistRadius` | 5.0 | 0.5–32 | Its radius, blocks |
+| `poisonMistSeconds` | 8 | 1–3600 | How long it lasts |
+| `poisonMistCooldownSeconds` | 30 | 0–3600 | Its cooldown |
+| `maliceTouki` / `maliceBullet` / `maliceHeal` / `maliceKasha` | 1 / 1 / 1 / 5 | 0–100 | Malice for 10 s of Touki, a bullet, 2 s of healing, a cast |
+| `maliceDarkFactor` | 3 | — | How much faster it gathers in Hell and miasma |
+| `maliceFadeDay` / `maliceFadeNight` | 2 / 1 | — | How much fades a minute |
+| `maliceWarning` | 50 | — | Where the warning shows and the tails start to flicker |
+| `maliceBerserkSeconds` | 15 | — | How long the berserk lasts |
+| `maliceAfter` | 30 | — | Malice left after it |
+| `maliceToukiCooldownSeconds` | 30 | — | Touki's cooldown after it |
 
 ## `[lore_mode]`
 

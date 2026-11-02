@@ -51,6 +51,8 @@ world. These are plans, not promises, and the order can change.
 - **[Structures on solid ground](world/structures.md#where-they-stand)** (0.1.92): dry, level land, clear of other
   structures, other mods' included
 - **A bigger Longinus Smasher** (0.1.92), twice as wide for both dragons
+- **[Nekomata and Nekoshou](races/nekomata.md)** (0.2.0): Koneko's and Kuroka's race, with ears and tails, Senjutsu, Kasha,
+  Poison Mist and Malice
 - **[Sword Birth](sword-birth/index.md)** (0.2.0): Kiba's Sacred Gear, fading copies of swords and blades from the ground
 - **[Lore mode](lore-mode.md)** (0.2.0): a game rule for each world that makes the Longinus gears as strong as in the
   story
@@ -66,7 +68,6 @@ world. These are plans, not promises, and the order can change.
 - **A city in Hell**: Devil NPCs, a castle, a market and Stray Devil bounties, in Tensura's Hell.
 - **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
 - **The Joker** (Dulio's wild card), together with **Mutation Pieces**.
-- **Nekomata** (maybe): a cat race with Senjutsu.
 
 ## Between the big items
 
@@ -76,6 +77,7 @@ world. These are plans, not promises, and the order can change.
 - **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
 - **More Sacred Gears**, one at a time. Idea so far: Forbidden Balor View.
 - **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
+- **Named demonic swords from the story** for Sword Birth, like Holy Eraser and Flame Delete, each with its own model.
 - **Light weapons**: Angels and Fallen Angels shape their light into swords and other weapons, not only spears.
 - **Growing into your Pawns**: a Longinus holder who takes 8 Pawns starts with the power of only one, like Issei,
   and unlocks the rest as their body grows stronger.

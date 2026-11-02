@@ -216,6 +216,30 @@
     It follows the same ground rules, so it can fail on bad land. `/place template dxdtensura:<name>` drops the building
     anywhere.
 
+## Nekomata and Nekoshou
+
+??? question "How do I become a Nekoshou?"
+    You can't choose it. One player in ten who becomes a Nekomata is born one, on a single roll that stays through death and a Race
+    Reset Scroll. A Character Reset Scroll starts it over. See [Becoming one](races/nekomata.md#becoming-one).
+
+??? question "How do I change my coat?"
+    Use a Race Reset Scroll and pick the race again. If you closed the coat screen without picking, it asks again at your next login.
+
+??? question "I lost my speed and Touki stopped."
+    Your ears and tails are hidden, or a Scale Mail is hiding them. The race key brings them out, or Sneak + race key on a hybrid.
+    See [Ears and tails](races/nekomata.md#ears-and-tails).
+
+??? question "My tails flicker dark, and I attacked my friend."
+    That's Malice. Senjutsu gathers it, it flickers from 50, and at 100 you go berserk for 15 seconds, so give it time to fade between
+    fights. It fades faster by day, and never in Hell. See [Malice](races/nekomata.md#malice).
+
+??? question "Can a Nekomata have a Sacred Gear?"
+    No. A cat never rolls a Sacred Gear, the Holy Factor or a Brave Saint card.
+
+??? question "What happens if I take an Evil Piece?"
+    You become a Devil with your blood: you keep Senjutsu, the coat, the ears and tails, and lose Youjutsu. See
+    [Evil Pieces and hybrids](races/nekomata.md#evil-pieces-and-hybrids).
+
 ## Settings
 
 ??? question "Can I get the old blocky models back?"

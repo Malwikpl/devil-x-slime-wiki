@@ -52,6 +52,7 @@ dragon at once.
 - The debt shows as the **Shortened Lifespan** effect. `/effect clear` doesn't remove it: the effect follows the debt.
 - **Becoming a dragon race** (Dragonewt and up) clears the debt.
 - [Divides in the Boosted Gear](divide.md) count toward the same half.
+- A [Nekoshou's Ki Healing](../races/nekomata.md#ki-healing) gives a little of it back, 1 point every 20 minutes.
 - Operators can wipe the debt with `/dxdtensura lifespan clear [players]`.
 
 Every Drive **heals you to full** as the dragon forms, right after taking its price.

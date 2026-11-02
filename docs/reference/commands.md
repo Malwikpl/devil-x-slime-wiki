@@ -67,6 +67,19 @@ For [Durandal and the Holy Factor](../durandal/index.md). All need operator perm
 | `/dxdtensura holyfactor reroll <targets>` | One more birth roll; a Human or Enlightened Human rolls now |
 | `/dxdtensura holyfactor durandal reset` | The true Durandal can be found again in this world |
 
+### Nekomata and Nekoshou
+
+For the [Nekomata and Nekoshou](../races/nekomata.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura nekoshou give <targets>` | Makes them a Nekoshou |
+| `/dxdtensura nekoshou take <targets>` | Makes them a plain Nekomata, with the roll spent |
+| `/dxdtensura nekoshou reroll <targets>` | Rolls again |
+| `/dxdtensura coat <player> <coat>` | Sets their coat: `ginger`, `grey`, `brown_tabby`, `calico`, `tuxedo`, `cream`, or a Nekoshou's `white` or `black` |
+| `/dxdtensura malice <player>` | Shows their [Malice](../races/nekomata.md#malice), 0 to 100 |
+| `/dxdtensura malice <player> set <0-100>` | Sets it |
+
 ### Lore mode
 
 [Lore mode](../lore-mode.md) is a game rule, so it's vanilla's command, with operator permission:

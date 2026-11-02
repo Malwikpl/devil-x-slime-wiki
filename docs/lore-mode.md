@@ -174,7 +174,7 @@ Only the gear's own hits penetrate, not a held weapon's.
 ## Durandal
 
 [Durandal](durandal/index.md) never burns a Devil wielder. The Artificial Holy Factor is as strong as the natural one, and a Durandal
-Replica has one fifth of the wave and the strike, in anyone's hand.
+Replica has one fifth of the wave and the strike, in anyone's hand, and its attack grows only to about 32.
 
 ## Promotion
 

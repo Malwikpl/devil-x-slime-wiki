@@ -73,6 +73,8 @@ and gives them **60 seconds** to answer.
     - They become **Majin**: holy things hurt them, and the Hero path closes.
     - A **Fallen Angel** becomes a Devil with Fallen Angel blood, a [hybrid](angels.md#hybrids), and keeps the Light
       Spear.
+    - A **Nekomata or Nekoshou** becomes a Devil with their blood, a [hybrid](nekomata.md#evil-pieces-and-hybrids), and keeps
+      Senjutsu, the ears and the tails.
 - **A Devil** just takes the piece.
 - These all count as a **no**:
     - walking more than 16 blocks away;

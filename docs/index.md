@@ -12,7 +12,8 @@ hide:
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
 and now has Asia's Twilight Healing, Kiba's Sword Birth, Xenovia's Durandal, the three races of the Three Factions
-(Devils with their Evil Pieces, Angels with their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growing into the whole DxD world.
+(Devils with their Evil Pieces, Angels with their Brave Saints, and Fallen Angels), Koneko's cat Youkai and the Stray
+Devils to hunt. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -98,6 +99,13 @@ and now has Asia's Twilight Healing, Kiba's Sword Birth, Xenovia's Durandal, the
     A Seraph's twelve cards. Make a human an Angel, then play Poker or Blackjack together for a hand's power, up to a
     Royal Flush and Heaven's Judgement.
 
+-   :material-cat:{ .lg .middle } **[Nekomata and Nekoshou](races/nekomata.md)**
+
+    ---
+
+    Koneko's and Kuroka's race: ears and tails that move with you, Senjutsu's ki, wheels of flame and a poison mist. Beware the
+    Malice it takes in.
+
 -   :material-skull:{ .lg .middle } **[Stray Devils](world/stray-devils.md)**
 
     ---
@@ -164,7 +172,7 @@ and now has Asia's Twilight Healing, Kiba's Sword Birth, Xenovia's Durandal, the
 !!! tip "New here?"
     Start with [Your first Sacred Gear](getting-started/first-gear.md), then read the page for the gear you rolled. The
     [FAQ](faq.md) answers the questions players ask most. Want to play a Devil? See [Devils](races/devil.md). An Angel or a
-    Fallen Angel? See [Angels and Fallen Angels](races/angels.md).
+    Fallen Angel? See [Angels and Fallen Angels](races/angels.md). A cat? See [Nekomata and Nekoshou](races/nekomata.md).
 
 ## Good to know
 

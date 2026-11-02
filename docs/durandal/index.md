@@ -63,7 +63,7 @@ One church chest in ten holds a **Holy Factor Crystal**. Drink it, like a potion
 
 ## The sword
 
-A Tensura great sword at High Magisteel strength (**23** attack), unbreakable.
+A Tensura great sword, unbreakable, with **23 attack** at first and **70** [fully tamed](#taming-it).
 
 - **It refuses anyone else.** Taken in hand by someone who isn't a holy wielder, it jolts them (**2 damage**, never below a
   heart) and leaves their hand, at most once a second. Carrying it in your inventory is fine.
@@ -131,6 +131,9 @@ A new wielder's Durandal is **wild**:
 Landed waves (**+4**) and hits with it (**+1**, once a second) raise the Durandal skill's mastery to **1,000**. The aura calms as
 it rises, and the sword's tooltip says how it stands: wild, calming, or "answers you".
 
+**Its attack grows with it,** a little every 50 mastery, from **23 to 70**, and a replica's to **37**. The wave and the holy strike go by
+your attack, so they grow too. The growth counts only two-handed, with nothing in your off hand.
+
 ## Tamed, it cuts through anything
 
 At **1,000 mastery**, its hits, its wave and its holy strike:
@@ -172,7 +175,7 @@ In a world with [Lore mode](../lore-mode.md) on:
 
 - it never burns a Devil wielder;
 - the Artificial Holy Factor is as strong as the natural one;
-- a Durandal Replica has **one fifth** of the wave and the strike, in anyone's hand.
+- a Durandal Replica has **one fifth** of the wave and the strike, in anyone's hand, and its attack grows only to about 32.
 
 ## Settings and commands
 

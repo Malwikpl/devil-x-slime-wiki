@@ -20,6 +20,8 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Heaven's Grace** | Being an [Angel](../races/angels.md#day-and-hell) under the open daytime sky | Light Spear hits 25% harder; magicules regenerate 25% faster |
 | **Hell's Weight** | Being an [Angel](../races/angels.md#day-and-hell) in Tensura's Hell | 10% slower |
 | **Heaven's Hand** | Playing a [Brave Saints](../races/brave-saints.md#playing-a-hand) hand | The hand's power, for 30 s |
+| **Touki** | A [Nekomata's Senjutsu](../races/nekomata.md#touki) | Harder bare-handed blows, less damage taken and 5% more speed while it lasts |
+| **Consumed by Malice** | [Malice](../races/nekomata.md#malice) reaching 100 | The berserk: for 15 s no skills or race key, and you strike the nearest living thing on your own |
 
 Juggernaut Drive also leaves vanilla and Tensura effects behind: Weakness II, Slowness II, Mining Fatigue, Fragility and
 Paralysis. See [After it](../boosted-gear/juggernaut-drive.md#after-it).

@@ -98,8 +98,11 @@ EP, and half that at full mastery. Growing makes old swords cheap.
 
 ## A copy
 
-A copy is the real item, so its model, reach, speed, attack and its own right-click power all work (Ice Blade's lances, Spatial
-Blade's blades). It has no engravings, gains no EP and can't evolve. It never breaks.
+A copy is the real item, so its model, reach, speed and its own right-click power all work (Ice Blade's lances, Spatial Blade's
+blades). It has no engravings, gains no EP and can't evolve. It never breaks.
+
+**It hits like the real sword, up to 30 attack.** Mithril and weaker swords don't change. Orichalcum and above stop there, so a
+Hihi'Irokane copy adds 30, not 80, and never outdoes the real Durandal.
 
 It's called "Demonic Iron Katana" ("of Flame", "of Frost", or "Light-Eating Iron Katana"), with a violet sheen and a bar running
 down in its slot.
@@ -148,7 +151,8 @@ From **50% mastery**. They cost nothing extra, and count on the main hand's copy
 
 Blade Line and Blade Ring need a chosen open sword, but not your hands.
 
-- They hit as hard as your attack would with that sword, times the move's share, and carry your element.
+- They hit as hard as your attack would with that sword, up to the same 30 attack from the sword, times the move's share, and
+  carry your element.
 - They hit each target once and toss it up a little.
 - They spare you, your pets and your Tensura allies. Barriers stop them, and they break no blocks.
 - With no ground within 6 blocks under you, a press does nothing and costs nothing.
