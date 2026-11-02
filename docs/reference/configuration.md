@@ -345,6 +345,17 @@ there needs a restart). The lists by rank go Low, Middle, High, then rank 4 and 
 | `holyLightningDamage` / `holyLightningCost` | 12 … 192 / 200 … 60000 | 0+ | Holy Lightning's holy damage and magicule cost per rank |
 | `holyLightningRange` / `holyLightningRadius` | 32.0 / 2.0 | 0–128 / 0–16 | How far it reaches, and how far around the strike it hits |
 | `holyLightningCooldownSeconds` | 5 | 0–3600 | Between strikes |
+| `holyLightningWeakDamagePercent` / `holyLightningWeakCostPercent` | 50 / 20 | 0+ | Decreased Power, % of the strike's damage and cost |
+| `holyLightningWeakRadius` / `holyLightningWeakCooldownSeconds` | 1.25 / 3 | 0–16 / 0–3600 | Its radius and cooldown |
+| `holyLightningStrongDamagePercent` / `holyLightningStrongCostPercent` | 300 / 200 | 0+ | Increased Power, likewise (the cost also prices a try at learning the storm) |
+| `holyLightningStrongRadius` / `holyLightningStrongCooldownSeconds` | 3 / 7 | 0–16 / 0–3600 | Its radius and cooldown |
+| `holyLightningBlastDamagePercent` / `holyLightningBlastCostPercent` | 50 / 20 | 0+ | The Blast: % of the strike's damage a hit, % of its cost a second |
+| `holyLightningBlastRange` | 30 | 0–128 | The beam's reach |
+| `holyLightningStormDamagePercent` / `holyLightningStormCostPercent` | 200 / 1000 | 0+ | The storm: % of the strike's damage a bolt, % of its cost once |
+| `holyLightningStormWaves` | 30 | 1–720 | Its waves, one every 5 s |
+| `holyLightningStormRadius` | 30 | 0–64 | Blocks round you it strikes |
+| `holyLightningStormGroundBolts` | 10 | 0–50 | The most bolts a wave drops on random ground |
+| `hybridHolyLightningRoll` | true | — | A Fallen Angel reborn as a hybrid has one more try at Holy Lightning |
 | `angelDayBonusPercent` / `angelDayRegenPercent` | 25 / 25 | 0–1000 | Heaven's Grace: % more Light Spear damage and % faster magicules under the open daytime sky |
 | `angelHellSlowPercent` | 10 | 0–100 | Hell's Weight: % slower in Hell |
 | `sinInnocent` / `sinGuardian` / `sinPet` / `sinPlayer` / `sinDeadlySkill` | 20 / 10 / 20 / 40 / 60 | 0–100 | Sin for killing a villager or trader, a golem, a pet or subordinate, a player who hadn't hurt the Angel, and for learning a Deadly Sin skill (100 makes an Angel fall) |
@@ -373,6 +384,29 @@ mastered one.
 | `arrowsAtMastery` / `fieldAtMastery` | 0.40 / 0.70 | 0–1 | The mastery share at which Healing Arrows and the Field open |
 | `masteryPerBar` | 5.0 | 0–1000 | Mastery points for each full health bar restored to someone else, before Tensura's gain and `masteryGainMultiplier` |
 | `selfMasteryShare` | 0.25 | 0–1 | The share of that a holder earns healing themselves |
+
+## `[sword_birth]`
+
+[Sword Birth](../sword-birth/index.md). Each pair grows in a straight line from a new holder's value to the mastered one.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `addSwordBirthToReincarnationPool` | true | — | Add Sword Birth to (true) or remove it from (false) Tensura's `startingSkills` at start-up (the only way to get it) |
+| `epShare` | 1.0 | 0–10 | A sword opens at this share of its own EP in Tensura's data, compared with the holder's max EP |
+| `lifeSecondsNew` / `lifeSecondsMastered` | 60 / 180 | 1–3600 | How long a copy lasts, in seconds |
+| `maxCopies` | 2 | 1–36 | How many copies a holder can have at once; one more makes the oldest fade |
+| `priceFloorPercent` / `priceTopPercent` | 1 / 10 | 0–100 | % of max magicules a sword with no EP, and a sword at the holder's own EP, costs |
+| `priceMasteredCut` | 0.5 | 0–1 | How much of the price full mastery takes off |
+| `elementsAtMastery` / `lineAtMastery` / `ringAtMastery` | 0.50 / 0.40 / 0.70 | 0–1 | The mastery share at which the elements, Blade Line and Blade Ring open |
+| `flameSeconds` / `flameBonus` | 5 / 0.20 | 0–600 / 0–10 | How long Flame sets a target alight, and the share of a hit it adds on anything not fire-immune |
+| `frostSeconds` / `frostBonus` | 3 / 0.10 | 0–600 / 0–10 | How long Frost chills a target, and the share of a hit it adds on anything that can freeze |
+| `lightEatingBonus` | 0.50 | 0–10 | The share of a hit Light-Eating adds on a holy foe |
+| `lineLengthNew` / `lineLengthMastered` | 12 / 20 | 1–128 | Blade Line's length, in blocks |
+| `lineShareNew` / `lineShareMastered` | 0.60 / 1.00 | 0–100 | Blade Line's hit, as a share of the holder's attack with the chosen sword |
+| `linePriceTimes` / `lineCooldownSeconds` | 2 / 6 | 0–100 / 0–3600 | Blade Line's price, in times the chosen sword's, and its cooldown in seconds |
+| `ringRadiusNew` / `ringRadiusMastered` | 5 / 8 | 1–64 | Blade Ring's radius, in blocks |
+| `ringShareNew` / `ringShareMastered` | 0.50 / 0.80 | 0–100 | Blade Ring's hit, as a share of the holder's attack with the chosen sword |
+| `ringPriceTimes` / `ringCooldownSeconds` | 3 / 12 | 0–100 / 0–3600 | Blade Ring's price, in times the chosen sword's, and its cooldown in seconds |
 
 ## `[sacred_gears]`
 
@@ -416,6 +450,44 @@ every lower card gives its share of the Ace's numbers by place (the 7 half).
 | `callCooldownSeconds` | 30 | 0–3600 | Before the Seraph can call the same holder again |
 | `travelCostPercent` | 10 | 0–100 | % of a holder's max magicules going to their Seraph costs, paid on arrival |
 | `travelCooldownSeconds` | 60 | 0–3600 | Before a holder can go to their Seraph again |
+
+## `[durandal]`
+
+[Durandal and the Holy Factor](../durandal/index.md).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `holyFactorBirthChancePercent` | 5 | 0–100 | % chance of being born with the Holy Factor, rolled once per player |
+| `waveCostPercent` | 4.0 | 0–100 | % of max magicules a full Holy Wave costs (the shortest charge 60% of it), times up to 2 while wild |
+| `waveCooldownSeconds` | 3 | 0–3600 | Seconds between Holy Waves |
+| `waveRange` | 20.0 | 1–128 | Blocks a Holy Wave flies |
+| `waveBreaksBlocks` | false | — | Whether a Holy Wave breaks the soft blocks in its way and digs the line it runs along (hardness 1.5 or less, no block entities, with `mobGriefing` on) |
+| `holyStrikePercent` | 50 | 0–1000 | Durandal's holy strike, % of the hit, on what holy things hurt and Stray Devils |
+| `wildSplashPercent` | 6.0 | 0–100 | % of max health a wave splashes its wielder for while the aura is wholly wild (never below half) |
+| `masteryPerWave` | 4 | 0–1000 | Durandal mastery (out of 1,000) a wave earns when it hits a foe |
+| `masteryPerHit` | 1 | 0–1000 | Durandal mastery a melee hit earns, once a second at most |
+| `devilBurnPercent` | 1.0 | 0–100 | % of max health a second Durandal burns a wielder whom holy things hurt (0 turns it off) |
+| `devilBurnFloorPercent` | 50 | 0–100 | The burn never takes them below this % of max health |
+| `refusalDamage` | 2.0 | 0–100 | Damage Durandal deals someone who isn't a holy wielder taking it in hand (never below one heart) |
+| `tamedCuts` | true | — | Whether a fully tamed Durandal cuts through Resistances, Nullifications and barriers up to Guardian (Penetrate's level settings set how far) |
+| `tamedCutCostPercent` | 0.5 | 0–100 | % of max magicules a tamed cut costs when it meets one of those defences, once a tick at most |
+
+## `[lore_mode]`
+
+The numbers for [Lore mode](../lore-mode.md). The mode itself is the game rule `dxdLoreMode`, for each world. None of this does
+anything with the rule off.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `boostLimitStartEp` | 100 | 1–1e12 | The max EP that counts 0 Boost stacks; one more stack each time max EP doubles from here, never under the form's cap |
+| `boostCeiling` | 30 | 1–30 | The most Boost stacks anyone holds, the rage stack and the dragon's extras included |
+| `divideCeiling` | 30 | 3–30 | The most Divides on one target |
+| `upkeepPercent` | 0.1 | 0–100 | % of max magicules a Scale Mail costs a second |
+| `bargainSeconds` | 10 | 1–3600 | The longest the Bargain's early Scale Mail lasts |
+| `transferEfficiency` | 1.0 | 0–1 | How much of the Boost's extra power a Transfer gives (1 is the whole ×2ⁿ) |
+| `compressVanishBossPercent` | 50 | 0–100 | The compress vanishes a boss or a player whose max EP is at or under this % of the holder's (0: never) |
+| `replicaPower` | 0.2 | 0–1 | What a Durandal Replica leaves of the Holy Wave and the holy strike |
+| `swordBirthCopies` | 16 | 1–64 | How many of Sword Birth's copies a holder can have at once |
 
 ## Client settings
 

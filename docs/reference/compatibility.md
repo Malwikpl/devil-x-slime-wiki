@@ -13,13 +13,16 @@
 | **Tensura Drowsiness Guard** | Works. Older versions lost this mod's effects on save; that is fixed |
 | **Shader packs** (Iris) | The effects still show. A shader pack's own bloom can make them brighter. Under a shader pack the race wings are drawn the old, slower way (see `gpuModels`). Other looks under shaders are untested |
 | **TR: Nightmare** | Works. Its flight pose is left off players flying on this mod's wings or in a Scale Mail, so they no longer turn upside down. Turn the client setting `flightLean` off to fly upright and let Nightmare's pose take over |
+| **Other mods' structures** | Works. Our structures check what else would generate nearby and keep a dozen blocks clear of it |
 | **Bendy-arm animation mods**, bulky chest armour models | May clip through the rigid gauntlet |
 
 ## Tensura's own skills
 
 - **Clones** (Body Double, Reaper) copy your skills, but their copy of the Boosted Gear starts idle: no stacks, no ×2ⁿ,
-  and never your stored Ascalon.
+  and never your stored Ascalon. A copy of the Durandal skill never carries the sword.
 - **Plundering skills** can't steal any of the Sacred Gears, and copying skills don't copy Albion's power.
+- **Skill and Character Reset Scrolls** take the Holy Factor away, and each gives one fresh
+  [roll](../durandal/index.md#being-born-with-it).
 - **Tensura's race menu** (a Race Reset Scroll, the Reincarnation spell) takes a Sacred Gear from a holder who picks a
   race that isn't human. See [Only in humans](../getting-started/first-gear.md#only-in-humans).
 - **Magic Interference** and dispels end Balance Breaker and Juggernaut Drive.

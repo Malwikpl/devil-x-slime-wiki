@@ -7,6 +7,10 @@ The gauntlet grows with you. It starts as a plain red gauntlet with two gold hor
 finally the Boosted Gear Gift. Further on wait the Scale Mail, the dragon form of Juggernaut Drive, and powers taken from
 its rival, Albion.
 
+!!! info "Lore mode"
+    In a world with [Lore mode](../lore-mode.md) on, your limit comes from your EP, every hit takes the ×2ⁿ, and the
+    Scale Mail takes a stack per press with no time limit. This page describes the normal game.
+
 ## Modes
 
 | # | Mode | Unlocks | What it does |

@@ -176,11 +176,13 @@ seconds. If you can't pay the first 2%, you can't promote to Queen.
     - the Nether;
     - the End;
     - Tensura's labyrinth and boss arena;
-    - inside the [Ascalon church](../boosted-gear/ascalon.md), the
+    - inside a [ruined church](../boosted-gear/ascalon.md), crypt churches too, the
       [White Dragon's colosseum](../world/white-dragon-emperor.md) or a
       [Stray mansion](../world/stray-devils.md#lairs);
 - **anywhere, for 10 minutes,** on the King's **word**, given from the peerage menu ([Rias](rias.md#serving-her)
   gives hers when you ask).
+
+In a world with [Lore mode](../lore-mode.md#promotion) on, Promotion has no wait and a promoted Queen pays nothing.
 
 **When it ends:**
 
@@ -259,7 +261,8 @@ dimension if the King is in another world. You can turn it off with the client s
 
 ## Endings
 
-- **A King who stops being a Devil** releases the whole peerage. That happens with a Race Reset Scroll or a command.
+- **A King who stops being a High-class Devil** releases the whole peerage, and loses the Evil Pieces skill and the case. That
+  happens with a Race Reset Scroll, a command or an evolution out of the Devils.
 - **A servant who stops being a Devil** is released.
 - **A servant released while offline** finds out at their next login. A monster finds out when it loads again.
 - **A monster servant that dies** gives its pieces back.

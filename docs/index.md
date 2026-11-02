@@ -11,8 +11,8 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
-and now has Asia's Twilight Healing, the three races of the Three Factions (Devils with their Evil Pieces, Angels with
-their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growing into the whole DxD world.
+and now has Asia's Twilight Healing, Kiba's Sword Birth, Xenovia's Durandal, the three races of the Three Factions
+(Devils with their Evil Pieces, Angels with their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -55,6 +55,13 @@ their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growi
 
     Asia's silver rings. Heal with a touch, with arrows of light for your allies, and with a field of light around
     you.
+
+-   :material-sword-cross:{ .lg .middle } **[Sword Birth](sword-birth/index.md)**
+
+    ---
+
+    Kiba's gear. Make fading copies of any sword you're strong enough for, hold two, and tear a line or a ring of huge
+    blades out of the ground.
 
 -   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
 
@@ -109,6 +116,20 @@ their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growi
 
     Saint George's dragon-slaying sword, waiting in a ruined church. It can live inside the Boosted Gear.
 
+-   :material-sword:{ .lg .middle } **[Durandal](durandal/index.md)**
+
+    ---
+
+    Xenovia's holy sword, sealed in a crypt, for those with the Holy Factor. Its wave tears along the ground, and once
+    tamed it cuts through anything.
+
+-   :material-book-open-page-variant:{ .lg .middle } **[Lore mode](lore-mode.md)**
+
+    ---
+
+    A game rule for one world: the Longinus gears as strong as in the story, with Boost and Divide by press and no
+    time limit on the Scale Mails.
+
 </div>
 
 <div class="grid" markdown>
@@ -133,7 +154,7 @@ their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growi
 ## Quick start
 
 1. **Install** the mod and its requirements on the client and the server: see [Installation](getting-started/installation.md).
-2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing or Twilight Healing as your Unique Skill (only
+2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing or Sword Birth as your Unique Skill (only
    one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
 3. **Put the skill on an ability slot** in Tensura's Status Menu (default **B**) and press the slot key (**Z**, **X** or
    **C**) to summon your gear.
@@ -149,5 +170,6 @@ their Brave Saints, and Fallen Angels) and the Stray Devils to hunt. It is growi
 
 - Everything in this wiki describes the **latest version** of the mod. Server owners can change almost every number
   in the [configuration](reference/configuration.md); the numbers here are the defaults.
+- [Lore mode](lore-mode.md) is off unless you turn it on. These pages describe the normal game.
 - The mod is built for **Tensura: Reincarnated 2.0.1.3 or newer** on Minecraft **1.21.1** with **NeoForge**.
 - There are hidden **easter eggs** for multiplayer. No spoilers here.

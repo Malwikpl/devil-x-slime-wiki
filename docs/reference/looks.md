@@ -60,12 +60,14 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 
 The gear calls out what it does in bold italic letters that float up and fade, coloured from crimson to green:
 
-- **BOOST!**, **EXPLOSION!**, **RESET** and **DRAGON SHOT!** float beside the gauntlet, on the outside of your arm. A rage
-  burst's quick boosts join into "BOOST! BOOST! BOOST!".
+- **EXPLOSION!**, **RESET** and **DRAGON SHOT!** float beside the gauntlet, on the outside of your arm.
+- Each **BOOST!** booms out on its own at a new spot around you (around the crosshair in your own view), a little tilted,
+  and fades there. A rage burst's quick boosts pop one after another.
 - **TRANSFER!** floats over whoever receives it.
 - The big moments appear over your head in larger letters: **WELSH DRAGON BALANCE BREAKER!**, **DRAGON BOOSTER!**,
   **SECOND LIBERATION!**, **JUGGERNAUT DRIVE!**, **LONGINUS SMASHER!** and **PENETRATE!**.
-- Divine Dividing's **DIVIDE!** floats beside the target, and **VENT!** beside you. In the white Scale Mail a small
+- Divine Dividing's **DIVIDE!** floats beside the target, cut in two through the middle with its halves slightly out of
+  line, and **VENT!** beside you. In the white Scale Mail a small
   **DIVIDE!** comes off you when the armour halves a magic hit or a projectile; **COMPRESS!**, **VANISH!**, **REDUCE!**
   and **REFLECT!** mark its other powers, and **OVERLOAD!** a Transfer that floods its strain gauge.
 - A Brave Saints hand's name rises over everyone in it ("FLUSH!"), with the cards fanned out in gold.
@@ -94,7 +96,7 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 |---|---|
 | Summon | Red sparks drawn into your raised arm; the gauntlet appears with a green flash from the jewel, a red ring and sparks |
 | Dismiss | The gauntlet breaks into crimson motes and a few falling scales as the jewel's light goes out |
-| Boost | The jewel flashes green and a ring of green sparks bursts out. While you hold stacks a red aura rises off you, stronger at 3 and at 5 stacks |
+| Boost | The gauntlet's gems flare bright, and a green flash and a ring of green sparks burst from the jewel; your arm stays where it is. While you hold stacks a red aura rises off you, stronger at 3 and at 5 stacks |
 | Explosion! | A crimson burst with the jewel's green star at its heart, a shockwave along the ground, sparks, and flames around you until it ends. You brace and the camera shakes |
 | Reset | The power sinks down your body, a ring closes in at your feet and dark red smoke puffs out |
 | Transfer | A green-gold stream from your jewel into the target, which glows green and keeps green motes while the boost lasts |
@@ -112,6 +114,9 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Stray Devils | A dark circle as they rise or hop away; a crimson Demonic Power orb from a Bishop; a lair's circle in the hall's floor |
 | Power of Destruction | Rias's power holds a Stray still in a crimson ring, then erases it |
 | Brave Saints | A card sinking into its new holder; gold halos on monster holders; gold circles for calls; light falling for Heaven's Judgement |
+| Holy Lightning | Golden-white bolts, thinner or thicker by the mode; the Blast's jagged beam from your hand; bolts falling all around in the storm |
+| Durandal | Blue-white sparks off a wild blade; the wave's fan of aura and low rumble, debris and a fading fissure of cracks and blue light; a crescent in the air; a flash for a tamed cut; a pillar of light as the seal breaks |
+| Sword Birth | A violet sheen on a copy, breaking into black shards when it fades; huge blades tinted by your element rising through dust, thrown rocks and a violet haze, then crumbling |
 
 ### LambDynamicLights
 

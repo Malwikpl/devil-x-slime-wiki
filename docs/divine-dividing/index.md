@@ -25,8 +25,14 @@ and they **Divide**, halving an enemy's power and taking it for you. It is a Ten
 - **Albion's jewel**, dropped by the [White Dragon Emperor](../world/white-dragon-emperor.md), gives it to a human
   player with no gear.
 - **One Heavenly Dragon per player.** A Boosted Gear holder can't learn Divine Dividing, and the other way round.
+- **Never with the [Holy Factor](../durandal/index.md#the-holy-factor).** The roll leaves the dragons out for a factor
+  holder, and the jewel refuses one.
 - **One Divine Dividing per world.** While someone holds it, the reincarnation roll skips it and nothing else gives it.
   Players who already held it keep it.
+
+!!! info "Lore mode"
+    In a world with [Lore mode](../lore-mode.md) on, each press in the white armour lands one more Divide, up to 30 on one
+    target, on bosses too, and the compress can vanish a boss. This page describes the normal game.
 
 ## Modes
 
@@ -61,7 +67,7 @@ With the wings out you can fly, creative-style (double-tap jump).
 Press it and you **slash your hand** at what you're looking at, up to **8 blocks** away. Blocks stop it; players in
 creative or spectator and armour stands don't count.
 
-A thin white line cuts across your view through the target, light bursts on it, **DIVIDE!** floats beside it and
+A thin white line cuts across your view through the target, light bursts on it, **DIVIDE!**, cut in two, floats beside it and
 blue-white stars scatter. Then, **every 10 seconds**, it is divided again by itself, as long as it stays within
 32 blocks and your wings are out. Each Divide:
 

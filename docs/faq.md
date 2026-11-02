@@ -3,7 +3,7 @@
 ## Getting a gear
 
 ??? question "How do I get a Sacred Gear?"
-    Reincarnate as a **human**: the Boosted Gear, Divine Dividing and Twilight Healing are in Tensura's reincarnation
+    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing and Sword Birth are in Tensura's reincarnation
     roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
     [White Dragon Emperor](world/white-dragon-emperor.md) drops. See
     [Your first Sacred Gear](getting-started/first-gear.md).
@@ -27,7 +27,7 @@
 
 ??? question "The gears never show up in my reincarnation roll."
     Only a human's roll has them. Otherwise the server may have turned them off: check `addToReincarnationPool`,
-    `addDivineDividingToReincarnationPool` and `addTwilightHealingToReincarnationPool` in
+    `addDivineDividingToReincarnationPool`, `addTwilightHealingToReincarnationPool` and `addSwordBirthToReincarnationPool` in
     `config/dxdtensura-server.toml`. The roll is random, with the same odds as every other Unique Skill in it.
 
 ## Boosted Gear
@@ -92,6 +92,46 @@
     Until you master the gear, it heals everyone inside. Fully mastered, only you and your allies. Healing Arrows already
     fade on enemies.
 
+## Sword Birth
+
+??? question "Why can't I pick this sword?"
+    A sword opens when your max EP reaches its own, and the rare ones also need you to have held a real one. The line at the
+    foot of the menu says which. Holy swords never open. See [Which swords](sword-birth/index.md#which-swords).
+
+??? question "How do I hold two copies?"
+    Press Birth while sneaking: it tries your off hand first. Two copies is the most you can have; a third makes the oldest
+    fade.
+
+??? question "My copy vanished."
+    A copy lasts 60 seconds, up to 3 minutes with mastery. It also ends at zero magicules, on death, when dropped and in any
+    container. Press **Q** to dismiss one. See [A copy](sword-birth/index.md#a-copy).
+
+## Durandal and the Holy Factor
+
+??? question "Durandal jolts me and leaves my hand."
+    Only a holy wielder can hold it: someone with the Holy Factor, an Angel, one of Tensura's Saint or Divine races, or a True
+    Hero. Carrying it in your inventory is fine. See [Who can wield it](durandal/index.md#who-can-wield-it).
+
+??? question "How do I get the Holy Factor?"
+    Picking Human or Enlightened Human gives a 5% chance, once, and each Skill or Character Reset Scroll gives one more roll.
+    Otherwise look for a **Holy Factor Crystal**, in one church chest in ten. See
+    [The Holy Factor](durandal/index.md#the-holy-factor).
+
+??? question "Where is Durandal?"
+    In the crypt under one ruined church in three: `/locate structure dxdtensura:ascalon_church_crypt`. The first reliquary
+    opened in a world gives the true sword, and later ones a replica. See [The reliquary](durandal/index.md#the-reliquary).
+
+??? question "This church's skull has no Ascalon."
+    That's a crypt church, which holds only Durandal. Look for the stair in the nave, or another church for Ascalon.
+
+??? question "Can a Boosted Gear holder wield Durandal?"
+    No. A Heavenly Dragon's holder is never a holy wielder, and the Holy Factor never goes with their gear. Other Sacred Gears
+    are fine.
+
+??? question "Durandal's waves hurt me."
+    Its aura is wild until you tame it: use it, and its skill's mastery calms it on the way to 1,000. See
+    [Taming it](durandal/index.md#taming-it).
+
 ## Devils
 
 ??? question "How do I become a Devil?"
@@ -140,7 +180,12 @@
 
 ??? question "I don't have Holy Barrier or Holy Lightning."
     They're rare birth skills: a 10% chance, rolled once per player, the first time you become an Angel (Holy Barrier)
-    or a Fallen Angel (Holy Lightning). See [Birth skills](races/angels.md#birth-skills).
+    or a Fallen Angel (Holy Lightning). A Fallen Angel reborn as a hybrid has one more try at Holy Lightning. See
+    [Birth skills](races/angels.md#birth-skills).
+
+??? question "How do I open the Thunderlight Blast and the Storm?"
+    The Blast opens at Holy Lightning's full mastery, 500 points. The Storm needs High-class, and then you learn it by trying.
+    See [Holy Lightning](races/holy-lightning.md).
 
 ??? question "How do I get the Brave Saints?"
     Reach **Ultimate-class** as an Angel (or become a Seraph): the Brave Saints skill comes with it. Its first press picks
@@ -150,6 +195,26 @@
     Only a human or a pure Angel can take one. Devils, hybrids, Fallen Angels, other races, a King's servants and
     anyone as strong as you refuse, and a Longinus holder needs the Queen or the Ace. See
     [Offering a card](races/brave-saints.md#offering-a-card).
+
+## Lore mode
+
+??? question "How do I turn on Lore mode?"
+    Set Lore Mode in the game rules on the Create World screen, or as an operator use `/gamerule dxdLoreMode true`. It's for
+    one world. See [Lore mode](lore-mode.md).
+
+??? question "Can I turn it off again?"
+    Yes, at any time. It acts at once: extra stacks drop, an armour worn past its normal limit ends, and copies with no timer
+    fade.
+
+## Structures
+
+??? question "A church in my world stands in a lake or half in a hill."
+    Buildings generated before 0.1.92 stay where they are. New land follows the new rules. See
+    [Where they stand](world/structures.md#where-they-stand).
+
+??? question "`/place structure` failed."
+    It follows the same ground rules, so it can fail on bad land. `/place template dxdtensura:<name>` drops the building
+    anywhere.
 
 ## Settings
 

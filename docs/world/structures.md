@@ -2,7 +2,7 @@
 
 Devil x Slime adds four structures to the overworld. The church is rarer than a pillager outpost, the colosseum about
 twice as common as the church, and the Stray mansion a little rarer than the colosseum; the old school building
-stands once per world.
+stands once per world. Since **0.1.92** each one checks its ground first: see [Where they stand](#where-they-stand).
 
 ## Ruined church
 
@@ -20,6 +20,22 @@ world holds the true Ascalon; every other one holds a replica.
 </figure>
 
 See [Ascalon](../boosted-gear/ascalon.md).
+
+### The crypt church
+
+One ruined church in three has a **crypt** under its nave, down a spiral stair, where
+[Durandal](../durandal/index.md#the-reliquary) stands sealed and chained in an altar. A church with a crypt holds only
+Durandal: its dragon's skull is empty, and its lectern's book tells of the blade under the nave. One church chest in ten
+holds a [Holy Factor Crystal](../durandal/index.md#the-holy-factor-crystal).
+
+```
+/locate structure dxdtensura:ascalon_church_crypt
+```
+
+<figure markdown="span">
+  ![A crypt church on a hillside](../assets/images/crypt-church-outside.jpg){ loading=lazy }
+  <figcaption>A crypt church, on the land it checked first.</figcaption>
+</figure>
 
 ## White Dragon Colosseum
 
@@ -57,3 +73,27 @@ The Occult Research Club's old school building, with a clock tower and a walled 
   ![The old school building](../assets/images/rias-school.jpg){ loading=lazy }
   <figcaption>The old school building.</figcaption>
 </figure>
+
+## Stray mansion
+
+A ruined manor in **plains, forests, taiga and meadows**, and the lair of a named beast with its guards. The cellar chest has
+the loot. See [Lairs](stray-devils.md#lairs).
+
+```
+/locate structure dxdtensura:stray_mansion
+```
+
+## Where they stand
+
+Since **0.1.92**, the churches, the old school building, the Stray mansions and the White Dragon's colosseum look at their
+whole footprint before they generate:
+
+- **no water** and **no overhang**;
+- **ground near level:** within 5 blocks of the floor under a church or mansion, 8 under the school or colosseum;
+- **at least a dozen blocks clear** of other structures, other mods' included.
+
+A spot that fails looks around within a few chunks for a better one, so `/locate` can be up to about 90 blocks off.
+
+- **Buildings already in a world stay where they are.** Only new land follows these rules.
+- `/place structure dxdtensura:<name>` follows them too, and can fail on bad land.
+- `/place template dxdtensura:<name>` drops the building anywhere.

@@ -33,6 +33,8 @@ glowing under a hole in the roof.
 - The **first church drawn from in a world gives the true Ascalon**. Every later church gives an **Ascalon Replica**.
 - A Boosted Gear holder with the gauntlet out gets it straight into the gear. Anyone else gets it in hand.
 - The empty skull can then be mined with a pickaxe and kept as a trophy, the **Dragon's Skull**.
+- A church with a [crypt](../world/structures.md#the-crypt-church) holds [Durandal](../durandal/index.md) instead, and its
+  skull is empty.
 
 ## The sword
 

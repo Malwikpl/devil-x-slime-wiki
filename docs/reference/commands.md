@@ -11,7 +11,7 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 | `/dxdtensura albion take [players]` | Takes it away again |
 | `/dxdtensura divinedividing holder` | Names the players who hold Divine Dividing in this world |
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
-| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open |
+| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open |
 | `/dxdtensura sin <player>` | Shows an [Angel](../races/angels.md#sin-and-the-fall)'s hidden sin, 0 to 100 |
 | `/dxdtensura sin <player> set <0-100>` | Sets it, with what that level brings: the warning and the flicker from 50, the fall at 100 |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
@@ -55,6 +55,26 @@ For the [Brave Saints](../races/brave-saints.md). All need operator permission.
 | `/dxdtensura bravesaints suit <player> <suit>` | Sets a Seraph's suit (`spades`, `hearts`, `diamonds` or `clubs`), which only an operator can change |
 | `/dxdtensura bravesaints release <player>` | Releases a holder from their Seraph's deck; the card goes back |
 
+### Durandal and the Holy Factor
+
+For [Durandal and the Holy Factor](../durandal/index.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura holyfactor give <targets> born` | Gives them the Holy Factor |
+| `/dxdtensura holyfactor give <targets> artificial` | Gives them the Artificial Holy Factor |
+| `/dxdtensura holyfactor take <targets>` | Takes either factor away |
+| `/dxdtensura holyfactor reroll <targets>` | One more birth roll; a Human or Enlightened Human rolls now |
+| `/dxdtensura holyfactor durandal reset` | The true Durandal can be found again in this world |
+
+### Lore mode
+
+[Lore mode](../lore-mode.md) is a game rule, so it's vanilla's command, with operator permission:
+
+```
+/gamerule dxdLoreMode true
+```
+
 ## Useful Tensura commands
 
 Tensura's own commands work on Devil x Slime's skills too.
@@ -64,6 +84,7 @@ Tensura's own commands work on Devil x Slime's skills too.
 | `/tensura edit ability grant @s dxdtensura:boosted_gear` | Gives you the Boosted Gear |
 | `/tensura edit ability grant @s dxdtensura:divine_dividing` | Gives you Divine Dividing |
 | `/tensura edit ability grant @s dxdtensura:twilight_healing` | Gives you Twilight Healing |
+| `/tensura edit ability grant @s dxdtensura:sword_birth` | Gives you Sword Birth |
 | `/tensura edit race set @s dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
 | `/tensura edit ability mastery @s dxdtensura:boosted_gear 400` | Sets the mastery: 400 is the Base form, `max` the Boosted Gear Gift, `0` back to Initial |
 | `/ability set dxdtensura:boosted_gear <mode> <slot>` | Puts a mode on an ability slot (1 to 3). See the mode numbers on the [Boosted Gear](../boosted-gear/index.md#modes) and [Divine Dividing](../divine-dividing/index.md#modes) pages |
@@ -72,6 +93,7 @@ Tensura's own commands work on Devil x Slime's skills too.
 
 ```
 /locate structure dxdtensura:ascalon_church
+/locate structure dxdtensura:ascalon_church_crypt
 /locate structure dxdtensura:white_dragon_colosseum
 /locate structure dxdtensura:old_school_building
 /locate structure dxdtensura:stray_mansion

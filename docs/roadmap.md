@@ -44,6 +44,16 @@ world. These are plans, not promises, and the order can change.
 - **[Brave Saints](races/brave-saints.md)** (0.1.84): the Angels' cards, Poker and Blackjack hands, and Heaven's
   Judgement
 - **Faster wings** (0.1.84): the race wings drawn from the graphics card, so a Seraph's twelve no longer cost frames
+- **[Durandal and the Holy Factor](durandal/index.md)** (0.1.92): Xenovia's holy sword, sealed in a crypt under one church
+  in three, with a ground shockwave and a tamed cut through any defence
+- **[Akeno's Thunderlight](races/holy-lightning.md)** (0.1.92): mastery and five modes for Holy Lightning, with the
+  Thunderlight Blast and Storm
+- **[Structures on solid ground](world/structures.md#where-they-stand)** (0.1.92): dry, level land, clear of other
+  structures, other mods' included
+- **A bigger Longinus Smasher** (0.1.92), twice as wide for both dragons
+- **[Sword Birth](sword-birth/index.md)** (0.2.0): Kiba's Sacred Gear, fading copies of swords and blades from the ground
+- **[Lore mode](lore-mode.md)** (0.2.0): a game rule for each world that makes the Longinus gears as strong as in the
+  story
 
 ## Next up
 
@@ -63,15 +73,15 @@ world. These are plans, not promises, and the order can change.
 - **More bosses** to fight, alongside the White Dragon Emperor.
 - **Fenrir**, the god-slaying wolf: only a Divine Dividing holder in Juggernaut Drive can Divide it down into a smaller,
   weaker wolf you can tame.
-- **Holy swords**: Durandal (Xenovia's sword) first, then Excalibur's fragments.
-- **More Sacred Gears**, one at a time. Ideas so far: Sword Birth, Forbidden Balor View.
+- **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
+- **More Sacred Gears**, one at a time. Idea so far: Forbidden Balor View.
+- **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
 - **Light weapons**: Angels and Fallen Angels shape their light into swords and other weapons, not only spears.
 - **Growing into your Pawns**: a Longinus holder who takes 8 Pawns starts with the power of only one, like Issei,
   and unlocks the rest as their body grows stronger.
-- **Lore mode**: a server setting that drops the balancing, so the Longinus gears are as overpowered as in the story.
-  In the Scale Mails, Boost and Divide skip the long wait.
-- **A bigger Longinus Smasher**, and a **Juggernaut Drive that breaks through** the blocks in its way instead of getting
-  stuck.
+- **Stronger pieces in Lore mode**: Evil Pieces that give as much as they do in the story, like a Rook's monstrous
+  strength.
+- **A Juggernaut Drive that breaks through** the blocks in its way instead of getting stuck.
 - **Rias's peerage as NPCs**, starting with Asia.
 
 ## Maybe later

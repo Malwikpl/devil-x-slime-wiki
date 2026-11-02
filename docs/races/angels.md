@@ -206,7 +206,8 @@ Blessing that heals someone. A line in chat tells you as you reach each step.
 Some are born with a rare gift. Each one is rolled **once per player**, ever:
 
 - the first time you become an **Angel**, a **10%** chance of **Holy Barrier**;
-- the first time you become a **Fallen Angel** (from the menu or by falling), a **10%** chance of **Holy Lightning**.
+- the first time you become a **Fallen Angel** (from the menu or by falling), a **10%** chance of **Holy Lightning**. A
+  Fallen Angel reborn as a [hybrid](#hybrids) has one more 10% try at it, once.
 
 If you win, "You were born with" it, as a Tensura Extra Skill. You keep it through a fall, a race reset or an Evil
 Piece.
@@ -228,6 +229,8 @@ strike except you, your pets and your allies.
 
 - **Holy damage** by rank: **12, 24, 48, 96, 192**, plus the holy burn. Armour reduces it. No fire.
 - It costs **200 to 60,000 magicules** by rank, and you can call it **every 5 seconds**.
+- It earns mastery, and has a thin bolt and a thick one from the start, a held beam at full mastery and a storm from
+  High-class. See [Holy Lightning](holy-lightning.md).
 
 <div class="grid" markdown>
 
@@ -285,11 +288,13 @@ Angels feel neither the day nor the night.
 
 ## Holy things
 
-| | Holy Water | Ascalon's holy strike | Tensura's holy damage | The races' light burn |
-|---|---|---|---|---|
-| **Angels and Fallen Angels** | no harm | no harm | no harm | none |
-| **[Hybrids](#hybrids)** | burns | burns | hurts | burns, but never from their own light |
-| **[Devils](devil.md)** | burns | burns | hurts | burns |
+| | Holy Water | Ascalon's holy strike | Durandal's holy strike | Tensura's holy damage | The races' light burn |
+|---|---|---|---|---|---|
+| **Angels and Fallen Angels** | no harm | no harm | no harm | no harm | none |
+| **[Hybrids](#hybrids)** | burns | burns | burns | hurts | burns, but never from their own light |
+| **[Devils](devil.md)** | burns | burns | burns | hurts | burns |
+
+Angels, not Fallen Angels, are **holy wielders**: [Durandal](../durandal/index.md) answers them with no Holy Factor.
 
 ## Evil Pieces and hybrids
 
@@ -305,7 +310,8 @@ are reborn as a **Devil with Fallen Angel blood**: a hybrid, like Akeno.
   only the feathered one folds.
 - They keep the Light Spear as **Fallen Blood**: violet, with a Devil class's damage (6 to 96). Devil's Night and the
   Bishop's bonuses never touch it, and their own light never burns them.
-- They lose Fallen Light, and keep Holy Lightning if they were born with it.
+- They lose Fallen Light, and keep Holy Lightning if they were born with it. If they weren't, the rebirth gives them one
+  more 10% try at it, once.
 - Released from the peerage, they stay a hybrid. A race reset clears the blood.
 
 <figure markdown="span">

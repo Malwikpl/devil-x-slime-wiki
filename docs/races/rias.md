@@ -87,6 +87,7 @@ She chooses from your strengths, from the top of this table down:
 | If you are | She gives you |
 |---|---|
 | A [Twilight Healing](../twilight-healing/index.md) holder worth up to 3, while she has a Bishop | Her Bishop, as Asia was |
+| A [Sword Birth](../sword-birth/index.md) holder worth up to 3, while she has a Knight | Her Knight, as Kiba was |
 | A Longinus holder ([Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md)) | All 8 Pawns |
 | Worth 9, or worth 6 or more with aura and magicules each at least 40% of your EP | Her Queen |
 | Worth up to 5, with 3 attack and 30 max health bare-handed and with no potions | A Rook |

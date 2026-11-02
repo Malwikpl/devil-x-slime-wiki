@@ -80,16 +80,20 @@ nav:
       - Balance Breaker (white Scale Mail): divine-dividing/balance-breaker.md
       - Juggernaut Drive (the white dragon): divine-dividing/juggernaut-drive.md
   - Twilight Healing: twilight-healing/index.md
+  - Sword Birth: sword-birth/index.md
+  - Durandal and the Holy Factor: durandal/index.md
   - Races:
       - Devils: races/devil.md
       - The Peerage: races/peerage.md
       - Rias Gremory: races/rias.md
       - Angels and Fallen Angels: races/angels.md
+      - Holy Lightning: races/holy-lightning.md
       - Brave Saints: races/brave-saints.md
   - World:
       - The White Dragon Emperor: world/white-dragon-emperor.md
       - Stray Devils: world/stray-devils.md
       - Structures: world/structures.md
+  - Lore mode: lore-mode.md
   - Reference:
       - Commands: reference/commands.md
       - Configuration: reference/configuration.md

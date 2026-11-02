@@ -143,6 +143,8 @@ As Majin, Devils are hurt by holiness:
 - **Tensura's holy things** hurt them, for example the Holy Damage effect and Holy Field.
 - **[Ascalon](../boosted-gear/ascalon.md)** burns a Devil who holds it, as it burns a dragon, and its holy strike hits
   Devils.
+- **[Durandal](../durandal/index.md)** refuses a Devil without the Holy Factor and burns one with it, and its holy strike hits
+  Devils.
 - **[Holy Water](#holy-water)** hurts them where it bursts.
 - **[Angels' and Fallen Angels'](angels.md#the-holy-burn) light** (their spears and Holy Lightning) leaves a holy burn.
 
