@@ -87,8 +87,8 @@ The jewel fades 5 minutes after the fight.
 **One Divine Dividing per world.** While someone holds Divine Dividing, the jewel only serves Boosted Gear holders.
 
 **Humans only.** A Sacred Gear is born only in a human, so a Devil, an Angel or any other race can't take Divine
-Dividing from it: "The jewel's light won't settle in you. Albion only takes a human host." A Twilight Healing or
-Sword Birth holder is turned away at once, and so is anyone with the
+Dividing from it: "The jewel's light won't settle in you. Albion only takes a human host." A Twilight Healing,
+Sword Birth or Forbidden Balor View holder is turned away at once, and so is anyone with the
 [Holy Factor](../durandal/index.md#the-holy-factor): "The holy power in you rejects the white dragon." The Boosted Gear's Divide is the same for every race. See
 [Only in humans](../getting-started/first-gear.md#only-in-humans).
 

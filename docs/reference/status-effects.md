@@ -24,6 +24,10 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Veil** | A Nekomata's [Veil](../races/nekomata.md#veil) | You're invisible, though armour still shows, and mobs lose you unless they come within 3 blocks |
 | **Touki** | A [Nekomata's Senjutsu](../races/nekomata.md#touki) | Harder bare-handed blows, less damage taken and 5% more speed while it lasts |
 | **Consumed by Malice** | [Malice](../races/nekomata.md#malice) reaching 100 | The berserk: for 15 s no skills or race key, and you strike the nearest living thing on your own |
+| **Flames Stilled** | A holy hit on a [House Phenex](../races/houses.md#house-phenex) Devil | No regeneration or rebirth for 10 s. A new holy hit starts the time again |
+| **Water Wrapped** | A [House Sitri](../races/houses.md#house-sitri) Devil's Water Serpent | You can barely move or jump, but can still swing and cast, and it can't be drunk away with milk |
+| **Crushing Depths** | A [House Leviathan](../races/houses.md#house-leviathan) Devil's Crushing Depths | 30% slower and barely able to jump, for 1 s |
+| **Sea Dragon** | Being a House Leviathan Devil's [Sea Dragon](../races/houses.md#the-sea-dragon) | Shows the form |
 
 Juggernaut Drive also leaves vanilla and Tensura effects behind: Weakness II, Slowness II, Mining Fatigue, Fragility and
 Paralysis. See [After it](../boosted-gear/juggernaut-drive.md#after-it).

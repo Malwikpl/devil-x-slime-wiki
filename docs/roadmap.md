@@ -57,15 +57,24 @@ world. These are plans, not promises, and the order can change.
 - **[Lore mode](lore-mode.md)** (0.2.0): a game rule for each world that makes the Longinus gears as strong as in the
   story
 
+- **[House powers](races/houses.md)** (0.2.13): a pure-blooded Devil is born of House Bael, Gremory, Phenex, Sitri or Leviathan, by a
+  roll: the Power of Destruction, wings of fire and rebirth, water in living shapes, or the raw sea and a Sea Dragon form
+- **[Forbidden Balor View](balor-view/index.md)** (0.2.13): Gasper's Sacred Gear, a real time stop for what you look at, everything in
+  sight or everything around you
+- **[A Juggernaut Drive that breaks through](boosted-gear/juggernaut-drive.md#the-dragon)** (0.2.13): both dragons break what would stop
+  them as they walk or fly
+- **[Living wings](reference/looks.md#living-wings)** (0.2.13): the race wings move with you and beat with the flight, with softer lines
+  on the feathered ones
+
 ## Next up
 
-- **Bloodline powers for pure-blooded Devils**: the Houses' own powers, like Bael and Gremory's Power of Destruction,
-  Phenex's flames and regeneration and Sitri's water. It's what a race without a Sacred Gear gets instead, and pure
-  Angels and Fallen Angels may get something of their own too.
+- **A city in Hell**: Devil NPCs, a castle, a market and Stray Devil bounties, in Tensura's Hell.
 
 ## After that
 
-- **A city in Hell**: Devil NPCs, a castle, a market and Stray Devil bounties, in Tensura's Hell.
+- **Promotion's armour forms**, right after the city: new Scale Mail forms for a Boosted Gear holder who is a Pawn and promotes, as Issei
+  does. **Illegal Move Triaina** makes the three promotions forms of the armour (Knight speed, Rook power, Bishop blasters), and
+  **Cardinal Crimson Promotion** is the crimson Queen form with all three at once. A player's suggestion.
 - **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
 - **The Joker** (Dulio's wild card), together with **Mutation Pieces**.
 
@@ -75,18 +84,19 @@ world. These are plans, not promises, and the order can change.
 - **Fenrir**, the god-slaying wolf: only a Divine Dividing holder in Juggernaut Drive can Divide it down into a smaller,
   weaker wolf you can tame.
 - **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
-- **More Sacred Gears**, one at a time. Idea so far: Forbidden Balor View.
+- **More Sacred Gears**, one at a time.
 - **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
+- **Forbidden Invade Balor the Beast**: Forbidden Balor View's Balance Breaker.
 - **Named demonic swords from the story** for Sword Birth, like Holy Eraser and Flame Delete, each with its own model.
 - **Light weapons**: Angels and Fallen Angels shape their light into swords and other weapons, not only spears.
 - **Growing into your Pawns**: a Longinus holder who takes 8 Pawns starts with the power of only one, like Issei,
   and unlocks the rest as their body grows stronger.
 - **Stronger pieces in Lore mode**: Evil Pieces that give as much as they do in the story, like a Rook's monstrous
   strength.
-- **A Juggernaut Drive that breaks through** the blocks in its way instead of getting stuck.
 - **Rias's peerage as NPCs**, starting with Asia.
 
 ## Maybe later
 
+- Bloodline powers for pure Angels and Fallen Angels, as the Devil Houses have
 - Physical Evil Pieces: the pieces as real items you can hold, not only picked from a menu
 - Rating Games

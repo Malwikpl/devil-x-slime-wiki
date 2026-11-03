@@ -34,6 +34,8 @@ The first time, the camera films the white dragon rising out of a column of ligh
 
 - **Four times your size**, with the red dragon's stats. It doesn't heal you as it forms.
 - **It flies**: sprint-flying is three times as fast as normal flight.
+- **It breaks what would stop it**, as the [red one does](../boosted-gear/juggernaut-drive.md#the-dragon). In the air that's everything
+  over its feet, since there's nothing to step onto.
 - **Your hand is the dragon's claw**, as in the red one.
 - **Divide grows teeth:** the chain lands **every 2.5 seconds**, each target takes **two more Divides** than your cap
   (five for a master, ÷32), and your strength from Divides goes up to **×32**.
@@ -41,6 +43,11 @@ The first time, the camera films the white dragon rising out of a column of ligh
 - **The strain gauge stops venting.** Albion warns you at 75%. Full, it overloads and the dragon shatters.
 - Your other powers keep working, and the armour's [halving](balance-breaker.md#the-armour-halves) of magic and
   projectiles carries on.
+
+<figure markdown="span">
+  ![The white dragon walking out through a stone wall](../assets/images/dragon-walk.jpg){ loading=lazy }
+  <figcaption>A hole the size of its body, with no drops.</figcaption>
+</figure>
 
 ## The white Longinus Smasher
 

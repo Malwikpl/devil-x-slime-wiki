@@ -84,6 +84,7 @@ Tensura's **Race/Mount Ability** key spreads your wings and gives you **free fli
 - **Angels' wings are white**, with a **gold halo** over your head while they're out. A Seraph's twelve are **gold**.
 - **Fallen Angels' wings are black** and crow-like. Fallen Angels have no halo.
 - **Standing on the ground**, the wings settle into a slight fold, and spread again as you take off.
+- **They move with you**, every feather on its own, and have soft lines: see [Living wings](../reference/looks.md#living-wings).
 - Flight speed, times creative flight, by rank: **0.8×, 1×, 1.2×, 1.5×, 2×**.
 
 <figure markdown="span">

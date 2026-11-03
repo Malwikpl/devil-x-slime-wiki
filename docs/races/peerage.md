@@ -75,7 +75,8 @@ and gives them **60 seconds** to answer.
       Spear.
     - A **Nekomata or Nekoshou** becomes a Devil with their blood, a [hybrid](nekomata.md#evil-pieces-and-hybrids), and keeps
       Senjutsu, the ears and the tails.
-- **A Devil** just takes the piece.
+- **A Devil** just takes the piece. A pure-blooded Devil keeps their [House](houses.md). A Devil reborn by a piece has no House, whoever
+  their King is.
 - These all count as a **no**:
     - walking more than 16 blocks away;
     - logging out;
@@ -249,6 +250,7 @@ wait 10 in-game days.
 - Stepping out of a circle, or being hit, breaks it at no cost.
 - A monster stands still in its circle, and the King is told if a call breaks.
 - No circle opens in Tensura's boss arena or during a cutscene.
+- A Devil with a [House](houses.md) calls in their House's colour and sigil.
 
 ### The King marker
 

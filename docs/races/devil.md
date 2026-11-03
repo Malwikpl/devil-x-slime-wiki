@@ -4,7 +4,7 @@ DxD's Devils as Tensura races. There are five classes, from **Low-class** to **S
 its own on Tensura's evolution screen. All of them are **Majin**, so holy things hurt them.
 
 A Devil spreads black bat wings and flies, fires **Demonic Power**, travels home by **magic circle**, and is stronger at
-night and weaker under the sun.
+night and weaker under the sun. A pure-blooded Devil is also born of one of the great [Houses](houses.md).
 
 <div class="grid" markdown>
 
@@ -60,11 +60,13 @@ Tensura's **Race/Mount Ability** key spreads your black Devil wings with one fla
 
 - **In the air** you fly at once. **On the ground**, double-jump to take off.
 - The wings **stay open** until you press the key again. Then they fold back onto your back and go.
-- They beat while you fly.
+- They move with you and beat with the flight: see [Living wings](../reference/looks.md#living-wings).
 - **They grow with each class**, from 0.8× size at Low-class to 1.2× at Ultimate-class.
 - **Satan-class has six pairs**: the main pair, plus five slimmer ones fanned out from above your head to below your
   feet.
 - Flight gets faster with each class (see the table above).
+- [House Phenex](houses.md#house-phenex) has wings of fire instead, and [House Leviathan](houses.md#house-leviathan) has 2 to 6 pairs by
+  class.
 
 **With a Sacred Gear.** Under either Scale Mail, as Juggernaut Drive's dragon, or with Divine Dividing's wings out, the
 gear's wings show instead of yours.
@@ -111,6 +113,7 @@ Demonic Power's **second mode** opens at **Middle-class**. Switch to it the way 
   dimensions**.
 - It costs **10% of your max magicules**, paid when you arrive, and works **once a minute**.
 - **Moving or being hit** breaks it, and that costs nothing.
+- With a [House](houses.md), it takes your House's colour and sigil.
 - It can't open in **Tensura's boss arena** or during a transformation cutscene.
 
 <figure markdown="span">
@@ -161,6 +164,12 @@ Devil x Slime's own Holy Water. Tensura 2.0.1.3 has none you can throw.
 - **Get it** from the mod's creative tab, or **craft it** from a **water bottle and a gold nugget** (shapeless). An
   Angel's [Blessing](angels.md#blessing-angels) turns the water bottles they carry into Holy Water too.
 
+## House powers
+
+A pure-blooded Devil is born of a House by a roll, with a race skill of its own beside Demonic Power: the Power of Destruction for
+**Bael** and **Gremory**, the Flames of Phenex for **Phenex**, the Waters of Sitri for **Sitri** and the Sea Serpent of the End for
+**Leviathan**. A Devil reborn by an Evil Piece has none. See [House powers](houses.md).
+
 ## Devils and the Sacred Gears
 
 A Sacred Gear is [born only in a human](../getting-started/first-gear.md#only-in-humans), so a Devil from the race menu
@@ -176,5 +185,5 @@ otherworlder their servant. See [The Peerage](peerage.md). To serve a King yours
 
 ## Leaving the race
 
-Demonic Power, Night Sight and Evil Pieces are learned with the race, and you lose them if you change race. A King who
+Demonic Power, Night Sight, your House's skill and Evil Pieces are learned with the race, and you lose them if you change race. A King who
 stops being a Devil releases their whole [peerage](peerage.md#endings).

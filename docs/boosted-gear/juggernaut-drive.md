@@ -63,6 +63,10 @@ Every Drive **heals you to full** as the dragon forms, right after taking its pr
 - **+10 armour, +4 toughness**, more knockback resistance, speed, step height and jump.
 - **It bursts out of tight spaces**, breaking the blocks in its way (except unbreakable ones; it follows the Dragon Shot
   block-breaking setting and `mobGriefing`).
+- **It breaks what would stop it.** As it walks, a wall or cliff too tall to step over gets a hole the size of its body, with no drops.
+  What it can step onto (up to 2 blocks) stays, so hills and stairs work as before. Bedrock, obsidian and blocks that hold items (chests,
+  furnaces) never break. It also stops with `juggernautWalkBreaksBlocks`, `dragonShotBreaksBlocks`, `mobGriefing` or Tensura's
+  `skillGriefing` off, in the Labyrinth and on land a claim mod protects.
 - **The Boost climbs a stack a second**, for free, to **two stacks over your cap** (×256 in the Gift form).
 - **Every bare-handed hit sends a shockwave** through everything around the target, for half the hit.
 - **Your hand is the dragon's claw.** What you held is put away and items can't be used.

@@ -56,6 +56,7 @@ with the rule off.
 | [Durandal](#durandal) | Burns a Devil | No burn, and full strength for the crystal's factor |
 | [Promotion](#promotion) | A 60 s wait, the Queen pays | No wait, the Queen pays nothing |
 | [Sword Birth](#sword-birth) | 2 copies that fade | 16 copies that don't fade with time |
+| [Forbidden Balor View](#forbidden-balor-view) | 2 to 6 s stops | Twice as long, a player still 3 s at most |
 
 ## The Boost
 
@@ -186,9 +187,15 @@ still decide when it works.
 [Sword Birth](sword-birth/index.md) holds up to **16 copies**, and they don't fade with time. A dropped copy still fades, and so does one
 replaced in the same hand or held at death.
 
+## Forbidden Balor View
+
+Every stop of [Forbidden Balor View](balor-view/index.md) lasts **twice as long**, and its panel's seconds say so. A player is still stopped
+for 3 seconds at most.
+
 ## What stays the same
 
 - The Scale Mails' awakening and its countdown, stats, flight, the flat cut, Ddraig's fire and the white halving.
 - The Juggernaut Drives' fuel, life debt and aftermath, though they take the same presses.
 - Reflect and Reduce, the Brave Saints' hands and Twilight Healing's price. The story gives them no numbers.
 - The Evil Pieces' strengths. Stronger pieces in Lore mode are on the [roadmap](roadmap.md).
+- The [House powers](races/houses.md).

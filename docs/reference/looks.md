@@ -56,6 +56,43 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 - Players around you see your poses and effects, but keep their own camera.
 - `cutscenes = false` turns them off for you: you transform at once.
 
+## Living wings
+
+The race wings aren't stiff. Angels', Fallen Angels', Devils', hybrids', Rias's and House Phenex's wings all move, as the Nekomata's ears
+and tails do.
+
+- **On your feet** they sweep back when you run, lag behind your turns, get thrown up when you fall, breathe when you stand still and
+  stretch now and then.
+- **In flight** the beat follows the flight: full strokes hovering, harder climbing, and a near-still glide flat out, with the wings
+  swept back like a falcon's.
+- **Every feather** moves on its own, and a bat wing's blades follow a little.
+- **[Wings of fire](../races/houses.md#house-phenex)** bend along their length even when you stand still, so they read as flames. With a
+  shader pack they stay straight.
+
+**Soft lines.** Angels' and Fallen Angels' wings have soft lines, as a plush toy's, in place of the hard outline. Devils' bat wings keep
+theirs.
+
+`wingMotion = false` turns the motion off for you, and the wings keep the old slow beat.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![Feathered wings at rest](../assets/images/wings-rest.jpg){ loading=lazy }
+  <figcaption>At rest, with the soft lines.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Feathered wings thrown up in a fall](../assets/images/wings-falling.jpg){ loading=lazy }
+  <figcaption>Thrown up in a fall.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Wings of fire with their tongues bent](../assets/images/wings-fire-bent.jpg){ loading=lazy }
+  <figcaption>Wings of fire, their tongues bending.</figcaption>
+</figure>
+
+</div>
+
 ## Callouts
 
 The gear calls out what it does in bold italic letters that float up and fade, coloured from crimson to green:
@@ -107,7 +144,7 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Penetrate | A crimson crack where the hit breaks through |
 | Divide | A thin white line across your view through the target, a burst of light and blue-white stars |
 | Demonic Power | A dark crimson orb that bursts on what it hits |
-| Magic circle | A crimson circle with a sigil opens under you while it hums, and you arrive at your respawn point |
+| Magic circle | A crimson circle with a sigil opens under you while it hums, in your House's colours if you have one, and you arrive at your respawn point |
 | Demonic Blast | A crimson-black orb twice the size that explodes where it hits |
 | The white dragon | Wings of starry blue light edged with white blades; the core blazes as the white Longinus Smasher charges, and its jewels and eyes turn violet in the berserk |
 | Twilight Healing | Silver rings on both hands; green light from the hands to the one you heal; a bow and arrows of green light; the Healing Field's ring with motes rising inside |
@@ -118,6 +155,11 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | Durandal | Blue-white sparks off a wild blade; the wave's fan of aura and low rumble, debris and a fading fissure of cracks and blue light; a crescent in the air; a flash for a tamed cut; a pillar of light as the seal breaks |
 | Nekomata | Ears and tails that move with you; a ring under an air step; Touki's white aura; a white bolt; wheels of orange, white or black flame rolling along the ground; a dark violet mist; a patch of mud welling up; a Veil's wisps, which only you see; copies stepping out and popping in dark smoke; a dark burst for the berserk |
 | Sword Birth | A violet sheen on a copy, breaking into black shards when it fades; huge blades tinted by your element rising through dust, thrown rocks and a violet haze, then crumbling |
+| Forbidden Balor View | Two red lights at the holder's eyes; a red clock ring behind the head, or on the ground under an Evil Eye's target; stopped things drained to a cold grey-violet; red screen edges, and grey on a big stop; small dark bats for the Vampire line |
+| House Bael and Gremory | A black ball rimmed in red, with small fast bullets; a red shell for the Guard; Extinguished Star's huge sphere and its burst; twelve spheres homing in for Ruin the Extinct |
+| House Phenex | Wings of moving flame, bright even at midnight; bolts of flame, a ring of fire and a burning column under smoke; a pillar of flame for a rebirth |
+| House Sitri | A hawk, a serpent, lions and a dragon of bright water; a wall of water or ice; a barbed spear of ice and crystals round who it freezes; a wave of frost, great spikes and spires for Celsius Cross Trigger |
+| House Leviathan | Dark water with white foam: a pool over a target, waves and a towering flood; the long Sea Dragon and its blue-black breath |
 
 ### LambDynamicLights
 
@@ -136,4 +178,5 @@ big moments flash.
 | `modelStyle` | `NEW` | `NEW` or `CLASSIC` models |
 | `modelStyleAsked` | `false` | Whether the model style screen has been answered; set it to `false` to be asked again |
 | `flightLean` | `true` | Lean into the flight on the mod's wings or in a Scale Mail; off, you fly upright (and TR: Nightmare's pose can take over) |
+| `wingMotion` | `true` | [Living wings](#living-wings): the race wings answer your movement; off, they keep the old slow beat |
 | `gpuModels` | `true` | Draw the race wings from the graphics card, far faster; off, the old way |

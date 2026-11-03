@@ -121,6 +121,7 @@ Juggernaut Drive and the Longinus Smasher.
 | `smasherRange` / `smasherRadius` | 64 / 10.0 | 8–256 / 0.5–16 | The beam, both dragons' (it bores a tunnel 0.8 of its radius; its blast and the flash at the chest grow with it) |
 | `smasherCostPercent` | 10.0 | 0–100 | % of max magicules a shot costs (the rest burns spiritual health) |
 | `juggernautArmor`, `juggernautToughness`, `juggernautKnockbackResistance`, `juggernautSpeed`, `juggernautStepHeight`, `juggernautJumpStrength`, `juggernautSafeFall`, `juggernautReach` | 10, 4, 0.5, 0.06, 1.5, 0.2, 20, 6 | — | What the dragon adds |
+| `juggernautWalkBreaksBlocks` | true | — | Both dragons break what would stop them as they walk or fly, with no drops; also needs `dragonShotBreaksBlocks` and the `mobGriefing` and `skillGriefing` rules on |
 | `incantationLine1` … `incantationLine5` | the English lines | — | The accepted ways to type each line (edit or translate them) |
 
 ## `[divine_dividing]`
@@ -249,6 +250,72 @@ The [Devil race](../races/devil.md)'s powers. The races' own stats, EP ranges an
 | `magicCircleCostPercent` | 10 | 0–100 | % of max magicules it costs, paid on arrival |
 | `magicCircleCooldownSeconds` | 60 | 0–86400 | After arriving |
 | `holyWaterDamage` | 8 | 0+ | Holy Water's holy damage at the centre of its splash (half at the edge) |
+
+## `[houses]`
+
+The [House powers](../races/houses.md) of pure-blooded Devils. Damage and cost go in orbs, multiples of the class's Demonic Power orb.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `houseRollOdds` | 20, 30, 30, 10, 10 | 0+ | Each House's share of the birth roll: Bael, Phenex, Sitri, Leviathan, Gremory |
+| `gremoryDamagePercent` | 15 | 0+ | How much harder House Gremory's Power of Destruction hits than House Bael's |
+| `destructionScaleFloorPercent` | 10 | 0–10000 | How weak Destruction can get against someone with more EP, % |
+| `destructionOrbDamage`, `destructionOrbCost` | 1.5, 2 | 0–10000 | The Destruction Orb, in orbs |
+| `destructionOrbCooldown` | 2 | 0–3600 | The Destruction Orb's cooldown, seconds |
+| `destructionBulletDamage`, `destructionBulletCost` | 0.4, 0.25 | 0–10000 | One Destruction Bullet, in orbs |
+| `destructionGuardUpkeep`, `destructionGuardErase` | 0.1, 1 | 0–10000 | Destruction Guard each second and each thing it erases or hit it refuses, in orbs |
+| `destructionGuardCooldown` | 3 | 0–3600 | Destruction Guard's cooldown after it ends, seconds |
+| `starDamage`, `starCost` | 8, 10 | 0–10000 | Extinguished Star, in orbs |
+| `starCooldown` | 60 | 0–3600 | Extinguished Star's cooldown, seconds |
+| `starBurstRadius` | 6 | 0–10000 | How far its burst reaches, blocks |
+| `starSpiritPercent` | 25 | 0–10000 | The share of its damage also taken from spirit health, % |
+| `starVanishEpPercent` | 70 | 0–100 | It erases a mob at or under this % of the Devil's EP; 0 for never |
+| `starCraterRadius` | 2.5 | 0–10000 | Its crater's radius, blocks; 0 for none |
+| `ruinDamage`, `ruinCost` | 1, 20 | 0–10000 | One sphere's damage and the whole cast's cost, in orbs |
+| `ruinSpheres` | 12 | 0–3600 | How many spheres fly |
+| `ruinRange` | 32 | 0–10000 | How far it finds foes, blocks |
+| `ruinCooldown` | 120 | 0–3600 | Its cooldown, seconds |
+| `phenexRegenPercents` | 5, 5, 8, 10, 15 | list | Regeneration, % of max health a second, by class |
+| `phenexRegenBarCostPercent` | 30 | 0–10000 | Healing a whole bar costs this % of max magicules, in proportion |
+| `phenexRebirthPrices` | 30, 45, 60, 80 | list | A rebirth's price in % of max magicules, for each in a row; the last stays |
+| `phenexRebirthResetMinutes` | 5 | 0–1440 | Quiet minutes that start the price over |
+| `phenexRebirthOverwhelmTimes` | 10 | 0–10000 | An attacker with this many times your max EP kills for real |
+| `phenexRebirthHealthPercent` | 50 | 0–10000 | A rebirth comes back at this % of max health |
+| `phenexRebirthBurstDamage` | 2 | 0–10000 | The rebirth's burst, in orbs |
+| `phenexShutSeconds` | 10 | 0–3600 | How long a holy hit stills the flames, seconds |
+| `phenexWingsOutSeconds` | 5 | 0–3600 | How long the wings stay out, seconds |
+| `phenexWingsColdHitPercent` | 10 | 0–10000 | A cold or water hit of this % of max health puts them out |
+| `flameShotDamage`, `flameShotCost` | 1.2, 1.5 | 0–10000 | Flame Shot, in orbs |
+| `flameShotCooldown` | 1 | 0–3600 | Its cooldown, seconds |
+| `flameBurstDamage`, `flameBurstCost` | 2, 3 | 0–10000 | Flame Burst, in orbs |
+| `flameBurstCooldown` | 8 | 0–3600 | Its cooldown, seconds |
+| `phoenixTearCostPercent` | 30 | 0–10000 | Making a Phoenix Tear, % of max magicules |
+| `phoenixTearCooldown` | 600 | 0–86400 | Its cooldown, seconds |
+| `firestormDamage`, `firestormCost` | 3, 15 | 0–10000 | Firestorm's damage a second and its cost, in orbs |
+| `firestormCooldown` | 60 | 0–3600 | Its cooldown, seconds |
+| `sitriNearPercent`, `sitriNearBlocks` | 25, 8 | 0–100, 0–729 | House Sitri's near-water bonus, and how many water blocks within 4 blocks count as near |
+| `waterHawkDamage`, `waterHawkCost`, `waterHawkCooldown` | 1.2, 1.5, 1 | 0–10000, 0–10000, 0–3600 | Water Hawk: orbs, orbs, seconds |
+| `waterSerpentDamage`, `waterSerpentCost`, `waterSerpentCooldown` | 0.5, 3, 10 | 0–10000, 0–10000, 0–3600 | Water Serpent: orbs a second, orbs, seconds |
+| `waterSerpentSeconds`, `waterSerpentBossSeconds` | 3, 1 | 0–600 | How long it holds someone, and a boss |
+| `waterWallCost`, `waterWallCooldown`, `waterWallSeconds` | 2, 12, 8 | 0–10000, 0–3600, 0–600 | Water Wall: orbs, seconds, how long it stands |
+| `waterLionDamage`, `waterLionCost`, `waterLionCooldown` | 2, 5, 15 | 0–10000, 0–10000, 0–3600 | Water Lions: each lion's orbs, orbs for all three, seconds |
+| `waterDragonDamage`, `waterDragonCost`, `waterDragonCooldown` | 5, 8, 45 | 0–10000, 0–10000, 0–3600 | Water Dragon: orbs, orbs, seconds |
+| `iceLanceDamage`, `iceLanceCost`, `iceLanceCooldown` | 1.5, 3, 20 | 0–10000, 0–10000, 0–3600 | Ice Lance: orbs, orbs, seconds |
+| `iceLanceFrostSeconds`, `iceLanceFrostPlayerSeconds` | 3, 1.5 | 0–600 | Its Frost on a mob, and on a player |
+| `celsiusDamage`, `celsiusCost`, `celsiusCooldown` | 4, 25, 120 | 0–10000, 0–10000, 0–3600 | Celsius Cross Trigger: orbs, orbs, seconds |
+| `celsiusSeconds`, `celsiusRadius` | 8, 24 | 0–600, 0–256 | How long the frozen ground lasts, and how far it reaches |
+| `celsiusFrostSeconds`, `celsiusFrostPlayerSeconds` | 6, 3 | 0–600 | Its Frost on a mob, and on a player |
+| `leviathanMagiculePercent` | 25 | 0–1000 | House Leviathan's extra max magicules, percent |
+| `leviathanSeaPercent`, `leviathanHellPercent` | 50, 30 | 0–1000, 0–100 | How much harder its powers hit in an ocean, and how much weaker in Hell |
+| `crushingDamage`, `crushingCost`, `crushingCooldown` | 1.3, 1.5, 2 | 0–10000, 0–10000, 0–3600 | Crushing Depths: orbs, orbs, seconds |
+| `crushingRange`, `crushingSeconds` | 24, 1 | 0–256, 0–600 | How far it reaches, and how long it presses |
+| `surgeDamage`, `surgeCost`, `surgeCooldown` | 2, 3, 6 | 0–10000, 0–10000, 0–3600 | Surge: orbs, orbs, seconds |
+| `seaCallCost`, `seaCallCooldown`, `seaCallSeconds` | 4, 60, 30 | 0–10000, 0–3600, 0–3600 | Call of the Sea: orbs, seconds, how long they attack |
+| `seaCallSummons` | 4 | 0–32 | How many creatures a Call makes sure of: it brings the rest, half as many again at sea. 0 brings none |
+| `floodDamage`, `floodSecondDamage`, `floodCost`, `floodCooldown` | 3, 1, 15, 60 | 0–10000, 0–10000, 0–10000, 0–3600 | The Flood: orbs at the first touch, orbs a second while carried, orbs, seconds |
+| `seaDragonBite`, `seaDragonBreath` | 3, 6 | 0–10000 | The Sea Dragon's bite, and its Breath a second, in orbs |
+| `seaDragonPricePercent`, `seaDragonSeaPricePercent` | 2, 1 | 0–100 | What the form costs a second, percent of max magicules, away from and at sea |
+| `seaDragonDryCooldown`, `seaDragonEndCooldown` | 300, 60 | 0–86400 | Its cooldown after running dry, and after ending it yourself, seconds |
 
 ## `[peerage]`
 
@@ -409,6 +476,32 @@ mastered one.
 | `ringShareNew` / `ringShareMastered` | 0.50 / 0.80 | 0–100 | Blade Ring's hit, as a share of the holder's attack with the chosen sword |
 | `ringPriceTimes` / `ringCooldownSeconds` | 3 / 12 | 0–100 / 0–3600 | Blade Ring's price, in times the chosen sword's, and its cooldown in seconds |
 
+## `[balor_view]`
+
+[Forbidden Balor View](../balor-view/index.md). Lore mode's factor is `balorTimeFactor` in [`[lore_mode]`](#lore_mode).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `addBalorViewToReincarnationPool` | true | — | Add Forbidden Balor View to (true) or remove it from (false) Tensura's `startingSkills` at start-up (the only way to get it) |
+| `timeNewSeconds` / `timeMasteredSeconds` | 2 / 6 | 0.1–600 | How long a stop lasts at no mastery and at full mastery, on a target no stronger than the holder |
+| `noStopRatio` | 5 | 1–1,000,000 | A target with this many times the holder's max EP or more can't be stopped; below it the time shrinks in proportion |
+| `playerMaxSeconds` | 3 | 0.1–60 | The longest a player is stopped, Lore mode included |
+| `eyeRange` / `viewRange` | 32 / 24 | 1–256 | Evil Eye's and Forbidden View's reach, in blocks |
+| `viewHalfAngle` | 45 | 1–90 | Forbidden View's cone, as half its width in degrees |
+| `worldRadius` | 20 | 1–128 | Stop the World's radius, in blocks |
+| `vampireWorldRadius` | 30 | 1–128 | Stop the World's radius for the Vampire line, in blocks |
+| `maxTargets` | 128 | 1–1024 | The most targets one stop catches, nearest first |
+| `eyePricePercent` / `viewPricePercent` / `worldPricePercent` | 5 / 15 / 30 | 0–100 | % of max magicules each mode costs, up front |
+| `eyeCooldownSeconds` / `viewCooldownSeconds` / `worldCooldownSeconds` | 30 / 60 / 120 | 0–3600 | Each mode's cooldown at no mastery |
+| `masteredCooldownCut` | 0.5 | 0–1 | How much of every cooldown full mastery takes off |
+| `viewAtMastery` / `worldAtMastery` | 0.40 / 0.70 | 0–1 | The mastery share at which Forbidden View and Stop the World open |
+| `misfireBelowMastery` | 0.40 | 0–1 | A misfire can happen under this mastery share; 0 turns misfires off |
+| `misfireHealthShare` | 0.30 | 0–1 | The share of max health a hit must take the holder from above to below to set it off |
+| `misfireGapSeconds` | 60 | 0–3600 | The least time between two misfires |
+| `heldKnockbackCap` | 2.5 | 0.1–10 | The most a stopped target is thrown sideways when its stop ends, in blocks a tick |
+| `restShare` | 1.0 | 0–10 | How long a target rests after a stop, as a share of how long it was stopped; no press or misfire catches it then. 0 turns it off for mobs |
+| `restPlayerSeconds` | 3 | 0–600 | The least a player rests after a stop, in seconds |
+
 ## `[sacred_gears]`
 
 | Option | Default | Range | Meaning |
@@ -556,6 +649,7 @@ anything with the rule off.
 | `compressVanishBossPercent` | 50 | 0–100 | The compress vanishes a boss or a player whose max EP is at or under this % of the holder's (0: never) |
 | `replicaPower` | 0.2 | 0–1 | What a Durandal Replica leaves of the Holy Wave and the holy strike |
 | `swordBirthCopies` | 16 | 1–64 | How many of Sword Birth's copies a holder can have at once |
+| `balorTimeFactor` | 2.0 | 0.1–100 | How many times longer a Forbidden Balor View stop lasts; a player is still stopped for `playerMaxSeconds` at most |
 
 ## Client settings
 
@@ -575,4 +669,5 @@ Slime → Config.
 | `handRow` | true | With a Brave Saint card or a deck, show the hand you could play (or the wait) at the bottom left |
 | `seraphMarker` | true | As a Brave Saint, show where your Seraph is at the top of the screen |
 | `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
+| `wingMotion` | true | Living wings: the race wings answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat |
 | `gpuModels` | true | Draw the race wings from a copy kept on the graphics card: the same look, far faster. Turn it off if they look wrong with another mod. Iris shader packs always get the old way |

@@ -11,9 +11,9 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
-and now has Asia's Twilight Healing, Kiba's Sword Birth, Xenovia's Durandal, the three races of the Three Factions
-(Devils with their Evil Pieces, Angels with their Brave Saints, and Fallen Angels), Koneko's cat Youkai and the Stray
-Devils to hunt. It is growing into the whole DxD world.
+and now has Asia's Twilight Healing, Kiba's Sword Birth, Gasper's Forbidden Balor View, Xenovia's Durandal, the three
+races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
+Angels), Koneko's cat Youkai and the Stray Devils to hunt. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -65,12 +65,26 @@ Devils to hunt. It is growing into the whole DxD world.
     Kiba's gear. Make fading copies of any sword you're strong enough for, hold two, and tear a line or a ring of huge
     blades out of the ground.
 
+-   :material-eye:{ .lg .middle } **[Forbidden Balor View](balor-view/index.md)**
+
+    ---
+
+    Gasper's Evil Eye. What you look at stops dead, hanging in the air, until its time is up. Then everything in sight,
+    then everything around you.
+
 -   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
 
     ---
 
     Play as a Devil, from Low-class to Satan-class: bat wings, Demonic Power, a magic circle home, and a weakness to holy
     things.
+
+-   :material-fire:{ .lg .middle } **[House powers](races/houses.md)**
+
+    ---
+
+    A pure-blooded Devil is born of House Bael, Gremory, Phenex, Sitri or Leviathan: the Power of Destruction, wings of
+    fire and rebirth, water in living shapes, or the raw sea.
 
 -   :material-chess-queen:{ .lg .middle } **[The Peerage](races/peerage.md)**
 
@@ -163,8 +177,8 @@ Devils to hunt. It is growing into the whole DxD world.
 ## Quick start
 
 1. **Install** the mod and its requirements on the client and the server: see [Installation](getting-started/installation.md).
-2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing or Sword Birth as your Unique Skill (only
-   one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
+2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth or Forbidden Balor View as
+   your Unique Skill (only one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
 3. **Put the skill on an ability slot** in Tensura's Status Menu (default **B**) and press the slot key (**Z**, **X** or
    **C**) to summon your gear.
 4. **Use it.** Every use earns mastery, and mastery unlocks the rest. [Your first Sacred Gear](getting-started/first-gear.md)

@@ -87,6 +87,7 @@ She chooses from your strengths, from the top of this table down:
 | If you are | She gives you |
 |---|---|
 | A [Twilight Healing](../twilight-healing/index.md) holder worth up to 3, while she has a Bishop | Her Bishop, as Asia was |
+| A [Forbidden Balor View](../balor-view/index.md) holder worth up to 3, while she has a Bishop | Her Bishop, as Gasper was |
 | A [Sword Birth](../sword-birth/index.md) holder worth up to 3, while she has a Knight | Her Knight, as Kiba was |
 | A [Nekomata or Nekoshou](nekomata.md) worth up to 5, while she has a Rook | Her Rook, as Koneko is |
 | A Longinus holder ([Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md)) | All 8 Pawns |

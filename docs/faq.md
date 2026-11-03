@@ -3,7 +3,7 @@
 ## Getting a gear
 
 ??? question "How do I get a Sacred Gear?"
-    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing and Sword Birth are in Tensura's reincarnation
+    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth and Forbidden Balor View are in Tensura's reincarnation
     roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
     [White Dragon Emperor](world/white-dragon-emperor.md) drops. See
     [Your first Sacred Gear](getting-started/first-gear.md).
@@ -27,7 +27,8 @@
 
 ??? question "The gears never show up in my reincarnation roll."
     Only a human's roll has them. Otherwise the server may have turned them off: check `addToReincarnationPool`,
-    `addDivineDividingToReincarnationPool`, `addTwilightHealingToReincarnationPool` and `addSwordBirthToReincarnationPool` in
+    `addDivineDividingToReincarnationPool`, `addTwilightHealingToReincarnationPool`, `addSwordBirthToReincarnationPool` and
+    `addBalorViewToReincarnationPool` in
     `config/dxdtensura-server.toml`. The roll is random, with the same odds as every other Unique Skill in it.
 
 ## Boosted Gear
@@ -60,6 +61,11 @@
     Each Juggernaut Drive takes 10% of your max health for good (down to half), and each Divide in the Boosted Gear takes
     2% (that part grows back). Becoming a dragon race (Dragonewt and up) clears it. See
     [The price](boosted-gear/juggernaut-drive.md#the-price).
+
+??? question "The dragon wrecks everything it walks into. Can I stop that?"
+    It breaks what would stop it, with no drops, as both dragons do. Set `juggernautWalkBreaksBlocks` to false to turn it off. It
+    also stops with `dragonShotBreaksBlocks`, `mobGriefing` or Tensura's `skillGriefing` off, in the Labyrinth and on claimed land. See
+    [The dragon](boosted-gear/juggernaut-drive.md#the-dragon).
 
 ??? question "My gauntlet won't summon."
     After a Juggernaut Drive the gear goes silent for 10 minutes. The panel counts the minutes down.
@@ -105,6 +111,25 @@
 ??? question "My copy vanished."
     A copy lasts 60 seconds, up to 3 minutes with mastery. It also ends at zero magicules, on death, when dropped and in any
     container. Press **Q** to dismiss one. See [A copy](sword-birth/index.md#a-copy).
+
+## Forbidden Balor View
+
+??? question "I pressed it and nothing happened."
+    Read the action bar. "Nothing in your sight." means nothing was caught, "shrugs off your gaze" means the target has 5 times your
+    EP or more, and "Time hasn't caught up with it yet." means it's [resting](balor-view/index.md#the-rest) from its last stop. None of
+    them costs anything or starts the cooldown.
+
+??? question "It stopped my friends and pets!"
+    That's a [misfire](balor-view/index.md#misfires). Until 40% mastery, a hit that drops you below 30% health can open the eye by
+    itself. A press of your own always spares them.
+
+??? question "Why don't I have bats?"
+    They're for a holder of Tensura's [Vampire line](balor-view/index.md#the-vampire-line), as Gasper's come from his vampire half.
+    Everyone else has Stop the World with no bats, at 20 blocks instead of 30.
+
+??? question "Can I stop a boss?"
+    Yes, unless it has 5 times your EP or more. There's no list of bosses: the stronger it is, the shorter it stops. See
+    [How long a stop lasts](balor-view/index.md#how-long-a-stop-lasts).
 
 ## Durandal and the Holy Factor
 
@@ -162,6 +187,35 @@
 ??? question "My wings won't open."
     Use Tensura's **Race/Mount Ability** key, not a skill slot. While you wear a Scale Mail or have Divine Dividing's
     wings out, the gear's wings show instead.
+
+## House powers
+
+??? question "How do I get a House?"
+    Pick a Devil race in Tensura's race menu, and you're born of one by a roll. Devils already in a world roll at their next login. See
+    [The roll](races/houses.md#the-roll).
+
+??? question "Can I pick my House?"
+    No. It's Phenex 30%, Sitri 30%, Bael 20%, Gremory 10% and Leviathan 10%. Death, evolution and a Race Reset Scroll keep it, and a
+    Character Reset Scroll rolls again.
+
+??? question "I took an Evil Piece and have no House."
+    A Devil reborn by a piece has none, and neither does a hybrid. Only a pure-blooded Devil has one, and a pure Devil who takes a
+    piece keeps theirs. See [Who has one](races/houses.md#who-has-one).
+
+??? question "Why is my top power still locked?"
+    Mastery isn't always enough. Extinguished Star, Firestorm, Celsius Cross Trigger and the Sea Dragon also need Ultimate-class, and
+    Ruin the Extinct needs Satan-class.
+
+??? question "My wings of fire went out and I fell."
+    A holy hit, Tensura's Frost, or a cold or water hit of at least 10% of your max health puts them out for 5 seconds. Wings that were
+    open come back by themselves. See [House Phenex](races/houses.md#house-phenex).
+
+??? question "I died for real as a Phenex."
+    Rebirth needs the magicules, and its price climbs from 30% to 80% with each rebirth within 5 minutes. A holy hit in the last 10
+    seconds, a foe with 10 times your max EP, `/kill` and the void also kill for real.
+
+??? question "Where do I get a Phoenix Tear?"
+    Only a House Phenex Devil makes one, from a water bottle, at 50% mastery. There's no recipe, loot or trade. Anyone can drink it.
 
 ## Angels and Fallen Angels
 
@@ -259,6 +313,18 @@
 ??? question "My fps drops with wings out."
     Update to 0.1.84 or newer: the wings are drawn from the graphics card now. If they look wrong with another mod,
     turn the client setting `gpuModels` off.
+
+??? question "Can I turn the wings' motion off?"
+    Yes: turn off **Living wings** (`wingMotion`) in the client settings, and they keep the old slow beat. See
+    [Living wings](reference/looks.md#living-wings).
+
+??? question "A pose or sound went missing after I died or went through a portal."
+    Update to 0.2.13. Each player's looks were kept by an id that a respawn or a new dimension reuses, so a pose could fail to start, the
+    wings could twitch once after a death, and Twilight Healing's Touch could go silent after a portal.
+
+??? question "I crashed on joining a world: `Value missing: dxdtensura:twilight_healing`."
+    Update to 0.2.13. When several addons registered their skills at the same moment during startup, one could go missing with no error.
+    The fix protects every addon in the pack.
 
 ??? question "I fly upside down with TR: Nightmare."
     Fixed in 0.1.77. To use Nightmare's own flight pose instead of ours, turn the client setting `flightLean` off.

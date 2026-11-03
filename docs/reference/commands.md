@@ -11,7 +11,7 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 | `/dxdtensura albion take [players]` | Takes it away again |
 | `/dxdtensura divinedividing holder` | Names the players who hold Divine Dividing in this world |
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
-| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open |
+| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open. Forbidden Balor View: mastered, with Forbidden View and Stop the World open |
 | `/dxdtensura sin <player>` | Shows an [Angel](../races/angels.md#sin-and-the-fall)'s hidden sin, 0 to 100 |
 | `/dxdtensura sin <player> set <0-100>` | Sets it, with what that level brings: the warning and the flicker from 50, the fall at 100 |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
@@ -80,6 +80,17 @@ For the [Nekomata and Nekoshou](../races/nekomata.md). All need operator permiss
 | `/dxdtensura malice <player>` | Shows their [Malice](../races/nekomata.md#malice), 0 to 100 |
 | `/dxdtensura malice <player> set <0-100>` | Sets it |
 
+### House powers
+
+For the [House powers](../races/houses.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura house get <player>` | Says which House they have |
+| `/dxdtensura house set <targets> <house>` | Gives them a House, `bael`, `phenex`, `sitri`, `leviathan` or `gremory`. It works on a Devil reborn by a piece too |
+| `/dxdtensura house clear <targets>` | Takes the House away; a pure Devil rolls again |
+| `/dxdtensura house reroll <targets>` | Rolls a new House |
+
 ### Lore mode
 
 [Lore mode](../lore-mode.md) is a game rule, so it's vanilla's command, with operator permission:
@@ -98,6 +109,7 @@ Tensura's own commands work on Devil x Slime's skills too.
 | `/tensura edit ability grant @s dxdtensura:divine_dividing` | Gives you Divine Dividing |
 | `/tensura edit ability grant @s dxdtensura:twilight_healing` | Gives you Twilight Healing |
 | `/tensura edit ability grant @s dxdtensura:sword_birth` | Gives you Sword Birth |
+| `/tensura edit ability grant @s dxdtensura:forbidden_balor_view` | Gives you Forbidden Balor View |
 | `/tensura edit race set @s dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
 | `/tensura edit ability mastery @s dxdtensura:boosted_gear 400` | Sets the mastery: 400 is the Base form, `max` the Boosted Gear Gift, `0` back to Initial |
 | `/ability set dxdtensura:boosted_gear <mode> <slot>` | Puts a mode on an ability slot (1 to 3). See the mode numbers on the [Boosted Gear](../boosted-gear/index.md#modes) and [Divine Dividing](../divine-dividing/index.md#modes) pages |
