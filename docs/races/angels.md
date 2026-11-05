@@ -102,8 +102,8 @@ switch its modes the way you switch the gears' modes.
 
 | Skill | Race | Modes |
 |---|---|---|
-| **Heaven's Light** | Angels | Light Spear, Blessing, Fall, and the gold Great Spear from 40% [mastery](#mastery) |
-| **Fallen Light** | Fallen Angels | Light Spear, Great Spear |
+| **Heaven's Light** | Angels | Light Spear, Blessing, Fall, the gold Great Spear from 40% [mastery](#mastery), the [Light Sword](light-weapons.md#light-sword), and the [Light Bow](light-weapons.md#light-bow) from 40% |
+| **Fallen Light** | Fallen Angels | Light Spear, Great Spear, the [Light Sword](light-weapons.md#light-sword), and the [Light Bow](light-weapons.md#light-bow) from 40% |
 | **Fallen Blood** | [Hybrids](#hybrids) | Light Spear |
 | **[Brave Saints](brave-saints.md)** | Ultimate-class Angels and Seraphs | The suit picker, then Take Out / Put Away, Poker and Blackjack |
 
@@ -119,6 +119,7 @@ flies where you're looking.
 - You can throw one **every second**. Short of magicules, nothing is thrown and nothing is spent.
 - **The Boost never multiplies it.** A [Transfer](../boosted-gear/modes.md#transfer) does, at half.
 - Under the open daytime sky an Angel's spear hits **25% harder** (see [Heaven's Grace](#day-and-hell)).
+- **Keep the key down** until the throw is due and it stays [in your hand](light-weapons.md#the-light-spear-in-your-hand) instead.
 
 <div class="grid" markdown>
 
@@ -134,9 +135,13 @@ flies where you're looking.
 
 </div>
 
+### Light Sword and Light Bow
+
+Since **0.2.33** you can shape your light into a sword with a guard, or a bow that needs no arrows. See [Light weapons](light-weapons.md).
+
 ### The holy burn
 
-All the races' light (Light Spear, Great Spear, Holy Lightning and the touch of Holy Barrier) leaves Tensura's **Holy
+All the races' light (Light Spear, Great Spear, the Light Sword and Bow, Holy Lightning and the touch of Holy Barrier) leaves Tensura's **Holy
 Damage** effect for **2 seconds** on whatever holy things hurt: **Devils, hybrids and Tensura's monsters**. That's
 **16** more damage over the 2 seconds, **32** from a rank 4 and **48** from a rank 5. Players and animals that holy
 things don't hurt take no burn.
@@ -199,7 +204,7 @@ Since **0.1.84**, Heaven's Light, Fallen Light and Fallen Blood count to **1,000
 for each spear (or Great Spear burst) that hurts a living thing (not an armour stand or a training dummy), and each
 Blessing that heals someone. A line in chat tells you as you reach each step.
 
-- **40%:** an Angel's Heaven's Light opens a fourth mode, the **gold Great Spear**.
+- **40%:** an Angel's Heaven's Light opens the **gold Great Spear**, and Heaven's Light and Fallen Light both open the [Light Bow](light-weapons.md#light-bow).
 - **100%:** every power of the skill costs **half** and hits (or heals) **25% more**, on top of Heaven's Grace by day.
 
 ## Birth skills

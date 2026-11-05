@@ -50,6 +50,7 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 | Divine Dividing's Balance Breaker (white Scale Mail) | full | full, every time |
 | Divine Dividing's Juggernaut Drive (the white dragon) | full, about 7 s | short, 3 s |
 | Taking Albion's power | a short cutscene | |
+| [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen) | full, about 6 s | a flash, no cutscene |
 
 - You stand still and **can't be hurt** while it plays, and your head stays level; the mouse can't turn you.
 - **Sneak** skips the rest of it. You still transform.
@@ -69,10 +70,14 @@ and tails do.
 - **[Wings of fire](../races/houses.md#house-phenex)** bend along their length even when you stand still, so they read as flames. With a
   shader pack they stay straight.
 
+**The Scale Mail** is alive too, since 0.2.33. Its wings lag, overshoot and beat heavily, the white leather ripples between rigid red bones, and the tail follows you on the ground and in the
+air. The True Queen's wings never flap, and the white Scale Mail's tail moves the same way. See
+[The wings and the tail](../boosted-gear/balance-breaker.md#the-wings-and-the-tail).
+
 **Soft lines.** Angels' and Fallen Angels' wings have soft lines, as a plush toy's, in place of the hard outline. Devils' bat wings keep
 theirs.
 
-`wingMotion = false` turns the motion off for you, and the wings keep the old slow beat.
+`wingMotion = false` turns the motion off for you, and the wings keep the old slow beat. The Scale Mail's leather lies flat, and its tail keeps a slow sway.
 
 <div class="grid" markdown>
 
@@ -108,6 +113,8 @@ The gear calls out what it does in bold italic letters that float up and fade, c
   **DIVIDE!** comes off you when the armour halves a magic hit or a projectile; **COMPRESS!**, **VANISH!**, **REDUCE!**
   and **REFLECT!** mark its other powers, and **OVERLOAD!** a Transfer that floods its strain gauge.
 - A Brave Saints hand's name rises over everyone in it ("FLUSH!"), with the cards fanned out in gold.
+- The [armour forms](../boosted-gear/promotion-forms.md) call **ARMOR RELEASE!**, **CHANGE STAR SONIC!**, **CHANGE SOLID IMPACT!**, **CHANGE FANG BLAST!** and **CARDINAL CRIMSON
+  PROMOTION!**, and their moves **SOLID IMPACT!**, **DRAGON BLASTER!** and **CRIMSON BLASTER!**.
 
 <div class="grid" markdown>
 
@@ -160,6 +167,10 @@ Every big moment has its own effect, made with Photon and seen by everyone aroun
 | House Phenex | Wings of moving flame, bright even at midnight; bolts of flame, a ring of fire and a burning column under smoke; a pillar of flame for a rebirth |
 | House Sitri | A hawk, a serpent, lions and a dragon of bright water; a wall of water or ice; a barbed spear of ice and crystals round who it freezes; a wave of frost, great spikes and spires for Celsius Cross Trigger |
 | House Leviathan | Dark water with white foam: a pool over a target, waves and a towering flood; the long Sea Dragon and its blue-black breath |
+| Light weapons | Weapons of gold or violet light, with a flare as one forms or fades and a burst on a blocked blow; straight bolts from the bow |
+| Promotion's armour forms | Plates bursting off the Knight, its green flames and a thin trail at speed; an aura closing in and a ground ring for the Rook, and dust at each step; the Bishop's cannons brightening, then two red beams with rings along them; a flash and a shock ring for Solid Impact |
+| The True Queen | Her jewels blazing pink in a crimson column; pink shards in a flash after the first time; pink flames and falling sparkles; wings that open into cannons for the Crimson Blaster's beams |
+| The Castle Town | A purple sky with a great moon and thin clouds; crimson circles for the Town Circle and tickets; small circles bringing guards in an alarm |
 
 ### LambDynamicLights
 
@@ -178,5 +189,7 @@ big moments flash.
 | `modelStyle` | `NEW` | `NEW` or `CLASSIC` models |
 | `modelStyleAsked` | `false` | Whether the model style screen has been answered; set it to `false` to be asked again |
 | `flightLean` | `true` | Lean into the flight on the mod's wings or in a Scale Mail; off, you fly upright (and TR: Nightmare's pose can take over) |
-| `wingMotion` | `true` | [Living wings](#living-wings): the race wings answer your movement; off, they keep the old slow beat |
+| `wingMotion` | `true` | [Living wings](#living-wings): the race wings and the Scale Mails answer your movement; off, they keep the old slow beat |
+| `townSky` | `true` | The purple sky and the great moon over the [Castle Town](../world/castle-town.md); off, Hell keeps its own sky there |
+| `trueQueenMusic` | `true` | [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen)'s song, on the Jukebox slider |
 | `gpuModels` | `true` | Draw the race wings from the graphics card, far faster; off, the old way |

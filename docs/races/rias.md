@@ -131,6 +131,13 @@ She doesn't come:
     Her bat brings an Angel no flyer until they fall. A Fallen Angel who joins her becomes a
     [hybrid](angels.md#hybrids).
 
+## The way to the Underworld
+
+Her talk screen has **The way to the Underworld**. She gives anyone a map to her family's [Castle Town](../world/castle-town.md) in Hell, once an in-game day, servant or not: "It's
+nearer than you'd think."
+
+Step inside its walls as her servant, and she has a word for you.
+
 ## Serving her
 
 As your King, she's calm:

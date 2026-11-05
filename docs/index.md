@@ -13,7 +13,8 @@ hide:
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
 and now has Asia's Twilight Healing, Kiba's Sword Birth, Gasper's Forbidden Balor View, Xenovia's Durandal, the three
 races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
-Angels), Koneko's cat Youkai and the Stray Devils to hunt. It is growing into the whole DxD world.
+Angels), Koneko's cat Youkai, the Stray Devils to hunt and the Gremory family's town in Hell. It is growing into the whole
+DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -37,6 +38,13 @@ Angels), Koneko's cat Youkai and the Stray Devils to hunt. It is growing into th
 
     The Red Dragon Emperor's Scale Mail: armour, flight, a Boost that never stops and a rage meter that pushes you
     past your limit.
+
+-   :material-chess-rook:{ .lg .middle } **[Promotion's armour forms](boosted-gear/promotion-forms.md)**
+
+    ---
+
+    A Pawn in the Scale Mail changes its shape: a fast Knight, a heavy Rook, a Bishop with cannons, and the crimson True
+    Queen.
 
 -   :fontawesome-solid-dragon:{ .lg .middle } **[Juggernaut Drive](boosted-gear/juggernaut-drive.md)**
 
@@ -107,6 +115,12 @@ Angels), Koneko's cat Youkai and the Stray Devils to hunt. It is growing into th
     Feathered wings that multiply with rank, spears of light, Blessing and the Great Spear. Sin makes an Angel fall,
     and a Fallen Angel with an Evil Piece becomes a hybrid.
 
+-   :material-bow-arrow:{ .lg .middle } **[Light weapons](races/light-weapons.md)**
+
+    ---
+
+    Shape your light into a sword with a guard or a bow that needs no arrows, or keep the Light Spear in your hand.
+
 -   :material-cards-playing:{ .lg .middle } **[Brave Saints](races/brave-saints.md)**
 
     ---
@@ -126,6 +140,12 @@ Angels), Koneko's cat Youkai and the Stray Devils to hunt. It is growing into th
     ---
 
     Devils twisted by the Evil Piece they stole. They rise on dark nights and rule ruined mansions, Viser first.
+
+-   :material-castle:{ .lg .middle } **[The Castle Town of Gremory](world/castle-town.md)**
+
+    ---
+
+    A walled town in Hell under a purple sky, with a castle, people in its streets, guards, a market and an inn.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 

@@ -88,6 +88,8 @@ Balance Breaker (both Scale Mails), Ddraig's Bargain and Ascalon.
 | `ascalonTransferSeconds` | 30 | 1–3600 | How long a Transfer into the blade boosts its holy strike |
 | `dragonSlayerPercent` | 100 | 0–1000 | The true Ascalon's holy strike on a dragon, % of the hit |
 | `dragonSlayerReplicaPercent` | 50 | 0–1000 | A replica's holy strike on a dragon, % of the hit |
+| `scaleMailBoostPress` | true | — | Each press of the Boost mode in the red Scale Mail adds a stack at once, at the usual price, with no cooldown. The 10-second growth goes on either way. A rival fight keeps its own pace, and Juggernaut Drive's dragon has its own |
+| `scaleMailPressFullEp` | 100000 | 0–1e12 | The max EP at which a press reaches every stack. Each halving below it is one stack fewer by press (50,000 EP reaches 5, 25,000 reaches 4), and the 10-second growth still takes anyone to their cap. 0: a press always reaches the cap |
 
 !!! note "The white Scale Mail"
     The white Scale Mail shares the red one's numbers in `[balance_breaker]`: the crisis, the countdown and its
@@ -347,6 +349,63 @@ channel is the Devil's `magicCircleSeconds`.
 | `callCooldownSeconds` | 30 | 0–86400 | Before the King can call the same servant again |
 | `travelCostPercent` | 10 | 0–100 | % of a servant's max magicules going to their King costs, paid on arrival |
 | `travelCooldownSeconds` | 60 | 0–86400 | Before a servant can go to their King again |
+| `pawnGrowth` | true | — | A Longinus holder on several Pawns starts with few awake and [wakes the rest](../races/peerage.md#growing-into-your-pawns) as their base max EP grows. Off: they promote as any Pawn does |
+| `pawnGrowthStartEp` | 5000 | 1–1e12 | Base max EP that wakes a holder's second Pawn; each doubling wakes one more |
+| `pawnGrowthTopFactor` | 2.0 | 1–10 | What all of a holder's Pawns awake multiply a Promotion's strengths by |
+| `pawnGrowthRookAt` | 3 | 1–8 | Pawns awake a holder on 8 Pawns needs for the Rook. Knight and Bishop open at 1 |
+| `pawnGrowthQueenAt` | 5 | 1–8 | Pawns awake a holder on 8 Pawns needs for the Queen |
+| `pawnGrowthTrueQueenAt` | 8 | 1–8 | Pawns awake a holder on 8 Pawns needs for the True Queen, on top of its mastery |
+
+## `[promotion_forms]`
+
+[Promotion's armour forms](../boosted-gear/promotion-forms.md), for a Boosted Gear Pawn in the Scale Mail.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `knightSpeedPercent` | 100 | -100–1000 | The Knight's form: extra walking speed, % of the base. The Boost's speed adds to it. |
+| `knightFlight` | 2.5 | 0.1–10 | The Knight's form: flight speed, times the Scale Mail's. |
+| `knightArmor` | 8 | 0–100 | The Knight's form: armour, in place of the Scale Mail's. |
+| `knightToughness` | 2 | 0–100 | The Knight's form: armour toughness, in place of the Scale Mail's. |
+| `knightKnockback` | 0 | 0–1 | The Knight's form: knockback resistance, in place of the Scale Mail's. |
+| `knightCutPercent` | 0 | 0–100 | The Knight's form: the flat cut on every hit, in place of the Scale Mail's. |
+| `knightAttackSpeed` | 1 | 0–100 | The Knight's form: extra attack speed. |
+| `knightUpkeepPercent` | 0.6 | 0–100 | The Knight's form: percent of max magicules a second. |
+| `rookSpeedPercent` | -40 | -100–1000 | The Rook's form: walking speed, % of the base (negative is slower). It has neither the armour's nor the Boost's speed. |
+| `rookFlight` | 0.6 | 0.1–10 | The Rook's form: flight speed, times the Scale Mail's. |
+| `rookArmor` | 40 | 0–100 | The Rook's form: armour, in place of the Scale Mail's. |
+| `rookToughness` | 16 | 0–100 | The Rook's form: armour toughness, in place of the Scale Mail's. |
+| `rookKnockback` | 1 | 0–1 | The Rook's form: knockback resistance, in place of the Scale Mail's. |
+| `rookCutPercent` | 50 | 0–100 | The Rook's form: the flat cut on every hit, in place of the Scale Mail's. |
+| `rookAttack` | 8 | 0–1000 | The Rook's form: extra attack, flat (the Boost stays the only multiplier). |
+| `rookUpkeepPercent` | 0.6 | 0–100 | The Rook's form: percent of max magicules a second. |
+| `bishopUpkeepPercent` | 1.5 | 0–100 | The Bishop's form: percent of max magicules a second. Its other numbers are the Scale Mail's. |
+| `trueQueenSpeedPercent` | 100 | -100–1000 | The True Queen: extra walking speed, % of the base. The Boost's speed adds to it. |
+| `trueQueenFlight` | 2.5 | 0.1–10 | The True Queen: flight speed, times the Scale Mail's. |
+| `trueQueenArmor` | 40 | 0–100 | The True Queen: armour, in place of the Scale Mail's. |
+| `trueQueenToughness` | 16 | 0–100 | The True Queen: armour toughness, in place of the Scale Mail's. |
+| `trueQueenKnockback` | 1 | 0–1 | The True Queen: knockback resistance, in place of the Scale Mail's. |
+| `trueQueenCutPercent` | 50 | 0–100 | The True Queen: the flat cut on every hit, in place of the Scale Mail's. |
+| `trueQueenAttack` | 8 | 0–1000 | The True Queen: extra attack, flat. |
+| `trueQueenAttackSpeed` | 1 | 0–100 | The True Queen: extra attack speed. |
+| `trueQueenUpkeepPercent` | 2.5 | 0–100 | The True Queen: percent of max magicules a second. It replaces the ordinary Queen's drain. |
+| `formChangeSeconds` | 5 | 0–600 | Seconds between two changes of form, plain included. |
+| `formMasteryMinutes` | 3 | 0–1000 | Minutes in each of the Knight, Rook and Bishop forms, counted across uses, before the True Queen opens. |
+| `trueQueenEntryPercent` | 10 | 0–100 | Percent of max magicules paid to enter the True Queen. |
+| `trueQueenWaitSeconds` | 300 | 0–86400 | Seconds before the True Queen opens again, however it ended. |
+| `blasterBaseDamage` | 20 | 0–1.0e6 | The Dragon Blaster's damage at 0 stacks; times 2^stacks, once to each target. |
+| `blasterChargeTicks` | 40 | 1–1200 | The Dragon Blaster's charge, in ticks. |
+| `blasterRange` | 64 | 8–256 | The Dragon Blaster's beams' length, in blocks. |
+| `blasterRadius` | 2 | 0.5–16 | Each Dragon Blaster beam's radius, in blocks. |
+| `crimsonBlasterRadius` | 2.5 | 0.5–16 | Each Crimson Blaster beam's radius, in blocks. |
+| `blasterCostPercent` | 10 | 0–100 | Percent of max magicules a Dragon Blaster or Crimson Blaster costs. |
+| `blasterCooldownSeconds` | 10 | 0–3600 | The Dragon Blaster's and Crimson Blaster's cooldown, in seconds. |
+| `crimsonBlasterFactor` | 1.5 | 0–100 | The Crimson Blaster's damage, times the Dragon Blaster's. |
+| `solidImpactBaseDamage` | 12 | 0–1.0e6 | Solid Impact's damage at 0 stacks; times 2^stacks. |
+| `solidImpactReach` | 5 | 1–32 | How far Solid Impact reaches, in blocks. |
+| `solidImpactKnockback` | 3 | 0–20 | How hard Solid Impact throws its target. |
+| `solidImpactBlastRadius` | 3 | 0–32 | Solid Impact's shockwave's radius, in blocks. |
+| `solidImpactBlastPercent` | 50 | 0–100 | What the shockwave deals, percent of Solid Impact's damage. |
+| `solidImpactCooldownSeconds` | 6 | 0–3600 | Solid Impact's cooldown, in seconds. |
 
 ## `[rias]`
 
@@ -384,6 +443,27 @@ speed and −25% health, Bishop −20% health, Rook −20% speed, +50% health, +
 | `jobLairRange` | 600 | 0–10,000 | How far, in blocks, she looks for a lair to send a strong servant to |
 | `jobRewardEpPercent` | 10 | 0–100 | Her reward's extra EP, as a % of the Stray's EP |
 | `riasArrives` | true | — | She comes herself to finish a job's target with the Power of Destruction (off: the reward comes through a small circle) |
+
+## `[town]`
+
+[The Castle Town of Gremory](../world/castle-town.md).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `enabled` | true | — | Whether the town exists. Off, no town generates, no rule of its applies, its circle and tickets don't work, and Rias has no map to give. A town already generated stays standing |
+| `protect` | true | — | Whether the town's blocks are protected: no breaking, placing, griefing or blocks lost to explosions, for anyone but creative players and operators |
+| `citizens` | 24 | 0–64 | How many citizens walk the town while a player is near it. Each one killed leaves one fewer until the next in-game day |
+| `guards` | 10 | 0–12 | How many guards keep the town: the 4 gate posts first, then 3 on the wall, then the Avenue. An alarm calls more, up to 12 |
+| `guardEp` | 150000 | 1–1e9 | A guard's EP |
+| `guardHealth` | 120 | 1–1e6 | A guard's health |
+| `guardAttack` | 14 | 0–1e6 | A guard's attack damage. Their Demonic Power orb does three quarters of it |
+| `guardArmor` | 10 | 0–30 | A guard's armour |
+| `wantedDays` | 1 | 1–100 | How many in-game days outside the town's square end Wanted. Coming back before that starts the count again |
+| `wantedFineGold` | 1 | 0–64 | How many gold coins the Clerk takes to end Wanted |
+| `devilDiscountPercent` | 10 | 0–25 | How much less a Devil pays at the stalls, %. It adds to a title's cut, and the two never come to more than 25% |
+| `phoenixTearsInMarket` | true | — | Whether the Apothecary sells Phoenix Tears. Off, only a Phenex player can supply them, by trading or chests |
+| `phoenixTearGold` | 16 | 1–64 | What a Phoenix Tear costs at the Apothecary, in gold coins. Friend of House Gremory and up, one a day |
+| `innRoomGold` | 1 | 0–64 | What a room at the inn costs, in gold coins, once. A Devil's is free |
 
 ## `[angel]`
 
@@ -429,6 +509,24 @@ there needs a restart). The lists by rank go Low, Middle, High, then rank 4 and 
 | `sinPlayerGraceSeconds` | 30 | 0–3600 | How long a hit is remembered: a player who hurt the Angel within it is fair game, isn't blessed, and is pushed out of Holy Barrier |
 | `sinFadePerDay` | 10 | 0–100 | Sin that fades each in-game day |
 | `sinWarning` | 50 | 0–100 | Sin at which the wings start to flicker black and the warning shows |
+
+## `[light_weapons]`
+
+[Light weapons](../races/light-weapons.md), for Angels and Fallen Angels. Lists are per rank, Low first.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `lightSwordAttack` | 4, 8, 16, 32, 64 | 0 or more | The Light Sword's attack, added to the holder's own |
+| `lightSwordCost` | 25, 100, 450, 1875, 7500 | 0 or more | Magicules for a sword hit that lands |
+| `lightGuardCost` | 25, 100, 450, 1875, 7500 | 0 or more | Magicules for a blow the guard blocks |
+| `lightBowDamage` | 4.5, 9, 18, 36, 72 | 0 or more | A shot's damage at full draw |
+| `lightBowCost` | 50, 200, 900, 3750, 15000 | 0 or more | Magicules for a shot at full draw |
+| `lightHeldSpearAttack` | 3, 6, 12, 24, 48 | 0 or more | A held Light Spear's attack |
+| `lightHeldSpearCost` | 20, 80, 360, 1500, 6000 | 0 or more | Magicules for a held spear's hit that lands |
+| `lightBowMinDrawTicks` | 5 | 1–20 | The shortest draw that shoots |
+| `lightArrowRange` | 96 | 8–512 | How far a bolt flies, in blocks |
+| `lightWeaponCooldownSeconds` | 1 | 0–3600 | A mode's cooldown after forming a weapon |
+| `lightWeaponMasteryGapTicks` | 20 | 0–1200 | The least ticks between two hits that earn mastery |
 
 ## `[twilight]`
 
@@ -650,6 +748,26 @@ anything with the rule off.
 | `replicaPower` | 0.2 | 0–1 | What a Durandal Replica leaves of the Holy Wave and the holy strike |
 | `swordBirthCopies` | 16 | 1–64 | How many of Sword Birth's copies a holder can have at once |
 | `balorTimeFactor` | 2.0 | 0.1–100 | How many times longer a Forbidden Balor View stop lasts; a player is still stopped for `playerMaxSeconds` at most |
+| `pieceKnightSpeedPercent` | 60 | 0–1000 | A Knight's and a Queen's extra speed, % of their base, in the air too |
+| `pieceKnightAttackSpeed` | 1 | 0–100 | A Knight's and a Queen's extra attack speed |
+| `pieceKnightDodgePercent` | 25 | 0–100 | A Knight's and a Queen's chance to dodge melee and projectiles, % |
+| `pieceKnightStep` | 0.5 | 0–10 | How much higher a Knight and a Queen step, in blocks |
+| `pieceKnightArmorPenalty` | 4 | 0–30 | The armour a Knight gives up. A Queen doesn't |
+| `pieceBishopMagiculePercent` | 100 | 0–1000 | A Bishop's and a Queen's extra max magicules, % of their base |
+| `pieceBishopRegenPercent` | 100 | 0–1000 | A Bishop's and a Queen's faster magicule regeneration, % |
+| `pieceBishopDemonicPowerPercent` | 100 | 0–1000 | A Bishop's and a Queen's stronger Demonic Power, %, added to the night's |
+| `pieceBishopMagicCostPercent` | 25 | 0–100 | How much cheaper magic is for a Bishop and a Queen, % |
+| `pieceBishopChantPercent` | 50 | 0–1000 | How much faster a Bishop and a Queen chant, % |
+| `pieceRookAttackStartEp` | 100 | 1–1e12 | The base max EP a Rook's and a Queen's attack starts counting doublings from |
+| `pieceRookAttackPerDoubling` | 1 | 0–1000 | Flat attack a Rook and a Queen gain per doubling of base max EP (the Boost stays the only multiplier) |
+| `pieceRookAttackMin` | 2 | 0–1000 | The least flat attack a Rook and a Queen have |
+| `pieceRookArmor` | 12 | 0–1000 | A Rook's and a Queen's extra armour |
+| `pieceRookToughness` | 8 | 0–1000 | A Rook's and a Queen's extra armour toughness |
+| `pieceRookKnockbackResistance` | 1 | 0–1 | A Rook's and a Queen's knockback resistance (1 is all) |
+| `pieceRookCutPercent` | 30 | 0–100 | % a Rook and a Queen take off every hit. The higher of this and a Scale Mail's cut applies, not both |
+| `pieceRookKnockback` | 1.5 | 0–100 | How much harder a Rook's and a Queen's hits knock back |
+| `pieceRookMiningPercent` | 100 | 0–10000 | How much faster a Rook and a Queen mine, % |
+| `pieceRookSpeedPenaltyPercent` | 10 | 0–100 | The speed a Rook gives up, % of their base. A Queen doesn't |
 
 ## Client settings
 
@@ -669,5 +787,7 @@ Slime → Config.
 | `handRow` | true | With a Brave Saint card or a deck, show the hand you could play (or the wait) at the bottom left |
 | `seraphMarker` | true | As a Brave Saint, show where your Seraph is at the top of the screen |
 | `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
-| `wingMotion` | true | Living wings: the race wings answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat |
+| `wingMotion` | true | Living wings: the race wings and the Scale Mails answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat, and the Scale Mail's leather lies flat |
+| `townSky` | true | The purple sky and the great moon over the [Castle Town](../world/castle-town.md). Off, Hell keeps its own sky there |
+| `trueQueenMusic` | true | Play Cardinal Crimson Promotion for as long as someone near you is in the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on the Jukebox volume slider, in place of the game's music |
 | `gpuModels` | true | Draw the race wings from a copy kept on the graphics card: the same look, far faster. Turn it off if they look wrong with another mod. Iris shader packs always get the old way |

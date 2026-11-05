@@ -65,6 +65,8 @@ wear it waits **150 seconds**, half the red one's 300. See [the red Scale Mail's
   gauge.
 - Your strength from Divides goes up to **×16** (×8 outside it).
 
+**The tail** follows your movement and lashes now and then, as the [red Scale Mail's](../boosted-gear/balance-breaker.md#the-wings-and-the-tail) does. The wings of light stay as they are.
+
 **Wings away.** In the armour, the **Wings** mode folds the wings away and takes their flight with them (you fall), but
 the armour and its powers stay. Press it again and they come back, flight and all.
 

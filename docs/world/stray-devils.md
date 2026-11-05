@@ -113,6 +113,7 @@ Leave a peerage, or be released, and you carry the **Stray Devil mark**: Strays 
 - None of them comes for you on its own, lair bosses and guards included. A lair boss that sees you says "You smell like
   one of us. Leave, or stay and rot."
 - Hurt one and that Stray alone fights you, until it dies or you're more than 48 blocks away. The others stay calm.
+- In the [Castle Town](castle-town.md#wanted) the mark makes you **Wanted** whenever you're in its square, with no fine to pay for it.
 
 ## Rias's hunts
 

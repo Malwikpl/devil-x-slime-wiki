@@ -54,7 +54,8 @@ Right-click a player or a monster with the case. The case opens on them and show
 - Kinds never mix: you can't pay with a Knight plus two Pawns.
 - **Anyone as strong as you refuses.**
 - **A Longinus holder** (the [Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md))
-  takes **all 8 Pawns**, whatever their EP, and never the Queen. A King with fewer than 8 Pawns left can't take them.
+  takes **all 8 Pawns**, whatever their EP, and never the Queen. A King with fewer than 8 Pawns left can't take them. They
+  [grow into those Pawns](#growing-into-your-pawns) as their EP climbs.
 
 ### Players
 
@@ -140,6 +141,8 @@ A servant has these strengths for as long as they serve. Monster servants get th
 
 The attack bonus is flat, so the [Boost](../boosted-gear/modes.md) stays the only multiplier.
 
+In a world with [Lore mode](../lore-mode.md#the-evil-pieces) on, every piece gives what it gives in the story, with a frail Knight, a slower Rook and a Queen with neither weakness.
+
 ## Promotion
 
 A Pawn's servant skill, **Evil Piece**, has the modes **Promotion: Knight**, **Bishop**, **Rook** and **Queen**. A press
@@ -185,6 +188,8 @@ seconds. If you can't pay the first 2%, you can't promote to Queen.
 - **anywhere, for 10 minutes,** on the King's **word**, given from the peerage menu ([Rias](rias.md#serving-her)
   gives hers when you ask).
 
+**In the Boosted Gear's Scale Mail** a Pawn promotes anywhere, and the armour changes shape. See [Promotion's armour forms](../boosted-gear/promotion-forms.md).
+
 In a world with [Lore mode](../lore-mode.md#promotion) on, Promotion has no wait and a promoted Queen pays nothing.
 
 **When it ends:**
@@ -195,6 +200,33 @@ In a world with [Lore mode](../lore-mode.md#promotion) on, Promotion has no wait
 - when you die.
 
 After that, there's a **60-second** cooldown.
+
+## Growing into your Pawns
+
+Since **0.2.33**, as with Issei, a Longinus holder on 8 Pawns starts with few of them awake, and wakes one more each time their base max EP doubles. Anyone else is an ordinary
+Pawn.
+
+| Base max EP | Pawns awake | Opens |
+|---|---|---|
+| Under 5,000 | 1 | Knight, Bishop |
+| 5,000 | 2 | |
+| 10,000 | 3 | Rook |
+| 20,000 | 4 | |
+| 40,000 | 5 | Queen |
+| 80,000 | 6 | |
+| 160,000 | 7 | |
+| 320,000 | 8 | The [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on top of her 3 minutes in each form |
+
+- **Stronger as you grow.** A Promotion grows from ×1 at one awake to **×2 at all eight**: its attack, armour, toughness, speed, attack speed, magicules, regeneration and Demonic
+  Power.
+- **Asleep.** Press a Promotion you haven't opened, and "Your body can't take the ... yet". Nothing starts and nothing is paid. The same goes for the Rook's form in the Scale Mail.
+- **A Pawn waking** sinks into your chest with a chime, the action bar says so, and a King who's online hears of it. Ddraig or Albion speaks when the Rook, the Queen and the last Pawn
+  open.
+- **They stay awake** if your EP falls.
+- **It shows** on the consent screen ("You start with N of 8 Pawns awake"), in the Evil Piece's first mode, in the King's menu, and on your **My King** screen, with eight small Pawns
+  and the EP the next wakes at.
+- **A holder already promoted** above their climb in an older world goes back to Pawn, with no wait.
+- `/dxdtensura max` wakes them all. Server owners have `pawnGrowth` and its numbers in [`[peerage]`](../reference/configuration.md#peerage).
 
 ## The bond
 

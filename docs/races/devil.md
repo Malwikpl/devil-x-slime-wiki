@@ -116,6 +116,9 @@ Demonic Power's **second mode** opens at **Middle-class**. Switch to it the way 
 - With a [House](houses.md), it takes your House's colour and sigil.
 - It can't open in **Tensura's boss arena** or during a transformation cutscene.
 
+Once you've been inside the walls of the [Castle Town](../world/castle-town.md#coming-and-going), Demonic Power has one more mode, **Circle to the Castle Town**, at the same cost and
+on the same wait. A Devil also pays 10% less at the town's stalls, and rents a room at its inn for free.
+
 <figure markdown="span">
   ![The magic circle](../assets/images/magic-circle.jpg){ loading=lazy }
   <figcaption>The magic circle.</figcaption>

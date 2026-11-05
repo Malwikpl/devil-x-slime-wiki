@@ -2,7 +2,7 @@
 
 ## Devil x Slime's commands
 
-All of them need operator permission (level 2), except `/dxdtensura incantation` for yourself.
+All of them need operator permission (level 2), except `/dxdtensura incantation` for yourself and `/dxdtensura town renown`.
 
 | Command | What it does |
 |---|---|
@@ -11,14 +11,31 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 | `/dxdtensura albion take [players]` | Takes it away again |
 | `/dxdtensura divinedividing holder` | Names the players who hold Divine Dividing in this world |
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
-| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open. Forbidden Balor View: mastered, with Forbidden View and Stop the World open |
+| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned, the [armour forms](../boosted-gear/promotion-forms.md)' counts filled. A holder's [Pawns](../races/peerage.md#growing-into-your-pawns) all wake. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open. Forbidden Balor View: mastered, with Forbidden View and Stop the World open |
 | `/dxdtensura sin <player>` | Shows an [Angel](../races/angels.md#sin-and-the-fall)'s hidden sin, 0 to 100 |
 | `/dxdtensura sin <player> set <0-100>` | Sets it, with what that level brings: the warning and the flicker from 50, the fall at 100 |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
 | `/dxdtensura eastereggs reset` | Makes both easter eggs happen again |
 | `/dxdtensura incantation [players]` | Gives a fresh copy of Ddraig's [incantation](../boosted-gear/juggernaut-drive.md#the-incantation) book, or Albion's [words of the white dragon](../divine-dividing/juggernaut-drive.md#learning-the-words), for a lost one. Only works once the words are learned. **Anyone can use it for themselves**; giving it to other players needs operator permission |
 
-`[players]` is optional; without it, the command applies to you.
+| `/dxdtensura truequeen ready [targets]` | Ends the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen)'s 5-minute wait |
+| `/dxdtensura sacredgear foreign grant <targets> <gear>` | Gives a gear the way another mod would, to test the [check on non-humans](../getting-started/first-gear.md#only-in-humans) |
+| `/dxdtensura sacredgear foreign race <targets> <race>` | Changes race the way another mod would, for the same test |
+
+`[players]` and `[targets]` are optional; without them, the command applies to you.
+
+### The Castle Town
+
+For [the Castle Town](../world/castle-town.md). All need operator permission, except `town renown`.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura town where` | Where the town's middle is, and whether world generation put it there or it was planned round land already explored |
+| `/dxdtensura town tp` | Takes you to the Town Circle |
+| `/dxdtensura town wanted clear [target]` | Ends Wanted |
+| `/dxdtensura town renown` | Your renown. **Anyone can use it** |
+| `/dxdtensura town renown set <amount> [target]` | Sets renown |
+| `/dxdtensura town title set <title> [target]` | Sets a [title](../world/castle-town.md#titles-and-renown): `visitor`, `guest`, `friend`, `honoured` or `champion` |
 
 ### Rias Gremory
 
@@ -110,7 +127,7 @@ Tensura's own commands work on Devil x Slime's skills too.
 | `/tensura edit ability grant @s dxdtensura:twilight_healing` | Gives you Twilight Healing |
 | `/tensura edit ability grant @s dxdtensura:sword_birth` | Gives you Sword Birth |
 | `/tensura edit ability grant @s dxdtensura:forbidden_balor_view` | Gives you Forbidden Balor View |
-| `/tensura edit race set @s dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
+| `/tensura edit race @s set dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
 | `/tensura edit ability mastery @s dxdtensura:boosted_gear 400` | Sets the mastery: 400 is the Base form, `max` the Boosted Gear Gift, `0` back to Initial |
 | `/ability set dxdtensura:boosted_gear <mode> <slot>` | Puts a mode on an ability slot (1 to 3). See the mode numbers on the [Boosted Gear](../boosted-gear/index.md#modes) and [Divine Dividing](../divine-dividing/index.md#modes) pages |
 
@@ -122,4 +139,5 @@ Tensura's own commands work on Devil x Slime's skills too.
 /locate structure dxdtensura:white_dragon_colosseum
 /locate structure dxdtensura:old_school_building
 /locate structure dxdtensura:stray_mansion
+/locate structure dxdtensura:castle_town
 ```

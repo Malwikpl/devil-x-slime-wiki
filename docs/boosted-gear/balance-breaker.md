@@ -62,12 +62,71 @@ limited Scale Mail at a permanent price. See [Ddraig's Bargain](ddraig.md#ddraig
 
 Your worn armour, elytra and cape are hidden under it.
 
-**The Boost inside.** Charging starts by itself at the normal pace, and your bare fist gets the ×2ⁿ the whole time, no
-Explosion needed. There is no body strain. Dragon Shot and Transfer still spend the stacks, and charging just carries
-on. The Boost press does nothing in the armour.
-
 **A fire dragon's armour.** The 30% cut and the fire immunity are the same in Ddraig's Bargain armour and in the
 [Juggernaut Drive](juggernaut-drive.md) dragon.
+
+**A race's wings.** In the armour, your race key on the ground stays silent and the armour's wings stay as they are. In the air it starts your flight.
+
+### The Boost inside
+
+Charging starts by itself at the normal pace, a stack every 10 seconds up to your form's cap, and your bare fist gets the ×2ⁿ the whole time, no Explosion
+needed. There is no body strain. Dragon Shot and Transfer still spend the stacks, and charging just carries on.
+
+**Each Boost press adds a stack at once** (since 0.2.33), at the usual price and with no cooldown, as far as your max EP reaches. Past that, the charging
+takes you the rest of the way.
+
+| Max EP | A press reaches | Power |
+|---|---|---|
+| Under 6,250 | 1 stack | ×2 |
+| 6,250 | 2 | ×4 |
+| 12,500 | 3 | ×8 |
+| 25,000 | 4 | ×16 |
+| 50,000 | 5 | ×32 |
+| 100,000 | 6 | ×64 |
+
+- **Your form's cap** is still the top: 2 in the Initial form, 5 in Base and 6 in the Gift. All six stacks cost 6,300 magicules.
+- **Every press** has its gem flash, its BOOST! and its "Boost!" clip, overlapping if you tap fast.
+- **Past your reach,** "Your body can't push it any faster. The Boost climbs on by itself." Ddraig tells you so once.
+- **After a Dragon Shot or a Transfer,** tapping climbs back at once. A [rage burst](#the-rage-meter)'s extra stack can be pressed back too.
+- **The Bargain's armour** takes presses too, up to your form's cap.
+- **In a [rival fight](../divine-dividing/index.md#rival-fights)** the press does nothing, and the Boost keeps the fight's pace. [Juggernaut Drive](juggernaut-drive.md)'s dragon has
+  its own pace too.
+
+Server owners can move the line with `scaleMailPressFullEp` or turn presses off with `scaleMailBoostPress`. [Lore mode](../lore-mode.md#the-boost) goes further: a press there
+reaches as far as your EP allows, past the form's cap.
+
+## The wings and the tail
+
+Since **0.2.33** the wings are modelled after the anime: a high wrist with a gold horn, stepped plates along the top, fingers set with dark diamonds, and pale leather between
+the bones, with folds, mottling and faint veins. The thrusters are built into the back plate. On the ground the wings fold away, as they always did.
+
+**The armour is alive:**
+
+- **The wings** answer your flight. They burst open with an overshoot as you take off, beat heavily as you hover, grow and quicken as you climb, and sweep toward your feet
+  flat out, then settle when you stop.
+- **Only the leather moves.** The red bones stay rigid, and each panel of leather bellies and ripples between them.
+- **The tail** follows your movement, on the ground too. It streams out on a sprint, swings on a turn or a step, whips as you land, and lashes now and then when you stand still.
+
+The client setting **Living wings** (`wingMotion`) turns all of it off.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![The Scale Mail hovering, wings spread](../assets/images/scale-mail-wings.jpg){ loading=lazy }
+  <figcaption>The wings in a hover.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![A close view of the wings' leather](../assets/images/scale-mail-leather.jpg){ loading=lazy }
+  <figcaption>The leather's folds and veins.</figcaption>
+</figure>
+
+</div>
+
+## Promotion's forms
+
+A Pawn in the armour can promote anywhere, and the armour changes shape: a fast Knight, a heavy Rook, a Bishop with cannons, and the crimson True Queen. See
+[Promotion's armour forms](promotion-forms.md).
 
 ## The rage meter
 

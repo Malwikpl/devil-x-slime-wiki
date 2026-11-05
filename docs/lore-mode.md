@@ -43,7 +43,7 @@ with the rule off.
 | | Normal game | Lore mode |
 |---|---|---|
 | [Boost's limit](#the-boost) | By the gauntlet's form | By your max EP, up to 30 stacks |
-| Boost in the Scale Mail | A stack every 10 s | Also a stack per press, no cooldown |
+| Boost in the Scale Mail | A press reaches as far as your max EP does, up to your form's cap | A press reaches your limit |
 | What the Boost multiplies | Bare fists | Every hit you land |
 | Boost after a release | A 30 s wait | Ready at once |
 | Transfer | Half the extra power | All of it |
@@ -55,6 +55,8 @@ with the rule off.
 | [Penetrate](#penetrate) | Up to Guardian | Past every level, armour and the Scale Mails' cut too |
 | [Durandal](#durandal) | Burns a Devil | No burn, and full strength for the crystal's factor |
 | [Promotion](#promotion) | A 60 s wait, the Queen pays | No wait, the Queen pays nothing |
+| [The Evil Pieces](#the-evil-pieces) | Small bonuses | What they give in the story |
+| [Promotion's armour forms](#promotions-armour-forms) | 0.6% to 2.5% upkeep, the True Queen has a price and a wait | 0.1% to 0.5% upkeep, no price or wait |
 | [Sword Birth](#sword-birth) | 2 copies that fade | 16 copies that don't fade with time |
 | [Forbidden Balor View](#forbidden-balor-view) | 2 to 6 s stops | Twice as long, a player still 3 s at most |
 
@@ -92,7 +94,7 @@ in the Initial form, 1,600 in Base, 3,200 in the Gift. The dragon's stacks stay 
 | The Bargain's armour | 1 every 5 s, up to your form's cap | 1 per press, up to your limit |
 | The red dragon | 1 every second, up to your form's cap + 2 | 1 per press, up to your limit + 2 |
 
-- A press has **no cooldown**. Every press counts, with its gem flash and its BOOST!. The voice plays at most twice a second.
+- A press has **no cooldown**. Every press counts, with its gem flash, its BOOST! and its clip, overlapping if you tap fast.
 - At your limit the action bar says "Your body can't take any more." There's no stack and no price.
 - During a rage burst a press does nothing, since the burst fills your stacks itself, to your limit + 1 for free.
 
@@ -182,6 +184,29 @@ Replica has one fifth of the wave and the strike, in anyone's hand, and its atta
 [Promotion](races/peerage.md) has no wait between Promotions, and a promoted Queen pays nothing. Enemy territory and the King's word
 still decide when it works.
 
+## The Evil Pieces
+
+Every piece gives what it gives in the story, in place of its [normal strengths](races/peerage.md#the-pieces-strengths):
+
+| Piece | Strengths |
+|---|---|
+| **Knight** | +60% speed (in the air too, outside an armour form), +1 attack speed, 25% to dodge melee and projectiles, walks up a full block. It gives up 4 armour |
+| **Bishop** | +100% max magicules, +100% regeneration, +100% Demonic Power, magic 25% cheaper, chanting 50% faster |
+| **Rook** | +1 attack per doubling of base max EP from 100 (at least +2, +9 at 100,000 EP), +12 armour, +8 toughness, no knockback, 30% off every hit, hits that throw further, mining twice as fast. It gives up 10% speed |
+| **Queen** | All of it, with no weak points |
+
+- **A Rook's cut** doesn't add to a Scale Mail's. The higher one counts.
+- **Mob servants** get the same, by their own EP.
+- **A Longinus holder's** [growth](races/peerage.md#growing-into-your-pawns) multiplies the strengths, not the traits, the cut or the weak points.
+- Flipping the rule changes your numbers within a second, and a mob servant's at once.
+
+The numbers are the `piece*` options in [`[lore_mode]`](reference/configuration.md#lore_mode).
+
+## Promotion's armour forms
+
+[The forms](boosted-gear/promotion-forms.md#in-lore-mode) cost far less: 0.1% upkeep for the Knight and Rook, 0.25% for the Bishop and 0.5% for the True Queen, who has no entry
+price and no wait. The shots keep their price.
+
 ## Sword Birth
 
 [Sword Birth](sword-birth/index.md) holds up to **16 copies**, and they don't fade with time. A dropped copy still fades, and so does one
@@ -197,5 +222,4 @@ for 3 seconds at most.
 - The Scale Mails' awakening and its countdown, stats, flight, the flat cut, Ddraig's fire and the white halving.
 - The Juggernaut Drives' fuel, life debt and aftermath, though they take the same presses.
 - Reflect and Reduce, the Brave Saints' hands and Twilight Healing's price. The story gives them no numbers.
-- The Evil Pieces' strengths. Stronger pieces in Lore mode are on the [roadmap](roadmap.md).
 - The [House powers](races/houses.md).

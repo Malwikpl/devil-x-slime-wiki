@@ -17,6 +17,8 @@ stacks. The stacks are locked while it runs.
 
 A second press with 0 stacks just stops charging.
 
+**In the Scale Mail** a press adds a stack at once instead. See [The Boost inside](balance-breaker.md#the-boost-inside).
+
 **The Boost's speed.** While the Explosion runs, every held stack makes you **20% faster**, up to **+100%** (at 5
 stacks). Ddraig points it out the first time. The [Scale Mail](balance-breaker.md#wearing-it) gets it too.
 

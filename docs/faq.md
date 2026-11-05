@@ -31,6 +31,10 @@
     `addBalorViewToReincarnationPool` in
     `config/dxdtensura-server.toml`. The roll is random, with the same odds as every other Unique Skill in it.
 
+??? question "My gear left me, and I didn't pick a new race."
+    A Sacred Gear lives only in a human. Since 0.2.33 a gear that reached a non-human another way, such as a reroll mod, leaves at login or within a second, and you get a new Unique
+    Skill. Evil Pieces, Brave Saint cards, evolution and falling keep it. See [Only in humans](getting-started/first-gear.md#only-in-humans).
+
 ## Boosted Gear
 
 ??? question "My Explosion does nothing to my sword hits."
@@ -49,6 +53,18 @@
     In the Boosted Gear Gift, survive a crisis: while an Explosion runs, a strong enemy leaves you under 30% health.
     Each crisis has a growing chance to awaken it. Or accept [Ddraig's Bargain](boosted-gear/ddraig.md#ddraigs-bargain),
     at the price of your off-hand. See [Balance Breaker](boosted-gear/balance-breaker.md#awakening).
+
+??? question "Tapping Boost in the Scale Mail stops short of ×64."
+    A press only reaches as far as your max EP does: all six stacks at 100,000 EP, and one fewer per halving. The Boost keeps climbing by itself, a stack every 10 seconds. See
+    [The Boost inside](boosted-gear/balance-breaker.md#the-boost-inside).
+
+??? question "How do I get the Knight, Rook, Bishop and True Queen armours?"
+    Be a Pawn in a peerage, with the Scale Mail on, and press the Evil Piece's Promotion modes. The True Queen opens after 3 minutes in each of the other three, with all 8 Pawns awake.
+    See [Promotion's armour forms](boosted-gear/promotion-forms.md).
+
+??? question "My Rook or Queen Promotion says my body can't take it."
+    A Longinus holder wakes their Pawns with EP: the Rook at 10,000 base max EP and the Queen at 40,000. See
+    [Growing into your Pawns](races/peerage.md#growing-into-your-pawns).
 
 ??? question "I lost my off-hand slot!"
     You accepted Ddraig's Bargain. The off-hand is his, for good.
@@ -237,6 +253,13 @@
     or a Fallen Angel (Holy Lightning). A Fallen Angel reborn as a hybrid has one more try at Holy Lightning. See
     [Birth skills](races/angels.md#birth-skills).
 
+??? question "How do I get a Light Sword or a Light Bow?"
+    They're modes on Heaven's Light and Fallen Light. The sword is there from the start, and the bow opens at 40% mastery. See [Light weapons](races/light-weapons.md).
+
+??? question "My Light Spear stays in my hand."
+    You kept the key down. Right-click or tap the key to throw it, and tap it next time to throw it straight away. See
+    [The Light Spear in your hand](races/light-weapons.md#the-light-spear-in-your-hand).
+
 ??? question "How do I open the Thunderlight Blast and the Storm?"
     The Blast opens at Holy Lightning's full mastery, 500 points. The Storm needs High-class, and then you learn it by trying.
     See [Holy Lightning](races/holy-lightning.md).
@@ -249,6 +272,25 @@
     Only a human or a pure Angel can take one. Devils, hybrids, Fallen Angels, other races, a King's servants and
     anyone as strong as you refuse, and a Longinus holder needs the Queen or the Ace. See
     [Offering a card](races/brave-saints.md#offering-a-card).
+
+## The Castle Town
+
+??? question "How do I get to the Castle Town?"
+    Ask [Rias](races/rias.md#the-way-to-the-underworld) for "The way to the Underworld", take the map through any Hell Gate, and hold it in your hand: the action bar says how far and which
+    way. See [Finding it](world/castle-town.md#finding-it).
+
+??? question "Why are the guards attacking me?"
+    You're Wanted: you hurt someone in the square, or you carry a Stray Devil's mark. Pay the Clerk 1 gold or stay out of the square for a full in-game day. A mark has no fine, so
+    stay out of the square. See [Wanted](world/castle-town.md#wanted).
+
+??? question "Why can't I break blocks or open chests there?"
+    The town is protected in survival. Doors, gates and bells work. Server owners can turn it off with `protect`. See [The rules](world/castle-town.md#the-rules).
+
+??? question "How do I respawn in the town?"
+    Rent a room from the innkeeper, then choose "Set your respawn here". See [The inn](world/castle-town.md#the-inn).
+
+??? question "Why is the bounty board empty?"
+    Bounties come in a later version. See [Still to come](world/castle-town.md#still-to-come).
 
 ## Lore mode
 
@@ -315,8 +357,11 @@
     turn the client setting `gpuModels` off.
 
 ??? question "Can I turn the wings' motion off?"
-    Yes: turn off **Living wings** (`wingMotion`) in the client settings, and they keep the old slow beat. See
+    Yes: turn off **Living wings** (`wingMotion`) in the client settings, and they keep the old slow beat. It covers the Scale Mails too. See
     [Living wings](reference/looks.md#living-wings).
+
+??? question "The True Queen's song is too loud, or I don't want it."
+    It's on the Jukebox slider in Minecraft's music and sound options. The client setting `trueQueenMusic` turns it off.
 
 ??? question "A pose or sound went missing after I died or went through a portal."
     Update to 0.2.13. Each player's looks were kept by an id that a respawn or a new dimension reuses, so a pose could fail to start, the

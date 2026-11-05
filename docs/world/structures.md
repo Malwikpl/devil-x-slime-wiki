@@ -1,6 +1,6 @@
 # Structures
 
-Devil x Slime adds four structures to the overworld. The church is rarer than a pillager outpost, the colosseum about
+Devil x Slime adds four structures to the overworld, and a [town in Hell](#the-castle-town-of-gremory). The church is rarer than a pillager outpost, the colosseum about
 twice as common as the church, and the Stray mansion a little rarer than the colosseum; the old school building
 stands once per world. Since **0.1.92** each one checks its ground first: see [Where they stand](#where-they-stand).
 
@@ -82,6 +82,20 @@ the loot. See [Lairs](stray-devils.md#lairs).
 ```
 /locate structure dxdtensura:stray_mansion
 ```
+
+## The Castle Town of Gremory
+
+A walled town in **Tensura's Hell**, about a thousand blocks from its middle, with one per world. It stands on its own base and doesn't follow the rules below. See
+[The Castle Town of Gremory](castle-town.md).
+
+```
+/locate structure dxdtensura:castle_town
+```
+
+<figure markdown="span">
+  ![The town from above](../assets/images/town-from-above.jpg){ loading=lazy }
+  <figcaption>The Castle Town.</figcaption>
+</figure>
 
 ## Where they stand
 

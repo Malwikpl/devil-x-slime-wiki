@@ -179,8 +179,8 @@ is the same.
 - **Phenex fire** is Tensura's fire element, so Fire Attack Resistance and Nullification read it. The Scale Mails' and the gauntlet's fire
   cuts don't: in the story it burns dragons. It spares your allies and sets no block alight. A Firestorm ends early if you die, log out or
   leave the dimension.
-- **The Phoenix Tear.** It stacks to 16 and is in the creative tab, with no recipe, no loot and no trade: only a Phenex makes one. Anyone
-  can drink it, in a second: health to full and fire out, never magicules or aura. Divine Dividing's
+- **The Phoenix Tear.** It stacks to 16 and is in the creative tab, with no recipe and no loot. A Phenex makes one, and the
+  [Castle Town's Apothecary](../world/castle-town.md#the-towns-own-goods) sells one a day to a Friend of House Gremory. Anyone can drink it, in a second: health to full and fire out, never magicules or aura. Divine Dividing's
   [Reduce](../divine-dividing/index.md#reduce) still blocks the heal.
 
 ## House Sitri
