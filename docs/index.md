@@ -145,7 +145,7 @@ DxD world.
 
     ---
 
-    A walled town in Hell under a purple sky, with a castle, people in its streets, guards, a market and an inn.
+    A walled town in Hell under a purple sky: people in its streets, a market, an inn, a bounty board, and Rias's parents in the castle, with titles and a treasury to earn.
 
 -   :material-crown:{ .lg .middle } **[The White Dragon Emperor](world/white-dragon-emperor.md)**
 

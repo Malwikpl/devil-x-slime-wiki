@@ -72,7 +72,7 @@ Your worn armour, elytra and cape are hidden under it.
 Charging starts by itself at the normal pace, a stack every 10 seconds up to your form's cap, and your bare fist gets the ×2ⁿ the whole time, no Explosion
 needed. There is no body strain. Dragon Shot and Transfer still spend the stacks, and charging just carries on.
 
-**Each Boost press adds a stack at once** (since 0.2.33), at the usual price and with no cooldown, as far as your max EP reaches. Past that, the charging
+**Each Boost press adds a stack at once** (since 0.2.35), at the usual price and with no cooldown, as far as your max EP reaches. Past that, the charging
 takes you the rest of the way.
 
 | Max EP | A press reaches | Power |
@@ -97,7 +97,7 @@ reaches as far as your EP allows, past the form's cap.
 
 ## The wings and the tail
 
-Since **0.2.33** the wings are modelled after the anime: a high wrist with a gold horn, stepped plates along the top, fingers set with dark diamonds, and pale leather between
+Since **0.2.35** the wings are modelled after the anime: a high wrist with a gold horn, stepped plates along the top, fingers set with dark diamonds, and pale leather between
 the bones, with folds, mottling and faint veins. The thrusters are built into the back plate. On the ground the wings fold away, as they always did.
 
 **The armour is alive:**

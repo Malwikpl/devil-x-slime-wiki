@@ -70,7 +70,7 @@ and tails do.
 - **[Wings of fire](../races/houses.md#house-phenex)** bend along their length even when you stand still, so they read as flames. With a
   shader pack they stay straight.
 
-**The Scale Mail** is alive too, since 0.2.33. Its wings lag, overshoot and beat heavily, the white leather ripples between rigid red bones, and the tail follows you on the ground and in the
+**The Scale Mail** is alive too, since 0.2.35. Its wings lag, overshoot and beat heavily, the white leather ripples between rigid red bones, and the tail follows you on the ground and in the
 air. The True Queen's wings never flap, and the white Scale Mail's tail moves the same way. See
 [The wings and the tail](../boosted-gear/balance-breaker.md#the-wings-and-the-tail).
 

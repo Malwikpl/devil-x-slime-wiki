@@ -137,7 +137,7 @@ flies where you're looking.
 
 ### Light Sword and Light Bow
 
-Since **0.2.33** you can shape your light into a sword with a guard, or a bow that needs no arrows. See [Light weapons](light-weapons.md).
+Since **0.2.35** you can shape your light into a sword with a guard, or a bow that needs no arrows. See [Light weapons](light-weapons.md).
 
 ### The holy burn
 

@@ -1,6 +1,6 @@
 # Promotion's armour forms
 
-Issei's **Illegal Move Triaina**, added in **0.2.33**. A [Pawn](../races/peerage.md#promotion) who wears the Boosted Gear's
+Issei's **Illegal Move Triaina**, added in **0.2.35**. A [Pawn](../races/peerage.md#promotion) who wears the Boosted Gear's
 [Scale Mail](balance-breaker.md) promotes in the armour, and the armour changes shape: speed in the Knight, power in the Rook, cannons on the Bishop, and all
 three at once in the crimson **True Queen**.
 

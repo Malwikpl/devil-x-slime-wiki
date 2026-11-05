@@ -464,6 +464,9 @@ speed and −25% health, Bishop −20% health, Rook −20% speed, +50% health, +
 | `phoenixTearsInMarket` | true | — | Whether the Apothecary sells Phoenix Tears. Off, only a Phenex player can supply them, by trading or chests |
 | `phoenixTearGold` | 16 | 1–64 | What a Phoenix Tear costs at the Apothecary, in gold coins. Friend of House Gremory and up, one a day |
 | `innRoomGold` | 1 | 0–64 | What a room at the inn costs, in gold coins, once. A Devil's is free |
+| `bountyEpPercent` | 5.0 | 0–100 | How much of a target's EP a kill off the bounty board gives, %, shared between aura and magicules. Half of Rias's by default |
+| `hunters` | true | — | Whether hunter parties come for a player marked a Stray Devil |
+| `hunterEveryDays` | 3 | 1–100 | How many in-game days pass between hunter parties, plus 0 to 2 at random |
 
 ## `[angel]`
 

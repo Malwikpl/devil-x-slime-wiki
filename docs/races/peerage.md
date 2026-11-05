@@ -203,7 +203,7 @@ After that, there's a **60-second** cooldown.
 
 ## Growing into your Pawns
 
-Since **0.2.33**, as with Issei, a Longinus holder on 8 Pawns starts with few of them awake, and wakes one more each time their base max EP doubles. Anyone else is an ordinary
+Since **0.2.35**, as with Issei, a Longinus holder on 8 Pawns starts with few of them awake, and wakes one more each time their base max EP doubles. Anyone else is an ordinary
 Pawn.
 
 | Base max EP | Pawns awake | Opens |

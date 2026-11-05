@@ -1,6 +1,6 @@
 # Light weapons
 
-[Angels and Fallen Angels](angels.md) don't only throw their light: since **0.2.33** they shape it into a **Light Sword** and a **Light Bow**, and can keep
+[Angels and Fallen Angels](angels.md) don't only throw their light: since **0.2.35** they shape it into a **Light Sword** and a **Light Bow**, and can keep
 the **Light Spear** in the hand. Gold from an Angel, violet from a Fallen Angel, and each line's weapons have their own look.
 
 <div class="grid" markdown>

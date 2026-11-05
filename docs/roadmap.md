@@ -65,20 +65,16 @@ world. These are plans, not promises, and the order can change.
   them as they walk or fly
 - **[Living wings](reference/looks.md#living-wings)** (0.2.13): the race wings move with you and beat with the flight, with softer lines
   on the feathered ones
-- **[Light weapons](races/light-weapons.md)** (0.2.33): Angels and Fallen Angels shape their light into a sword and a bow, and can keep the Light Spear in the hand
-- **[The Castle Town of Gremory](world/castle-town.md)** (0.2.33): a walled town in Hell with a castle, people in its streets, guards, a market and an inn, under a purple sky
-- **[Promotion's armour forms](boosted-gear/promotion-forms.md)** (0.2.33): Illegal Move Triaina's Knight, Rook and Bishop forms of the Scale Mail for a Boosted Gear Pawn, and the
+- **[Light weapons](races/light-weapons.md)** (0.2.35): Angels and Fallen Angels shape their light into a sword and a bow, and can keep the Light Spear in the hand
+- **[The Castle Town of Gremory](world/castle-town.md)** (0.2.35): a walled town in Hell with people in its streets, guards, a market, an inn and a bounty board, under a purple sky, hunters for those who carry the Stray Devil mark, and Rias's parents in the castle, with titles and a treasury to earn
+- **[Promotion's armour forms](boosted-gear/promotion-forms.md)** (0.2.35): Illegal Move Triaina's Knight, Rook and Bishop forms of the Scale Mail for a Boosted Gear Pawn, and the
   crimson True Queen with all three at once. A player's suggestion
-- **[Growing into your Pawns](races/peerage.md#growing-into-your-pawns)** (0.2.33): a Longinus holder on 8 Pawns starts with few awake, and wakes the rest as their body grows stronger
-- **[Stronger pieces in Lore mode](lore-mode.md#the-evil-pieces)** (0.2.33): Evil Pieces that give as much as they do in the story, like a Rook's monstrous strength
-- **[The Boost by press in the Scale Mail](boosted-gear/balance-breaker.md#the-boost-inside)** (0.2.33): each press a stack at once, as far as your max EP reaches
-- **[A living Scale Mail](boosted-gear/balance-breaker.md#the-wings-and-the-tail)** (0.2.33): wings from the anime that lag, beat and ripple, and a tail that follows you
+- **[Growing into your Pawns](races/peerage.md#growing-into-your-pawns)** (0.2.35): a Longinus holder on 8 Pawns starts with few awake, and wakes the rest as their body grows stronger
+- **[Stronger pieces in Lore mode](lore-mode.md#the-evil-pieces)** (0.2.35): Evil Pieces that give as much as they do in the story, like a Rook's monstrous strength
+- **[The Boost by press in the Scale Mail](boosted-gear/balance-breaker.md#the-boost-inside)** (0.2.35): each press a stack at once, as far as your max EP reaches
+- **[A living Scale Mail](boosted-gear/balance-breaker.md#the-wings-and-the-tail)** (0.2.35): wings from the anime that lag, beat and ripple, and a tail that follows you
 
 ## Next up
-
-- **The rest of the Castle Town**: the bounty board, with Stray Devil bounties for coins, EP and renown, then the castle's lords, titles and the treasury.
-
-## After that
 
 - **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
 - **The Joker** (Dulio's wild card), together with **Mutation Pieces**.

@@ -136,7 +136,8 @@ She doesn't come:
 Her talk screen has **The way to the Underworld**. She gives anyone a map to her family's [Castle Town](../world/castle-town.md) in Hell, once an in-game day, servant or not: "It's
 nearer than you'd think."
 
-Step inside its walls as her servant, and she has a word for you.
+Step inside its walls as her servant, and she has a word for you. So do her [parents](../world/castle-town.md#the-castle), in the castle. Her jobs also earn you
+[renown](../world/castle-town.md#titles-and-renown) there.
 
 ## Serving her
 

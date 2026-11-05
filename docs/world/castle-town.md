@@ -1,9 +1,8 @@
 # The Castle Town of Gremory
 
-The Gremory family's town stands in Tensura's **Hell**, added in **0.2.33**: a walled town on its own base of rock, with a castle, a
-market, an inn and people in its streets, under a purple sky and a great artificial moon. There's one per world.
-
-The town is still growing: the [bounty board and the castle's lords](#still-to-come) come in later versions.
+The Gremory family's town stands in Tensura's **Hell**, added in **0.2.35**: a walled town on its own base of rock, with a market, an inn, a
+bounty board, people in its streets and a castle with Rias's parents on their thrones, under a purple sky and a great artificial moon. There's one
+per world.
 
 <div class="grid" markdown>
 
@@ -80,8 +79,8 @@ overworld, for free, whoever you are. A step or a hit breaks it. With no spot sa
 - **Market Row** has the [five stalls](#the-market). The [inn](#the-inn) and the **Hunters' Office** are nearby.
 - **About 60 houses,** noble gardens and lanes fill the rest, inside the town wall.
 - **The stadium** is closed for now.
-- **The castle** has the rooms the story names: the great hall with its thrones, a theatre, a dining room, a library, Rias's room, and a treasury
-  with three vaults nobody has the key to yet.
+- **[The castle](#the-castle)** has the rooms the story names: the great hall with its thrones, a theatre, a dining room, a library, Rias's room, and a
+  treasury under the hall.
 
 <div class="grid" markdown>
 
@@ -125,8 +124,8 @@ While a player is near, the town has **24 citizens** and **10 guards**. They arr
 
 - **Citizens** walk the streets, stop in pairs to talk, sit on the square's benches and run from danger.
 - **Guards** carry swords. They stand at the gates, walk the south wall and patrol the Avenue.
-- **The Hunters' Clerk** stands behind the counter of the Hunters' Office. Nobody can hurt the Clerk, the stallkeepers or the innkeeper, and trying makes you
-  Wanted.
+- **The Hunters' Clerk** stands behind the counter of the Hunters' Office. Nobody can hurt the Clerk, the stallkeepers, the innkeeper or the lords in the castle,
+  and trying makes you Wanted.
 - **Right-click** a citizen or a guard for a line. It depends on who you are: a Devil, an Angel, a Fallen Angel, a stranger, Rias's servant, or Wanted.
 - **The dead stay dead for a day.** Each citizen or guard killed leaves one fewer until the next in-game day.
 - They can't take an Evil Piece, a Brave Saint card or a name. [Forbidden Balor View](../balor-view/index.md) stops a citizen, but not the Clerk.
@@ -154,7 +153,7 @@ are let off.
 - **The alarm.** While a guard can see you, 2 more come through a circle about every 20 seconds, up to 12 in a day. It stops after you've been out of
   sight for 30 seconds.
 - **Citizens** run with a cry.
-- **Stalls and the inn** refuse you.
+- **Stalls, the inn and the bounty board** refuse you, and Zeoticus has nothing for you.
 
 **It ends** either way:
 
@@ -162,7 +161,7 @@ are let off.
 - for **1 gold coin** paid to the Clerk.
 
 **A [Stray Devil mark](stray-devils.md#the-stray-devil-mark)** makes you Wanted whenever you're in the square, and there's no fine to pay for it. Outside the
-square nobody minds.
+square, [hunters](#hunters-and-the-mark) may come for you.
 
 <div class="grid" markdown>
 
@@ -247,34 +246,139 @@ The innkeeper stands behind the inn's counter.
   <figcaption>The innkeeper.</figcaption>
 </figure>
 
-## Titles and renown
+## Bounties
 
-House Gremory has five titles for you. A title opens more of each stall's lists and takes a cut off prices. The cut adds to a Devil's 10%, and never comes
-to more than 25%.
+The **bounty board** stands on the wall of the Hunters' Office. Right-click it for three posters a day of your own, and take one.
 
-| Title | Stall lists it opens | Cut |
-|---|---|---|
-| Visitor | Levels 1 and 2 | none |
-| Guest of House Gremory | Up to level 3 | none |
-| Friend of House Gremory | Up to level 4, and the Phoenix Tear | 5% |
-| Honoured by House Gremory | All 5 | 10% |
-| Champion of House Gremory | All 5 | 15% |
+| Poster | Target |
+|---|---|
+| 1 | A Stray of your class |
+| 2 | A Stray one class up |
+| 3 | A lair boss, if one is in range of where you last stood above, or else another Stray |
 
-**For now everyone is a Visitor.** The titles come with the castle's lords. Until then an operator can set one with `/dxdtensura town title set`.
+- **It runs like [Rias's jobs](stray-devils.md#riass-hunts).** A marker points the way, the target comes up when you get within 64 blocks, and you have two in-game days. Anything above your EP is
+  stamped.
+- **One hunt at a time,** shared with Rias's jobs. If you serve her, her call waits.
+- **Anyone can hunt,** though not while Wanted or with the Stray Devil mark. On Peaceful, the board says the land is quiet.
+- **It pays where you make the kill:** coins through a small circle at your feet, a little EP, and renown. Rias doesn't come. If someone else kills it, or it's killed with you more than 64 blocks
+  away, there's no pay.
 
-**Renown** counts what the town thinks of you, and `/dxdtensura town renown` shows yours. It falls by 10 when you become Wanted and by 50 when you kill.
+| Target | Coins | EP | Renown |
+|---|---|---|---|
+| Low-class Stray | 8 to 12 silver | 5% of the target's | 10 |
+| Middle-class Stray | 24 to 36 silver | 5% | 20 |
+| High-class Stray | 2 to 3 gold | 5% | 40 |
+| Lair boss | 5 to 8 gold | 5% | 100 |
 
-## Still to come
+The posters change every in-game day.
 
-- **The bounty board** outside the Hunters' Office, which says "Nothing's been posted yet."
-- **The castle's lords,** titles earned by renown, and the keys to the treasury.
-- **The stadium.**
+<div class="grid" markdown>
 
-See the [Roadmap](../roadmap.md).
+<figure markdown="span">
+  ![The bounty board on the Hunters' Office wall](../assets/images/town-board-wall.jpg){ loading=lazy }
+  <figcaption>The board, on the Hunters' Office.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![The bounty board's three posters](../assets/images/town-board.jpg){ loading=lazy }
+  <figcaption>Three posters a day.</figcaption>
+</figure>
+
+</div>
+
+### Hunters and the mark
+
+Carry the [Stray Devil mark](stray-devils.md#the-stray-devil-mark) and the Hunters' Office comes for you too.
+
+- **Hunter parties** come every 3 to 5 in-game days, in the overworld at night or in Hell at any time, never inside the town. Their line comes first, and 3 seconds later they arrive through small dark
+  circles 24 to 32 blocks away, flying at you, and only you.
+- **Two come at first,** and one more for each party you beat, up to five. Each has half your EP, from 20,000 to 400,000, and drops 2 to 5 silver.
+- **They leave** after 5 minutes, when you die or when you leave the dimension.
+
+**With PvP on,** the player marked longest also has a poster on everyone else's board, in darker paper. It's a hunt of its own, for two days, alongside a Stray job. A kill by your own hand pays **5 gold
+and 50 renown**, and the poster stays off your board for 3 days.
+
+<figure markdown="span">
+  ![A hunter party flying in](../assets/images/town-hunters.jpg){ loading=lazy }
+  <figcaption>A hunter party.</figcaption>
+</figure>
+
+## The castle
+
+At the north end of the Avenue, and anyone may walk in. **Zeoticus and Venelana Gremory**, Rias's parents, sit on their thrones in the great hall. Nobody can hurt them, and trying makes you Wanted.
+
+- **Zeoticus** is who you take your renown to. **My renown** gives the number, and how far the next title is.
+- **Venelana** has something stern to say, and nothing to give.
+- **As Rias's servant,** each has a line of their own for you.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![The great hall](../assets/images/town-hall.jpg){ loading=lazy }
+  <figcaption>The great hall.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![Zeoticus and Venelana on their thrones](../assets/images/town-thrones.jpg){ loading=lazy }
+  <figcaption>Zeoticus and Venelana on their thrones.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![The theatre](../assets/images/town-theatre.jpg){ loading=lazy }
+  <figcaption>The theatre.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![The library](../assets/images/town-library.jpg){ loading=lazy }
+  <figcaption>The library.</figcaption>
+</figure>
+
+</div>
+
+### Titles and renown
+
+**Renown** counts what the town thinks of you, and `/dxdtensura town renown` shows yours. [Bounties](#bounties) and Rias's jobs raise it. It falls by 10 when you become Wanted and by 50 when you kill.
+
+**Titles.** When your renown is high enough, Zeoticus offers you the next title, and you accept it on his panel. Each brings a gift, opens more of each stall's lists and takes a cut off prices. The cut adds
+to a Devil's 10%, and never comes to more than 25%.
+
+| Title | Renown | Stall lists it opens | Cut | His gift |
+|---|---|---|---|---|
+| Visitor | 0 | Levels 1 and 2 | none | |
+| Guest of House Gremory | 100 | Up to level 3 | none | 5 gold, 2 Gremory Banners |
+| Friend of House Gremory | 300 | Up to level 4, and the Phoenix Tear | 5% | 10 gold |
+| Honoured by House Gremory | 700 | All 5 | 10% | A Stellar Gold Coin |
+| Champion of House Gremory | 1,500 | All 5 | 15% | 3 Treasury Keys |
+
+- **One at a time,** each with its own Accept.
+- **A title is never taken back.** Renown can fall, and the next title waits until it's back.
+- **Wanted or with the mark,** Zeoticus won't deal with you.
+- With a full inventory, the gift drops at your feet.
+
+<figure markdown="span">
+  ![Zeoticus on his throne, with his panel open](../assets/images/town-zeoticus.jpg){ loading=lazy }
+  <figcaption>Zeoticus Gremory.</figcaption>
+</figure>
+
+### The treasury
+
+A Champion's three **Treasury Keys** open the vaults under the hall, down the long stair behind the thrones. Hold a key near a vault and it lights up. Right-click, and it takes the key and gives you a
+reward: **one reward from each vault, ever**. In survival, nothing else in the room works.
+
+| Vault | What it may give |
+|---|---|
+| Coins | 8 to 16 gold, or 1 or 2 Stellar Gold Coins |
+| Arms | A Hihiirokane or Adamantite weapon or chestplate, or ingots |
+| Tomes | A magic tome or a battlewill manual |
+
+<figure markdown="span">
+  ![The treasury, with three vaults at its far end](../assets/images/town-treasury.jpg){ loading=lazy }
+  <figcaption>The treasury, with its three vaults at the far end.</figcaption>
+</figure>
 
 ## For server owners
 
 - The numbers are in the [`[town]`](../reference/configuration.md#town) config section. `enabled = false` takes away the town's rules, people, circle, tickets and
   Rias's map, and no new town generates. `protect = false` lets anyone break blocks. `phoenixTearsInMarket = false` leaves Phoenix Tears to Phenex players.
 - Operators have the [`/dxdtensura town`](../reference/commands.md#the-castle-town) commands.
-- **People and stalls need no new world:** a town already generated gets them. The buildings themselves don't change once generated.
+- **People, stalls, the board and the lords need no new world:** a town already generated gets them. The buildings themselves don't change once generated.

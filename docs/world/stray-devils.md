@@ -114,10 +114,12 @@ Leave a peerage, or be released, and you carry the **Stray Devil mark**: Strays 
   one of us. Leave, or stay and rot."
 - Hurt one and that Stray alone fights you, until it dies or you're more than 48 blocks away. The others stay calm.
 - In the [Castle Town](castle-town.md#wanted) the mark makes you **Wanted** whenever you're in its square, with no fine to pay for it.
+- **Hunters** come for you every few days, and with PvP on, the player marked longest has a poster on other players' bounty boards. See [Hunters and the mark](castle-town.md#hunters-and-the-mark).
 
 ## Rias's hunts
 
-Serve [Rias](../races/rias.md) and she sends you hunting.
+Serve [Rias](../races/rias.md) and she sends you hunting. A kill also gives you [renown](castle-town.md#titles-and-renown) in the Castle Town, whose
+[bounty board](castle-town.md#bounties) has hunts for anyone.
 
 - **Every 3 in-game days** she calls you at dusk in the overworld, in her speech box, and sends you after a Stray. Or ask
   her **"Any Stray Devils?"** on her talk screen once the days are up. Too soon: "Not yet. Rest while you can.", and the

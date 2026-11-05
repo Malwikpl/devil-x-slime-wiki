@@ -38,7 +38,7 @@ Human Saint, Divine Human).
   leaves you: Ddraig or Albion says goodbye, and you roll a new Unique Skill in its place. The race menu warns you first:
   "Pick Human to keep your Boosted Gear." Divine Dividing goes back into the roll for someone else. A Juggernaut Drive's
   life debt stays with you.
-- **Another road.** Since **0.2.33**, a gear that reaches a non-human any other way leaves within a second, or at their next login: another mod's pick, or another mod's rebirth into a
+- **Another road.** Since **0.2.35**, a gear that reaches a non-human any other way leaves within a second, or at their next login: another mod's pick, or another mod's rebirth into a
   race from Tensura's race menu. "A Sacred Gear only lives in a human, so yours left you." You get a new Unique Skill in its place. Evil Pieces, Brave Saint cards, evolution, falling
   and an operator's `/tensura edit` commands keep the gear as before.
 - **Gears from older worlds.** A Devil, Angel, Fallen Angel, someone of the Vampire line or a Wight keeps a gear held from before 0.1.84 until their next race-menu pick. Anyone else, on a

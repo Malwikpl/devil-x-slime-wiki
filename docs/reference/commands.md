@@ -36,6 +36,8 @@ For [the Castle Town](../world/castle-town.md). All need operator permission, ex
 | `/dxdtensura town renown` | Your renown. **Anyone can use it** |
 | `/dxdtensura town renown set <amount> [target]` | Sets renown |
 | `/dxdtensura town title set <title> [target]` | Sets a [title](../world/castle-town.md#titles-and-renown): `visitor`, `guest`, `friend`, `honoured` or `champion` |
+| `/dxdtensura town bounties refresh` | New posters on the [bounty board](../world/castle-town.md#bounties) at once |
+| `/dxdtensura town hunters now` | Sends a [hunter party](../world/castle-town.md#hunters-and-the-mark) now |
 
 ### Rias Gremory
 

@@ -32,7 +32,7 @@
     `config/dxdtensura-server.toml`. The roll is random, with the same odds as every other Unique Skill in it.
 
 ??? question "My gear left me, and I didn't pick a new race."
-    A Sacred Gear lives only in a human. Since 0.2.33 a gear that reached a non-human another way, such as a reroll mod, leaves at login or within a second, and you get a new Unique
+    A Sacred Gear lives only in a human. Since 0.2.35 a gear that reached a non-human another way, such as a reroll mod, leaves at login or within a second, and you get a new Unique
     Skill. Evil Pieces, Brave Saint cards, evolution and falling keep it. See [Only in humans](getting-started/first-gear.md#only-in-humans).
 
 ## Boosted Gear
@@ -289,8 +289,14 @@
 ??? question "How do I respawn in the town?"
     Rent a room from the innkeeper, then choose "Set your respawn here". See [The inn](world/castle-town.md#the-inn).
 
-??? question "Why is the bounty board empty?"
-    Bounties come in a later version. See [Still to come](world/castle-town.md#still-to-come).
+??? question "How do bounties work?"
+    Right-click the board at the Hunters' Office for three posters a day, and take one. You're paid in coins, EP and renown where you make the kill. See [Bounties](world/castle-town.md#bounties).
+
+??? question "Dark winged hunters keep coming for me."
+    You carry the Stray Devil mark. They come every 3 to 5 in-game days, leave after 5 minutes, and stay out of the town. See [Hunters and the mark](world/castle-town.md#hunters-and-the-mark).
+
+??? question "How do I get a title, or the treasury's keys?"
+    Earn renown with bounties and Rias's jobs, and take it to Zeoticus in the great hall. A Champion's gift is three Treasury Keys. See [Titles and renown](world/castle-town.md#titles-and-renown).
 
 ## Lore mode
 
