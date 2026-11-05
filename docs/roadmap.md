@@ -90,6 +90,7 @@ world. These are plans, not promises, and the order can change.
   weaker wolf you can tame.
 - **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
 - **More Sacred Gears**, one at a time.
+- **Annihilation Maker**: Leonardo's Longinus, which creates monsters.
 - **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
 - **Forbidden Invade Balor the Beast**: Forbidden Balor View's Balance Breaker.
 - **Named demonic swords from the story** for Sword Birth, like Holy Eraser and Flame Delete, each with its own model.
