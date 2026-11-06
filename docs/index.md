@@ -7,7 +7,7 @@ hide:
 # Devil x Slime
 
 <div class="hero" markdown>
-![Devil x Slime logo](assets/images/logo.png)
+![Devil x Slime logo](assets/images/logo-wings.png)
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
