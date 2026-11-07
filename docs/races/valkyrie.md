@@ -312,7 +312,7 @@ beside you and fights for **60 seconds**.
 - **It fights for you:** whatever you've just hit or been hit by, as a wolf does, and on its own the hostile mobs near you (not creepers).
   It never touches your friends and pets, Rias or the Castle Town's people. It follows you and catches up if you get far ahead.
 - **It draws them off you** (0.2.67): a mob it strikes turns on it, Tensura's mobs included, and its sword arm swings with every blow. Its
-  kills and their EP stay yours.
+  kills, their EP and their drops stay yours.
 - **A stronger soul makes a stronger warrior,** up to one as strong as you: a soul much weaker than you gives as little as a quarter of the
   table.
 - It fades when you die or log out. 5 second cooldown.

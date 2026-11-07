@@ -6,6 +6,11 @@ the crosshair.
 
 It's part of the **New ability controls**, on by default. You can [turn them off](#turning-it-off) and keep Tensura's one-step switching.
 
+<figure markdown="span">
+  ![The mode wheel open on the Boosted Gear](../assets/images/wheel-gear.jpg){ loading=lazy }
+  <figcaption>Alt + Z on the Boosted Gear: Summon / Dismiss lit, with your other skills' icons at the edge.</figcaption>
+</figure>
+
 ## Picking a mode
 
 1. **Hold Left Alt** (Tensura's "Next Ability Mode" key) and **press the slot key** (Z, X or C by default).
@@ -36,6 +41,11 @@ pick one, and the key now holds **that skill** on that mode.
 - **Alt + an empty key** opens the edge alone, so you can put a skill on it.
 - The client setting `abilityWheelSkills` ("Mode wheel: other skills") hides the edge.
 
+<figure markdown="span">
+  ![Twilight Healing's modes brought in from the edge](../assets/images/wheel-band.jpg){ loading=lazy }
+  <figcaption>Further out to Twilight Healing: its modes come inside, ready to put on Z.</figcaption>
+</figure>
+
 ## The forms move your key
 
 With the new controls on, going into a form puts the key you pressed onto the form's first move, so your next press doesn't end it:
@@ -50,7 +60,7 @@ When the form ends, the key goes back, unless you moved it yourself meanwhile. P
 ## Turning it off
 
 The client setting **New ability controls** (`abilityWheel` in `config/dxdtensura-client.toml`, on by default), under Mods → Devil x Slime →
-Config. Off, since **0.2.67** it turns off everything above:
+Config. Off, since **0.2.67** it turns off everything above, at once:
 
 - Alt + the slot key steps **one mode** forward, as Tensura does;
 - the forms **leave your keys** where you put them.
