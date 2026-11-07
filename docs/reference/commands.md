@@ -73,6 +73,8 @@ For the [Brave Saints](../races/brave-saints.md). All need operator permission.
 | `/dxdtensura bravesaints info <player>` | A Seraph's deck, or a holder's card |
 | `/dxdtensura bravesaints suit <player> <suit>` | Sets a Seraph's suit (`spades`, `hearts`, `diamonds` or `clubs`), which only an operator can change |
 | `/dxdtensura bravesaints release <player>` | Releases a holder from their Seraph's deck; the card goes back |
+| `/dxdtensura bravesaints joker give <player>` | Puts [the Joker](../races/brave-saints.md#the-joker) back in a Seraph's deck |
+| `/dxdtensura bravesaints joker take <player>` | Takes the Joker out of a Seraph's deck |
 
 ### Durandal and the Holy Factor
 
@@ -98,6 +100,40 @@ For the [Nekomata and Nekoshou](../races/nekomata.md). All need operator permiss
 | `/dxdtensura coat <player> <coat>` | Sets their coat: `ginger`, `grey`, `brown_tabby`, `calico`, `tuxedo`, `cream`, or a Nekoshou's `white` or `black` |
 | `/dxdtensura malice <player>` | Shows their [Malice](../races/nekomata.md#malice), 0 to 100 |
 | `/dxdtensura malice <player> set <0-100>` | Sets it |
+
+### Mutation Pieces
+
+For [Mutation Pieces](../races/peerage.md#mutation-pieces). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura mutation give <king> <kind>` | Gives a King a Mutation Piece of that kind, already shaped: `pawn`, `knight`, `bishop`, `rook` or `queen` |
+| `/dxdtensura mutation wait <king>` | Gives a King a Mutation Piece waiting to be shaped in the case's menu |
+| `/dxdtensura mutation take <king>` | Takes away a King's unused Mutation Pieces |
+| `/dxdtensura mutation turn <servant>` | Turns one more of a Boosted Gear Pawn's Pawns Mutation |
+
+### Valkyries
+
+For the [Valkyries](../races/valkyrie.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura valkyrie genius give <targets>` | Makes them a genius of Norse magic |
+| `/dxdtensura valkyrie genius take <targets>` | Makes them a normal Valkyrie, with the roll spent |
+| `/dxdtensura valkyrie genius reroll <targets>` | Rolls again |
+| `/dxdtensura valkyrie souls give <targets> <count> [ep]` | Gives them [Chosen Souls](../races/valkyrie.md#chosen-souls), as strong as they are or of that EP |
+| `/dxdtensura valkyrie souls clear <targets>` | Lets go of their souls |
+
+### Kitsune and the Nine-Tailed Fox
+
+For the [Kitsune and the Nine-Tailed Fox](../races/kitsune.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura kyuubi give <targets>` | Makes them a Nine-Tailed Fox |
+| `/dxdtensura kyuubi take <targets>` | Makes them a plain Kitsune, with the roll spent |
+| `/dxdtensura kyuubi reroll <targets>` | Rolls again |
+| `/dxdtensura foxcoat <player> <coat>` | Sets a Kitsune's coat: `golden`, `light_brown`, `red`, `silver`, `white` or `black` (a Nine-Tailed Fox keeps its gold) |
 
 ### House powers
 

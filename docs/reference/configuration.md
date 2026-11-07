@@ -199,15 +199,23 @@ The White Dragon Emperor boss and Albion's jewel.
 | Option | Default | Range | Meaning |
 |---|---|---|---|
 | `emperorMaxHealth` | 3000 | 100–10000 | His health |
-| `emperorHitCapPercent` | 10 | 1–100 | The most one hit counts, as a percent of his max health |
-| `emperorAttackWings` / `emperorAttackScaleMail` / `emperorAttackBroken` | 40 / 60 / 30 | 0–1000 | His punch in each phase |
+| `emperorHitCapPercent` | 5 | 1–100 | The most one hit counts, as a percent of his max health (5: 150 of 3,000) |
+| `emperorAttackWings` / `emperorAttackScaleMail` / `emperorAttackBroken` | 40 / 60 / 30 | 0–1000 | His punch in each phase, at the least |
 | `emperorArmorWings` / `emperorArmorScaleMail` | 20 / 50 | 0–100 | His armour (broken uses the wings') |
-| `emperorOrbDamage` | 20 | 0–1000 | One orb of light |
+| `emperorOrbDamage` | 20 | 0–1000 | One orb of light, at the least |
 | `emperorDivideCap` | 2 | 1–8 | His Divides on one target at a time |
 | `emperorDivideSecondsWings` / `emperorDivideSecondsScaleMail` | 10 / 5 | 1–120 | Between his Divides |
 | `emperorHalfDimensionSeconds` / `emperorCompressionSeconds` | 30 / 60 | 5–600 | Between his powers |
 | `emperorFleeSeconds` / `emperorAloneSeconds` | 60 / 30 | 5–600 | Broken before he flees; alone before he fades |
 | `emperorXp` | 1000 | 0–100000 | His kill's XP |
+| `emperorPunchPercentWings` / `emperorPunchPercentScaleMail` / `emperorPunchPercentBroken` | 8 / 12 / 6 | 0–100 | His punch in each phase, as a % of the target's max health; never less than the flat punch |
+| `emperorOrbPercent` | 4 | 0–100 | An orb, as a % of the target's max health; never less than `emperorOrbDamage` |
+| `emperorVentPercent` | 10 | 0–100 | His vent's burst, as a % of each one's max health; never less than his attack |
+| `emperorAbsorbedAttackPercent` / `emperorAbsorbedSpeedPercent` | 25 / 10 | 0–200 / 0–100 | His attack's and speed's rise for each Divide he holds, % |
+| `emperorVentAt` / `emperorVentAtAlone` | 4 / 2 | 1–16 | Divides held at which he vents, against two or more players / one |
+| `emperorVentRadius` | 8 | 1–32 | Blocks his vent's burst reaches |
+| `emperorLightRainSeconds` | 20 | 5–600 | Between his Light Rains on the wings |
+| `emperorReflectSeconds` / `emperorReflectWindowTicks` | 20 / 60 | 5–600 / 10–400 | Between his Reflects in the Scale Mail; how long one lasts, in ticks |
 | `jewelChannelSeconds` / `jewelLingerSeconds` | 5 / 300 | 1–60 / 10–3600 | Holding use on the jewel; how long it stays after the fight |
 | `altarNeedsEnderDragon` | true | — | The altar answers only after the Ender Dragon's death |
 | `oneDivineDividingPerWorld` | true | — | Only one player may gain Divine Dividing |
@@ -355,6 +363,10 @@ channel is the Devil's `magicCircleSeconds`.
 | `pawnGrowthRookAt` | 3 | 1–8 | Pawns awake a holder on 8 Pawns needs for the Rook. Knight and Bishop open at 1 |
 | `pawnGrowthQueenAt` | 5 | 1–8 | Pawns awake a holder on 8 Pawns needs for the Queen |
 | `pawnGrowthTrueQueenAt` | 8 | 1–8 | Pawns awake a holder on 8 Pawns needs for the True Queen, on top of its mastery |
+| `mutationPieces` | true | — | [Mutation Pieces](../races/peerage.md#mutation-pieces). Off: no rolls and no turns, and a Mutation Piece serves as an ordinary one; servants keep theirs |
+| `mutationChancePercent` | 10 | 0–100 | The chance a new King's set holds a Mutation Piece, % |
+| `mutationGrowthChancePercent` | 10 | 0–100 | The chance, at each doubling of the King's base max EP, that an unused piece turns, % |
+| `mutationStrengthPercent` | 25 | 0–100 | How much stronger a Mutation servant's piece strengths are, % |
 
 ## `[promotion_forms]`
 
@@ -645,6 +657,8 @@ every lower card gives its share of the Ace's numbers by place (the 7 half).
 | `callCooldownSeconds` | 30 | 0–3600 | Before the Seraph can call the same holder again |
 | `travelCostPercent` | 10 | 0–100 | % of a holder's max magicules going to their Seraph costs, paid on arrival |
 | `travelCooldownSeconds` | 60 | 0–3600 | Before a holder can go to their Seraph again |
+| `joker` | true | — | [The Joker](../races/brave-saints.md#the-joker): a 13th card in every deck, wild in hands. Off: it's out of every pick and hand; holders keep it |
+| `jokerAcePercent` | 125 | 100–300 | The Joker's bonus against the Ace's, % |
 
 ## `[durandal]`
 
@@ -734,6 +748,175 @@ The races' own stats, EP ranges and requirements are in `config/dxdtensura/race/
 | `maliceAfter` | 30 | — | Malice left after it |
 | `maliceToukiCooldownSeconds` | 30 | — | Touki's cooldown after it |
 
+## `[valkyrie]`
+
+The [Valkyries](../races/valkyrie.md). Each list goes by rank: Valkyrie Trainee, Valkyrie, Valhalla Guard, Chief Valkyrie, Brynhildr, or a
+hybrid's Devil class. The races' own stats, EP ranges, requirements and the aspectual spells each rank teaches (`[learnableMagics]`) are in
+`config/dxdtensura/race/valkyrie_config.toml`.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `valkyrieInRaceMenu` | true | — | Valkyrie Trainee in Tensura's race menu (its starting, random and Reincarnation lists in reincarnation_config.toml). Off takes it out. The races' own numbers are in config/dxdtensura/race/valkyrie_config.toml |
+| `valkyrieFlightSpeed` | 0.8, 1, 1.2, 1.5, 2 | list | A Valkyrie's flight speed by rank, the rune circle's |
+| `norseFormulaCost` | 10, 15, 20, 25, 30 | list | Norse Formula: how much cheaper all magic is by rank, % |
+| `norseFormulaChant` | 10, 20, 30, 40, 50 | list | Norse Formula: how much faster all chants are by rank, % |
+| `runeDamage` | 6, 12, 24, 48, 96 | list | A Rune's damage by rank |
+| `runeCost` | 100, 400, 1800, 7500, 30,000 | list | A Rune's magicule cost by rank |
+| `fullBurstCircles` | 6, 8, 12, 16, 20 | list | A normal Full Burst's most circles by rank |
+| `fullBurstGeniusCircles` | 12, 20, 35, 55, 80 | list | A genius's Full Burst's most circles by rank |
+| `runeBarrierSoak` | 40, 80, 160, 320, 640 | list | How much Rune Barrier soaks by rank |
+| `runeBarrierCost` | 200, 800, 3600, 15,000, 60,000 | list | Rune Barrier's magicule cost by rank |
+| `enhancementPercent` | 10, 15, 20, 25, 30 | list | Enhancement's attack and speed by rank, %. Steps of 5 |
+| `enhancementCost` | 150, 600, 2700, 11,250, 45,000 | list | Enhancement's magicule cost by rank |
+| `runeSealSeconds` | 3, 3, 4, 4, 5 | list | Rune Seal's seconds by rank, on an equal |
+| `runeSealCost` | 150, 600, 2700, 11,250, 45,000 | list | Rune Seal's magicule cost by rank |
+| `runeSwordAttack` | 4, 8, 16, 32, 64 | list | The Rune Sword's attack by rank |
+| `runeSwordCost` | 25, 100, 450, 1875, 7500 | list | The magicules a Rune Sword's hit costs by rank |
+| `runeSpearAttack` | 3, 6, 12, 24, 48 | list | The Rune Spear's attack in the hand by rank |
+| `runeSpearCost` | 20, 80, 360, 1500, 6000 | list | The magicules a Rune Spear's hit costs by rank |
+| `battleDressArmor` | 4, 8, 12, 16, 20 | list | The Battle Dress's armour by rank |
+| `battleDressToughness` | 0, 2, 4, 6, 8 | list | The Battle Dress's armour toughness by rank |
+| `battleDressMagicResistPercent` | 5, 10, 15, 20, 25 | list | The Battle Dress's cut to Tensura magic's hits by rank, % |
+| `valkyrieGeniusMagiculePercent` | 25 | 0–1000 | A genius's extra max magicules, % |
+| `norseFormulaGeniusBonus` | 10 | 0–100 | A genius's Norse Formula: points more on both cost and chant |
+| `runeThunderRange` | 6 | 0–64 | How far a Thunder Rune jumps, blocks |
+| `runeThunderPercent` | 50 | 0–1000 | A Thunder Rune's jump's damage, % of the hit's |
+| `runeWindKnockback` | 1.5 | 0–16 | A Wind Rune's knockback |
+| `fullBurstShotPercent` | 50 | 0–1000 | A normal Full Burst's shot's damage, % of a Rune's |
+| `fullBurstCirclePricePercent` | 40 | 0–1000 | A normal Full Burst's circle's price, % of a Rune's |
+| `fullBurstGeniusPercent` | 250 | 0–1000 | A full sheet's volley's whole damage, % of a normal full burst's volley's |
+| `fullBurstSpread` | 8 | 0–64 | How far from the aim a normal burst's shot lands, blocks |
+| `fullBurstSplash` | 2 | 0–64 | How far a normal burst's shot reaches where it lands, blocks |
+| `fullBurstGeniusSpread` | 16 | 0–64 | How far from the aim a genius's shot lands, blocks |
+| `fullBurstGeniusSplash` | 4 | 0–64 | How far a genius's shot reaches where it lands, blocks |
+| `fullBurstBreaksBlocks` | true | — | If true, each Full Burst blast breaks the blocks around where it lands, as TNT would: up to stone and metal blocks, never obsidian, bedrock or anything holding items, with no drops. Needs the mobGriefing and skillGriefing rules on, and claims are respected |
+| `fullBurstBreakRadius` | 1.5 | 0–8 | How far round where it lands a normal burst's blast breaks blocks, blocks |
+| `fullBurstGeniusBreakRadius` | 2 | 0–8 | How far round where it lands a genius's blast breaks blocks, blocks |
+| `sakeTipsySeconds` | 120 | 1–3600 | How long a bottle of Sake leaves you Tipsy, seconds. A tipsy genius's Full Burst is a drunken one |
+| `sakeCirclesPercent` | 150 | 100–300 | A tipsy genius's Full Burst opens this percent of their rank's circles (150: half as many again, 120 at Brynhildr) |
+| `sakeDrainPercent` | 200 | 100–400 | A tipsy genius's Full Burst costs this percent of a sober one's (200: all their magicules instead of half) |
+| `sakeParalysisSeconds` | 10 | 0–600 | How long a tipsy genius is paralysed when their Full Burst ends, seconds (Tensura's Paralysis) |
+| `townSakeGold` | 1 | 0–64 | What a bottle of Sake costs at the Castle Town's inn, in gold coins |
+| `fullBurstRange` | 96 | 1–256 | How far a Full Burst aims, blocks |
+| `runeBarrierArcDegrees` | 75 | 0–180 | Rune Barrier stops hits within this many degrees of the look |
+| `runeBarrierGeniusPercent` | 50 | 0–1000 | A genius's Rune Barrier, % stronger |
+| `runeBarrierRookPercent` | 50 | 0–1000 | A Rook's Rune Barrier, % stronger |
+| `runeBarrierMasteredPercent` | 25 | 0–1000 | Rune Barrier at full mastery, % stronger |
+| `enhancementAllyRange` | 12 | 0–64 | How far Enhancement reaches a friend, blocks |
+| `runeSealRange` | 24 | 1–128 | How far Rune Seal reaches, blocks |
+| `runeSealBossPercent` | 50 | 0–100 | Rune Seal's time on a boss, % |
+| `valkyrieGeniusChancePercent` | 10 | 0–100 | The % chance a player becoming a Valkyrie is born a genius: one roll per player, kept through race resets |
+| `runeCooldownSeconds` | 1 | 0–3600 | The four Runes' shared cooldown, in seconds |
+| `runeFireSeconds` | 4 | 0–3600 | How long a Fire Rune sets its target alight, in seconds |
+| `runeIceSeconds` | 3 | 0–3600 | How long an Ice Rune slows its target, in seconds |
+| `fullBurstOpenTicks` | 2 | 1–200 | Ticks between a normal burst's circles, before chant speed |
+| `fullBurstGeniusOpenSeconds` | 4 | 0.05–60 | How long a genius's whole sheet takes to form, in seconds, timed to its song; chant speed doesn't shorten it |
+| `fullBurstGeniusFireSeconds` | 11 | 1–120 | The longest a genius's Full Burst fires, in seconds |
+| `fullBurstGeniusOpenPercent` | 10 | 0–100 | What forming a genius's whole sheet costs, % of max magicules, shared over its circles |
+| `fullBurstGeniusFirePercent` | 40 | 0–100 | What a genius's whole fire costs, % of max magicules, shared over its shots; letting go early pays less |
+| `fullBurstShotTicks` | 40 | 2–400 | Once the circles are open, each fires a blast every this many ticks while the key is held |
+| `fullBurstFireSeconds` | 8 | 1–120 | The longest a Full Burst fires, in seconds |
+| `fullBurstShotPricePercent` | 10 | 0–1000 | A normal Full Burst's blast's price, % of a Rune's |
+| `fullBurstCooldownSeconds` | 30 | 0–3600 | Full Burst's cooldown from its end, in seconds |
+| `fullBurstEmptyCooldownSeconds` | 1 | 0–3600 | Full Burst's cooldown if no circle opened, in seconds |
+| `runeBarrierSeconds` | 15 | 1–3600 | How long Rune Barrier stands, in seconds |
+| `runeBarrierCooldownSeconds` | 10 | 0–3600 | Rune Barrier's cooldown from its end, in seconds |
+| `runeBarrierBrokenCooldownSeconds` | 20 | 0–3600 | Rune Barrier's cooldown if it broke, in seconds |
+| `enhancementSeconds` | 60 | 1–3600 | How long Enhancement lasts, in seconds |
+| `enhancementMasteredSeconds` | 75 | 1–3600 | How long Enhancement lasts at full mastery, in seconds |
+| `enhancementCooldownSeconds` | 60 | 0–3600 | Enhancement's cooldown from the cast, in seconds |
+| `enhancementAllyRank` | 2 | 0–5 | The rank from which Enhancement falls on friends too |
+| `runeSealCooldownSeconds` | 20 | 0–3600 | Rune Seal's cooldown, in seconds |
+| `runeWeaponCooldownSeconds` | 1 | 0–3600 | The cooldown on forming a rune weapon or throwing the spear, in seconds |
+| `battleDressCooldownSeconds` | 3 | 0–3600 | The cooldown between Battle Dress changes, in seconds |
+| `townValkyrieDiscountPercent` | 10 | 0–100 | The Castle Town market's cut for a Valkyrie, % |
+| `seidrSoulsHeld` | 1, 2, 3, 5, 7 | list | Seiðr: Chosen Souls held, Valkyrie Trainee to Brynhildr; full mastery holds one more |
+| `seidrSoulSeconds` | 30 | 1–3600 | How long a Chosen Soul hangs where it died, in seconds |
+| `seidrSoulRadius` | 16 | 1–128 | How near someone with Seiðr a boss or strong foe must die for a soul, in blocks |
+| `seidrBossSoulRadius` | 64 | 1–256 | How near someone with Seiðr a boss must die for a soul, in blocks. Whoever kills it gets one wherever they stand |
+| `seidrChooseRadius` | 6 | 1–64 | How near a soul must be for Choose the Slain to take it, in blocks |
+| `seidrStrongFoePercent` | 50 | 0–10,000 | A foe that isn't a boss leaves a soul if its EP is at least this much of a holder's, % |
+| `seidrChooseCooldownSeconds` | 1 | 0–3600 | Choose the Slain's cooldown after taking a soul, in seconds |
+| `einherjarCost` | 150, 600, 2700, 11,250, 45,000 | list | Call Einherjar's fee in magicules, by rank, through Norse Formula; half once Seiðr is mastered |
+| `einherjarAttack` | 6, 10.5, 19, 36, 70 | list | An Einherjar's attack by rank, from a soul as strong as its caller; a weaker soul gives less, down to a quarter |
+| `einherjarHealth` | 40, 120, 300, 1500, 4000 | list | An Einherjar's health by rank, from a soul as strong as its caller; a weaker soul gives less, down to a quarter |
+| `einherjarAtOnce` | 1, 1, 2, 2, 3 | list | How many Einherjar a Valkyrie can have out at once, by rank |
+| `einherjarSeconds` | 60 | 1–3600 | How long an Einherjar fights, in seconds |
+| `einherjarCooldownSeconds` | 5 | 0–3600 | Call Einherjar's cooldown, in seconds |
+| `einherjarMinRatio` | 0.25 | 0–1 | The weakest a soul makes a warrior, as a share of a soul as strong as its caller |
+
+## `[kitsune]`
+
+The [Kitsune and the Nine-Tailed Fox](../races/kitsune.md). Each list goes by rank: Low, Middle, High, Elder, Daiyoukai, or a hybrid's Devil
+class. The races' own stats, EP ranges and requirements are in `config/dxdtensura/race/kitsune_config.toml` and `kyuubi_config.toml`.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `kitsuneInRaceMenu` | true | — | Low-class Kitsune in Tensura's race menu (its starting, random and Reincarnation lists). Off takes it out. The races' own numbers are in config/dxdtensura/race/kitsune_config.toml and kyuubi_config.toml |
+| `kyuubiChancePercent` | 10 | 0–100 | The % chance a player becoming a Kitsune is born a Nine-Tailed Fox instead: one roll per player, kept through race resets |
+| `kitsuneFoxTouches` | true | — | Minecraft's foxes trust anyone with fox ears and tails out or in the fox body, and chickens run from them |
+| `kyuubiFlamePercent` | 125 | 0–1000 | A Nine-Tailed Fox's Fox Fire against a Kitsune's, % of its damage and size |
+| `foxSpeedPercent` | 10, 12, 15, 20, 25 | list | Ears out: extra speed by rank, %: Low, Middle, High, rank 3, rank 4 (a hybrid's Devil class) |
+| `foxJumpBlocks` | 2, 2, 2.5, 3, 4 | list | Ears out: how high a fox jumps by rank, in blocks |
+| `foxSenseRadius` | 8, 12, 16, 20, 24 | list | Ears out and sneaking: how far the fox senses outline living things by rank, blocks (a quarter more for a Nine-Tailed Fox) |
+| `foxBodyScale` | 0.4 | 0.1–1 | The fox body's size against the player's |
+| `foxBodySpeedPercent` | 40 | 0–500 | The fox body's extra speed on top of the ears-out speed, % |
+| `foxBodyJumpBlocks` | 4, 4, 5, 6, 8 | list | The fox body: how high it jumps by rank, in blocks (a sprinting pounce keeps the ears-out height) |
+| `foxBiteDamage` | 4, 8, 16, 32, 64 | list | The fox body's bite: added to the race's own attack by rank (items' attack doesn't count) |
+| `foxBodyCooldownSeconds` | 2 | 0–3600 | Fox Transformation's cooldown, in seconds |
+| `foxBodyNoticeBlocks` | 4 | 0–128 | The fox body: mobs notice it only this close, blocks, until it strikes (then from half as far as anyone) |
+| `foxPounceBitePercent` | 150 | 0–1000 | The fox body's pounce bites the first enemy it meets: % of its attack |
+| `foxBodyFirePercent` | 125 | 0–1000 | Fox Fire in the fox body: % of its damage |
+| `foxBodyFireCostPercent` | 75 | 0–1000 | Fox Fire in the fox body: % of its cost |
+| `greatFoxScale` | 5.5 | 1–16 | The Great Fox's size against the player's (Part 2) |
+| `greatFoxSeconds` | 30, 45, 60 | list | How long the Great Fox lasts, seconds: High-class, Elder, Daiyoukai |
+| `greatFoxPricePercent` | 30 | 0–100 | The Great Fox's price at the start, % of max magicules |
+| `greatFoxCooldownMinutes` | 10 | 0–1440 | The Great Fox's cooldown, minutes |
+| `leyRadius` | 64 | 1–512 | How far the ley point's bonuses reach, blocks, in its own dimension |
+| `leyRefill` | 3 | 1–100 | By the ley point: how many times as fast magicules and aura refill |
+| `leyFlamePercent` | 125 | 0–1000 | By the ley point: Fox Fire's damage, % |
+| `foxfireDamage` | 6, 12, 24, 48, 96 | list | Foxfire: the ball's damage by rank |
+| `foxfireCost` | 100, 400, 1800, 7500, 30,000 | list | Foxfire: magicules by rank |
+| `foxfireCooldownSeconds` | 1 | 0–3600 | Foxfire's cooldown, in seconds |
+| `foxfireRange` | 48 | 1–256 | How far a Foxfire ball flies, blocks |
+| `foxfireBurstRadius` | 1.5 | 0–32 | How far a Foxfire ball's burst reaches, blocks |
+| `foxBurnDamage` | 1, 2, 4, 8, 16 | list | Fox Fire's blue burn: damage a second by rank |
+| `foxBurnSeconds` | 4 | 0–3600 | How long the blue burn lasts, seconds |
+| `foxBurnMasteredSeconds` | 6 | 0–3600 | How long the blue burn lasts at full Fox Fire mastery, seconds |
+| `kitsunebiDamage` | 4, 8, 16, 32, 64 | list | Kitsunebi: each wisp's damage by rank |
+| `kitsunebiCost` | 300, 1200, 5400, 22,500, 90,000 | list | Kitsunebi: magicules a cast by rank |
+| `kitsunebiSeconds` | 30 | 1–3600 | How long Kitsunebi's wisps circle, seconds |
+| `kitsunebiCooldownSeconds` | 15 | 0–3600 | Kitsunebi's cooldown after the last wisp goes, seconds |
+| `foxBreathDamage` | 8, 16, 32, 64, 128 | list | Fox Breath: damage a second by rank, in four pulses |
+| `foxBreathCost` | 150, 600, 2700, 11,250, 45,000 | list | Fox Breath: magicules a second by rank |
+| `foxBreathLength` | 6 | 1–64 | Fox Breath's cone, blocks long (a quarter more for a Nine-Tailed Fox) |
+| `foxBreathAngle` | 30 | 1–180 | Fox Breath's cone, degrees wide |
+| `foxBreathMaxSeconds` | 5 | 1–600 | The longest a Fox Breath hold lasts, seconds |
+| `foxBreathCooldownSeconds` | 8 | 0–3600 | Fox Breath's cooldown after it ends, seconds |
+| `foxPillarDamage` | 15, 30, 60, 120, 240 | list | Foxfire Pillar: damage by rank |
+| `foxPillarCost` | 500, 2000, 9000, 37,500, 150,000 | list | Foxfire Pillar: magicules by rank |
+| `foxPillarRange` | 32 | 1–256 | How far away a Foxfire Pillar can be raised, blocks |
+| `foxPillarWidth` | 2 | 0.5–32 | A Foxfire Pillar's width, blocks (a quarter more for a Nine-Tailed Fox) |
+| `foxPillarHeight` | 6 | 1–64 | A Foxfire Pillar's height, blocks |
+| `foxPillarCooldownSeconds` | 10 | 0–3600 | The Foxfire Pillar's cooldown, seconds |
+| `foxIllusionDamage` | 4, 8, 16, 32, 64 | list | Fox Illusion: a struck copy's burst damage by rank |
+| `foxIllusionCost` | 400, 1600, 7200, 30,000, 120,000 | list | Fox Illusion: magicules by rank |
+| `foxIllusionSeconds` | 10 | 1–3600 | How long Fox Illusion's copies stay, seconds |
+| `foxIllusionCooldownSeconds` | 25 | 0–3600 | Fox Illusion's cooldown, seconds |
+| `bewitchSeconds` | 15, 20, 25, 30, 40 | list | Bewitch: how long a mob fights for you by rank, seconds |
+| `bewitchCost` | 500, 2000, 9000, 37,500, 150,000 | list | Bewitch: magicules by rank |
+| `bewitchEpPercent` | 75 | 0–1000 | Bewitch takes only a mob whose max EP is at most this % of yours |
+| `bewitchRange` | 16 | 1–128 | How far Bewitch reaches, blocks |
+| `bewitchCooldownSeconds` | 30 | 0–3600 | Bewitch's cooldown, seconds |
+| `foxStepRange` | 8, 10, 12, 14, 16 | list | Fox Step: how far it blinks by rank, blocks |
+| `foxStepCost` | 150, 600, 2700, 11,250, 45,000 | list | Fox Step: magicules by rank |
+| `foxStepCooldownSeconds` | 3 | 0–3600 | Fox Step's cooldown, seconds |
+| `sunshowerRadius` | 12, 16, 20, 24, 32 | list | Sunshower Barrier: the dome's radius by rank, blocks |
+| `sunshowerCost` | 1000, 4000, 18,000, 75,000, 300,000 | list | Sunshower Barrier: magicules on top of sunshowerMaxPercent, by rank |
+| `sunshowerSeconds` | 30 | 1–3600 | How long a Sunshower Barrier stands, seconds |
+| `sunshowerMaxPercent` | 5 | 0–100 | Sunshower Barrier: % of max magicules it costs, on top of its row |
+| `sunshowerCooldownSeconds` | 120 | 0–36,000 | The Sunshower Barrier's cooldown, seconds |
+
 ## `[lore_mode]`
 
 The numbers for [Lore mode](../lore-mode.md). The mode itself is the game rule `dxdLoreMode`, for each world. None of this does
@@ -793,4 +976,7 @@ Slime → Config.
 | `wingMotion` | true | Living wings: the race wings and the Scale Mails answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat, and the Scale Mail's leather lies flat |
 | `townSky` | true | The purple sky and the great moon over the [Castle Town](../world/castle-town.md). Off, Hell keeps its own sky there |
 | `trueQueenMusic` | true | Play Cardinal Crimson Promotion for as long as someone near you is in the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on the Jukebox volume slider, in place of the game's music |
+| `abilityWheel` | true | **New ability controls**: the [mode wheel](../getting-started/mode-wheel.md) on Left Alt + a slot key, a quick tap flipping back, and the Scale Mail and the True Queen moving the key you pressed onto their first move and back. Off (0.2.67), Alt steps one mode as in Tensura and your keys stay where you put them |
+| `abilityWheelSkills` | true | Show your other skills from this addon round the mode wheel's edge, so one key can reach any of them |
+| `fullBurstMusic` | true | Play a genius [Valkyrie's](../races/valkyrie.md#full-burst) Full Burst song when someone near you fires one, on the Jukebox volume slider, in place of the game's music |
 | `gpuModels` | true | Draw the race wings from a copy kept on the graphics card: the same look, far faster. Turn it off if they look wrong with another mod. Iris shader packs always get the old way |

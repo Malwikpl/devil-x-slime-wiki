@@ -1,6 +1,6 @@
 # Brave Saints
 
-Heaven's answer to the Evil Pieces, added in **0.1.84**. A **Seraph** deals the twelve cards of one suit, and a card
+Heaven's answer to the Evil Pieces, added in **0.1.84**. A **Seraph** deals the twelve cards of one suit and the Joker, and a card
 makes a human an Angel (or binds a pure Angel, or a beaten monster) with the card's strength. Card holders standing
 together play **Poker** or **Blackjack**, and every card in the hand gets that hand's power for a short time.
 
@@ -157,9 +157,40 @@ wait ("waiting 1:20"). On a narrow window it moves up over the hotbar. The clien
   <figcaption>The hand row, bottom left.</figcaption>
 </figure>
 
+## The Joker
+
+Since **0.2.67** every Seraph's deck holds a 13th card after the Ace, outside the four suits: **the Joker**, Dulio's
+card. A deck from before gets it at its next load.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![Offering the Joker](../assets/images/joker-case.jpg){ loading=lazy }
+  <figcaption>The case offering the Joker.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![The hand row with the Joker](../assets/images/joker-row.jpg){ loading=lazy }
+  <figcaption>The Joker in the hand row: a Royal Flush.</figcaption>
+</figure>
+
+</div>
+
+- **It takes anyone the Ace takes,** a Longinus holder included. It's listed last, so the lowest card that fits is still
+  offered first.
+- **A quarter more than the Ace:** +3.75 attack, +5 armour, +10 max health, and +31.25% max magicules, magicule
+  regeneration and Light Spear damage.
+- **Wild in a hand.** In **Poker** it stands for any one missing card from 2 to Ace, of any suit, but never the King,
+  who is a Seraph. In **Blackjack** it counts as any card from the Ace to the Queen, so it can be the hand's Ace.
+- **One Joker a hand**, it never breaks a one-suit bonus, and a hand that doesn't need it leaves it unspent.
+- The card is white and gold, a jester's crown under a halo.
+
+Server owners have `joker` and `jokerAcePercent` in [`[brave_saints]`](../reference/configuration.md#brave_saints).
+With it off, the Joker is out of every pick and hand, and holders keep it.
+
 ## The deck menu
 
-**Right-click the air with the case**: your 12 cards, and for each holder their card, health and where they are.
+**Right-click the air with the case**: your 12 cards and the Joker, and for each holder their card, health and where they are.
 
 - **Call:** a gold circle takes them to your side after 3 seconds, across dimensions, for **5% of your max magicules**,
   once every 30 seconds for each.
@@ -197,4 +228,4 @@ and Blessing, Holy Barrier and the Great Spear treat them as friends.
 
 !!! info "For server owners"
     Every number is in the [`[brave_saints]`](../reference/configuration.md#brave_saints) config section. Operators have
-    [`/dxdtensura bravesaints`](../reference/commands.md#brave-saints): `info`, `suit` and `release`.
+    [`/dxdtensura bravesaints`](../reference/commands.md#brave-saints): `info`, `suit`, `release` and `joker`.

@@ -35,6 +35,16 @@
     A Sacred Gear lives only in a human. Since 0.2.35 a gear that reached a non-human another way, such as a reroll mod, leaves at login or within a second, and you get a new Unique
     Skill. Evil Pieces, Brave Saint cards, evolution and falling keep it. See [Only in humans](getting-started/first-gear.md#only-in-humans).
 
+??? question "Alt + my slot key opens a wheel. How do I switch modes?"
+    That's the [mode wheel](getting-started/mode-wheel.md), new in 0.2.67: move the mouse toward a mode and let go of Alt. A quick tap
+    without moving the mouse flips back to the mode before. To have Tensura's one-step switching back, turn off **New ability controls**
+    under Mods → Devil x Slime → Config.
+
+??? question "The Scale Mail moved my key to Boost."
+    With the new ability controls on, going into the Scale Mail puts the key you pressed on Boost, and the True Queen puts the Evil Piece's
+    key on Crimson Blaster, so the next press doesn't end the form. The key goes back when the form ends. Turn off **New ability controls**
+    to keep your keys where you put them. See [The forms move your key](getting-started/mode-wheel.md#the-forms-move-your-key).
+
 ## Boosted Gear
 
 ??? question "My Explosion does nothing to my sword hits."
@@ -103,6 +113,15 @@
 ??? question "How do I get Divine Dividing's Juggernaut Drive?"
     Master Divine Dividing with the white Scale Mail awakened, and Albion offers you Vali's words. Chant them in the
     armour and press the Balance Breaker key. See [Juggernaut Drive (the white dragon)](divine-dividing/juggernaut-drive.md).
+
+??? question "How do I get the white Scale Mail?"
+    It isn't guaranteed. From 40% mastery, with your wings out, Divide an enemy that's a player, a boss or at least half your EP, and let
+    its hit leave you alive under 30% health. Albion then rolls: 10% the first time, 10% more after each miss. See the
+    [checklist](divine-dividing/balance-breaker.md#awakening).
+
+??? question "The White Dragon Emperor's Divide keeps landing."
+    Since 0.2.67 a white ring closes on you a second before it lands. Get a wall or a pillar between you and him, and it misses. Each Divide
+    he lands makes him stronger, so dodging them keeps the fight short. See [His Divide](world/white-dragon-emperor.md#his-divide).
 
 ## Twilight Healing
 
@@ -200,6 +219,11 @@
     night; follow its arrow to the old school building. Keep the flyer on you, and if you die she comes to offer you a
     piece.
 
+??? question "What's a Mutation Piece?"
+    A piece that takes anyone worth up to 9 as one piece, with a servant a quarter stronger. A King has a 1 in 10 chance of one when they
+    become a King and again each time their base max EP doubles. Use the case in the air to choose its kind. See
+    [Mutation Pieces](races/peerage.md#mutation-pieces).
+
 ??? question "My wings won't open."
     Use Tensura's **Race/Mount Ability** key, not a skill slot. While you wear a Scale Mail or have Divine Dividing's
     wings out, the gear's wings show instead.
@@ -273,6 +297,10 @@
     anyone as strong as you refuse, and a Longinus holder needs the Queen or the Ace. See
     [Offering a card](races/brave-saints.md#offering-a-card).
 
+??? question "What does the Joker do?"
+    Since 0.2.67 every deck has a 13th card, the Joker: a quarter stronger than the Ace, and wild in hands, any card from 2 to Ace in poker
+    (never the King) and any count in Blackjack. See [The Joker](races/brave-saints.md#the-joker).
+
 ## The Castle Town
 
 ??? question "How do I get to the Castle Town?"
@@ -345,6 +373,37 @@
 ??? question "What happens if I take an Evil Piece?"
     You become a Devil with your blood: you keep Senjutsu, the coat, the ears and tails, and lose Youjutsu. See
     [Evil Pieces and hybrids](races/nekomata.md#evil-pieces-and-hybrids).
+
+## Valkyries
+
+??? question "How do I become a genius of Norse magic?"
+    You can't choose it. One player in ten who becomes a Valkyrie is born one, on a single roll kept through death, a Race Reset Scroll
+    and rebirth as a Devil. See [The genius](races/valkyrie.md#the-genius).
+
+??? question "I'm a Valkyrie and have no Seiðr."
+    A genius has none, as Rossweisse has none. Everyone else on the line has it. See [Seiðr](races/valkyrie.md#seidr).
+
+??? question "No Chosen Soul appeared."
+    Souls come only from a boss or a foe with at least half your EP, dying within 16 blocks of you (a boss within 64, or anywhere for its
+    killer). Pets, summons, friends and spared players leave none. See [Chosen Souls](races/valkyrie.md#chosen-souls).
+
+??? question "Full Burst blew a hole in my base."
+    Its blasts break blocks as TNT does, when the `mobGriefing` and `skillGriefing` rules are on. A server owner can turn it off with
+    `fullBurstBreaksBlocks = false`. See [Full Burst](races/valkyrie.md#full-burst).
+
+## Kitsune and the Nine-Tailed Fox
+
+??? question "How do I become a Nine-Tailed Fox?"
+    You can't choose it. One player in ten who becomes a Kitsune is born one, on a single roll kept through death and a Race Reset Scroll.
+    See [Becoming one](races/kitsune.md#becoming-one).
+
+??? question "The Great Fox won't come out."
+    It's a Nine-Tailed Fox's, from High-class. It needs room to stand ten blocks tall: not in a cave or under a low roof. After it, it
+    cools down for 10 minutes. See [The Great Fox](races/kitsune.md#the-great-fox).
+
+??? question "I can't use items as a fox."
+    The fox body bites with whatever you hold and can't use items, though doors and buttons still work. Press Fox Transformation again
+    to stand. See [The fox body](races/kitsune.md#the-fox-body).
 
 ## Settings
 

@@ -24,12 +24,24 @@ becomes a weapon of war: faster, deeper, and able to take on anything, if you ca
 
 ## Awakening
 
-From **40% mastery**, in a crisis like the red Scale Mail's: an enemy leaves you alive under **30% health**, it is strong
-enough, and Albion rolls a chance that grows with each miss. The difference: **the enemy must be the one you're
-dividing.** Albion tells you when it isn't time yet. On a success the armour forms at once and heals you.
+!!! warning "It isn't guaranteed"
+    Meeting every condition below gives you a **chance**, not the armour. Albion rolls each time, and a miss only makes
+    the next roll likelier.
 
-Until it awakens, the armour's modes (Balance Breaker, Half Dimension, Compression Divider and Reflect) are skipped by
-the mode key.
+**The checklist.** All of these at once:
+
+- [ ] You hold **Divine Dividing** with at least **40% mastery**.
+- [ ] Your **wings are out**, and you're not in another form.
+- [ ] You're **dividing that enemy**: it's your Divide's target, or it carries the Divided effect.
+- [ ] The enemy is **worthy**: another player, a boss, or anything with at least **half your max EP**.
+- [ ] **Its hit leaves you alive under 30% of your max health.**
+
+**The roll.** The first try has a **10%** chance, and every miss adds 10%, so the tenth try is certain. A miss gets
+Albion's "Not yet. You are not yet worthy of my armour." Each enemy gets one roll per Divide on it: to try again on the
+same enemy, start a new Divide on it.
+
+On a success Albion speaks, the armour forms at once and heals you to half health, and **Balance Breaker** is yours for
+good. Until then, the armour's modes (Balance Breaker, Half Dimension, Compression Divider and Reflect) are skipped.
 
 ## Putting it on
 

@@ -76,6 +76,10 @@ and gives them **60 seconds** to answer.
       Spear.
     - A **Nekomata or Nekoshou** becomes a Devil with their blood, a [hybrid](nekomata.md#evil-pieces-and-hybrids), and keeps
       Senjutsu, the ears and the tails.
+    - A **Valkyrie** becomes a Devil with Valkyrie blood, a [hybrid](valkyrie.md#evil-pieces-and-hybrids), and keeps her
+      Norse magic and the Battle Dress.
+    - A **Kitsune or Nine-Tailed Fox** becomes a Devil with their blood, a [hybrid](kitsune.md#evil-pieces-and-hybrids),
+      and keeps Fox Fire, the fox body, the ears and the tails.
 - **A Devil** just takes the piece. A pure-blooded Devil keeps their [House](houses.md). A Devil reborn by a piece has no House, whoever
   their King is.
 - These all count as a **no**:
@@ -201,6 +205,9 @@ In a world with [Lore mode](../lore-mode.md#promotion) on, Promotion has no wait
 
 After that, there's a **60-second** cooldown.
 
+**Your magicule bar keeps its share.** Since 0.2.67 a Bishop's or a Queen's bigger pool fills as it grows, and empties as
+it goes: at 80% before, you're at 80% after.
+
 ## Growing into your Pawns
 
 Since **0.2.35**, as with Issei, a Longinus holder on 8 Pawns starts with few of them awake, and wakes one more each time their base max EP doubles. Anyone else is an ordinary
@@ -227,6 +234,59 @@ Pawn.
   and the EP the next wakes at.
 - **A holder already promoted** above their climb in an older world goes back to Pawn, with no wait.
 - `/dxdtensura max` wakes them all. Server owners have `pawnGrowth` and its numbers in [`[peerage]`](../reference/configuration.md#peerage).
+
+## Mutation Pieces
+
+Since **0.2.67**, as in the story, about one Devil in ten has a **Mutation Piece**: a piece that takes someone who would
+need several, as one.
+
+<div class="grid" markdown>
+
+<figure markdown="span">
+  ![The case offering a Mutation Knight](../assets/images/mutation-case.jpg){ loading=lazy }
+  <figcaption>The case on a goblin worth 7: the Mutation Knight takes it alone.</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![My King, as a Mutation Knight](../assets/images/mutation-servant.jpg){ loading=lazy }
+  <figcaption>A Mutation Knight's My King screen.</figcaption>
+</figure>
+
+</div>
+
+**Getting one.**
+
+- When you become a King, there's a **1 in 10** chance one of your unused pieces is a Mutation Piece.
+- **Each time your base max EP doubles,** an unused piece may turn too, at the same chance.
+- **One at a time:** while you have an unused Mutation Piece, or one waiting for its kind, no other piece turns.
+- When one turns, the chat says so: "One of your unused Evil Pieces has turned into a Mutation Piece!" **Use the case in
+  the air**: the peerage menu opens with a row on top, and you **choose which kind** it becomes, from the kinds you still
+  have unused. Until then it can't be spent.
+
+**Using one.**
+
+- **One Mutation Piece takes anyone worth up to 9**, whatever its kind, as a single piece. Anyone as strong as you still
+  refuses.
+- The case lists it beside the ordinary picks ("Mutation Knight"), so you choose whether to spend it.
+- **Its servant is a quarter stronger:** every strength of their piece is 25% higher. A Mutation Knight is +25% speed
+  and +0.375 attack speed; a Mutation Pawn's quarter shows in their Promotions.
+- **A Longinus holder** still takes only Pawns, so for them only a **Mutation Pawn** works, and it counts as all 8 Pawns.
+- The consent screen names it: "A Mutation Knight: a quarter stronger than a Knight."
+- Released, leaving or dying, the servant gives back a Mutation Piece of the same kind.
+
+The pieces are crimson with **violet veins** glowing through, in the case, the menus and in the air.
+
+**Issei's Pawns turn.** A [Boosted Gear](../boosted-gear/index.md) holder on Pawns (not on a Mutation Pawn already) has one
+Pawn turn Mutation the first time they use each of [Illegal Move Triaina's](../boosted-gear/promotion-forms.md) forms, the
+Knight, the Rook and the Bishop, and their first [True Queen](../boosted-gear/promotion-forms.md#the-true-queen): four in
+all. Each turned Pawn adds an eighth of the quarter, so all four make them 12.5% stronger. Ddraig has a word for each.
+Releasing them turns them back.
+
+**Rias** keeps one Mutation Bishop, as Gasper's: a player she'd make her Bishop who is worth more than a Bishop covers
+gets it. See [Rias](rias.md#joining-her-peerage).
+
+Server owners have `mutationPieces` and its numbers in [`[peerage]`](../reference/configuration.md#peerage). With it off,
+a Mutation Piece serves as an ordinary one.
 
 ## The bond
 
@@ -307,6 +367,5 @@ dimension if the King is in another world. You can turn it off with the client s
 
 These are coming later:
 
-- **Mutation Pieces.**
 - **Rating Games.**
 - **Trading pieces.**

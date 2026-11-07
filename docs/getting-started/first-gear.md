@@ -76,10 +76,11 @@ So the road to a Devil with a Sacred Gear is Issei's: start human, roll a gear, 
 3. The first press **summons** the gear ("Boosted Gear!" or "Divine Dividing!"). It costs nothing. Once it is out, each
    press uses the slot's mode.
 
-**Switching modes.** Hold **Left Alt** (Tensura's "Next Ability Mode" key) and press the slot key to step to the next
-mode. "Previous Ability Mode" has no key by default; you can set one under Controls → Key Binds, in the
-**Tensura:Reincarnated** category. You can also put a different mode of the same gear on each slot, so Boost is on Z
-and Dragon Shot on X, for example.
+**Switching modes.** Hold **Left Alt** (Tensura's "Next Ability Mode" key) and press the slot key: the
+[mode wheel](mode-wheel.md) opens round the crosshair. Move the mouse toward a mode and let go of Alt, and the key is on
+that mode. A quick tap flips back to the mode before. With the client setting **New ability controls** off, Alt + the
+slot key steps to the next mode instead, as in Tensura. You can also put a different mode of the same gear on each
+slot, so Boost is on Z and Dragon Shot on X, for example.
 
 You can also set a slot with a command: `/ability set <skill> <mode> <slot>`. For example,
 `/ability set dxdtensura:boosted_gear 0 1` puts Boost on slot 1.

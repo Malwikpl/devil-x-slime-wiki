@@ -90,6 +90,8 @@ She chooses from your strengths, from the top of this table down:
 | A [Forbidden Balor View](../balor-view/index.md) holder worth up to 3, while she has a Bishop | Her Bishop, as Gasper was |
 | A [Sword Birth](../sword-birth/index.md) holder worth up to 3, while she has a Knight | Her Knight, as Kiba was |
 | A [Nekomata or Nekoshou](nekomata.md) worth up to 5, while she has a Rook | Her Rook, as Koneko is |
+| A [Valkyrie](valkyrie.md) worth up to 5, while she has a Rook | Her Rook, as Rossweisse is |
+| A healer, a Balor View holder or anyone with at least 60% of their EP in magicules, worth 4 to 9, while she has it (not a Longinus holder) | Her [Mutation Bishop](peerage.md#mutation-pieces), as Gasper's |
 | A Longinus holder ([Boosted Gear](../boosted-gear/index.md) or [Divine Dividing](../divine-dividing/index.md)) | All 8 Pawns |
 | Worth 9, or worth 6 or more with aura and magicules each at least 40% of your EP | Her Queen |
 | Worth up to 5, with 3 attack and 30 max health bare-handed and with no potions | A Rook |

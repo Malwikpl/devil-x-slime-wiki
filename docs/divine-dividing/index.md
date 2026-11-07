@@ -4,6 +4,17 @@ The White Dragon Emperor's Sacred Gear, with **Albion** sealed inside. Its wings
 and they **Divide**, halving an enemy's power and taking it for you. It is a Tensura **Unique Skill**
 (`dxdtensura:divine_dividing`), the Boosted Gear's rival.
 
+!!! abstract "How to awaken the Balance Breaker (the white Scale Mail)"
+    It **isn't guaranteed**: meeting all of these gives Albion a roll, 10% the first time and 10% more after each miss.
+
+    - [ ] Divine Dividing at **40% mastery** or more
+    - [ ] Your **wings out**, and no other form on
+    - [ ] You're **dividing the enemy** that hits you (your Divide's target, or Divided)
+    - [ ] That enemy is a **player**, a **boss**, or has at least **half your max EP**
+    - [ ] Its hit leaves you **alive under 30% health**
+
+    One roll per enemy per Divide on it. Details in [Awakening](balance-breaker.md#awakening).
+
 <div class="grid" markdown>
 
 <figure markdown="span">

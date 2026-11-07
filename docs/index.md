@@ -13,8 +13,8 @@ hide:
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
 and now has Asia's Twilight Healing, Kiba's Sword Birth, Gasper's Forbidden Balor View, Xenovia's Durandal, the three
 races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
-Angels), Koneko's cat Youkai, the Stray Devils to hunt and the Gremory family's town in Hell. It is growing into the whole
-DxD world.
+Angels), Koneko's cat Youkai, Kunou's foxes, Rossweisse's Valkyries, the Stray Devils to hunt and the Gremory family's town
+in Hell. It is growing into the whole DxD world.
 </div>
 
 [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/devil-x-slime){ .md-button .md-button--primary }
@@ -99,7 +99,7 @@ DxD world.
     ---
 
     High-class Devils are Kings with 15 Evil Pieces. Make a friend, a beaten monster or an otherworlder your servant,
-    and promote your Pawns in enemy territory.
+    promote your Pawns in enemy territory, and spend a rare Mutation Piece on someone worth far more.
 
 -   :material-account-tie:{ .lg .middle } **[Rias Gremory](races/rias.md)**
 
@@ -125,8 +125,8 @@ DxD world.
 
     ---
 
-    A Seraph's twelve cards. Make a human an Angel, then play Poker or Blackjack together for a hand's power, up to a
-    Royal Flush and Heaven's Judgement.
+    A Seraph's twelve cards and the wild Joker. Make a human an Angel, then play Poker or Blackjack together for a hand's
+    power, up to a Royal Flush and Heaven's Judgement.
 
 -   :material-cat:{ .lg .middle } **[Nekomata and Nekoshou](races/nekomata.md)**
 
@@ -134,6 +134,20 @@ DxD world.
 
     Koneko's and Kuroka's race: ears and tails that move with you, Senjutsu's ki, wheels of flame and a poison mist. Beware the
     Malice it takes in.
+
+-   :material-paw:{ .lg .middle } **[Kitsune and the Nine-Tailed Fox](races/kitsune.md)**
+
+    ---
+
+    Kunou's and Yasaka's race: blue Fox Fire, a fox body that slips through gaps, illusions and a barrier of sunshower rain,
+    and for the rare Nine-Tailed Fox, Yasaka's ten-block Great Fox.
+
+-   :material-shield-sword:{ .lg .middle } **[Valkyries](races/valkyrie.md)**
+
+    ---
+
+    Rossweisse's race: wingless flight, the Battle Dress, Runes, a Full Burst of magic circles, barriers and seals, and
+    the souls of the fallen called back as Einherjar.
 
 -   :material-skull:{ .lg .middle } **[Stray Devils](world/stray-devils.md)**
 
@@ -151,7 +165,7 @@ DxD world.
 
     ---
 
-    A boss in a ruined white colosseum. Beat him for Albion's jewel.
+    A boss in a ruined white colosseum, with warned moves for every phase. Beat him for Albion's jewel.
 
 -   :material-sword:{ .lg .middle } **[Ascalon](boosted-gear/ascalon.md)**
 

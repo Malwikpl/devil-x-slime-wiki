@@ -19,6 +19,8 @@
 
 ## Tensura's own skills
 
+- **The [mode wheel](../getting-started/mode-wheel.md)** opens only for this addon's skills. Tensura's own skills and
+  other mods' keep Tensura's one-step Alt switching.
 - **Clones** (Body Double, Reaper) copy your skills, but their copy of the Boosted Gear starts idle: no stacks, no ×2ⁿ,
   and never your stored Ascalon. A copy of the Durandal skill never carries the sword.
 - **Plundering skills** can't steal any of the Sacred Gears, and copying skills don't copy Albion's power.

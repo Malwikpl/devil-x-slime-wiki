@@ -20,7 +20,7 @@ Juggernaut Drive's claws, shockwave and Longinus Smasher. They ignore:
 - Dodging.
 - Pride, Strengthen Body and Anti-Skill.
 - Infinite Regeneration's death save.
-- The [White Dragon Emperor](../world/white-dragon-emperor.md)'s cap of 300 damage a hit.
+- The [White Dragon Emperor](../world/white-dragon-emperor.md)'s cap of 150 damage a hit.
 
 Held weapons, Transfer and other skills never penetrate.
 

@@ -191,7 +191,8 @@ Five stalls on Market Row, each with a keeper. Right-click a keeper, then **Trad
 
 - **The stock changes every in-game day,** and it's the same for everyone.
 - **Use limits are per player,** and come back the next day.
-- **A Devil pays 10% less.** What a stall pays you and the coin exchange never change.
+- **A Devil pays 10% less,** and so does a [Valkyrie](../races/valkyrie.md#in-the-world), pure or hybrid; the cuts add up, to 25% at most. What a stall pays you and the
+  coin exchange never change.
 - **No stall buys what a stall sells,** so there's no money from nothing.
 - The screen closes by itself if you walk more than 8 blocks away or become Wanted, and any coins in its slots come back to you.
 
@@ -240,6 +241,7 @@ The innkeeper stands behind the inn's counter.
 - **Rent a room** once, for 1 gold. It's free for a Devil, and it's yours for good.
 - **Set your respawn here** and you wake at the inn when you die. **Give up your room** puts your respawn back. Setting it again costs nothing.
 - **Wanted,** the inn won't have you: you wake at the world spawn instead, and the room is still yours afterwards.
+- **Buy Sake,** a bottle for 1 gold. A genius [Valkyrie](../races/valkyrie.md#sake) should go easy on it.
 
 <figure markdown="span">
   ![The innkeeper](../assets/images/town-inn.jpg){ loading=lazy }

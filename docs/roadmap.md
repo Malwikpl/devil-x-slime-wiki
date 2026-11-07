@@ -74,23 +74,35 @@ world. These are plans, not promises, and the order can change.
 - **[The Boost by press in the Scale Mail](boosted-gear/balance-breaker.md#the-boost-inside)** (0.2.35): each press a stack at once, as far as your max EP reaches
 - **[A living Scale Mail](boosted-gear/balance-breaker.md#the-wings-and-the-tail)** (0.2.35): wings from the anime that lag, beat and ripple, and a tail that follows you
 
+- **[Valkyries](races/valkyrie.md)** (0.2.67): Rossweisse's race, flying with no wings, in a Battle Dress, with Norse Formula, Runes and Full Burst, Galdr's barriers,
+  seals and rune weapons, a 1 in 10 genius whose Full Burst fills the sky, and Seiðr's Chosen Souls called back as Einherjar
+- **[Kitsune and the Nine-Tailed Fox](races/kitsune.md)** (0.2.67): Kunou's and Yasaka's race, with blue Fox Fire, a fox body, the fox's own Youjutsu, and for the
+  rare Nine-Tailed Fox, Yasaka's Great Fox and the ley point
+- **[Mutation Pieces](races/peerage.md#mutation-pieces)** (0.2.67): a rare piece that takes anyone worth up to 9 as one, with a stronger servant; Rias's Mutation
+  Bishop, and Issei's Pawns turning with the Triaina forms
+- **[The Joker](races/brave-saints.md#the-joker)** (0.2.67): a 13th card in every Seraph's deck, stronger than the Ace and wild in Poker and Blackjack
+- **[A tougher White Dragon Emperor](world/white-dragon-emperor.md#the-fight)** (0.2.67): moves of his own in every phase, warned before they land, Absorbed
+  Power and the vent, Reflect and Half Dimension, and hits sized to you. A player's report
+- **[The mode wheel](getting-started/mode-wheel.md)** (0.2.67): pick any mode with Left Alt and the mouse, flip between two with a tap, and reach your other
+  skills from one key, with a setting to keep Tensura's switching
+
 ## Next up
 
-- **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
-- **The Joker** (Dulio's wild card), together with **Mutation Pieces**.
+- **Asia Argento** as an NPC, Rias's Bishop: the first of Rias's peerage in the world.
+- **Fenrir**, the god-slaying wolf: a boss of its own, which only a Divine Dividing holder in Juggernaut Drive can Divide
+  down into a smaller, weaker wolf you can tame.
 
 ## Between the big items
 
 - **More bosses** to fight, alongside the White Dragon Emperor.
-- **Fenrir**, the god-slaying wolf: only a Divine Dividing holder in Juggernaut Drive can Divide it down into a smaller,
-  weaker wolf you can tame.
+- **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
 - **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
 - **More Sacred Gears**, one at a time.
 - **Annihilation Maker**: Leonardo's Longinus, which creates monsters.
 - **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
 - **Forbidden Invade Balor the Beast**: Forbidden Balor View's Balance Breaker.
 - **Named demonic swords from the story** for Sword Birth, like Holy Eraser and Flame Delete, each with its own model.
-- **Rias's peerage as NPCs**, starting with Asia.
+- **More of Rias's peerage as NPCs**, after Asia.
 
 ## Maybe later
 

@@ -51,6 +51,8 @@ markdown_extensions:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -65,6 +67,7 @@ nav:
   - Getting started:
       - Installation: getting-started/installation.md
       - Your first Sacred Gear: getting-started/first-gear.md
+      - The mode wheel: getting-started/mode-wheel.md
   - Boosted Gear:
       - boosted-gear/index.md
       - Forms and mastery: boosted-gear/forms-and-mastery.md
@@ -94,6 +97,8 @@ nav:
       - Holy Lightning: races/holy-lightning.md
       - Brave Saints: races/brave-saints.md
       - Nekomata and Nekoshou: races/nekomata.md
+      - Valkyries: races/valkyrie.md
+      - Kitsune and the Nine-Tailed Fox: races/kitsune.md
   - World:
       - The White Dragon Emperor: world/white-dragon-emperor.md
       - Stray Devils: world/stray-devils.md

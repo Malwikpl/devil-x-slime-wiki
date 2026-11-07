@@ -28,6 +28,11 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Water Wrapped** | A [House Sitri](../races/houses.md#house-sitri) Devil's Water Serpent | You can barely move or jump, but can still swing and cast, and it can't be drunk away with milk |
 | **Crushing Depths** | A [House Leviathan](../races/houses.md#house-leviathan) Devil's Crushing Depths | 30% slower and barely able to jump, for 1 s |
 | **Sea Dragon** | Being a House Leviathan Devil's [Sea Dragon](../races/houses.md#the-sea-dragon) | Shows the form |
+| **Enhancement** | A [Valkyrie's](../races/valkyrie.md#enhancement) Galdr | +10% to +30% attack and speed by her rank, for 60 s (75 mastered) |
+| **Rune Sealed** | A [Valkyrie's](../races/valkyrie.md#rune-seal) Rune Seal | You can barely move or jump, flight is off, and your skills and spells are refused; you can still swing |
+| **Tipsy** | A bottle of [Sake](../races/valkyrie.md#sake) | Hiccups for 2 minutes. A genius Valkyrie's Full Burst turns drunken: more circles, all her magicules, then paralysis |
+| **Fox Fire** | A [Kitsune's](../races/kitsune.md#fox-fire) blue fire | The blue burn: 1 to 16 damage a second by the fox's rank for 4 s (6 mastered), fire-immune or not; water puts it out |
+| **Bewitched** | A [Kitsune's](../races/kitsune.md#youjutsu) Bewitch | The mob fights for the fox until it ends, then is its old self again |
 
 Juggernaut Drive also leaves vanilla and Tensura effects behind: Weakness II, Slowness II, Mining Fatigue, Fragility and
 Paralysis. See [After it](../boosted-gear/juggernaut-drive.md#after-it).
