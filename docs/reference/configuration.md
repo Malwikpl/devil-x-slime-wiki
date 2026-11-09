@@ -975,7 +975,7 @@ class. The races' own stats, EP ranges and requirements are in `config/dxdtensur
 | `tamedFenrirBigCooldownSeconds` | 300 | 0–3600 | The big form's cooldown, seconds. |
 | `tamedFenrirAwaySeconds` | 300 | 0–3600 | How long the tamed Fenrir stays away after he drops to 1 health, seconds. |
 | `fangWoundSeconds` | 3 | 0–60 | The wound from Fenrir's Fang and the tamed Fenrir's bite, seconds. |
-| `oneFenrirPerWorld` | true | — | One Fenrir per world: while a tamed one lives, every binding stone lies empty. |
+| `oneFenrirPerWorld` | true | — | While a tamed Fenrir lives, every binding stone lies empty. Off, the stones can still be used, but he still won't yield to anyone while a tamed one lives. |
 
 ## `[excalibur]`
 

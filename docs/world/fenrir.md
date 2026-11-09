@@ -33,8 +33,8 @@ rune stones on the diagonals, and the binding stone in the middle with Fenrir as
   <figcaption>The Frozen Ruin (a render of its blocks).</figcaption>
 </figure>
 
-**The ruin can't be changed.** Nothing breaks or blows up its blocks, whether players, skills, explosions or mobs, and only a
-creative player can place or break anything inside it.
+**The ruin can't be changed.** Nothing breaks or blows up its blocks, whether players, skills, explosions, pistons or mobs, and only a
+creative player can place or break anything inside it. Flowing water and lava aren't stopped.
 
 ## Calling him
 
@@ -71,8 +71,8 @@ Devils, Seraphs, and a Heavenly Dragon holder in a Scale Mail or a Juggernaut Dr
 ### The hunt
 
 He circles you, lunges and pounces. He runs and leaps but **never flies**. He leaps up at anyone hovering close and carries them
-down in his jaws, and after 3 seconds of hovering, or of being out of his reach, he howls a cone of force that throws you down.
-Either one keeps you out of the air for 3 seconds (the **Grounded** effect), whatever you fly with, and the fall doesn't hurt.
+down in his jaws, and after 3 seconds of hovering, or of being out of his reach, he howls a cone of force that throws you down, up to 40 blocks away.
+Climbing a ladder, swimming and riding don't count as hovering. Either one keeps you out of the air for 3 seconds (the **Grounded** effect), whatever you fly with, and the fall doesn't hurt.
 
 <figure markdown="span">
   ![Fenrir's howl](../assets/images/fenrir-howl.jpg){ loading=lazy }
@@ -134,12 +134,13 @@ durability, which can be enchanted, and whose hits leave a 3-second God Slayer w
 
 Only in his **last phase**. A [Divine Dividing](../divine-dividing/index.md) holder in the
 [white Juggernaut Drive](../divine-dividing/juggernaut-drive.md) lands **5 Divides** on him, each making him smaller, and at the
-fifth he lies down for 10 seconds, untouchable. Use him within 4 blocks, still in the Drive, and he's yours. Left alone he gets
+fifth he lies down for 10 seconds, untouchable. Right-click him within 4 blocks, still in the Drive, and he's yours. Left alone he gets
 up at full size.
 
 [Excalibur Ruler's](../excalibur/index.md#the-swords) command makes him yield too, with no Drive needed.
 
-There is **one tamed Fenrir in a world**. While he lives, every binding stone shows Gleipnir lying empty.
+There is **one tamed Fenrir in a world**. While he lives, every binding stone shows Gleipnir lying empty. He won't yield while a wolf has
+an owner: turning `oneFenrirPerWorld` off only leaves the stones usable.
 
 <figure markdown="span">
   ![Fenrir yielding](../assets/images/fenrir-yield.jpg){ loading=lazy }
@@ -149,7 +150,7 @@ There is **one tamed Fenrir in a world**. While he lives, every binding stone sh
 ### The tamed Fenrir
 
 A wolf-sized companion with **300 health** who sits and follows as a wolf does (use him to sit him down) and fights what you
-fight. Every 4 seconds one of his hits is a bite that leaves a God Slayer wound. He can't die: at 1 health he slinks off for 5
+fight. Boats and minecarts don't seat him. Every 4 seconds one of his hits is a bite that leaves a God Slayer wound. He can't die: at 1 health he slinks off for 5
 minutes, and comes back healed when you call him.
 
 <figure markdown="span">
