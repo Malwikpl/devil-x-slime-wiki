@@ -35,7 +35,7 @@ A pillar of light rises and he forms above it.
 
 ## The fight
 
-He has **3,000 health**, and **no single hit takes more than 150 of it** (5%), whatever you use. Not even Tensura's
+He has **3,000 health**, and **no single hit takes more than 150 of it** (5%), whatever you use, soul damage included. Not even Tensura's
 Disintegration gets past the cap; only `/kill` and the void do.
 
 - **His hits grow with you:** his punches, orbs and burst take a share of **your max health**, so a tough player still
@@ -133,7 +133,7 @@ The jewel fades 5 minutes after the fight.
 
 **Humans only.** A Sacred Gear is born only in a human, so a Devil, an Angel or any other race can't take Divine
 Dividing from it: "The jewel's light won't settle in you. Albion only takes a human host." A Twilight Healing,
-Sword Birth or Forbidden Balor View holder is turned away at once, and so is anyone with the
+Sword Birth, Forbidden Balor View or Absorption Line holder is turned away at once, and so is anyone with the
 [Holy Factor](../durandal/index.md#the-holy-factor): "The holy power in you rejects the white dragon." The Boosted Gear's Divide is the same for every race. See
 [Only in humans](../getting-started/first-gear.md#only-in-humans).
 
@@ -143,7 +143,8 @@ His kill gives:
 
 - Tensura's reward for his magicules;
 - **1,000 XP**;
-- **his white helm**, a trophy block you can place on a floor or a wall.
+- **his white helm**, a trophy block you can place on a floor or a wall;
+- **[Excalibur Ruler](../excalibur/index.md#the-white-dragon-emperor)**: the true one if it hasn't been claimed yet, or a replica one time in four.
 
 <figure markdown="span">
   ![The White Dragon Emperor's Helm](../assets/images/emperor-helm.jpg){ loading=lazy }

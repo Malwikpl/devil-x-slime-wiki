@@ -86,23 +86,26 @@ world. These are plans, not promises, and the order can change.
 - **[The mode wheel](getting-started/mode-wheel.md)** (0.2.67): pick any mode with Left Alt and the mouse, flip between two with a tap, and reach your other
   skills from one key, with a setting to keep Tensura's switching
 
+- **[Fenrir](world/fenrir.md)** (0.2.78): the god-slaying wolf, bound by Gleipnir in a frozen ruin, with his sons Sköll and Hati, the God Slayer bite, and a wolf to tame with
+  the white Juggernaut Drive
+- **[Excalibur's fragments](excalibur/index.md)** (0.2.78): seven holy swords, each with a power of its own, the Church vault, and Freed Sellzen in the ruined churches at night
+- **[Sword of Betrayer](sword-birth/sword-of-betrayer.md)** (0.2.78): Sword Birth's Balance Breaker, with holy-demonic swords, the sword itself in your hand, Sword Wall and Holy Absorption
+- **[Absorption Line](absorption-line/index.md)** (0.2.78): Saji's Sacred Gear, with Vritra asleep inside, and lines that drink, give, tie down and swing
+- **[Asia Argento](races/asia.md)** (0.2.78): Rias's Bishop as an NPC, the first of her peerage in the world
+- **[Michael](races/michael.md)** (0.2.78): the NPC Seraph, who deals you his Hearts as Rias does her pieces
+
 ## Next up
 
-- **Asia Argento** as an NPC, Rias's Bishop: the first of Rias's peerage in the world.
-- **Fenrir**, the god-slaying wolf: a boss of its own, which only a Divine Dividing holder in Juggernaut Drive can Divide
-  down into a smaller, weaker wolf you can tame.
+- **One Excalibur and Ex-Durandal**: fusing the fragments into one sword, and folding them round Durandal as a sheath, with its giant slash.
+- **More of Rias's peerage as NPCs**, after Asia.
 
 ## Between the big items
 
-- **More bosses** to fight, alongside the White Dragon Emperor.
-- **An NPC Seraph** for single player, who recruits you into her deck as Rias does for Devils.
-- **Holy swords**: Excalibur's fragments next, then Ex-Durandal.
+- **More bosses** to fight, alongside the White Dragon Emperor and Fenrir.
 - **More Sacred Gears**, one at a time.
 - **Annihilation Maker**: Leonardo's Longinus, which creates monsters.
-- **Sword of Betrayer**: Kiba's Balance Breaker for Sword Birth, with holy-demonic swords and his Sword Knights.
 - **Forbidden Invade Balor the Beast**: Forbidden Balor View's Balance Breaker.
 - **Named demonic swords from the story** for Sword Birth, like Holy Eraser and Flame Delete, each with its own model.
-- **More of Rias's peerage as NPCs**, after Asia.
 
 ## Maybe later
 

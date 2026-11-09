@@ -10,10 +10,11 @@ rings, Kiba's swords and Gasper's eyes.
 | [Twilight Healing](../twilight-healing/index.md) | no dragon | Two silver rings that heal with a touch, arrows of light and a field |
 | [Sword Birth](../sword-birth/index.md) | no dragon | Fading copies of swords, in your hand or bursting out of the ground |
 | [Forbidden Balor View](../balor-view/index.md) | no dragon | A time stop in your eyes: what you look at hangs in the air until its time is up |
+| [Absorption Line](../absorption-line/index.md) | Vritra, the Prison Dragon | Black lines that tie enemies down, drink their power and pass it on |
 
 ## Getting one
 
-**Reincarnate as a human.** When Tensura rolls a human's Unique Skill, the five gears are in the roll, with the same
+**Reincarnate as a human.** When Tensura rolls a human's Unique Skill, the six gears are in the roll, with the same
 odds as every other skill in it.
 
 - **One Sacred Gear per player.** You can never hold two. If you have one, no other can be given to you in any way:
@@ -101,6 +102,8 @@ Using your gear earns Tensura **mastery** for it, the bar in Tensura's skill scr
   once mastered. See [Sword Birth](../sword-birth/index.md).
 - Forbidden Balor View opens **Forbidden View** at 40% and **Stop the World** at 70%, and stops longer on shorter cooldowns
   once mastered. See [Forbidden Balor View](../balor-view/index.md).
+- Absorption Line opens **Shadow Prison** at 40%, **Blaze Black Flare** at 70% and **Delete Field** at full mastery, with more
+  lines as it grows. See [Absorption Line](../absorption-line/index.md).
 
 ## The Sacred Gear panel
 
@@ -110,7 +113,7 @@ see it, and **F1** hides it. Each gear's page explains what its panel shows.
 
 ## Your partner
 
-The dragon sealed in a Heavenly Dragon gear talks to you (Twilight Healing, Sword Birth and Forbidden Balor View have no voice). Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
+The dragon sealed in a Heavenly Dragon gear talks to you (Twilight Healing, Sword Birth and Forbidden Balor View have no voice, and Absorption Line's Vritra says little). Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
 first time you use it, warn you when you're running low, and react to what you do, in a small speech box above the
 panel. The client setting `ddraigLines` sets how much of them you see. See [Ddraig and his Bargain](../boosted-gear/ddraig.md).
 
@@ -124,7 +127,8 @@ its gears into that list** every time a world or server starts:
 - `"dxdtensura:divine_dividing"`, switched by `addDivineDividingToReincarnationPool`;
 - `"dxdtensura:twilight_healing"`, switched by `addTwilightHealingToReincarnationPool` (in `[twilight]`);
 - `"dxdtensura:sword_birth"`, switched by `addSwordBirthToReincarnationPool` (in `[sword_birth]`);
-- `"dxdtensura:forbidden_balor_view"`, switched by `addBalorViewToReincarnationPool` (in `[balor_view]`).
+- `"dxdtensura:forbidden_balor_view"`, switched by `addBalorViewToReincarnationPool` (in `[balor_view]`);
+- `"dxdtensura:absorption_line"`, switched by `addAbsorptionLineToReincarnationPool` (in `[absorption_line]`).
 
 It adds each entry once and leaves the rest of the file alone. Set a switch to `false` and the next start **removes**
 that entry, even one you added by hand. If you uninstall Devil x Slime, a leftover entry is harmless: Tensura skips

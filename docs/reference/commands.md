@@ -146,6 +146,49 @@ For the [House powers](../races/houses.md). All need operator permission.
 | `/dxdtensura house clear <targets>` | Takes the House away; a pure Devil rolls again |
 | `/dxdtensura house reroll <targets>` | Rolls a new House |
 
+### Fenrir
+
+For [Fenrir](../world/fenrir.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura fenrir owner` | Names who the tamed Fenrir runs with |
+| `/dxdtensura fenrir release <player>` | Frees him from that player, online or not |
+
+### Excalibur's fragments
+
+For [Excalibur's fragments](../excalibur/index.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura excalibur give <targets> <fragment> [replica]` | Gives a fragment, without claiming the true one |
+| `/dxdtensura excalibur reset [<fragment>]` | The true fragment can be found again |
+| `/dxdtensura excalibur freed` | Sends the world's Freed away |
+| `/dxdtensura excalibur freed why` | Says why he hasn't come tonight |
+
+### Asia Argento
+
+For [Asia](../races/asia.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura asia where` | Says where she is |
+| `/dxdtensura asia home` | Sends her back to the clubroom |
+| `/dxdtensura asia meet <player>` | Brings the lost nun to that player |
+| `/dxdtensura asia reset` | Starts her over in this world |
+| `/dxdtensura asia rest clear` | Ends her rest after being knocked out |
+
+### Michael
+
+For [Michael](../races/michael.md). All need operator permission.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura michael where` | Says where he is |
+| `/dxdtensura michael home` | Sends him back to his altar |
+| `/dxdtensura michael sethome` | Makes where you stand his home |
+| `/dxdtensura michael feather <player>` | Gives that player his feather |
+
 ### Lore mode
 
 [Lore mode](../lore-mode.md) is a game rule, so it's vanilla's command, with operator permission:

@@ -2,7 +2,7 @@
 
 Rias Gremory, president of the Occult Research Club, is an **NPC King**, added in **0.1.60**. She has her own set of 15
 [Evil Pieces](peerage.md) and offers them to every player, so you can join a peerage in single player too. There's one
-Rias per world, and her pieces go to whoever comes first.
+Rias per world, and her pieces go to whoever comes first. [Asia Argento](asia.md), her Bishop, has a page of her own.
 
 Since **0.1.66** she wears a new look made by **Noroi**: an HD skin and long 3D hair, with her ahoge on top. Noroi's Rias
 resource pack is no longer needed.

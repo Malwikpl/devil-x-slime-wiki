@@ -1,6 +1,6 @@
 # Structures
 
-Devil x Slime adds four structures to the overworld, and a [town in Hell](#the-castle-town-of-gremory). The church is rarer than a pillager outpost, the colosseum about
+Devil x Slime adds six structures to the overworld, and a [town in Hell](#the-castle-town-of-gremory). The church is rarer than a pillager outpost, the colosseum about
 twice as common as the church, and the Stray mansion a little rarer than the colosseum; the old school building
 stands once per world. Since **0.1.92** each one checks its ground first: see [Where they stand](#where-they-stand).
 
@@ -82,6 +82,33 @@ the loot. See [Lairs](stray-devils.md#lairs).
 ```
 /locate structure dxdtensura:stray_mansion
 ```
+
+## Church vault
+
+A small intact stone chapel, rarer than the ruined church, in the same **plains and forests**. Behind its altar a stair leads down to a vault with a sealed reliquary holding Excalibur
+Destruction, Mimic or Blessing. Only a holy wielder can break the seal.
+
+```
+/locate structure dxdtensura:church_vault
+```
+
+<figure markdown="span">
+  ![The vault under the chapel](../assets/images/church-vault-inside.jpg){ loading=lazy }
+  <figcaption>The vault (a render).</figcaption>
+</figure>
+
+See [Excalibur's fragments](../excalibur/index.md#the-church-vault).
+
+## The Frozen Ruin
+
+A ring of broken Norse stones round an icy floor on **snowy slopes, frozen and jagged peaks, groves and ice spikes**, about as rare as the colosseum, with Fenrir asleep on the binding stone. Nothing
+can change its blocks but a creative player.
+
+```
+/locate structure dxdtensura:fenrir_ruin
+```
+
+See [Fenrir](fenrir.md).
 
 ## The Castle Town of Gremory
 

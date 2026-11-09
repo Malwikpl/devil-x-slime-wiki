@@ -2,7 +2,7 @@
 
 Xenovia's holy sword, added in **0.1.92**. Durandal answers only a **holy wielder**: someone with the **Holy Factor**, the
 trait the Church's swordsmen are born with or given. Its wave tears along the ground, and once tamed it cuts through
-almost anything.
+almost anything. [Excalibur's seven fragments](../excalibur/index.md) answer the same holy wielders.
 
 <div class="grid" markdown>
 

@@ -11,9 +11,9 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
-and now has Asia's Twilight Healing, Kiba's Sword Birth, Gasper's Forbidden Balor View, Xenovia's Durandal, the three
+and now has Asia's Twilight Healing, Kiba's Sword Birth and Sword of Betrayer, Gasper's Forbidden Balor View, Saji's Absorption Line, Xenovia's Durandal, the fragments of Excalibur, the three
 races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
-Angels), Koneko's cat Youkai, Kunou's foxes, Rossweisse's Valkyries, the Stray Devils to hunt and the Gremory family's town
+Angels), Koneko's cat Youkai, Kunou's foxes, Rossweisse's Valkyries, the Stray Devils to hunt, Fenrir to fight or tame and the Gremory family's town
 in Hell. It is growing into the whole DxD world.
 </div>
 
@@ -73,12 +73,24 @@ in Hell. It is growing into the whole DxD world.
     Kiba's gear. Make fading copies of any sword you're strong enough for, hold two, and tear a line or a ring of huge
     blades out of the ground.
 
+-   :material-sword-cross:{ .lg .middle } **[Sword of Betrayer](sword-birth/sword-of-betrayer.md)**
+
+    ---
+
+    Sword Birth's Balance Breaker: holy-demonic swords, the sword itself in your hand, a wall of blades, and holy power turned on your enemies.
+
 -   :material-eye:{ .lg .middle } **[Forbidden Balor View](balor-view/index.md)**
 
     ---
 
     Gasper's Evil Eye. What you look at stops dead, hanging in the air, until its time is up. Then everything in sight,
     then everything around you.
+
+-   :material-vector-line:{ .lg .middle } **[Absorption Line](absorption-line/index.md)**
+
+    ---
+
+    Saji's lines, with Vritra asleep inside. Tie enemies down and drink them dry, then Shadow Prison, black flames and Delete Field.
 
 -   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
 
@@ -108,6 +120,12 @@ in Hell. It is growing into the whole DxD world.
     The NPC King in the old school building. Join her peerage in single player, carry her flyer for a second
     chance at death, and hunt Stray Devils for her.
 
+-   :material-hand-heart:{ .lg .middle } **[Asia Argento](races/asia.md)**
+
+    ---
+
+    Rias's Bishop: a lost nun you lead home, who heals you and goes out with Rias's servants.
+
 -   :material-spear:{ .lg .middle } **[Angels and Fallen Angels](races/angels.md)**
 
     ---
@@ -127,6 +145,12 @@ in Hell. It is growing into the whole DxD world.
 
     A Seraph's twelve cards and the wild Joker. Make a human an Angel, then play Poker or Blackjack together for a hand's
     power, up to a Royal Flush and Heaven's Judgement.
+
+-   :material-feather:{ .lg .middle } **[Michael](races/michael.md)**
+
+    ---
+
+    The NPC Seraph: he deals you his Hearts in single player, and trades your card up as you grow.
 
 -   :material-cat:{ .lg .middle } **[Nekomata and Nekoshou](races/nekomata.md)**
 
@@ -167,6 +191,12 @@ in Hell. It is growing into the whole DxD world.
 
     A boss in a ruined white colosseum, with warned moves for every phase. Beat him for Albion's jewel.
 
+-   :material-dog-side:{ .lg .middle } **[Fenrir](world/fenrir.md)**
+
+    ---
+
+    The god-slaying wolf in a frozen ruin. Pin him with Gleipnir, then kill him for his fang or tame him with the white Juggernaut Drive.
+
 -   :material-sword:{ .lg .middle } **[Ascalon](boosted-gear/ascalon.md)**
 
     ---
@@ -179,6 +209,12 @@ in Hell. It is growing into the whole DxD world.
 
     Xenovia's holy sword, sealed in a crypt, for those with the Holy Factor. Its wave tears along the ground, and once
     tamed it cuts through anything.
+
+-   :material-sword:{ .lg .middle } **[Excalibur's fragments](excalibur/index.md)**
+
+    ---
+
+    Seven holy swords, each with a power of its own, and Freed Sellzen in the ruined churches at night.
 
 -   :material-book-open-page-variant:{ .lg .middle } **[Lore mode](lore-mode.md)**
 

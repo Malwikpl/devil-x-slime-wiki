@@ -33,6 +33,11 @@ The effects Devil x Slime adds, as they appear in your inventory.
 | **Tipsy** | A bottle of [Sake](../races/valkyrie.md#sake) | Hiccups for 2 minutes. A genius Valkyrie's Full Burst turns drunken: more circles, all her magicules, then paralysis |
 | **Fox Fire** | A [Kitsune's](../races/kitsune.md#fox-fire) blue fire | The blue burn: 1 to 16 damage a second by the fox's rank for 4 s (6 mastered), fire-immune or not; water puts it out |
 | **Bewitched** | A [Kitsune's](../races/kitsune.md#youjutsu) Bewitch | The mob fights for the fox until it ends, then is its old self again |
+| **God Slayer's Wound** | [Fenrir's](../world/fenrir.md#god-slayer) bite, his Fang and the tamed wolf's bite | Nothing heals you |
+| **Grounded** | [Fenrir's](../world/fenrir.md#the-hunt) leap or howl | You can't fly for 3 s, and the fall doesn't hurt |
+| **Sword of Betrayer** | Being in [Sword of Betrayer](../sword-birth/sword-of-betrayer.md) | Shows the state. Removing it ends the state |
+| **Shadow Prison** | [Absorption Line's](../absorption-line/index.md#shadow-prison) Shadow Prison | You can't walk, jump or teleport, but can still swing and shoot |
+| **Transparency** | [Excalibur Transparency](../excalibur/index.md#the-swords) | You've vanished from everyone else until your first melee hit |
 
 Juggernaut Drive also leaves vanilla and Tensura effects behind: Weakness II, Slowness II, Mining Fatigue, Fragility and
 Paralysis. See [After it](../boosted-gear/juggernaut-drive.md#after-it).

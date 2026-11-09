@@ -589,6 +589,34 @@ mastered one.
 | `ringShareNew` / `ringShareMastered` | 0.50 / 0.80 | 0–100 | Blade Ring's hit, as a share of the holder's attack with the chosen sword |
 | `ringPriceTimes` / `ringCooldownSeconds` | 3 / 12 | 0–100 / 0–3600 | Blade Ring's price, in times the chosen sword's, and its cooldown in seconds |
 
+
+[Sword of Betrayer](../sword-birth/sword-of-betrayer.md):
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `betrayerEnabled` | true | — | Sword of Betrayer, Sword Birth's Balance Breaker. Off: nobody awakens it and the state can't start. |
+| `betrayerAwakenMastery` | 0.40 | 0–1 | Sword Birth's mastery (a share of full) from which Sword of Betrayer can awaken, by every route. |
+| `betrayerFromCrystal` | true | — | A Holy Factor Crystal awakens Sword of Betrayer in a holder who qualifies (no factor, no burn). |
+| `betrayerFromFreed` | true | — | Helping beat Freed Sellzen awakens Sword of Betrayer in every holder who qualifies. |
+| `holyDemonicAttackBonus` | 20 | 0–10,000 | The attack a holy-demonic copy adds to its sword's. |
+| `holyDemonicMaxAttack` | 50 | 0–10,000 | The most attack a holy-demonic copy or blade has (maxAttack for the others). |
+| `betrayerSwordAttack` | 50 | 0–10,000 | The Sword of Betrayer's own attack, the sword in hand for the state (Noroi's number). |
+| `betrayerHolyShare` | 0.5 | 0–10 | A holy-demonic hit's extra share on what holy things hurt (Devils, the undead, Strays). |
+| `betrayerDemonicShare` | 0.5 | 0–10 | A holy-demonic hit's extra share on a holy foe (Angels, Brave Saints, holy wielders). A target that is both takes the larger once. |
+| `betrayerPriceShare` | 0.5 | 0–1 | In Sword of Betrayer every price is this share of the usual. |
+| `betrayerReachTimes` | 1.5 | 1–4 | In Sword of Betrayer Blade Line and Blade Ring reach this many times as far. |
+| `wallRadius` | 3 | 1–8 | Sword Wall's radius, in blocks. |
+| `wallSecondsNew` | 6 | 1–120 | How long Sword Wall stands at no mastery, in seconds. |
+| `wallSecondsMastered` | 10 | 1–120 | How long Sword Wall stands at full mastery, in seconds. |
+| `wallStrengthNew` | 200 | 0–10,000 | What Sword Wall takes before it breaks at no mastery, % of the holder's max health. |
+| `wallStrengthMastered` | 400 | 0–10,000 | What Sword Wall takes before it breaks at full mastery, % of the holder's max health. |
+| `wallShare` | 0.5 | 0–10 | Sword Wall's rising blades hit for this share of the holy-demonic attack. |
+| `wallPriceTimes` | 3 | 0–100 | Sword Wall costs this many times the chosen sword's price (halved in the state). |
+| `wallCooldownSeconds` | 20 | 0–3600 | Sword Wall's cooldown, in seconds. |
+| `absorbHolyPercent` | 50 | 0–100 | Holy Absorption: the % of holy damage taken in Sword of Betrayer that the swords eat. |
+| `absorbCapPercent` | 100 | 0–10,000 | Holy Absorption's store holds at most this % of the holder's max health. |
+| `betrayerLongCooldownSeconds` | 150 | 0–86,400 | Sword of Betrayer's cooldown after its time runs out, or after an end by choice past breakerShortEndSeconds, in seconds. |
+
 ## `[balor_view]`
 
 [Forbidden Balor View](../balor-view/index.md). Lore mode's factor is `balorTimeFactor` in [`[lore_mode]`](#lore_mode).
@@ -917,6 +945,165 @@ class. The races' own stats, EP ranges and requirements are in `config/dxdtensur
 | `sunshowerMaxPercent` | 5 | 0–100 | Sunshower Barrier: % of max magicules it costs, on top of its row |
 | `sunshowerCooldownSeconds` | 120 | 0–36,000 | The Sunshower Barrier's cooldown, seconds |
 
+## `[fenrir]`
+
+[Fenrir](../world/fenrir.md) and the tamed wolf.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `fenrirMaxHealth` | 4000 | 100–100,000 | Fenrir's health. |
+| `fenrirHitCapPercent` | 5 | 1–100 | The most one hit on Fenrir counts, % of his max health (only /kill, the void and Lore mode's vanish go past it). |
+| `fenrirClawPercent` | 6 | 0–100 | His claw hits (the lunge, the pounce's landing, Skyward Leap, the Howl): % of the target's max health. |
+| `fenrirClawFloor` | 40 | 0–10,000 | His claw hits never deal less than this (his attack). |
+| `fenrirBitePercent` | 8 | 0–100 | His God Slayer bite (and each of Devour's bites): % of the target's max health. It skips armour and barriers. |
+| `fenrirBiteFloor` | 50 | 0–10,000 | His bite never deals less than this. |
+| `fenrirMightyFactor` | 2 | 1–10 | His bite on the mightiest (Demon Lords, True Heroes, Satan-class Devils, Seraphs, a Heavenly Dragon holder in armour or a Drive) is this many times as hard. |
+| `fenrirWoundSeconds` | 10 | 0–120 | How long his bite's wound lasts, seconds: nothing heals the wounded. |
+| `fenrirAnchorChannelSeconds` | 2 | 1–30 | How long use is held on a Gleipnir anchor to light it, seconds. |
+| `fenrirAnchorLitSeconds` | 15 | 1–300 | How long a lit anchor stays lit, seconds. |
+| `fenrirAnchorRestSeconds` | 20 | 0–600 | How long the two anchors that pinned him rest before they can be lit again, seconds. |
+| `fenrirPupHealth` | 400 | 1–10,000 | Skoll's and Hati's health each. |
+| `fenrirPupPercent` | 3 | 0–100 | A pup's nip or pounce: % of the target's max health. |
+| `fenrirPupFloor` | 15 | 0–10,000 | A pup's hits never deal less than this. |
+| `fenrirAloneSeconds` | 30 | 5–600 | With no one to fight near his stone this long, seconds, he lies back down, healed (the star is spent). |
+| `fenrirXp` | 1500 | 0–100,000 | The XP his kill gives. |
+| `fenrirYieldDivides` | 5 | 1–8 | The white Juggernaut Drive's Divides on him in his last phase that make him yield. |
+| `fenrirYieldSeconds` | 10 | 1–60 | How long he lies yielded for the Drive's holder to tame him, seconds. |
+| `tamedFenrirHealth` | 300 | 1–10,000 | The tamed Fenrir's health, small. |
+| `tamedFenrirAttack` | 16 | 0–1000 | The tamed Fenrir's attack, small. |
+| `tamedFenrirBigSeconds` | 30 | 1–600 | How long the tamed Fenrir's big form lasts, seconds. |
+| `tamedFenrirBigCooldownSeconds` | 300 | 0–3600 | The big form's cooldown, seconds. |
+| `tamedFenrirAwaySeconds` | 300 | 0–3600 | How long the tamed Fenrir stays away after he drops to 1 health, seconds. |
+| `fangWoundSeconds` | 3 | 0–60 | The wound from Fenrir's Fang and the tamed Fenrir's bite, seconds. |
+| `oneFenrirPerWorld` | true | — | One Fenrir per world: while a tamed one lives, every binding stone lies empty. |
+
+## `[excalibur]`
+
+[Excalibur's fragments](../excalibur/index.md) and Freed Sellzen.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `fragmentHolyStrikePercent` | 25 | 0–100 | A fragment's holy strike on a foe holy things hurt: % of the hit, times its power (a replica's half). |
+| `rapidlySpeedPercent` | 30 | 0–100 | Excalibur Rapidly held in the main hand: extra walking speed, %. |
+| `rapidlyDashDistance` | 8 | 1–32 | Rapidly's flash step: how far it dashes, blocks. |
+| `rapidlyCostPercent` | 2 | 0–100 | Rapidly's flash step: % of max magicules. |
+| `rapidlyCooldownSeconds` | 4 | 0–600 | Rapidly's flash step: cooldown, seconds. |
+| `destructionRadius` | 4 | 1–16 | Destruction's slam: how far round the impact it hits, blocks. |
+| `destructionCostPercent` | 4 | 0–100 | Destruction's slam at full charge: % of max magicules (60% of it at the shortest charge). |
+| `destructionCooldownSeconds` | 5 | 0–600 | Destruction's slam: cooldown, seconds. |
+| `destructionBreaksBlocks` | true | — | Destruction's slam leaves a small crater (no drops; needs mobGriefing and Tensura's skillGriefing, and respects claims). |
+| `destructionCraterRadius` | 1.5 | 0–4 | Destruction's crater: the blocks whose middles are this close to the impact break, blocks. |
+| `mimicSpearReach` | 2 | 0–16 | Mimic's spear: extra reach, blocks. |
+| `mimicWhipReach` | 6 | 0–16 | Mimic's whip: its whole reach, blocks. |
+| `mimicWhipPull` | 3 | 0–8 | Mimic's whip: how far a hit pulls the foe toward the wielder, blocks (less by knockback resistance). |
+| `nightmareCopies` | 3 | 1–8 | Nightmare: how many copies of the wielder appear (a replica's are fewer). |
+| `nightmareSeconds` | 8 | 0–600 | Nightmare: how long the copies last, seconds (a replica's half). |
+| `nightmareCostPercent` | 3 | 0–100 | Nightmare: % of max magicules. |
+| `nightmareCooldownSeconds` | 20 | 0–600 | Nightmare: cooldown, seconds. |
+| `transparencySeconds` | 10 | 0–600 | Transparency: how long the wielder is gone, seconds (a replica's half). |
+| `transparencyReach` | 3 | 0–16 | Transparency: mobs lose the vanished wielder beyond this, blocks. |
+| `transparencyAmbushPercent` | 50 | 0–100 | Transparency: the first melee hit while vanished does this % more, and ends it. |
+| `transparencyCostPercent` | 3 | 0–100 | Transparency: % of max magicules. |
+| `transparencyCooldownSeconds` | 30 | 0–600 | Transparency: cooldown, seconds, counted from the use. |
+| `blessingRadius` | 8 | 1–32 | Blessing's holy ground: its radius, blocks. |
+| `blessingSeconds` | 20 | 0–600 | Blessing's holy ground: how long it lasts, seconds (a replica's half). |
+| `blessingHolyStrikePercent` | 25 | 0–100 | Blessing's holy ground: the wielder's side's hits on a foe holy things hurt inside it add this % as holy damage. |
+| `blessingCostPercent` | 4 | 0–100 | Blessing: % of max magicules. |
+| `blessingCooldownSeconds` | 40 | 0–600 | Blessing: cooldown, seconds. |
+| `rulerSeconds` | 30 | 0–600 | Ruler: how long a commanded mob obeys, seconds (a replica's half). |
+| `rulerRange` | 16 | 1–64 | Ruler: how far the wielder can command, blocks. |
+| `rulerCostPercent` | 5 | 0–100 | Ruler: % of max magicules. |
+| `rulerCooldownSeconds` | 60 | 0–600 | Ruler: cooldown, seconds. |
+| `rulerReplicaChancePercent` | 25 | 0–100 | Once the true Ruler is claimed, the % chance the White Dragon Emperor drops a replica when he dies. |
+| `freedNightChancePercent` | 25 | 0–100 | Freed Sellzen: the % chance, once a night, that a ruined church near a player has him waiting in its nave. |
+| `freedChurchRange` | 96 | 16–256 | Freed Sellzen: how near a ruined church a player must be for it to roll, blocks. |
+| `freedChurchWaitDays` | 3 | 0–30 | Freed Sellzen: in-game days a church he visited waits before he can come again. |
+
+## `[absorption_line]`
+
+[Absorption Line](../absorption-line/index.md).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `addAbsorptionLineToReincarnationPool` | true | — | Put Absorption Line in Tensura's reincarnation roll (the only way to get it). |
+| `lineReach` | 24 | 1–128 | How far a line reaches along the holder's look, in blocks; also the longest a line can be. |
+| `lineMinLength` | 3 | 1–64 | The shortest a new line is, in blocks: something closer is held at this length. |
+| `reelBlocksPerSecond` | 5 | 0–100 | How fast holding the key reels the lines in, in blocks a second. |
+| `linesNew` | 1 | 1–64 | How many lines a new holder can have out at once (block and ally lines count). |
+| `linesAt40` | 2 | 1–64 | How many lines at prisonAtMastery (40%). |
+| `linesAt70` | 3 | 1–64 | How many lines at flameAtMastery (70%). |
+| `linesMastered` | 5 | 1–64 | How many lines at full mastery. |
+| `holdRatio` | 2 | 0–1,000,000 | A target whose max EP is up to this many times the holder's is held at the line's length. Stronger ones slip: they drag the line along and keep draining. |
+| `noDrainRatio` | 5 | 1–1,000,000 | A target whose max EP is this many times the holder's, or more, throws a line off. Between 1 and this, the drain, the prison and the flames shrink in proportion. |
+| `slipSnapDistance` | 32 | 1–256 | A slipping target's line snaps when it gets this far from the holder, in blocks. |
+| `tieKeepDistance` | 48 | 1–512 | Any line whose two ends get this far apart ends, in blocks: a holder walking off from an enemy tied to a block, a teleport, a pearl. |
+| `energyDrainPercentNew` | 2 | 0–100 | % of the target's max magicules and of its max aura a line drinks each second, new. |
+| `energyDrainPercentMastered` | 4 | 0–100 | The same % at full mastery. |
+| `bloodDrainPercent` | 1 | 0–100 | % of the target's max health a line drinks each second, healing the line's far end. |
+| `bloodDrainMin` | 0.5 | 0–1000 | The least health a line drinks each second, before the EP share. |
+| `playerBloodPerSecond` | 1 | 0–1000 | The most health a player loses each second to every line on them together. |
+| `pourPercent` | 2 | 0–100 | % of the holder's max magicules an ally line pours into the ally each second. |
+| `pourFloorPercent` | 5 | 0–100 | An ally line stops pouring while the holder is under this % of their max magicules. |
+| `linePricePercent` | 1 | 0–100 | % of max magicules a line costs when it takes hold. Holding, drinking and reeling are free. |
+| `prisonPricePercent` | 10 | 0–100 | % of max magicules Shadow Prison costs. |
+| `flamePricePercent` | 15 | 0–100 | % of max magicules Blaze Black Flare costs. |
+| `fieldPricePercent` | 30 | 0–100 | % of max magicules Delete Field costs, paid even with no enemy inside. |
+| `prisonCooldownSeconds` | 40 | 0–3600 | Shadow Prison's cooldown where it opens, in seconds. |
+| `flameCooldownSeconds` | 30 | 0–3600 | Blaze Black Flare's cooldown where it opens, in seconds. |
+| `fieldCooldownSeconds` | 90 | 0–3600 | Delete Field's cooldown, in seconds. |
+| `masteredCooldownCut` | 0.5 | 0–1 | How much of Shadow Prison's and Blaze Black Flare's cooldowns full mastery takes off (0.5 halves them), falling in a line from where each mode opens. |
+| `prisonNewSeconds` | 2 | 0.1–600 | How long Shadow Prison pins a target where it opens, in seconds, on a target no stronger than the holder (by max EP). |
+| `prisonMasteredSeconds` | 6 | 0.1–600 | How long Shadow Prison pins at full mastery, in seconds. |
+| `playerPrisonSeconds` | 3 | 0.1–60 | The longest Shadow Prison pins a player, in seconds. |
+| `flamePercentAt70` | 1.5 | 0–100 | % of max health the black flames burn each second where the mode opens. |
+| `flamePercentMastered` | 2.5 | 0–100 | The same % at full mastery. |
+| `playerFlamePerSecond` | 2 | 0–1000 | The most health a player loses each second to every black flame on them together. |
+| `maxFlames` | 3 | 1–64 | How many targets one holder's black flames burn at once; one more puts out the oldest. |
+| `flameKeepDistance` | 64 | 1–512 | The black flames go out on a target this far from the holder, in blocks. |
+| `fieldRadius` | 10 | 1–128 | Delete Field's radius round the holder, in blocks. |
+| `fieldSeconds` | 8 | 0.1–600 | How long Delete Field lasts, and holds a target no stronger than the holder, in seconds. |
+| `playerFieldSeconds` | 4 | 0.1–60 | The longest Delete Field holds a player, in seconds. |
+| `gearDampShare` | 0.5 | 0–1 | How strong another Sacred Gear works while a line drinks from its holder (0.5 is half). |
+| `vritraWakeBlood` | 4 | 0–10,000 | The health a holder's lines must drink from Heavenly Dragons, in total, to wake Vritra. |
+| `prisonAtMastery` | 0.40 | 0–1 | The mastery share at which Shadow Prison opens (and the second line). |
+| `flameAtMastery` | 0.70 | 0–1 | The mastery share at which Blaze Black Flare opens (and the third line). |
+
+## `[asia]`
+
+[Asia Argento](../races/asia.md).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `enabled` | true | — | Asia Argento, Rias's NPC Bishop. Off: no Asia at all. Rias's own [rias] enabled off turns her off too. |
+| `lostNun` | true | — | Asia first comes as a lost nun near a village, once per world, to be walked to the old school building. Off: she's in the clubroom from the start. |
+| `lostNunDays` | 3 | 1–30 | In-game days before the lost nun finds her own way to Rias. |
+| `companion` | true | — | Rias's servants can take Asia along as a healer. Off: nobody can. |
+| `ep` | 40,000 | 1000–10,000,000 | Her EP: three quarters magicules, a quarter aura (her Bishop piece adds its own). |
+| `health` | 60 | 1–1000 | Her max health. |
+| `refillMinutes` | 10 | 1–120 | Minutes for her magicules to refill from empty to full (faster where the land is rich in magicules). |
+| `lowPercent` | 10 | 1–50 | Below this % of her max magicules she stops healing to rest. |
+| `resumePercent` | 50 | 1–100 | She heals again from this % of her max magicules (never below lowPercent). |
+| `healBelowPercent` | 70 | 1–100 | She heals her side when they're below this % of their max health. |
+| `selfHealBelowPercent` | 50 | 1–100 | She heals herself below this % of her max health, when nobody else needs her (out and lost). |
+| `arrowRange` | 32 | 9–64 | How far she shoots a healing arrow, in blocks. |
+| `catchUpBlocks` | 24 | 8–128 | Further than this many blocks behind, she catches up (by a circle when out with a servant). |
+| `aggroChancePercent` | 25 | 0–100 | The % chance per heal that a monster attacking the one she healed turns on her. |
+| `aggroRange` | 16 | 0–64 | How near, in blocks, a monster must be for her heal to draw it. |
+| `restDays` | 1 | 0–30 | In-game days she rests after being knocked out (sleeping counts). |
+| `trainingPoints` | 25 | 0–1000 | Twilight Healing mastery points a practice with her gives, once per in-game day. |
+
+## `[michael]`
+
+[Michael](../races/michael.md).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `enabled` | true | — | Michael, the NPC Seraph: off, he doesn't come down or appear, no feathers drift down and Deal for Michael does nothing; his holders keep their cards. |
+| `michaelEP` | 300,000 | 1–1,000,000,000 | Michael's base max EP: what a player's or a card's worth is measured against when he deals. |
+| `sunriseFeather` | true | — | His white feather drifts down to a human or pure Angel at their first sunrise in the overworld. |
+| `churchFeatherChance` | 0.5 | 0–1 | The chance that a ruined church's chest holds one of his feathers. |
+| `monsterCards` | 4 | 0–12 | How many of his cards one holder may give to monsters they've beaten (Deal for Michael). |
+
 ## `[lore_mode]`
 
 The numbers for [Lore mode](../lore-mode.md). The mode itself is the game rule `dxdLoreMode`, for each world. None of this does
@@ -979,4 +1166,5 @@ Slime → Config.
 | `abilityWheel` | true | **New ability controls**: the [mode wheel](../getting-started/mode-wheel.md) on Left Alt + a slot key, a quick tap flipping back, and the Scale Mail and the True Queen moving the key you pressed onto their first move and back. Off (0.2.67), Alt steps one mode as in Tensura and your keys stay where you put them |
 | `abilityWheelSkills` | true | Show your other skills from this addon round the mode wheel's edge, so one key can reach any of them |
 | `fullBurstMusic` | true | Play a genius [Valkyrie's](../races/valkyrie.md#full-burst) Full Burst song when someone near you fires one, on the Jukebox volume slider, in place of the game's music |
+| `betrayerMusic` | true | Play [Sword of Betrayer's](../sword-birth/sword-of-betrayer.md) song once each time someone near you enters it, on the Jukebox volume slider, in place of the game's music |
 | `gpuModels` | true | Draw the race wings from a copy kept on the graphics card: the same look, far faster. Turn it off if they look wrong with another mod. Iris shader packs always get the old way |

@@ -4,6 +4,9 @@ Heaven's answer to the Evil Pieces, added in **0.1.84**. A **Seraph** deals the 
 makes a human an Angel (or binds a pure Angel, or a beaten monster) with the card's strength. Card holders standing
 together play **Poker** or **Blackjack**, and every card in the hand gets that hand's power for a short time.
 
+**Playing alone?** You don't need a player Seraph: [Michael](michael.md), the NPC Seraph, deals his own Hearts. His feather drifts down at your first
+sunrise and points to the nearest ruined church. Pray at its altar and he comes down.
+
 <div class="grid" markdown>
 
 <figure markdown="span">

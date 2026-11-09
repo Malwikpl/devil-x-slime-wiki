@@ -2,7 +2,7 @@
 
 Yuuto Kiba's Sacred Gear, added in **0.2.0**: it makes demonic copies of swords, in your hand or bursting out of the ground,
 and every copy fades. It is a Tensura **Unique Skill** (`dxdtensura:sword_birth`) with no dragon inside: no voice, no armour and
-nothing to summon. The gear shows only as its swords.
+nothing to summon. The gear shows only as its swords. Its Balance Breaker, [Sword of Betrayer](sword-of-betrayer.md), can awaken from 40% mastery.
 
 <div class="grid" markdown>
 

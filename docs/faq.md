@@ -405,6 +405,42 @@
     The fox body bites with whatever you hold and can't use items, though doors and buttons still work. Press Fox Transformation again
     to stand. See [The fox body](races/kitsune.md#the-fox-body).
 
+## Fenrir
+
+??? question "A Nether Star does nothing on the binding stone."
+    The stone stays silent until the Ender Dragon has been killed in your world, and it refuses on Peaceful. You keep the star.
+
+??? question "How do I tame him?"
+    In his last phase, land 5 Divides on him from the [white Juggernaut Drive](divine-dividing/juggernaut-drive.md), or use Excalibur Ruler's command, then use him while he lies down. See
+    [Taming him](world/fenrir.md#taming-him).
+
+## Excalibur's fragments
+
+??? question "\"This sword refuses you.\""
+    Only a [holy wielder](durandal/index.md#who-can-wield-it) can hold one, as with Durandal.
+
+??? question "Freed never comes."
+    At night, a ruined church within 96 blocks of you has a 25% chance of him once a night, and a church he visited waits 3 days. He never comes on Peaceful or with `doMobSpawning` off. Operators can ask `/dxdtensura
+    excalibur freed why`.
+
+## Sword of Betrayer
+
+??? question "How do I awaken it?"
+    From 40% Sword Birth mastery: a crisis with one of your swords in hand, a Holy Factor Crystal, or helping beat Freed. See [Awakening it](sword-birth/sword-of-betrayer.md#awakening-it).
+
+## Absorption Line
+
+??? question "My line snapped."
+    An enemy between twice and 5 times your max EP slips and drags the line until it's 32 blocks off, and at 5 times your EP no line takes hold. See [The leash](absorption-line/index.md#the-leash).
+
+## Asia and Michael
+
+??? question "I never met the lost nun."
+    She comes once per world, by day, to a player in a village. After 3 in-game days she finds her own way to Rias. See [Meeting her](races/asia.md#meeting-her).
+
+??? question "Michael's feather never came."
+    It drifts down once, at your first sunrise in the Overworld under open sky, for a human or a pure Angel who holds no card. Ruined churches' chests can hold one too.
+
 ## Settings
 
 ??? question "Can I get the old blocky models back?"

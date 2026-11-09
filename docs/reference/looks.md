@@ -195,4 +195,5 @@ big moments flash.
 | `wingMotion` | `true` | [Living wings](#living-wings): the race wings and the Scale Mails answer your movement; off, they keep the old slow beat |
 | `townSky` | `true` | The purple sky and the great moon over the [Castle Town](../world/castle-town.md); off, Hell keeps its own sky there |
 | `trueQueenMusic` | `true` | [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen)'s song, on the Jukebox slider |
+| `betrayerMusic` | `true` | [Sword of Betrayer](../sword-birth/sword-of-betrayer.md)'s song, on the Jukebox slider |
 | `gpuModels` | `true` | Draw the race wings from the graphics card, far faster; off, the old way |
