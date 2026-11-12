@@ -2,7 +2,8 @@
 
 ## Devil x Slime's commands
 
-All of them need operator permission (level 2), except `/dxdtensura incantation` for yourself and `/dxdtensura town renown`.
+All of them need operator permission (level 2), except `/dxdtensura incantation` for yourself, `/dxdtensura hideking` and
+`/dxdtensura town renown`.
 
 | Command | What it does |
 |---|---|
@@ -11,13 +12,17 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 | `/dxdtensura albion take [players]` | Takes it away again |
 | `/dxdtensura divinedividing holder` | Names the players who hold Divine Dividing in this world |
 | `/dxdtensura divinedividing release <player>` | **Takes Divine Dividing from that player** (at once if they're online, otherwise at their next login) and frees it, so the reincarnation roll and the jewel can give it again |
-| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned, the [armour forms](../boosted-gear/promotion-forms.md)' counts filled. A holder's [Pawns](../races/peerage.md#growing-into-your-pawns) all wake. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open. Forbidden Balor View: mastered, with Forbidden View and Stop the World open |
+| `/dxdtensura max [players]` | Puts every gear they hold at its top, for testing. Boosted Gear: the Gift, Balance Breaker awakened and trained, Juggernaut Drive's words learned, the [armour forms](../boosted-gear/promotion-forms.md)' counts filled. A holder's [Pawns](../races/peerage.md#growing-into-your-pawns) all wake. Divine Dividing: mastered, with Reduce and Compression Divider, the white Scale Mail awakened and trained, and the [white dragon's](../divine-dividing/juggernaut-drive.md) words learned. Twilight Healing: mastered, Healing Arrows and the Field open. Sword Birth: mastered, with every relic known, both blade moves and the elements open. Forbidden Balor View: mastered, with Forbidden View and Stop the World open. Absorption Line: mastered, with every power open, Vritra's set on and Vritra awake. Salvation Rose: mastered, every power open, the gem full and [Cycle of Salvation](../salvation-rose/index.md#cycle-of-salvation) awakened with no contract |
 | `/dxdtensura sin <player>` | Shows an [Angel](../races/angels.md#sin-and-the-fall)'s hidden sin, 0 to 100 |
 | `/dxdtensura sin <player> set <0-100>` | Sets it, with what that level brings: the warning and the flicker from 50, the fall at 100 |
 | `/dxdtensura eastereggs` | Says which of the hidden easter eggs are still waiting in this world |
 | `/dxdtensura eastereggs reset` | Makes both easter eggs happen again |
 | `/dxdtensura incantation [players]` | Gives a fresh copy of Ddraig's [incantation](../boosted-gear/juggernaut-drive.md#the-incantation) book, or Albion's [words of the white dragon](../divine-dividing/juggernaut-drive.md#learning-the-words), for a lost one. Only works once the words are learned. **Anyone can use it for themselves**; giving it to other players needs operator permission |
-
+| `/dxdtensura cutscene play <name> [full|short] [players]` | Plays a transformation's cutscene again, as a preview, with nothing gained or lost: `balance_breaker`, `juggernaut_drive`, `white_scale_mail`, `white_juggernaut_drive`, `true_queen`, `albion_power`, `sword_of_betrayer`, `cycle_of_salvation` or `witch`. It needs no gear, and Sneak stops it |
+| `/dxdtensura rose light <0-100> [players]` | Sets a [Salvation Rose](../salvation-rose/index.md#the-gems-light) holder's gem as a real change would: 0 at 70% mastery or more brings the contract's offer |
+| `/dxdtensura ascalon reset` | The true [Ascalon](../boosted-gear/ascalon.md) can be found again in this world |
+| `/dxdtensura peerage release <player>` | Releases that player from a player King's [peerage](../races/peerage.md), online or not |
+| `/dxdtensura hideking` | **For a King:** hides where you are from your own servants' [King marker](../races/peerage.md#the-king-marker). **Any King can use it** |
 | `/dxdtensura truequeen ready [targets]` | Ends the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen)'s 5-minute wait |
 | `/dxdtensura sacredgear foreign grant <targets> <gear>` | Gives a gear the way another mod would, to test the [check on non-humans](../getting-started/first-gear.md#only-in-humans) |
 | `/dxdtensura sacredgear foreign race <targets> <race>` | Changes race the way another mod would, for the same test |
@@ -48,7 +53,7 @@ For [Rias Gremory](../races/rias.md). All need operator permission.
 | `/dxdtensura rias where` | Where her home is, and the old school building's state: not placed yet, standing, or waiting further out for its land to be explored |
 | `/dxdtensura rias home` | Brings her back to her desk |
 | `/dxdtensura rias flyer <player>` | Gives that player one of her flyers (at their feet if their inventory is full) |
-| `/dxdtensura rias release <player>` | Releases that player from her peerage (she never does it herself) |
+| `/dxdtensura rias release <player>` | Releases that player from her peerage (she never does it herself), online or not |
 | `/dxdtensura rias rejoin <player>` | Ends that player's wait to rejoin her after leaving |
 
 ### Stray Devils
@@ -72,7 +77,7 @@ For the [Brave Saints](../races/brave-saints.md). All need operator permission.
 |---|---|
 | `/dxdtensura bravesaints info <player>` | A Seraph's deck, or a holder's card |
 | `/dxdtensura bravesaints suit <player> <suit>` | Sets a Seraph's suit (`spades`, `hearts`, `diamonds` or `clubs`), which only an operator can change |
-| `/dxdtensura bravesaints release <player>` | Releases a holder from their Seraph's deck; the card goes back |
+| `/dxdtensura bravesaints release <player>` | Releases a holder from their Seraph's deck, online or not; the card goes back |
 | `/dxdtensura bravesaints joker give <player>` | Puts [the Joker](../races/brave-saints.md#the-joker) back in a Seraph's deck |
 | `/dxdtensura bravesaints joker take <player>` | Takes the Joker out of a Seraph's deck |
 
@@ -208,6 +213,8 @@ Tensura's own commands work on Devil x Slime's skills too.
 | `/tensura edit ability grant @s dxdtensura:twilight_healing` | Gives you Twilight Healing |
 | `/tensura edit ability grant @s dxdtensura:sword_birth` | Gives you Sword Birth |
 | `/tensura edit ability grant @s dxdtensura:forbidden_balor_view` | Gives you Forbidden Balor View |
+| `/tensura edit ability grant @s dxdtensura:absorption_line` | Gives you Absorption Line |
+| `/tensura edit ability grant @s dxdtensura:salvation_rose` | Gives you Salvation Rose |
 | `/tensura edit race @s set dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
 | `/tensura edit ability mastery @s dxdtensura:boosted_gear 400` | Sets the mastery: 400 is the Base form, `max` the Boosted Gear Gift, `0` back to Initial |
 | `/ability set dxdtensura:boosted_gear <mode> <slot>` | Puts a mode on an ability slot (1 to 3). See the mode numbers on the [Boosted Gear](../boosted-gear/index.md#modes) and [Divine Dividing](../divine-dividing/index.md#modes) pages |

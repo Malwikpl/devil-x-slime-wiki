@@ -3,8 +3,8 @@
 ## Getting a gear
 
 ??? question "How do I get a Sacred Gear?"
-    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth and Forbidden Balor View are in Tensura's reincarnation
-    roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
+    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth, Forbidden Balor View, Absorption Line and
+    Salvation Rose are in Tensura's reincarnation roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
     [White Dragon Emperor](world/white-dragon-emperor.md) drops. See
     [Your first Sacred Gear](getting-started/first-gear.md).
 
@@ -191,6 +191,9 @@
 ??? question "Durandal's waves hurt me."
     Its aura is wild until you tame it: use it, and its skill's mastery calms it on the way to 1,000. See
     [Taming it](durandal/index.md#taming-it).
+
+??? question "Does Durandal burn my Devil?"
+    Not since 0.2.84: a Devil with the factor holds it unharmed. A server can turn the burn back on with `devilBurnPercent`.
 
 ## Devils
 
@@ -420,8 +423,11 @@
     Only a [holy wielder](durandal/index.md#who-can-wield-it) can hold one, as with Durandal.
 
 ??? question "Freed never comes."
-    At night, a ruined church within 96 blocks of you has a 25% chance of him once a night, and a church he visited waits 3 days. He never comes on Peaceful or with `doMobSpawning` off. Operators can ask `/dxdtensura
+    The first night you're near a ruined church he is sure to come, once per player. After that, a ruined church within 96 blocks of you has a 25% chance of him once a night, and a church he visited waits 3 days. He never comes on Peaceful or with `doMobSpawning` off. Operators can ask `/dxdtensura
     excalibur freed why`.
+
+??? question "How do I make Ex-Durandal?"
+    Raise Durandal's mastery to 500 for Aura Transfer, then hold Durandal in your main hand and a fragment or a fused Excalibur in your off hand, sneak and use. See [Ex-Durandal](excalibur/index.md#ex-durandal).
 
 ## Sword of Betrayer
 
@@ -432,6 +438,32 @@
 
 ??? question "My line snapped."
     An enemy between twice and 5 times your max EP slips and drags the line until it's 32 blocks off, and at 5 times your EP no line takes hold. See [The leash](absorption-line/index.md#the-leash).
+
+## Salvation Rose
+
+??? question "How do I get Cycle of Salvation?"
+    Reach 70% mastery, then let your gem's light run out. Just before it goes dark you're offered a contract: make it. Say "Not yet" and the
+    offer won't come again for 10 minutes. See [The contract](salvation-rose/index.md#the-contract).
+
+??? question "My arrows hit weakly."
+    Your gem is under 50: the gear hits weaker as it dims. Kill hostile mobs, rest quietly or sleep to brighten it. See
+    [The gem's light](salvation-rose/index.md#the-gems-light).
+
+??? question "Mode 5 says my gem still holds light."
+    The witch can only be unleashed while your gem rests dark, in the 60 s after it goes out. Think twice: after her the gear is silent for
+    15 minutes. See [The witch](salvation-rose/index.md#the-witch).
+
+??? question "Who is the small white creature?"
+    He watches over Salvation Rose's holders, and only they can see him. He has something to offer when your gem is about to go dark.
+
+## Dragon flight
+
+??? question "How do I soar?"
+    While flying on the mod's wings, hold Sprint and W. See [Dragon flight](getting-started/flight.md).
+
+??? question "I want the old flight back."
+    Turn the client setting `dragonFlight` off. `flightCameraTilt` and `flightRollSpin` tone the camera down if that's all that bothers
+    you.
 
 ## Asia and Michael
 
@@ -463,6 +495,12 @@
 
 ??? question "The True Queen's song is too loud, or I don't want it."
     It's on the Jukebox slider in Minecraft's music and sound options. The client setting `trueQueenMusic` turns it off.
+
+??? question "I hear other players' gear songs."
+    Set the client setting `gearSongs` to `OWN` (only yours) or `OFF`. Each song also has its own setting.
+
+??? question "I can't join my friend's server."
+    A server and its players need the same version of Devil x Slime. See [Multiplayer and servers](reference/multiplayer.md).
 
 ??? question "A pose or sound went missing after I died or went through a portal."
     Update to 0.2.13. Each player's looks were kept by an id that a respawn or a new dimension reuses, so a pose could fail to start, the

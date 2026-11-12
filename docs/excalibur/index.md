@@ -2,8 +2,8 @@
 
 Added in **0.2.78**. Excalibur broke into seven holy swords, each with one power of its own. They follow
 [Durandal's](../durandal/index.md) rules: only a **holy wielder** can hold one (anyone else gets the jolt and "This sword refuses you."), a mob
-that picks one up drops it, Sword Birth never copies them, and a Devil wielder burns while holding one. Creative and spectator players are
-never refused.
+that picks one up drops it and Sword Birth never copies them. Like Durandal, they don't burn a Devil wielder unless the server sets
+`devilBurnPercent`. Creative and spectator players are never refused.
 
 <figure markdown="span">
   ![The seven fragments and Mimic's whip](../assets/images/excalibur-fragments.jpg){ loading=lazy }
@@ -121,6 +121,48 @@ Beating him also awakens [Sword of Betrayer](../sword-birth/sword-of-betrayer.md
 
 **Ruler.** [Killing him](../world/white-dragon-emperor.md) (not his fading or fleeing) drops Excalibur Ruler where he dies: the true one if it hasn't been claimed, else a
 replica one time in four.
+
+## One Excalibur
+
+Since **0.2.84** the fragments can be joined back into one sword.
+
+- **Fusing.** Hold a fragment, or a fused Excalibur, in each hand, sneak and use. The off hand's sword joins the main hand's, which
+  becomes **Excalibur**. It holds one of each fragment, seven at most ("Excalibur already holds Mimic." otherwise), and fusing never
+  changes a fragment's true or replica kind.
+- **The fused sword** has 22 attack and 5 more for each fragment past the first, so **52 with all seven**. With Mimic in it, it takes
+  Mimic's shapes. Its holy strike is 50% of the hit times the average power of its fragments, and each power works at its own
+  fragment's power. It keeps the better enchantments and the first name you gave either sword.
+- **The Excalibur skill.** Your first fuse teaches it. Its modes are the powers the sword in your hand holds, then **Call / Store** (a
+  pocket of space for the fused sword, as [Durandal's](../durandal/index.md#its-pocket-of-space), which also catches the fused sword you
+  carry when you die) and **Unfuse** (the last fragment comes back out; with one left, the sword becomes that fragment). Its slot key
+  fires the picked power, and with the fused sword in hand use fires it too. Each power cools down on its own, and splitting never
+  resets a cooldown.
+- **Ruler in the sword.** With Ruler fused in, every other power costs half, and Rapidly's speed works whatever mode is picked.
+
+## Ex-Durandal
+
+Once you know Durandal's [Aura Transfer](../durandal/index.md#aura-transfer) (500 Durandal mastery), hold Durandal in your main hand and a
+fragment or a fused Excalibur in your off hand, then sneak and use. The pieces fold round the blade as a sheath, and Durandal becomes
+**Ex-Durandal** (a replica becomes Ex-Durandal Replica).
+
+- It is still Durandal for everything: the wave, the holy strike, the pocket and the taming.
+- It hits **10 harder**, and its wild aura behaves as if half tamed.
+- The sheath's powers fire from the Excalibur skill's key. More fragments join the sheath the same way, and Unfuse takes the whole
+  sheath off.
+
+### The giant slash
+
+A gold bar under Ex-Durandal fills to 100: **+2** for a melee hit (once a second), **+8** for a wave that hits, **+4** for a sheath power
+that hits, and **+20** from Aura Transfer with nothing in the off hand. It stays through death, the pocket and taking the sheath off.
+
+When it's full ("The sheath is full."), hold use for 3 s and let go: a slash **40 blocks long and 7 wide** for **3 times your attack**
+plus the holy strike, through every barrier. It takes the whole bar and no magicules, and it breaks no blocks unless the server turns on
+`releaseBreaksBlocks`.
+
+### In Lore mode
+
+No sword of the family burns a Devil, a replica works at a fifth (a fused sword at its fragments' average), and an artificial wielder's
+Ex-Durandal is at full power.
 
 ## Commands and settings
 

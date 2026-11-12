@@ -217,6 +217,12 @@ replaced in the same hand or held at death.
 Every stop of [Forbidden Balor View](balor-view/index.md) lasts **twice as long**, and its panel's seconds say so. A player is still stopped
 for 3 seconds at most.
 
+## Salvation Rose
+
+[Cycle of Salvation](salvation-rose/index.md#cycle-of-salvation) has no time limit. [The witch's](salvation-rose/index.md#the-witch) legs
+strike 5 times as hard and reach twice as far, her pull reaches 48 blocks and drains three times as hard, and her raging strikes come twice
+as often. On a server, Lore mode also lifts the [40% cap](reference/multiplayer.md#player-against-player) on one blow against a player.
+
 ## What stays the same
 
 - The Scale Mails' awakening and its countdown, stats, flight, the flat cut, Ddraig's fire and the white halving.

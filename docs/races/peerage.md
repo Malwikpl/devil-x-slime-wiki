@@ -348,7 +348,10 @@ wait 10 in-game days.
 
 A small crimson King marker at the top of a servant's screen points to their King. It shows the distance, or the King's
 dimension if the King is in another world. You can turn it off with the client setting
-[`kingMarker`](../reference/configuration.md#client-settings).
+[`kingMarker`](../reference/configuration.md#client-settings). A King who'd rather not be found can hide from their own servants'
+markers with `/dxdtensura hideking`.
+
+An operator can release a player from a player King's peerage with `/dxdtensura peerage release <player>`, online or not.
 
 <figure markdown="span">
   ![The King marker at the top of the screen](../assets/images/peerage-king-marker.jpg){ loading=lazy }

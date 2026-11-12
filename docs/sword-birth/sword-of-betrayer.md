@@ -126,8 +126,13 @@ whole store** to that hit, in one burst. The store empties when the state ends.
 
 ## The look and the music
 
-A full cutscene of about 8 seconds the first time, 3 seconds after that. Sneak skips it, and the [`cutscenes`](../reference/looks.md#the-settings)
-setting turns them off. A song plays once from each start of the state, for everyone within 48 blocks, and the client setting `betrayerMusic` turns it off.
+A full cutscene of about 18 seconds the first time, under a red sky: the blade rising alone out of the vortex's white, the pillar of light,
+a slow catch, the turn filmed close on red streaks, and a run along the finished sword. 3 seconds after that. Sneak skips it, and the
+[`cutscenes`](../reference/looks.md#the-settings) setting turns them off. With a shader pack the streaks and the name show properly.
+
+A song plays from each start of the state, for everyone within 48 blocks: it starts with the full cutscene and crosses to its drop at the
+reveal, and later entries open on the drop. The client setting `betrayerMusic` turns it off, and `gearSongs` picks whether you hear other
+players'.
 
 ## Settings
 

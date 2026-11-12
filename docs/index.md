@@ -11,7 +11,8 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
-and now has Asia's Twilight Healing, Kiba's Sword Birth and Sword of Betrayer, Gasper's Forbidden Balor View, Saji's Absorption Line, Xenovia's Durandal, the fragments of Excalibur, the three
+and now has Asia's Twilight Healing, Kiba's Sword Birth and Sword of Betrayer, Gasper's Forbidden Balor View, Saji's Absorption Line, Salvation Rose (a Sacred Gear of our own), Xenovia's Durandal and the
+fragments of Excalibur with Ex-Durandal, dragon-style flight on its wings, the three
 races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
 Angels), Koneko's cat Youkai, Kunou's foxes, Rossweisse's Valkyries, the Stray Devils to hunt, Fenrir to fight or tame and the Gremory family's town
 in Hell. It is growing into the whole DxD world.
@@ -91,6 +92,20 @@ in Hell. It is growing into the whole DxD world.
     ---
 
     Saji's lines, with Vritra asleep inside. Tie enemies down and drink them dry, then Shadow Prison, black flames and Delete Field.
+
+-   :material-flower:{ .lg .middle } **[Salvation Rose](salvation-rose/index.md)**
+
+    ---
+
+    A Sacred Gear of our own: a ring with a pink gem and a bow of rose and light. Seeking arrows, a rain of arrows, a
+    winged goddess form, and a witch for a gem gone dark.
+
+-   :material-bird:{ .lg .middle } **[Dragon flight](getting-started/flight.md)**
+
+    ---
+
+    Soar on the mod's wings with momentum: dive for speed, glide, boost, brake and barrel roll, with wings that beat and
+    pose as you fly.
 
 -   :material-bat:{ .lg .middle } **[Devils](races/devil.md)**
 
@@ -214,7 +229,8 @@ in Hell. It is growing into the whole DxD world.
 
     ---
 
-    Seven holy swords, each with a power of its own, and Freed Sellzen in the ruined churches at night.
+    Seven holy swords, each with a power of its own, and Freed Sellzen in the ruined churches at night. Fuse them into one
+    Excalibur, or sheathe Durandal in them as Ex-Durandal.
 
 -   :material-book-open-page-variant:{ .lg .middle } **[Lore mode](lore-mode.md)**
 
@@ -247,8 +263,8 @@ in Hell. It is growing into the whole DxD world.
 ## Quick start
 
 1. **Install** the mod and its requirements on the client and the server: see [Installation](getting-started/installation.md).
-2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth or Forbidden Balor View as
-   your Unique Skill (only one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
+2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth, Forbidden Balor View,
+   Absorption Line or Salvation Rose as your Unique Skill (only one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
 3. **Put the skill on an ability slot** in Tensura's Status Menu (default **B**) and press the slot key (**Z**, **X** or
    **C**) to summon your gear.
 4. **Use it.** Every use earns mastery, and mastery unlocks the rest. [Your first Sacred Gear](getting-started/first-gear.md)
@@ -265,4 +281,6 @@ in Hell. It is growing into the whole DxD world.
   in the [configuration](reference/configuration.md); the numbers here are the defaults.
 - [Lore mode](lore-mode.md) is off unless you turn it on. These pages describe the normal game.
 - The mod is built for **Tensura: Reincarnated 2.0.1.3 or newer** on Minecraft **1.21.1** with **NeoForge**.
+- Playing with friends? See [Multiplayer and servers](reference/multiplayer.md): a server and its players need the same
+  version of the mod.
 - There are hidden **easter eggs** for multiplayer. No spoilers here.

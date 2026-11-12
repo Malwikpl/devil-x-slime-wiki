@@ -705,7 +705,7 @@ every lower card gives its share of the Ace's numbers by place (the 7 half).
 | `wildSplashPercent` | 6.0 | 0–100 | % of max health a wave splashes its wielder for while the aura is wholly wild (never below half) |
 | `masteryPerWave` | 4 | 0–1000 | Durandal mastery (out of 1,000) a wave earns when it hits a foe |
 | `masteryPerHit` | 1 | 0–1000 | Durandal mastery a melee hit earns, once a second at most |
-| `devilBurnPercent` | 1.0 | 0–100 | % of max health a second Durandal burns a wielder whom holy things hurt (0 turns it off) |
+| `devilBurnPercent` | 0 | 0–100 | % of max health a second Durandal burns a wielder whom holy things hurt, a Devil with the Holy Factor (0, the default since 0.2.81, is no burn; Lore mode turns it off whatever this says) |
 | `devilBurnFloorPercent` | 50 | 0–100 | The burn never takes them below this % of max health |
 | `refusalDamage` | 2.0 | 0–100 | Damage Durandal deals someone who isn't a holy wielder taking it in hand (never below one heart) |
 | `tamedCuts` | true | — | Whether a fully tamed Durandal cuts through Resistances, Nullifications and barriers up to Guardian (Penetrate's level settings set how far) |
@@ -959,6 +959,7 @@ class. The races' own stats, EP ranges and requirements are in `config/dxdtensur
 | `fenrirBiteFloor` | 50 | 0–10,000 | His bite never deals less than this. |
 | `fenrirMightyFactor` | 2 | 1–10 | His bite on the mightiest (Demon Lords, True Heroes, Satan-class Devils, Seraphs, a Heavenly Dragon holder in armour or a Drive) is this many times as hard. |
 | `fenrirWoundSeconds` | 10 | 0–120 | How long his bite's wound lasts, seconds: nothing heals the wounded. |
+| `fenrirPinSeconds` | 6, 4, 3 | list | How long Gleipnir's pins hold, seconds, in order (the last repeats, and every pin is the last once he is unbound). 1 to 8 entries. |
 | `fenrirAnchorChannelSeconds` | 2 | 1–30 | How long use is held on a Gleipnir anchor to light it, seconds. |
 | `fenrirAnchorLitSeconds` | 15 | 1–300 | How long a lit anchor stays lit, seconds. |
 | `fenrirAnchorRestSeconds` | 20 | 0–600 | How long the two anchors that pinned him rest before they can be lit again, seconds. |
@@ -1018,6 +1019,22 @@ class. The races' own stats, EP ranges and requirements are in `config/dxdtensur
 | `freedNightChancePercent` | 25 | 0–100 | Freed Sellzen: the % chance, once a night, that a ruined church near a player has him waiting in its nave. |
 | `freedChurchRange` | 96 | 16–256 | Freed Sellzen: how near a ruined church a player must be for it to roll, blocks. |
 | `freedChurchWaitDays` | 3 | 0–30 | Freed Sellzen: in-game days a church he visited waits before he can come again. |
+| `fusedHolyStrikePercent` | 50 | 0–100 | The fused Excalibur's holy strike: % of the hit, times the average of its fragments' powers. |
+| `fusedAttackPerFragment` | 5 | 0–100 | The fused Excalibur's attack: 22 and this much for each fragment past the first. |
+| `rulerFusedCostShare` | 50 | 0–100 | With Ruler fused into the same sword, every other power costs this % of its price. |
+| `exDurandalAttackBonus` | 10 | 0–100 | Ex-Durandal: attack on top of Durandal's at the wielder's taming. |
+| `auraPerHit` | 2 | 0–100 | Ex-Durandal's stored aura: added by a melee hit that takes health (once a second at most). |
+| `auraPerWave` | 8 | 0–100 | Ex-Durandal's stored aura: added by a Holy Wave that hits at least one foe. |
+| `auraPerPower` | 4 | 0–100 | Ex-Durandal's stored aura: added by a sheath power that hits at least one foe. |
+| `releaseLength` | 40 | 8–128 | Ex-Durandal's giant slash: how far it runs, blocks. |
+| `releaseWidth` | 7 | 1–16 | Ex-Durandal's giant slash: how wide it is, blocks. |
+| `releaseDamageMultiplier` | 3 | 0–20 | Ex-Durandal's giant slash: damage as a multiple of the wielder's attack. |
+| `releaseBreaksBlocks` | false | — | Ex-Durandal's giant slash digs its middle line (by Full Burst's block rules; needs mobGriefing and Tensura's skillGriefing). |
+| `auraTransferMastery` | 500 | 0–1000 | Aura Transfer: the Durandal skill's mastery at which it is learned. |
+| `auraTransferSeconds` | 30 | 0–600 | Aura Transfer: how long the other sword glows, seconds. |
+| `auraTransferAttackBonus` | 6 | 0–100 | Aura Transfer: the glowing sword's extra attack. |
+| `auraTransferCooldownSeconds` | 60 | 0–600 | Aura Transfer: cooldown, seconds. |
+| `auraTransferGauge` | 20 | 0–100 | Aura Transfer into Ex-Durandal's own sheath: stored aura added. |
 
 ## `[absorption_line]`
 
@@ -1104,6 +1121,135 @@ class. The races' own stats, EP ranges and requirements are in `config/dxdtensur
 | `churchFeatherChance` | 0.5 | 0–1 | The chance that a ruined church's chest holds one of his feathers. |
 | `monsterCards` | 4 | 0–12 | How many of his cards one holder may give to monsters they've beaten (Deal for Michael). |
 
+## `[multiplayer]`
+
+For servers with more than one player. See [Multiplayer and servers](multiplayer.md) for how they fit together.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `bossShareWindowSeconds` | 60 | 1–3600 | A boss's EP is shared among the players who hit it within this many seconds of its death. |
+| `bossDropReserveSeconds` | 30 | 0–600 | A boss's drops can be picked up only by those who fought it for this many seconds (0: by anyone). |
+| `bossHealthPerFighterPercent` | 50 | 0–500 | Extra boss health for each fighter past the first, as a percentage of its health. |
+| `bossHealthMaxFactor` | 4 | 1–50 | The most a boss's health can grow to from its fighters, as a multiple. |
+| `autoReleaseEnabled` | false | — | Free a one-per-server thing (Divine Dividing, the tamed Fenrir, Rias's pieces, Michael's cards) when its holder has been offline for autoReleaseDays. |
+| `autoReleaseDays` | 30 | 1–365 | Days offline before autoReleaseEnabled frees what they hold. |
+| `asiaOutMinutes` | 60 | 0–1440 | How long Asia stays out with a player before she goes home, in minutes (0: no limit). |
+| `noMarkKingAwayDays` | 7 | 0–365 | Leaving a King who has been offline this many days leaves no Stray Devil mark (0: it always does). |
+| `pvpHitCapPercent` | 40 | 1–100 | The most one hit of this mod's gear or skills can take from a player, as a percentage of their max health (Lore mode is exempt). |
+| `cutsceneImmunityAfterTicks` | 20 | 0–400 | On a server, how many ticks past the transformation a cutscene still keeps hits off (20 ticks a second). |
+| `bargainServerProtectSeconds` | 10 | 1–60 | On a server, how long the Bargain's open offer keeps hits off, in seconds. |
+| `lineOnPlayerSeconds` | 15 | 1–300 | How long an Absorption Line can hold a player, in seconds. |
+| `lineOnPlayerRestSeconds` | 30 | 0–600 | How long after that the same player can't be held again, in seconds. |
+| `markHuntEnabled` | true | — | Whether the Hunters' Office can post a marked player at all. |
+| `markHuntMaxHunters` | 3 | 1–50 | How many hunters can be after one marked player at once. |
+| `offerHitSeconds` | 10 | 0–120 | No Evil Piece or card offer to a player who was hit within this many seconds (0: any time). |
+| `petGagRange` | 64 | 1–1024 | How close a player must be, in the same dimension, for one of the [easter eggs](#easter_eggs) to go off for them. |
+| `townMinCitizens` | 6 | 0–200 | The fewest citizens the Castle Town keeps, however many were killed that day. |
+| `serveHealMinutes` | 30 | 0–1440 | How long after one a player can be healed by being given an Evil Piece or a card again, in minutes. |
+
+## `[salvation_rose]`
+
+[Salvation Rose](../salvation-rose/index.md), its Balance Breaker [Cycle of Salvation](../salvation-rose/index.md#cycle-of-salvation)
+and [the witch](../salvation-rose/index.md#the-witch).
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `addSalvationRoseToReincarnationPool` | true | — | Put Salvation Rose in Tensura's reincarnation roll (the only way to get it). |
+| `arrowDamageNew` | 6 | 0–10000 | A Rose Arrow's damage at no mastery. |
+| `arrowDamageMastered` | 14 | 0–10000 | A Rose Arrow's damage at full mastery. |
+| `splitNew` | 3 | 1–16 | How many arrows a full draw splits into at the start. |
+| `splitAt50` | 4 | 1–16 | How many arrows a full draw splits into from 50% mastery. |
+| `splitMastered` | 5 | 1–16 | How many arrows a full draw splits into at full mastery. |
+| `splitDistance` | 6 | 0.5–64 | How far out a full draw's arrow splits, in blocks. |
+| `seekDegreesPerTick` | 20 | 0–180 | The most a split arrow turns in a tick, in degrees. |
+| `arrowRange` | 96 | 1–256 | How far a Rose Arrow flies, in blocks. |
+| `arrowSpeed` | 3 | 0.1–16 | A Rose Arrow's speed, in blocks a tick. |
+| `burstRadius` | 2 | 0–16 | How far an arrow's burst reaches, in blocks. |
+| `burstShare` | 0.5 | 0–10 | A burst's damage to other enemies, as a share of the arrow's. |
+| `fullDrawTicks` | 20 | 1–200 | Ticks to a full draw. |
+| `minDrawTicks` | 5 | 1–200 | The shortest draw that shoots anything, in ticks. |
+| `bowFadeTicks` | 40 | 0–1200 | How long the bow stays out after the last shot, in ticks. |
+| `lostSoulBonusPercent` | 50 | 0–1000 | How much harder the gear hits a lost soul (a Stray Devil, undead or daemon), in percent. |
+| `rainReach` | 48 | 1–128 | How far away Arrow Rain can be opened, in blocks. |
+| `rainRadiusAt40` | 6 | 1–64 | Arrow Rain's radius when it opens, in blocks. |
+| `rainRadiusMastered` | 10 | 1–64 | Arrow Rain's radius at full mastery, in blocks. |
+| `rainDelayTicks` | 20 | 0–1200 | Ticks between the press and Arrow Rain's first strike. |
+| `rainSeconds` | 4 | 1–120 | How long Arrow Rain falls, in seconds. |
+| `rainStrikeTicks` | 10 | 1–200 | Ticks between Arrow Rain's strikes. |
+| `rainShare` | 0.5 | 0–10 | An Arrow Rain strike's damage, as a share of a Rose Arrow's. |
+| `purifyRadius` | 8 | 1–64 | Purify's reach, in blocks. |
+| `purifyLostSoulShare` | 1 | 0–10 | Purify's strike on a lost soul, as a share of a Rose Arrow's damage. |
+| `purifyHolderLight` | 10 | 0–100 | The light another holder gets from your Purify. |
+| `wishChargeTicks` | 60 | 1–1200 | Ticks to charge a Wish Arrow. |
+| `wishDamage` | 200 | 0–100000 | A Wish Arrow's damage. |
+| `wishWidth` | 2 | 0–16 | How far from its path a Wish Arrow hits, in blocks. |
+| `wishRange` | 96 | 1–256 | How far a Wish Arrow flies, in blocks. |
+| `arrowPricePercent` | 0.5 | 0–100 | A full Rose Arrow's price, in percent of max magicules. |
+| `rainPricePercent` | 10 | 0–100 | Arrow Rain's price, in percent of max magicules. |
+| `purifyPricePercent` | 8 | 0–100 | Purify's price, in percent of max magicules. |
+| `wishPricePercent` | 30 | 0–100 | Wish Arrow's price, in percent of max magicules. |
+| `rainCooldownSeconds` | 30 | 0–3600 | Arrow Rain's cooldown when it opens, in seconds. |
+| `purifyCooldownSeconds` | 30 | 0–3600 | Purify's cooldown when it opens, in seconds. |
+| `wishCooldownSeconds` | 120 | 0–3600 | Wish Arrow's cooldown, in seconds. |
+| `masteredCooldownCut` | 0.5 | 0–1 | The share of a power's cooldown that full mastery takes off. |
+| `lightArrow` | 1 | 0–100 | The light a Rose Arrow shot at half draw or more takes. |
+| `lightRain` | 8 | 0–100 | The light Arrow Rain takes. |
+| `lightPurify` | 6 | 0–100 | The light Purify takes. |
+| `lightWish` | 25 | 0–100 | The light Wish Arrow takes. |
+| `lightBigHit` | 5 | 0–100 | The light a hit of despair takes (see bigHitPercent). |
+| `lightAllyDeath` | 15 | 0–100 | The light an ally's death takes (see allyDeathRadius). |
+| `bigHitPercent` | 25 | 0–100 | The share of max health in one hit that counts as despair, in percent. |
+| `allyDeathRadius` | 32 | 0–256 | How near an ally has to die to dim the gem, in blocks. |
+| `lightKill` | 2 | 0–100 | The light killing a hostile living thing gives. |
+| `lightLostSoul` | 4 | 0–100 | The light killing a lost soul gives. |
+| `lightBoss` | 15 | 0–100 | The light helping to kill a boss gives. |
+| `lightSaved` | 15 | 0–100 | The light saving a Stray Devil gives. |
+| `lightQuietPer30s` | 1 | 0–100 | The light each 30 quiet seconds give. |
+| `lightQuietCap` | 50 | 0–100 | The most the gem recovers by quiet alone. |
+| `lightFullStrength` | 50 | 1–100 | The light from which the gear hits at full strength. |
+| `lightWeakestShare` | 0.5 | 0–1 | The gear's strength as the gem nears dark, as a share. |
+| `darkRestSeconds` | 60 | 0–3600 | How long a dark gem rests, in seconds. |
+| `lightAfterRest` | 20 | 1–100 | The light a gem comes back with after its rest. |
+| `rainAtMastery` | 0.4 | 0–1 | The mastery share at which Arrow Rain opens. |
+| `purifyAtMastery` | 0.7 | 0–1 | The mastery share at which Purify opens. |
+| `saveFadeTicks` | 30 | 1–600 | How long a saved Stray Devil takes to fade, in ticks. |
+| `bossHelpRadius` | 64 | 1–256 | How near a holder who hurt a boss has to be when it dies to share its light, in blocks. |
+| `roseAwakenMastery` | 70 | 0–100 | The mastery, in percent, from which the small white creature offers his contract when the gem would go dark (Cycle of Salvation). |
+| `contractOfferSeconds` | 15 | 1–600 | How long the contract screen stays open before it closes as "Not yet", in seconds. |
+| `contractRetryMinutes` | 10 | 0–1440 | How long after an offer the creature waits before offering again, in minutes. |
+| `salvationRadius` | 24 | 0–128 | How near the holder in Cycle of Salvation an ally has to be for Salvation to catch their killing blow, in blocks. |
+| `salvationHealthPercent` | 20 | 1–100 | The health, in percent of max, someone Salvation caught is left with. |
+| `cycleHitBonusPercent` | 50 | 0–1000 | How much harder every hit of the gear lands in Cycle of Salvation, in percent. |
+| `cycleLostSoulBonusPercent` | 100 | 0–1000 | The lost-soul bonus in Cycle of Salvation, in percent (in place of lostSoulBonusPercent). |
+| `cycleDrawTicks` | 10 | 1–200 | How long a full Rose Arrow draw takes in Cycle of Salvation, in ticks. |
+| `wishBlastRadius` | 15 | 0–32 | In the goddess form: the radius of the Wish Arrow's blast where it first meets the ground, in blocks (0: none). |
+| `wishBlastEdgeShare` | 0.5 | 0–1 | The share of a Wish Arrow's damage the blast still deals at its edge; it deals all of it at its middle (1: all of it everywhere). |
+| `seekRange` | 48 | 0–128 | How far ahead of the holder the split arrows look for enemies, in blocks. |
+| `seekConeDegrees` | 30 | 1–90 | How far off the holder's aim an enemy can be for the split arrows to seek it, in degrees. |
+| `witchSeconds` | 130 | 5–600 | The witch: how long the form lasts, in seconds. |
+| `witchRageSeconds` | 90 | 0–600 | The witch: how many of the form's last seconds she rages, striking anything near, allies too. |
+| `witchWarnSeconds` | 5 | 0–60 | The witch: how many seconds before raging the warning comes. |
+| `witchSilenceMinutes` | 15 | 0–1440 | The witch: how long the whole gear is silent after the form, in minutes. |
+| `witchAfterSeconds` | 60 | 0–3600 | The witch: how long Weakness II and Slowness II last after the form, in seconds. |
+| `witchLegDamage` | 24 | 0–100000 | The witch: a leg's strike. |
+| `witchLegReach` | 32 | 1–128 | The witch: how far ahead the legs strike, in blocks. |
+| `witchLegCooldownTicks` | 20 | 1–1200 | The witch: ticks between the legs' strikes. |
+| `witchLegsStart` | 3 | 1–64 | The witch: her legs at the start. |
+| `witchLegsEverySeconds` | 6 | 1–600 | The witch: one more leg every this many seconds. |
+| `witchRageStrikeTicks` | 10 | 1–1200 | The witch: ticks between the raging witch's strikes. |
+| `witchPullRadius` | 16 | 1–64 | The witch: how far round the holder the pull reaches, in blocks. |
+| `witchPullSpeed` | 0.25 | 0–4 | The witch: how fast the pull drags, in blocks a tick. |
+| `witchPullDamage` | 6 | 0–100000 | The witch: what the pull drains from each enemy a second. |
+| `witchPullHealShare` | 0.5 | 0–10 | The witch: the share of what the pull drains that heals the holder. |
+| `loreWitchLegFactor` | 5 | 1–1000 | The witch under Lore mode: how many times as hard a leg strikes. |
+| `witchRainShare` | 0.75 | 0–100 | The witch's Rain of Legs: each falling leg's strike, as a share of witchLegDamage. |
+| `witchRainCooldownSeconds` | 8 | 0–600 | The witch's Rain of Legs: seconds between rains. |
+| `witchEmbraceShare` | 2 | 0–100 | The witch's Embrace: her arms' blow, as a share of witchLegDamage. |
+| `witchEmbraceCooldownSeconds` | 10 | 0–600 | The witch's Embrace: seconds between embraces. |
+| `witchMireShare` | 0.25 | 0–100 | The witch's Mire of Despair: what it drains each second from everything in it, as a share of witchLegDamage. |
+| `witchMireCooldownSeconds` | 20 | 0–600 | The witch's Mire of Despair: seconds between mires. |
+| `witchRageMoveSeconds` | 8 | 1–600 | The raging witch: seconds between the big moves (the rain, her embrace, the mire) she uses on her own. |
+
 ## `[lore_mode]`
 
 The numbers for [Lore mode](../lore-mode.md). The mode itself is the game rule `dxdLoreMode`, for each world. None of this does
@@ -1115,6 +1261,7 @@ anything with the rule off.
 | `boostCeiling` | 30 | 1–30 | The most Boost stacks anyone holds, the rage stack and the dragon's extras included |
 | `divideCeiling` | 30 | 3–30 | The most Divides on one target |
 | `upkeepPercent` | 0.1 | 0–100 | % of max magicules a Scale Mail costs a second |
+| `bishopFormUpkeepPercent` | 0.25 | 0–100 | % of max magicules the Bishop's form costs a second (the Knight and the Rook cost `upkeepPercent`, as the plain Scale Mail does) |
 | `bargainSeconds` | 10 | 1–3600 | The longest the Bargain's early Scale Mail lasts |
 | `transferEfficiency` | 1.0 | 0–1 | How much of the Boost's extra power a Transfer gives (1 is the whole ×2ⁿ) |
 | `compressVanishBossPercent` | 50 | 0–100 | The compress vanishes a boss or a player whose max EP is at or under this % of the holder's (0: never) |
@@ -1152,6 +1299,7 @@ Slime → Config.
 | `ddraigLines` | `ALL` | How much of Ddraig you see: `ALL`, `IMPORTANT` (teaching, warnings and story lines; Rias's lines count as important) or `OFF` |
 | `screenShake` | true | Shake the camera for the Explosion, the Scale Mail forming and a Dragon Shot landing close by |
 | `gearEffects` | `ALL` | `ALL`; `MOMENTS` (no lingering auras or motes); or `OFF` (no effects, no light from the gear, no rage tint). Poses and sounds always play |
+| `gearSongs` | `ALL` | Whose gear songs play: `OFF` for none, `OWN` for your own only, `ALL` for others' nearby too. Each song's own setting below still applies |
 | `cutscenes` | true | Film Balance Breaker (both Scale Mails) and Juggernaut Drive forming: the full cutscene the first time, a short one after (the white Scale Mail plays its full one every time). Off, they form at once |
 | `modelStyle` | `NEW` | `NEW` (the remodelled, outlined models) or `CLASSIC` (the blocky models from before); changes at once. The gauntlet's three forms, the Scale Mail, Juggernaut Drive's dragon and Ascalon's blade on the gauntlet and the Scale Mail (the sword itself, its relic and the skull keep their look). The first time you hold the Boosted Gear a screen asks which look you want, with a picture of each |
 | `modelStyleAsked` | `false` | Whether that screen has been answered (any way out counts, keeping the current look); set it back to `false` to be asked again |
@@ -1159,7 +1307,10 @@ Slime → Config.
 | `huntMarker` | true | On one of Rias's [hunts](../world/stray-devils.md#riass-hunts), show where the Stray Devil is at the top of the screen |
 | `handRow` | true | With a Brave Saint card or a deck, show the hand you could play (or the wait) at the bottom left |
 | `seraphMarker` | true | As a Brave Saint, show where your Seraph is at the top of the screen |
-| `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
+| `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns, and along the flight while [soaring](../getting-started/flight.md)). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
+| `dragonFlight` | true | [Dragon flight](../getting-started/flight.md): soaring with momentum when you sprint-fly on the mod's wings. Off, flight works as before |
+| `flightCameraTilt` | 100 | How far the camera rolls with a bank while soaring, 0 to 100% |
+| `flightRollSpin` | true | Turn the camera with you in a barrel roll. Off, the camera stays upright |
 | `wingMotion` | true | Living wings: the race wings and the Scale Mails answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat, and the Scale Mail's leather lies flat |
 | `townSky` | true | The purple sky and the great moon over the [Castle Town](../world/castle-town.md). Off, Hell keeps its own sky there |
 | `trueQueenMusic` | true | Play Cardinal Crimson Promotion for as long as someone near you is in the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on the Jukebox volume slider, in place of the game's music |
@@ -1168,3 +1319,7 @@ Slime → Config.
 | `fullBurstMusic` | true | Play a genius [Valkyrie's](../races/valkyrie.md#full-burst) Full Burst song when someone near you fires one, on the Jukebox volume slider, in place of the game's music |
 | `betrayerMusic` | true | Play [Sword of Betrayer's](../sword-birth/sword-of-betrayer.md) song once each time someone near you enters it, on the Jukebox volume slider, in place of the game's music |
 | `gpuModels` | true | Draw the race wings from a copy kept on the graphics card: the same look, far faster. Turn it off if they look wrong with another mod. Iris shader packs always get the old way |
+| `goddessEyes` | true | Cycle of Salvation turns the holder's eyes gold, a gold pixel over each eye's inner pixel on the default face. Turn it off for a skin whose eyes are painted elsewhere |
+| `roseMusic` | true | Play [Cycle of Salvation's](../salvation-rose/index.md#cycle-of-salvation) song for as long as someone near you is in it, and the witch's songs while she's out, on the Jukebox volume slider, in place of the game's music |
+| `bentArms` | true | Salvation Rose's shooting poses bend the arms at the elbow (with bendy-lib, packed in the mod). Turn it off for straight arms, for instance if another mod's player model clashes with bending |
+| `witchSky` | true | Near [the witch](../salvation-rose/index.md#the-witch) the sky turns to blood dusk, a vortex turns overhead, the fog closes in and ash falls. Off, the sky stays as it is |

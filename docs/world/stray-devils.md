@@ -99,6 +99,9 @@ Later ones take names from a list (Morvane, Krovath, ...).
 - Tensura's usual EP for the kill, and EP-based XP.
 - A few gold nuggets and sometimes an emerald, more from stronger Strays.
 - A lair boss always drops gold ingots and emeralds.
+- [Salvation Rose](../salvation-rose/index.md#lost-souls) gives them a gentler end: a Stray its hit would kill fades away saved instead, with
+  its loot, and a hunt for it counts as done.
+- On a server, a lair boss's EP is shared among everyone who fought it. See [Multiplayer and servers](../reference/multiplayer.md#fighting-together).
 
 ## Devil things
 

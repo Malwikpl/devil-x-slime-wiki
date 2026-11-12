@@ -1,7 +1,7 @@
 # Your first Sacred Gear
 
-Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are five: the rival Heavenly Dragons, Asia's healing
-rings, Kiba's swords and Gasper's eyes.
+Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are seven: the rival Heavenly Dragons, Asia's healing
+rings, Kiba's swords, Gasper's eyes, Saji's lines, and Salvation Rose, a gear of our own.
 
 | Sacred Gear | Inside | What it is |
 |---|---|---|
@@ -11,10 +11,11 @@ rings, Kiba's swords and Gasper's eyes.
 | [Sword Birth](../sword-birth/index.md) | no dragon | Fading copies of swords, in your hand or bursting out of the ground |
 | [Forbidden Balor View](../balor-view/index.md) | no dragon | A time stop in your eyes: what you look at hangs in the air until its time is up |
 | [Absorption Line](../absorption-line/index.md) | Vritra, the Prison Dragon | Black lines that tie enemies down, drink their power and pass it on |
+| [Salvation Rose](../salvation-rose/index.md) | no dragon | A ring with a pink gem and a bow of rose and light: seeking arrows, a rain of arrows and a winged goddess form |
 
 ## Getting one
 
-**Reincarnate as a human.** When Tensura rolls a human's Unique Skill, the six gears are in the roll, with the same
+**Reincarnate as a human.** When Tensura rolls a human's Unique Skill, the seven gears are in the roll, with the same
 odds as every other skill in it.
 
 - **One Sacred Gear per player.** You can never hold two. If you have one, no other can be given to you in any way:
@@ -66,6 +67,8 @@ So the road to a Devil with a Sacred Gear is Issei's: start human, roll a gear, 
     /tensura edit ability grant @s dxdtensura:twilight_healing
     /tensura edit ability grant @s dxdtensura:sword_birth
     /tensura edit ability grant @s dxdtensura:forbidden_balor_view
+    /tensura edit ability grant @s dxdtensura:absorption_line
+    /tensura edit ability grant @s dxdtensura:salvation_rose
     ```
 
     Commands give a gear to any race, for testing.
@@ -104,6 +107,8 @@ Using your gear earns Tensura **mastery** for it, the bar in Tensura's skill scr
   once mastered. See [Forbidden Balor View](../balor-view/index.md).
 - Absorption Line opens **Shadow Prison** at 40%, **Blaze Black Flare** at 70% and **Delete Field** at full mastery, with more
   lines as it grows. See [Absorption Line](../absorption-line/index.md).
+- Salvation Rose opens **Arrow Rain** at 40%, **Purify** and its Balance Breaker's contract at 70% and the **Wish Arrow** at full
+  mastery, and splits its arrows into more as it grows. See [Salvation Rose](../salvation-rose/index.md).
 
 ## The Sacred Gear panel
 
@@ -113,7 +118,7 @@ see it, and **F1** hides it. Each gear's page explains what its panel shows.
 
 ## Your partner
 
-The dragon sealed in a Heavenly Dragon gear talks to you (Twilight Healing, Sword Birth and Forbidden Balor View have no voice, and Absorption Line's Vritra says little). Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
+The dragon sealed in a Heavenly Dragon gear talks to you (Twilight Healing, Sword Birth, Forbidden Balor View and Salvation Rose have no voice, and Absorption Line's Vritra says little). Ddraig (Boosted Gear) and Albion (Divine Dividing) teach you each power the
 first time you use it, warn you when you're running low, and react to what you do, in a small speech box above the
 panel. The client setting `ddraigLines` sets how much of them you see. See [Ddraig and his Bargain](../boosted-gear/ddraig.md).
 
@@ -128,7 +133,8 @@ its gears into that list** every time a world or server starts:
 - `"dxdtensura:twilight_healing"`, switched by `addTwilightHealingToReincarnationPool` (in `[twilight]`);
 - `"dxdtensura:sword_birth"`, switched by `addSwordBirthToReincarnationPool` (in `[sword_birth]`);
 - `"dxdtensura:forbidden_balor_view"`, switched by `addBalorViewToReincarnationPool` (in `[balor_view]`);
-- `"dxdtensura:absorption_line"`, switched by `addAbsorptionLineToReincarnationPool` (in `[absorption_line]`).
+- `"dxdtensura:absorption_line"`, switched by `addAbsorptionLineToReincarnationPool` (in `[absorption_line]`);
+- `"dxdtensura:salvation_rose"`, switched by `addSalvationRoseToReincarnationPool` (in `[salvation_rose]`).
 
 It adds each entry once and leaves the rest of the file alone. Set a switch to `false` and the next start **removes**
 that entry, even one you added by hand. If you uninstall Devil x Slime, a leftover entry is harmless: Tensura skips
