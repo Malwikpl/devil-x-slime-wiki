@@ -41,7 +41,7 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 
 ## Cutscenes
 
-**Balance Breaker** and **Juggernaut Drive** play a cutscene as they form.
+The Balance Breakers and **Juggernaut Drive** play a cutscene as they form.
 
 | Transformation | First time | After that |
 |---|---|---|
@@ -51,11 +51,17 @@ Divine Dividing's wings and the white Scale Mail have the new look only.
 | Divine Dividing's Juggernaut Drive (the white dragon) | full, about 7 s | short, 3 s |
 | Taking Albion's power | a short cutscene | |
 | [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen) | full, about 6 s | a flash, no cutscene |
+| [Sword of Betrayer](../sword-birth/sword-of-betrayer.md) | full, about 18 s | short, 3 s |
+| [Cycle of Salvation](../salvation-rose/index.md#cycle-of-salvation) | full, about 48 s, with its song | short, 3 s |
+| [The witch](../salvation-rose/index.md#the-witch) | full, about 50 s, with her song | short, 3 s |
 
 - You stand still and **can't be hurt** while it plays, and your head stays level; the mouse can't turn you.
 - **Sneak** skips the rest of it. You still transform.
 - Players around you see your poses and effects, but keep their own camera.
+- Grass, flowers, sugar cane and vines near you hide while a cutscene films, on your own screen only.
 - `cutscenes = false` turns them off for you: you transform at once.
+- **Watching one again.** An operator can replay any of them with `/dxdtensura cutscene play <name> [full|short] [players]`, with no
+  gear needed and nothing gained or lost. See [Commands](commands.md).
 
 ## Living wings
 
@@ -188,12 +194,20 @@ big moments flash.
 | `ddraigLines` | `ALL` | How much of Ddraig and Albion you see: `ALL`, `IMPORTANT` (teaching, warnings and story lines) or `OFF` |
 | `screenShake` | `true` | Shake the camera for the Explosion, the Scale Mail forming and a Dragon Shot landing close by |
 | `gearEffects` | `ALL` | `ALL`; `MOMENTS` (no lingering auras or motes); or `OFF` (no effects, no light from the gear, no rage tint). Poses and sounds always play |
+| `gearSongs` | `ALL` | Whose gear songs you hear: `ALL`, `OWN` or `OFF` |
 | `cutscenes` | `true` | The transformation cutscenes. Off, you transform at once |
 | `modelStyle` | `NEW` | `NEW` or `CLASSIC` models |
 | `modelStyleAsked` | `false` | Whether the model style screen has been answered; set it to `false` to be asked again |
 | `flightLean` | `true` | Lean into the flight on the mod's wings or in a Scale Mail; off, you fly upright (and TR: Nightmare's pose can take over) |
+| `dragonFlight` | `true` | [Dragon flight](../getting-started/flight.md)'s soaring; off, flight as before |
+| `flightCameraTilt` | `100` | How far the camera rolls with a bank while soaring, 0 to 100% |
+| `flightRollSpin` | `true` | The camera turns with you in a barrel roll |
 | `wingMotion` | `true` | [Living wings](#living-wings): the race wings and the Scale Mails answer your movement; off, they keep the old slow beat |
 | `townSky` | `true` | The purple sky and the great moon over the [Castle Town](../world/castle-town.md); off, Hell keeps its own sky there |
 | `trueQueenMusic` | `true` | [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen)'s song, on the Jukebox slider |
 | `betrayerMusic` | `true` | [Sword of Betrayer](../sword-birth/sword-of-betrayer.md)'s song, on the Jukebox slider |
 | `gpuModels` | `true` | Draw the race wings from the graphics card, far faster; off, the old way |
+| `goddessEyes` | `true` | [Cycle of Salvation](../salvation-rose/index.md#cycle-of-salvation)'s golden eyes; off for a skin whose eyes are elsewhere |
+| `roseMusic` | `true` | Cycle of Salvation's and the witch's songs, on the Jukebox slider |
+| `bentArms` | `true` | Salvation Rose's shooting poses bend at the elbow; off, straight arms |
+| `witchSky` | `true` | The witch's blood-dusk sky around her; off, the sky stays as it is |

@@ -7,12 +7,13 @@
 | **Tensura: Reincarnated** | Required, 2.0.1.3 or newer (2.0.1.4 works too). Older versions won't load |
 | **Photon** | Required on clients; draws every effect. Photon also draws them under Iris shaders, with its own settings in `photon-client.toml` |
 | **Player Animator** | Required on clients; the poses |
+| **bendy-lib** | Packed inside the mod, nothing to install: it bends the elbows in [Salvation Rose's](../salvation-rose/index.md) shooting poses. [bendy-lib](https://github.com/KosmX/bendy-lib) is by KosmX, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). If another mod's player model clashes with bending, turn the client setting `bentArms` off |
 | **LambDynamicLights** | Optional: the gear's glow lights up the blocks around it |
 | **Particle Core** | Works. Older versions of Devil x Slime crashed with it ("Ticking Particle"); that is fixed |
 | **Elite Tensura** | Works. Hits from this mod don't count toward Elite Tensura's single-hit damage records, which would otherwise hand out permanent attack bonuses |
 | **Tensura Drowsiness Guard** | Works. Older versions lost this mod's effects on save; that is fixed |
 | **FTB Chunks** and other claim mods | Works. A Juggernaut Drive's walk, Extinguished Star's crater and Celsius Cross Trigger's frozen water leave claimed land alone |
-| **Shader packs** (Iris) | The effects still show. A shader pack's own bloom can make them brighter. Under a shader pack the race wings are drawn the old, slower way (see `gpuModels`), and the tongues of a Phenex's wings stay straight. Forbidden Balor View's drain becomes a flat tint, and its screen edges and grey stay off. Other looks under shaders are untested |
+| **Shader packs** (Iris) | The effects still show. A shader pack's own bloom can make them brighter. Under a shader pack the race wings are drawn the old, slower way (see `gpuModels`), and the tongues of a Phenex's wings stay straight. Forbidden Balor View's drain becomes a flat tint, and its screen edges and grey stay off. The witch's sky still darkens, but a pack that draws its own clouds may keep them white. Other looks under shaders are untested |
 | **TR: Nightmare** | Works. Its flight pose is left off players flying on this mod's wings or in a Scale Mail, so they no longer turn upside down. Turn the client setting `flightLean` off to fly upright and let Nightmare's pose take over |
 | **Other mods' structures** | Works. Our structures check what else would generate nearby and keep a dozen blocks clear of it |
 | **Bendy-arm animation mods**, bulky chest armour models | May clip through the rigid gauntlet |

@@ -297,8 +297,9 @@ Carry the [Stray Devil mark](stray-devils.md#the-stray-devil-mark) and the Hunte
 - **Two come at first,** and one more for each party you beat, up to five. Each has half your EP, from 20,000 to 400,000, and drops 2 to 5 silver.
 - **They leave** after 5 minutes, when you die or when you leave the dimension.
 
-**With PvP on,** the player marked longest also has a poster on everyone else's board, in darker paper. It's a hunt of its own, for two days, alongside a Stray job. A kill by your own hand pays **5 gold
-and 50 renown**, and the poster stays off your board for 3 days.
+**With PvP on,** the player marked longest also has a poster on everyone else's board, in darker paper. It's a hunt of its own, for two days, alongside a Stray job. The marked player is told,
+the hunters see a rough 64-block square rather than an exact spot, and at most 3 can hunt one player at once. A kill by your own hand pays **5 gold** and no renown, and the poster stays off your
+board for 3 days. A server can turn the player hunt off with `markHuntEnabled` (see [Multiplayer and servers](../reference/multiplayer.md#the-stray-devil-mark)).
 
 <figure markdown="span">
   ![A hunter party flying in](../assets/images/town-hunters.jpg){ loading=lazy }

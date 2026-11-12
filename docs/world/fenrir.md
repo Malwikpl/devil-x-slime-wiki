@@ -130,6 +130,8 @@ With no one to fight near his stone for 30 seconds he walks back to it, heals an
 Tensura's reward for his magicules, **1,500 XP** and **Fenrir's Fang**, one per kill: a dagger with 9 attack and netherite's
 durability, which can be enchanted, and whose hits leave a 3-second God Slayer wound.
 
+With friends, the EP is shared among everyone who fought him. See [Multiplayer and servers](../reference/multiplayer.md#fighting-together).
+
 ## Taming him
 
 Only in his **last phase**. A [Divine Dividing](../divine-dividing/index.md) holder in the

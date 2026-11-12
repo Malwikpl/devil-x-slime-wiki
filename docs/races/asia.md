@@ -59,6 +59,7 @@ from range, and the Healing Field for two or more. Some monsters turn on her whe
 Out, she can be hurt, and the blow that would kill her knocks her out instead: she's taken home to rest until the next day. Low on magicules she stops healing until she's back at half.
 
 **Go home** sends her back. Logging out, leaving Rias or going where our circles can't open ends it too, and if you die she comes back when you respawn.
+She also goes home by herself after 60 minutes out (`asiaOutMinutes`), so one player can't keep her from the others.
 
 <div class="grid" markdown>
 

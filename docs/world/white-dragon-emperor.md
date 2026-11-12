@@ -146,6 +146,9 @@ His kill gives:
 - **his white helm**, a trophy block you can place on a floor or a wall;
 - **[Excalibur Ruler](../excalibur/index.md#the-white-dragon-emperor)**: the true one if it hasn't been claimed yet, or a replica one time in four.
 
+With friends, the EP is shared among everyone who hit him in his last 60 s, his drops are kept for his fighters for 30 s, the jewel needs a
+hit on him first, and he has more health for each fighter. See [Multiplayer and servers](../reference/multiplayer.md#fighting-together).
+
 <figure markdown="span">
   ![The White Dragon Emperor's Helm](../assets/images/emperor-helm.jpg){ loading=lazy }
   <figcaption>His helm, on the floor and on a wall.</figcaption>

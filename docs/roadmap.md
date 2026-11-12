@@ -94,9 +94,15 @@ world. These are plans, not promises, and the order can change.
 - **[Asia Argento](races/asia.md)** (0.2.78): Rias's Bishop as an NPC, the first of her peerage in the world
 - **[Michael](races/michael.md)** (0.2.78): the NPC Seraph, who deals you his Hearts as Rias does her pieces
 
+- **[One Excalibur and Ex-Durandal](excalibur/index.md#one-excalibur)** (0.2.84): the fragments fused into one sword, and folded round Durandal as a sheath, with
+  its giant slash, and Durandal's Aura Transfer
+- **[Multiplayer](reference/multiplayer.md)** (0.2.84): shared boss rewards, a cap on PvP hits, claims respected, and settings for servers
+- **[Salvation Rose](salvation-rose/index.md)** (0.2.107): a Sacred Gear of our own, with seeking arrows, a rain of arrows, its Balance Breaker Cycle of Salvation and
+  the witch
+- **[Dragon flight](getting-started/flight.md)** (0.2.107): soaring with momentum on the mod's wings, with dives, glides, brakes and barrel rolls
+
 ## Next up
 
-- **One Excalibur and Ex-Durandal**: fusing the fragments into one sword, and folding them round Durandal as a sheath, with its giant slash.
 - **More of Rias's peerage as NPCs**, after Asia.
 
 ## Between the big items

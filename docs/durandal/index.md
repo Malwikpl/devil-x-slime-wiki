@@ -68,8 +68,8 @@ A Tensura great sword, unbreakable, with **23 attack** at first and **70** [full
 - **It refuses anyone else.** Taken in hand by someone who isn't a holy wielder, it jolts them (**2 damage**, never below a
   heart) and leaves their hand, at most once a second. Carrying it in your inventory is fine.
 - Creative and spectator players are never refused. A mob that picks it up drops it at once.
-- **A wielder holy things hurt**, such as a Devil with the factor, burns for **1% of max health a second** while holding it,
-  never below half.
+- **A Devil with the factor holds it unharmed** (since 0.2.84). A server can make it burn a wielder holy things hurt with
+  `devilBurnPercent`: that much of their max health a second while they hold it, never below half.
 
 <figure markdown="span">
   ![Durandal in first person](../assets/images/durandal-first-person.jpg){ loading=lazy }
@@ -119,6 +119,15 @@ pocket of space and calls it back to your hand. What you held goes to your inven
 - **On death** a carried Durandal goes into an empty pocket. With `keepInventory` on, it simply stays with you.
 - A copy of the skill never carries the sword: Tensura's clones can't take it with them.
 - Forgetting the skill drops the sword at your feet.
+
+## Aura Transfer
+
+At **500 Durandal mastery** the skill learns a second mode, **Aura Transfer**. With Durandal in your main hand and Ascalon, one of
+[Excalibur's fragments](../excalibur/index.md) or a fused Excalibur in your off hand, it pours Durandal's aura into that sword for
+**30 s**: **+6 attack** and Durandal's 50% holy strike (the larger of that and the sword's own, never both; on Ascalon, not on dragons).
+One glowing sword at a time. It costs 4% of your max magicules, more while Durandal is wild, and cools down for 60 s.
+
+Knowing Aura Transfer also opens [Ex-Durandal](../excalibur/index.md#ex-durandal).
 
 ## Taming it
 
@@ -173,7 +182,7 @@ altar, chained. See [The crypt church](../world/structures.md#the-crypt-church).
 
 In a world with [Lore mode](../lore-mode.md) on:
 
-- it never burns a Devil wielder;
+- it never burns a Devil wielder, whatever the server sets;
 - the Artificial Holy Factor is as strong as the natural one;
 - a Durandal Replica has **one fifth** of the wave and the strike, in anyone's hand, and its attack grows only to about 32.
 

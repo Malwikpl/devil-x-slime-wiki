@@ -68,6 +68,7 @@ nav:
       - Installation: getting-started/installation.md
       - Your first Sacred Gear: getting-started/first-gear.md
       - The mode wheel: getting-started/mode-wheel.md
+      - Dragon flight: getting-started/flight.md
   - Boosted Gear:
       - boosted-gear/index.md
       - Forms and mastery: boosted-gear/forms-and-mastery.md
@@ -89,6 +90,7 @@ nav:
       - Sword of Betrayer: sword-birth/sword-of-betrayer.md
   - Forbidden Balor View: balor-view/index.md
   - Absorption Line: absorption-line/index.md
+  - Salvation Rose: salvation-rose/index.md
   - Durandal and the Holy Factor: durandal/index.md
   - Excalibur's fragments: excalibur/index.md
   - Races:
@@ -115,6 +117,7 @@ nav:
   - Reference:
       - Commands: reference/commands.md
       - Configuration: reference/configuration.md
+      - Multiplayer and servers: reference/multiplayer.md
       - Looks, cutscenes and effects: reference/looks.md
       - Status effects: reference/status-effects.md
       - Compatibility and known limits: reference/compatibility.md
