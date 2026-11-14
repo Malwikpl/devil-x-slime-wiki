@@ -499,6 +499,10 @@
 ??? question "I hear other players' gear songs."
     Set the client setting `gearSongs` to `OWN` (only yours) or `OFF`. Each song also has its own setting.
 
+??? question "Is there an English dub?"
+    Not in the mod, but you can make one yourself: a resource pack can swap any voice line or sound for your own clips, with no
+    coding. See [Your own sound pack](reference/sound-packs.md), which has a template pack to start from.
+
 ??? question "I can't join my friend's server."
     A server and its players need the same version of Devil x Slime. See [Multiplayer and servers](reference/multiplayer.md).
 

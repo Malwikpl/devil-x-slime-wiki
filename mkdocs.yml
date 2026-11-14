@@ -119,6 +119,7 @@ nav:
       - Configuration: reference/configuration.md
       - Multiplayer and servers: reference/multiplayer.md
       - Looks, cutscenes and effects: reference/looks.md
+      - Your own sound pack: reference/sound-packs.md
       - Status effects: reference/status-effects.md
       - Compatibility and known limits: reference/compatibility.md
   - FAQ: faq.md
