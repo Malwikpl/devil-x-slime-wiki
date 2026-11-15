@@ -15,7 +15,7 @@ Every remodelled piece comes in two looks:
 <div class="grid" markdown>
 
 <figure markdown="span">
-  ![Smooth look](../assets/images/scale-mail-smooth.jpg){ loading=lazy }
+  ![Smooth look](../assets/images/scale-mail-remade.jpg){ loading=lazy }
   <figcaption>NEW: smooth</figcaption>
 </figure>
 
@@ -29,13 +29,16 @@ Every remodelled piece comes in two looks:
 It covers the gauntlet's three forms, the Scale Mail, Juggernaut Drive's dragon, and Ascalon's blade on the gauntlet and
 the Scale Mail. The sword itself, its relic and the skull keep their one look. The change applies at once.
 
+**Remade in 0.4.0:** the gauntlet's three forms, both Scale Mails, the four Promotion forms and both Juggernaut Drive dragons
+have new smooth models and paint, and the Kitsune's fox body, Great Fox, tails and ears too. The classic look is unchanged.
+
 The first time you hold the Boosted Gear, a screen asks which look you want (**Smooth** or **Blocky**), with a picture
 of each. Any way out of it keeps the current look. To be asked again, set `modelStyleAsked` back to `false`.
 
 Divine Dividing's wings and the white Scale Mail have the new look only.
 
 <figure markdown="span">
-  ![The model style screen](../assets/images/model-style-screen.jpg){ loading=lazy }
+  ![The model style screen](../assets/images/model-style-screen-remade.jpg){ loading=lazy }
   <figcaption>The screen that asks the first time.</figcaption>
 </figure>
 
@@ -46,14 +49,15 @@ The Balance Breakers and **Juggernaut Drive** play a cutscene as they form.
 | Transformation | First time | After that |
 |---|---|---|
 | Balance Breaker (red Scale Mail) | full, about 7 s | short, 3 s |
-| Juggernaut Drive | full, about 7 s | short, 3 s |
+| Juggernaut Drive | full, about 34 s, drawn, with its song | short, 3 s |
 | Divine Dividing's Balance Breaker (white Scale Mail) | full | full, every time |
 | Divine Dividing's Juggernaut Drive (the white dragon) | full, about 7 s | short, 3 s |
 | Taking Albion's power | a short cutscene | |
 | [The True Queen](../boosted-gear/promotion-forms.md#the-true-queen) | full, about 6 s | a flash, no cutscene |
 | [Sword of Betrayer](../sword-birth/sword-of-betrayer.md) | full, about 18 s | short, 3 s |
 | [Cycle of Salvation](../salvation-rose/index.md#cycle-of-salvation) | full, about 48 s, with its song | short, 3 s |
-| [The witch](../salvation-rose/index.md#the-witch) | full, about 50 s, with her song | short, 3 s |
+| [The witch](../salvation-rose/index.md#the-witch) | full, about 50 s, drawn, with her song | short, 3 s |
+| [Red Rain](../crimson-elegy/index.md#red-rain) | the full scene, 10 s | a short cut, about 4 s, every time |
 
 - You stand still and **can't be hurt** while it plays, and your head stays level; the mouse can't turn you.
 - **Sneak** skips the rest of it. You still transform.
@@ -62,6 +66,16 @@ The Balance Breakers and **Juggernaut Drive** play a cutscene as they form.
 - `cutscenes = false` turns them off for you: you transform at once.
 - **Watching one again.** An operator can replay any of them with `/dxdtensura cutscene play <name> [full|short] [players]`, with no
   gear needed and nothing gained or lost. See [Commands](commands.md).
+
+## The anime lens
+
+Since 0.4.0, the big moments hit like an anime frame: a **zoom blur**, **colour fringes**, an **ink frame**, a **flash**
+and a **short freeze**, with a little camera shake. It plays on both Balance Breakers forming (the white Scale Mail's
+"BREAKER!"), Dragon Shot fired and landing, the Wish Arrow and its blast, a Forbidden Balor View stop, Longinus
+Smasher's charge (the world near the dragon glows warm, then green) and Crimson Elegy's big cuts.
+
+The client setting `animeLens` turns it down, 0 to 100%; 0 turns it off. Like the mod's other screen effects it's off with
+`gearEffects` set to `OFF` and under a shader pack.
 
 ## Living wings
 

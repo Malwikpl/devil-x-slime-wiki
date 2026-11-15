@@ -100,6 +100,11 @@ world. These are plans, not promises, and the order can change.
 - **[Salvation Rose](salvation-rose/index.md)** (0.2.107): a Sacred Gear of our own, with seeking arrows, a rain of arrows, its Balance Breaker Cycle of Salvation and
   the witch
 - **[Dragon flight](getting-started/flight.md)** (0.2.107): soaring with momentum on the mod's wings, with dives, glides, brakes and barrel rolls
+- **[Crimson Elegy](crimson-elegy/index.md)** (0.4.0): a second Sacred Gear of our own, a sword fought with still sheathed, with a chain of cuts,
+  Ashen Cut, Thunder Flash and Red Rain's filmed scene
+- **The Boosted Gear remade** (0.4.0): new gauntlets, Scale Mails and Promotion forms with thruster jets and new Blasters, both
+  [Juggernaut Drive](boosted-gear/juggernaut-drive.md) dragons, a drawn Juggernaut Drive cutscene with its own song, and the
+  [anime lens](reference/looks.md#the-anime-lens)
 
 ## Next up
 

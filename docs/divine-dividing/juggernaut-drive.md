@@ -7,8 +7,8 @@ Unlike the [red one](../boosted-gear/juggernaut-drive.md), it runs on your **mag
 out of it when you like. Unless you stay too long.
 
 <figure markdown="span">
-  ![The white dragon](../assets/images/white-dragon.jpg){ loading=lazy }
-  <figcaption>The white dragon on its wings of light.</figcaption>
+  ![The white dragon](../assets/images/white-dragon-remade.jpg){ loading=lazy }
+  <figcaption>The white dragon on its wings of light, remade in 0.4.0 with a dark saw-toothed tail.</figcaption>
 </figure>
 
 ## Learning the words

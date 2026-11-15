@@ -4,7 +4,7 @@ The Boosted Gear's limit, broken: the **Red Dragon Emperor's Scale Mail** over y
 its back. It is the Boosted Gear's mode 4.
 
 <figure markdown="span">
-  ![The Scale Mail](../assets/images/scale-mail-smooth.jpg){ loading=lazy }
+  ![The Scale Mail](../assets/images/scale-mail-remade.jpg){ loading=lazy }
   <figcaption>The Scale Mail (smooth look) next to a player.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ The client setting **Living wings** (`wingMotion`) turns all of it off.
 <div class="grid" markdown>
 
 <figure markdown="span">
-  ![The Scale Mail hovering, wings spread](../assets/images/scale-mail-wings.jpg){ loading=lazy }
+  ![The Scale Mail hovering, wings spread](../assets/images/scale-mail-wings-remade.jpg){ loading=lazy }
   <figcaption>The wings in a hover.</figcaption>
 </figure>
 

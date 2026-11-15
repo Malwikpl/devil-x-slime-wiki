@@ -20,8 +20,8 @@ fox's own **Youjutsu**. Each line has five ranks, and each rank is a race of its
 </figure>
 
 <figure markdown="span">
-  ![A Kitsune in the fox body](../assets/images/foxbody-run.jpg){ loading=lazy }
-  <figcaption>The fox body.</figcaption>
+  ![A Kitsune in the fox body](../assets/images/foxbody-remade.jpg){ loading=lazy }
+  <figcaption>The fox body, remade in 0.4.0.</figcaption>
 </figure>
 
 </div>
@@ -188,8 +188,8 @@ It costs **30% of your max magicules** and then cools down for **10 minutes**.
 <div class="grid" markdown>
 
 <figure markdown="span">
-  ![The Great Fox](../assets/images/great-fox.jpg){ loading=lazy }
-  <figcaption>The Great Fox.</figcaption>
+  ![The Great Fox](../assets/images/great-fox-remade.jpg){ loading=lazy }
+  <figcaption>The Great Fox, remade in 0.4.0: it glows evenly by day and night.</figcaption>
 </figure>
 
 <figure markdown="span">

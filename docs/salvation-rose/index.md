@@ -195,6 +195,9 @@ She ends when her time runs out, at a press of mode 5 while you're still in cont
 
 - The first time you unleash her she has her own cutscene, about 50 s; every later time a short one of 3 s. Her time counts from its
   end. Sneak skips either.
+- **Remade in 0.4.0** to the goddess cutscene's level. It opens in the game, in a grey world with the small white creature beside you,
+  and ends there, the camera pulling back from the dark goddess through the witch's legs. In between, about 370 drawn pictures: the
+  dark gem in a gloved palm, an ink burst, a rain of jointed legs, a dark transformation with black wings, her rise and her name.
 - **Her songs**: one while she's in your control, another the moment she rages. Both follow the `roseMusic` and `gearSongs` client
   settings.
 - **Her sky**: within about 50 blocks of her the sky turns to blood dusk, a red vortex turns overhead (faster while she rages), the fog
