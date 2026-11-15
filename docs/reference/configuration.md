@@ -1356,8 +1356,9 @@ Slime → Config.
 | `seraphMarker` | true | As a Brave Saint, show where your Seraph is at the top of the screen |
 | `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns, and along the flight while [soaring](../getting-started/flight.md)). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
 | `dragonFlight` | true | [Dragon flight](../getting-started/flight.md): soaring with momentum when you sprint-fly on the mod's wings. Off, flight works as before |
-| `flightCameraTilt` | 100 | How far the camera rolls with a bank while soaring, 0 to 100% |
+| `flightCameraTilt` | 100 | How far the camera rolls with a bank while soaring, up to 60°, 0 to 100%. At 0 the view also stops at straight up and down and never goes [over the top](../getting-started/flight.md#over-the-top) |
 | `flightRollSpin` | true | Turn the camera with you in a barrel roll. Off, the camera stays upright |
+| `flightSpeedLines` | true | Thin white streaks rush out from the middle of the screen when you soar faster than cruise, in a dive or a boost. Off, none |
 | `wingMotion` | true | Living wings: the race wings and the Scale Mails answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat, and the Scale Mail's leather lies flat |
 | `townSky` | true | The purple sky and the great moon over the [Castle Town](../world/castle-town.md). Off, Hell keeps its own sky there |
 | `trueQueenMusic` | true | Play Cardinal Crimson Promotion for as long as someone near you is in the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on the Jukebox volume slider, in place of the game's music |

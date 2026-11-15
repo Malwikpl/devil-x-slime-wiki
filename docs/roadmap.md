@@ -105,6 +105,8 @@ world. These are plans, not promises, and the order can change.
 - **The Boosted Gear remade** (0.4.0): new gauntlets, Scale Mails and Promotion forms with thruster jets and new Blasters, both
   [Juggernaut Drive](boosted-gear/juggernaut-drive.md) dragons, a drawn Juggernaut Drive cutscene with its own song, and the
   [anime lens](reference/looks.md#the-anime-lens)
+- **[Dragon flight](getting-started/flight.md#over-the-top)** (0.4.0): climbs and dives to straight up and down, loops over the top,
+  speed lines
 
 ## Next up
 
