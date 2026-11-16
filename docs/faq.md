@@ -3,8 +3,8 @@
 ## Getting a gear
 
 ??? question "How do I get a Sacred Gear?"
-    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth, Forbidden Balor View, Absorption Line and
-    Salvation Rose are in Tensura's reincarnation roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
+    Reincarnate as a **human**: the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth, Forbidden Balor View, Absorption Line,
+    Salvation Rose and Crimson Elegy are in Tensura's reincarnation roll for a human's Unique Skill. Divine Dividing can also come from Albion's jewel, which the
     [White Dragon Emperor](world/white-dragon-emperor.md) drops. See
     [Your first Sacred Gear](getting-started/first-gear.md).
 

@@ -1,7 +1,7 @@
 # Your first Sacred Gear
 
-Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are seven: the rival Heavenly Dragons, Asia's healing
-rings, Kiba's swords, Gasper's eyes, Saji's lines, and Salvation Rose, a gear of our own.
+Devil x Slime's Sacred Gears are Tensura **Unique Skills**. There are eight: the rival Heavenly Dragons, Asia's healing
+rings, Kiba's swords, Gasper's eyes, Saji's lines, and Salvation Rose and Crimson Elegy, gears of our own.
 
 | Sacred Gear | Inside | What it is |
 |---|---|---|
@@ -12,6 +12,7 @@ rings, Kiba's swords, Gasper's eyes, Saji's lines, and Salvation Rose, a gear of
 | [Forbidden Balor View](../balor-view/index.md) | no dragon | A time stop in your eyes: what you look at hangs in the air until its time is up |
 | [Absorption Line](../absorption-line/index.md) | Vritra, the Prison Dragon | Black lines that tie enemies down, drink their power and pass it on |
 | [Salvation Rose](../salvation-rose/index.md) | no dragon | A ring with a pink gem and a bow of rose and light: seeking arrows, a rain of arrows and a winged goddess form |
+| [Crimson Elegy](../crimson-elegy/index.md) | no dragon | A long curved sword fought with still sheathed: quick-draw cuts, a towering red cut and Red Rain. One holder per world |
 
 ## Getting one
 
@@ -69,6 +70,7 @@ So the road to a Devil with a Sacred Gear is Issei's: start human, roll a gear, 
     /tensura edit ability grant @s dxdtensura:forbidden_balor_view
     /tensura edit ability grant @s dxdtensura:absorption_line
     /tensura edit ability grant @s dxdtensura:salvation_rose
+    /tensura edit ability grant @s dxdtensura:crimson_elegy
     ```
 
     Commands give a gear to any race, for testing.
@@ -109,6 +111,8 @@ Using your gear earns Tensura **mastery** for it, the bar in Tensura's skill scr
   lines as it grows. See [Absorption Line](../absorption-line/index.md).
 - Salvation Rose opens **Arrow Rain** at 40%, **Purify** and its Balance Breaker's contract at 70% and the **Wish Arrow** at full
   mastery, and splits its arrows into more as it grows. See [Salvation Rose](../salvation-rose/index.md).
+- Crimson Elegy opens **Red Rain** at 40%, its Great Cut hits all round from 70%, and six bolts follow it at full mastery; the
+  sword's attack grows from 16 to 40. See [Crimson Elegy](../crimson-elegy/index.md).
 
 ## The Sacred Gear panel
 
@@ -134,7 +138,9 @@ its gears into that list** every time a world or server starts:
 - `"dxdtensura:sword_birth"`, switched by `addSwordBirthToReincarnationPool` (in `[sword_birth]`);
 - `"dxdtensura:forbidden_balor_view"`, switched by `addBalorViewToReincarnationPool` (in `[balor_view]`);
 - `"dxdtensura:absorption_line"`, switched by `addAbsorptionLineToReincarnationPool` (in `[absorption_line]`);
-- `"dxdtensura:salvation_rose"`, switched by `addSalvationRoseToReincarnationPool` (in `[salvation_rose]`).
+- `"dxdtensura:salvation_rose"`, switched by `addSalvationRoseToReincarnationPool` (in `[salvation_rose]`);
+- `"dxdtensura:crimson_elegy"`, switched by `addCrimsonElegyToReincarnationPool` (in `[crimson_elegy]`), and skipped while
+  someone in the world holds it.
 
 It adds each entry once and leaves the rest of the file alone. Set a switch to `false` and the next start **removes**
 that entry, even one you added by hand. If you uninstall Devil x Slime, a leftover entry is harmless: Tensura skips

@@ -1131,7 +1131,7 @@ For servers with more than one player. See [Multiplayer and servers](multiplayer
 | `bossDropReserveSeconds` | 30 | 0–600 | A boss's drops can be picked up only by those who fought it for this many seconds (0: by anyone). |
 | `bossHealthPerFighterPercent` | 50 | 0–500 | Extra boss health for each fighter past the first, as a percentage of its health. |
 | `bossHealthMaxFactor` | 4 | 1–50 | The most a boss's health can grow to from its fighters, as a multiple. |
-| `autoReleaseEnabled` | false | — | Free a one-per-server thing (Divine Dividing, the tamed Fenrir, Rias's pieces, Michael's cards) when its holder has been offline for autoReleaseDays. |
+| `autoReleaseEnabled` | false | — | Free a one-per-server thing (Divine Dividing, Crimson Elegy, the tamed Fenrir, Rias's pieces, Michael's cards) when its holder has been offline for autoReleaseDays. |
 | `autoReleaseDays` | 30 | 1–365 | Days offline before autoReleaseEnabled frees what they hold. |
 | `asiaOutMinutes` | 60 | 0–1440 | How long Asia stays out with a player before she goes home, in minutes (0: no limit). |
 | `noMarkKingAwayDays` | 7 | 0–365 | Leaving a King who has been offline this many days leaves no Stray Devil mark (0: it always does). |
@@ -1250,6 +1250,52 @@ and [the witch](../salvation-rose/index.md#the-witch).
 | `witchMireCooldownSeconds` | 20 | 0–600 | The witch's Mire of Despair: seconds between mires. |
 | `witchRageMoveSeconds` | 8 | 1–600 | The raging witch: seconds between the big moves (the rain, her embrace, the mire) she uses on her own. |
 
+## `[crimson_elegy]`
+
+[Crimson Elegy](../crimson-elegy/index.md). "The blade's attack" is the holder's whole attack while holding the sword.
+
+| Option | Default | Range | Meaning |
+|---|---|---|---|
+| `oneCrimsonElegyPerWorld` | true | — | Only one player in the world can hold it. |
+| `addCrimsonElegyToReincarnationPool` | true | — | Put Crimson Elegy in Tensura's reincarnation roll while nobody holds it (the only way to get it). |
+| `attackNew` | 16 | 1–1000 | The sword's attack at no mastery. |
+| `attackMastered` | 40 | 1–1000 | The sword's attack at full mastery. |
+| `ashenCutPrice` | 2 | 0–100 | Ashen Cut's price, % of max magicules. |
+| `ashenCutCooldownNewTicks` | 120 | 0–72000 | Ashen Cut's cooldown at no mastery, in ticks. |
+| `ashenCutCooldownMasteredTicks` | 60 | 0–72000 | Ashen Cut's cooldown at full mastery, in ticks. |
+| `ashenCutDash` | 5 | 0–16 | How far Ashen Cut's dash carries you, in blocks. |
+| `ashenCutShort` | 1.7 | 0–8 | How far short of the first foe on its line the dash stops, in blocks. |
+| `ashenCutReach` | 5 | 1–16 | How far the cut reaches from where the dash ended, in blocks. |
+| `ashenCutArc` | 120 | 10–360 | The cut's arc in front, in degrees. |
+| `ashenCutMultiplier` | 1.5 | 0–20 | Ashen Cut, times the blade's attack. |
+| `ashenGreyRange` | 24 | 0–256 | Players this close see Ashen Cut's second of black and white. |
+| `chainLapseTicks` | 14 | 1–200 | The cut chain starts over after this many ticks without a cut. |
+| `chainArc` | 110 | 10–360 | The flat and the rising cut's arc, in degrees. |
+| `chainTurnArc` | 180 | 10–360 | The turning cut's arc, in degrees. |
+| `chainReach` | 4.5 | 1–16 | How far the chain's first three cuts reach, in blocks. |
+| `chainLineLength` | 7 | 1–32 | The fourth cut's line: how long, in blocks. |
+| `chainLineWidth` | 1.5 | 0.1–8 | The fourth cut's line: how wide, in blocks. |
+| `chainMultiplier` | 0.6 | 0–20 | The flat and the rising cut, times the blade's attack. |
+| `chainTurnMultiplier` | 0.8 | 0–20 | The turning cut, times the blade's attack. |
+| `chainFlashMultiplier` | 1.5 | 0–20 | The fourth cut, landing on its click, times the blade's attack. |
+| `thunderFlashReach` | 12 | 2–48 | How far Thunder Flash dashes, in blocks. |
+| `thunderFlashWidth` | 1.5 | 0.1–8 | How wide its line cuts, in blocks. |
+| `thunderFlashPast` | 2 | 0–8 | How far past the foe you look at it ends, in blocks. |
+| `thunderFlashTicks` | 4 | 1–40 | The dash's length in ticks; you aren't hurt during it. |
+| `thunderFlashPrice` | 4 | 0–100 | Thunder Flash's price, % of max magicules. |
+| `thunderFlashCooldownNewTicks` | 160 | 0–72000 | Its cooldown at no mastery, in ticks. |
+| `thunderFlashCooldownMasteredTicks` | 80 | 0–72000 | Its cooldown at full mastery, in ticks. |
+| `thunderFlashMultiplier` | 1.2 | 0–20 | Thunder Flash, times the blade's attack. |
+| `redRainPrice` | 12 | 0–100 | Red Rain's price, % of max magicules. |
+| `redRainCooldownTicks` | 400 | 0–72000 | Red Rain's cooldown, in ticks. |
+| `rainCutMultiplier` | 1.5 | 0–20 | A Rain Cut, times the blade's attack. |
+| `knotMultiplier` | 0.6 | 0–20 | A knot cashed, times the blade's attack, on its foe and everything within 6 blocks. |
+| `greatCutMultiplier` | 2.5 | 0–20 | The Great Cut, times the blade's attack. |
+| `boltMultiplier` | 1 | 0–20 | Each of the six bolts at full mastery, times the blade's attack. |
+| `weakFoePercent` | 10 | 0–100 | A foe whose max EP is at most this % of yours falls to Ashen Cut or Thunder Flash at once. |
+| `greyRange` | 48 | 0–256 | Players this close see Red Rain's black and white. |
+| `stopRange` | 24 | 0–128 | Mobs this close stand still through Red Rain. |
+
 ## `[lore_mode]`
 
 The numbers for [Lore mode](../lore-mode.md). The mode itself is the game rule `dxdLoreMode`, for each world. None of this does
@@ -1299,6 +1345,7 @@ Slime → Config.
 | `ddraigLines` | `ALL` | How much of Ddraig you see: `ALL`, `IMPORTANT` (teaching, warnings and story lines; Rias's lines count as important) or `OFF` |
 | `screenShake` | true | Shake the camera for the Explosion, the Scale Mail forming and a Dragon Shot landing close by |
 | `gearEffects` | `ALL` | `ALL`; `MOMENTS` (no lingering auras or motes); or `OFF` (no effects, no light from the gear, no rage tint). Poses and sounds always play |
+| `animeLens` | 100 | The [anime lens](looks.md#the-anime-lens) on big moments: zoom blur, colour fringes, an ink frame, a flash and a short freeze, 0 to 100%. 0 turns it off |
 | `gearSongs` | `ALL` | Whose gear songs play: `OFF` for none, `OWN` for your own only, `ALL` for others' nearby too. Each song's own setting below still applies |
 | `cutscenes` | true | Film Balance Breaker (both Scale Mails) and Juggernaut Drive forming: the full cutscene the first time, a short one after (the white Scale Mail plays its full one every time). Off, they form at once |
 | `modelStyle` | `NEW` | `NEW` (the remodelled, outlined models) or `CLASSIC` (the blocky models from before); changes at once. The gauntlet's three forms, the Scale Mail, Juggernaut Drive's dragon and Ascalon's blade on the gauntlet and the Scale Mail (the sword itself, its relic and the skull keep their look). The first time you hold the Boosted Gear a screen asks which look you want, with a picture of each |
@@ -1309,8 +1356,9 @@ Slime → Config.
 | `seraphMarker` | true | As a Brave Saint, show where your Seraph is at the top of the screen |
 | `flightLean` | true | Lean a player flying on the mod's wings or in a Scale Mail into the flight (flat out sprint-flying, banking into turns, and along the flight while [soaring](../getting-started/flight.md)). With TR: Nightmare installed, its own flight pose is left off them; turn this off to fly upright and let Nightmare's pose take over |
 | `dragonFlight` | true | [Dragon flight](../getting-started/flight.md): soaring with momentum when you sprint-fly on the mod's wings. Off, flight works as before |
-| `flightCameraTilt` | 100 | How far the camera rolls with a bank while soaring, 0 to 100% |
+| `flightCameraTilt` | 100 | How far the camera rolls with a bank while soaring, up to 60°, 0 to 100%. At 0 the view also stops at straight up and down and never goes [over the top](../getting-started/flight.md#over-the-top) |
 | `flightRollSpin` | true | Turn the camera with you in a barrel roll. Off, the camera stays upright |
+| `flightSpeedLines` | true | Thin white streaks rush out from the middle of the screen when you soar faster than cruise, in a dive or a boost. Off, none |
 | `wingMotion` | true | Living wings: the race wings and the Scale Mails answer your movement, breathe when you stand still and beat with the flight. Off, they keep the old slow beat, and the Scale Mail's leather lies flat |
 | `townSky` | true | The purple sky and the great moon over the [Castle Town](../world/castle-town.md). Off, Hell keeps its own sky there |
 | `trueQueenMusic` | true | Play Cardinal Crimson Promotion for as long as someone near you is in the [True Queen](../boosted-gear/promotion-forms.md#the-true-queen), on the Jukebox volume slider, in place of the game's music |
@@ -1323,3 +1371,5 @@ Slime → Config.
 | `roseMusic` | true | Play [Cycle of Salvation's](../salvation-rose/index.md#cycle-of-salvation) song for as long as someone near you is in it, and the witch's songs while she's out, on the Jukebox volume slider, in place of the game's music |
 | `bentArms` | true | Salvation Rose's shooting poses bend the arms at the elbow (with bendy-lib, packed in the mod). Turn it off for straight arms, for instance if another mod's player model clashes with bending |
 | `witchSky` | true | Near [the witch](../salvation-rose/index.md#the-witch) the sky turns to blood dusk, a vortex turns overhead, the fog closes in and ash falls. Off, the sky stays as it is |
+| `juggernautMusic` | true | Play [Juggernaut Drive's](../boosted-gear/juggernaut-drive.md#the-cutscene) song when someone near you releases the red Drive, from its cutscene to the Drive's end, on the Jukebox volume slider, in place of the game's music |
+| `crimsonElegyGrey` | true | See the world turn black and white while a [Red Rain](../crimson-elegy/index.md#red-rain) (or Ashen Cut's second) plays near you. Off, your world keeps its colour |

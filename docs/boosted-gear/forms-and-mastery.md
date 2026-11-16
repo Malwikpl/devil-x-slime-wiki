@@ -15,6 +15,14 @@ When the gauntlet evolves, a column of red and green light streams up around you
 and chat tells you which mode awakened. Reaching the Base form plays the summon call, and reaching the Gift plays
 "Second Liberation".
 
+All three forms were **remade in 0.4.0** with new smooth models and paint: the Initial form's two gold horns alike, the Base form's
+jewel smooth, and the Gift longer, with long gold blades fanned out at the elbow and a gold spike each side of the wrist.
+
+<figure markdown="span">
+  ![The remade Initial form](../assets/images/gauntlet-initial-remade.jpg){ loading=lazy }
+  <figcaption>The remade Initial form.</figcaption>
+</figure>
+
 <div class="grid" markdown>
 
 <figure markdown="span">

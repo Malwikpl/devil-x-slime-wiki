@@ -62,14 +62,26 @@ out at 1.2 times cruise, with no key they slow to a hover in about 2 s, and the 
 
 ## What you see
 
-- **The body** lies along the flight: flat when level, head down in a dive, banked up to 60° in a turn, tipped back when braking.
+- **The body** lies along the flight (since 0.4.0 all the way): flat when level, upright in a climb straight up, head first in a dive
+  straight down, banked up to 60° in a turn, tipped back when braking. A slow, steep climb still reads as soaring, not a hover.
 - **The wings** beat and pose by what you're doing: big strokes in a hover (slower and heavier the bigger the wings), one huge stroke on a
-  boost, spread and still in a glide, swept back in a dive, a narrow V when tucked, cupped forward when braking.
-- **Trails**: thin white ribbons stream from the wingtips (a Valkyrie's hands) at cruise and above, with a little glow at night.
-- **The camera** tilts with the bank, up to 45°, spins with a barrel roll and rises behind you in third person. Aiming still goes where
-  the crosshair is. The view widens up to 15% in a dive (Minecraft's "FOV Effects" slider applies).
+  boost, spread and still in a glide, swept back in a dive, a narrow V when tucked, cupped forward when braking, and bigger strokes in a
+  steep climb.
+- **Trails**: thin white ribbons stream from the wingtips (a Valkyrie's hands) from about 60% of cruise, each lasting about 3 s, with a
+  little glow at night.
+- **The camera** tilts with the bank, up to 60° in a hard turn, spins with a barrel roll and rises behind you in third person. Aiming
+  still goes where the crosshair is. The view widens up to 15% in a dive (Minecraft's "FOV Effects" slider applies).
+- **Speed lines**: faster than 1.2 times cruise, in a dive or a boost, thin white streaks rush out from the middle of the screen.
 - **The wind** rises with your speed, for you alone.
-- **Other players** see your soaring from your movement: the body, the bank, the wings and the trails, and your barrel rolls.
+- **Other players** see your soaring from your movement: the body, the bank, the wings and the trails, your barrel rolls and your
+  loops.
+
+## Over the top
+
+Since 0.4.0 the view stops at straight up and at straight down, so a climb or a dive held against the stop stays one. **Keep pulling the
+mouse back at straight up and you go over the top**: upside down, then down the far side into a dive, a whole backward loop if you keep
+pulling. Upside down the mouse still moves the view the way you move it. Stop pulling while upside down and you roll upright by yourself
+in about a second. Hovering never goes over, and with `flightCameraTilt` at 0 the view stops at straight up and down as it used to.
 
 [Rias](../races/rias.md) and the [Castle Town's](../world/castle-town.md) flying Devils beat their wings the new way too.
 
@@ -78,6 +90,7 @@ out at 1.2 times cruise, with no key they slow to a hover in about 2 s, and the 
 In the client config (Mods → Devil x Slime → Config), see [Client settings](../reference/configuration.md#client-settings):
 
 - `dragonFlight` (on): off turns all of it off, back to the old flight and wings.
-- `flightCameraTilt` (100%): how far the camera tilts in a bank, 0 for none.
+- `flightCameraTilt` (100%): how far the camera tilts in a bank, 0 for none (and then no going over the top).
 - `flightRollSpin` (on): spins the camera with a barrel roll.
+- `flightSpeedLines` (on): the speed lines in a fast dive or a boost.
 - `flightLean` and `wingMotion` work as before: the body's lean and the living wings.

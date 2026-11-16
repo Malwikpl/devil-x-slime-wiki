@@ -62,12 +62,13 @@ A King can hide where they are from their own servants with `/dxdtensura hidekin
 
 ## Players who stop coming
 
-Some things exist once per server: Divine Dividing, the tamed Fenrir, Rias's pieces and Michael's cards. If a holder stops playing,
+Some things exist once per server: Divine Dividing, Crimson Elegy, the tamed Fenrir, Rias's pieces and Michael's cards. If a holder stops playing,
 an operator can free them (online or not):
 
 | Command | Frees |
 |---|---|
 | `/dxdtensura divinedividing release <player>` | Divine Dividing |
+| `/dxdtensura crimson_elegy release <player>` | [Crimson Elegy](../crimson-elegy/index.md) |
 | `/dxdtensura fenrir release <player>` | The tamed Fenrir |
 | `/dxdtensura rias release <player>` | A servant of Rias |
 | `/dxdtensura peerage release <player>` | A servant of a player King |

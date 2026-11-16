@@ -11,7 +11,7 @@ hide:
 
 **High School DxD comes to Tensura: Reincarnated.** Devil x Slime is an addon for the Tensura: Reincarnated mod
 (Minecraft 1.21.1, NeoForge). It started with the most iconic powers in DxD, the two Heavenly Dragons' Sacred Gears,
-and now has Asia's Twilight Healing, Kiba's Sword Birth and Sword of Betrayer, Gasper's Forbidden Balor View, Saji's Absorption Line, Salvation Rose (a Sacred Gear of our own), Xenovia's Durandal and the
+and now has Asia's Twilight Healing, Kiba's Sword Birth and Sword of Betrayer, Gasper's Forbidden Balor View, Saji's Absorption Line, Salvation Rose and Crimson Elegy (Sacred Gears of our own), Xenovia's Durandal and the
 fragments of Excalibur with Ex-Durandal, dragon-style flight on its wings, the three
 races of the Three Factions (Devils with their Houses and Evil Pieces, Angels with their Brave Saints, and Fallen
 Angels), Koneko's cat Youkai, Kunou's foxes, Rossweisse's Valkyries, the Stray Devils to hunt, Fenrir to fight or tame and the Gremory family's town
@@ -99,6 +99,13 @@ in Hell. It is growing into the whole DxD world.
 
     A Sacred Gear of our own: a ring with a pink gem and a bow of rose and light. Seeking arrows, a rain of arrows, a
     winged goddess form, and a witch for a gem gone dark.
+
+-   :material-sword:{ .lg .middle } **[Crimson Elegy](crimson-elegy/index.md)**
+
+    ---
+
+    A second gear of our own: a sword fought with still sheathed. Quick-draw cuts, a towering red cut, and Red Rain, a
+    scene in a black-and-white world where every cut lands on the click of the sheath.
 
 -   :material-bird:{ .lg .middle } **[Dragon flight](getting-started/flight.md)**
 
@@ -264,7 +271,7 @@ in Hell. It is growing into the whole DxD world.
 
 1. **Install** the mod and its requirements on the client and the server: see [Installation](getting-started/installation.md).
 2. **Reincarnate as a human** and roll the Boosted Gear, Divine Dividing, Twilight Healing, Sword Birth, Forbidden Balor View,
-   Absorption Line or Salvation Rose as your Unique Skill (only one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
+   Absorption Line, Salvation Rose or Crimson Elegy as your Unique Skill (only one Sacred Gear each, and [only humans](getting-started/first-gear.md#only-in-humans) roll them).
 3. **Put the skill on an ability slot** in Tensura's Status Menu (default **B**) and press the slot key (**Z**, **X** or
    **C**) to summon your gear.
 4. **Use it.** Every use earns mastery, and mastery unlocks the rest. [Your first Sacred Gear](getting-started/first-gear.md)

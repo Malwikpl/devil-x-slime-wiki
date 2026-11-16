@@ -7,22 +7,22 @@ three at once in the crimson **True Queen**.
 <div class="grid" markdown>
 
 <figure markdown="span">
-  ![The Knight's form](../assets/images/form-knight.jpg){ loading=lazy }
+  ![The Knight's form](../assets/images/form-knight-remade.jpg){ loading=lazy }
   <figcaption>Welsh Sonic Boost Knight.</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![The Rook's form](../assets/images/form-rook.jpg){ loading=lazy }
+  ![The Rook's form](../assets/images/form-rook-remade.jpg){ loading=lazy }
   <figcaption>Welsh Dragonic Rook.</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![The Bishop's form](../assets/images/form-bishop.jpg){ loading=lazy }
+  ![The Bishop's form](../assets/images/form-bishop-remade.jpg){ loading=lazy }
   <figcaption>Welsh Blaster Bishop.</figcaption>
 </figure>
 
 <figure markdown="span">
-  ![The True Queen](../assets/images/form-true-queen.jpg){ loading=lazy }
+  ![The True Queen](../assets/images/form-true-queen-remade.jpg){ loading=lazy }
   <figcaption>Cardinal Crimson Promotion, the True Queen.</figcaption>
 </figure>
 
@@ -58,6 +58,9 @@ You need to be a **Pawn** with **Balance Breaker on**. A [King or Rias](../races
 | **Dragon Shot's mode** | Plain Dragon Shot | [Solid Impact](#solid-impact) | [Dragon Blaster](#dragon-blaster) |
 
 - **The Knight** sheds its plates and runs on green flames from its thrusters, longer the faster you go. The speed doesn't change your view.
+- **Remade in 0.4.0:** every form has a new model and paint, and the Bishop's cannons are part of its armour. **Thruster jets** fire from
+  the back spikes as you fly, painted flames that bend back into your wake: green on the Knight, the Bishop and the plain armour (from
+  ×16), pink on the True Queen. The Rook has none.
 - **The Rook** grows into heavy armour with gold plates, and each step lands with a puff of dust.
 - **The Bishop** is the plain armour with a backpack and two big cannons.
 
@@ -66,8 +69,8 @@ Knight and Rook fly with the plain armour's pale wings.
 <div class="grid" markdown>
 
 <figure markdown="span">
-  ![The Knight flying, its thrusters firing](../assets/images/form-knight-flames.jpg){ loading=lazy }
-  <figcaption>The Knight's green flames.</figcaption>
+  ![The Knight flying, its thrusters firing](../assets/images/form-knight-jets.jpg){ loading=lazy }
+  <figcaption>The Knight's green jets, bent into its wake (from the approved effect films).</figcaption>
 </figure>
 
 <figure markdown="span">
@@ -97,14 +100,14 @@ The Rook's fist, with a percussion hammer at the elbow. It takes the place of Dr
 
 The Bishop's cannons. It takes the place of Dragon Shot's mode.
 
-- **A 2-second charge** at half speed, with the cannons swinging down to aim.
+- **A 2-second charge** at half speed, with the cannons swinging down to aim in its first 0.7 s and holding there.
 - **Then two beams,** 4 blocks wide and up to 64 long, that meet on your crosshair, for **20 × 2ⁿ**, each target once. What's behind you isn't hit.
 - It spends the stacks and **10% of your max magicules**, and cools for **10 seconds**. Too few magicules and it refuses, with nothing lost.
 - A change of form, the armour's end or death during the charge cancels it, for nothing.
 
 <figure markdown="span">
-  ![The Dragon Blaster firing](../assets/images/form-blaster.jpg){ loading=lazy }
-  <figcaption>The Dragon Blaster.</figcaption>
+  ![The Dragon Blaster firing](../assets/images/form-blaster-remade.jpg){ loading=lazy }
+  <figcaption>The Dragon Blaster since 0.4.0: a red beam with a green charge and three rings, and a white flash as it fires.</figcaption>
 </figure>
 
 ## The True Queen
@@ -155,8 +158,8 @@ don't flap. They only answer your movement.
 </figure>
 
 <figure markdown="span">
-  ![The Crimson Blaster firing](../assets/images/form-crimson-blaster.jpg){ loading=lazy }
-  <figcaption>"CRIMSON BLASTER!"</figcaption>
+  ![The Crimson Blaster firing](../assets/images/form-crimson-blaster-remade.jpg){ loading=lazy }
+  <figcaption>"CRIMSON BLASTER!" Since 0.4.0, layered white, yellow, orange and coral with two crimson ribbons.</figcaption>
 </figure>
 
 </div>

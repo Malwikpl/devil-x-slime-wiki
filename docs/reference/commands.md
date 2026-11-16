@@ -29,6 +29,18 @@ All of them need operator permission (level 2), except `/dxdtensura incantation`
 
 `[players]` and `[targets]` are optional; without them, the command applies to you.
 
+### Crimson Elegy
+
+Operators only.
+
+| Command | What it does |
+|---|---|
+| `/dxdtensura crimson_elegy release <player>` | Takes [Crimson Elegy](../crimson-elegy/index.md) from its holder and frees it for the world; a holder who is away loses it at their next login |
+| `/dxdtensura crimson_elegy holder` | Says who holds it, or that nobody does |
+| `/dxdtensura crimson_elegy mastery <percent>` | Sets your own Crimson Elegy's mastery, for testing |
+| `/dxdtensura crimson_elegy petals` | Gives you nine red petals, for testing [Red Rain](../crimson-elegy/index.md#red-rain) |
+| `/dxdtensura crimson_elegy cutscene full\|short` | Plays Red Rain's scene on you as a replay: nothing is held or hit |
+
 ### The Castle Town
 
 For [the Castle Town](../world/castle-town.md). All need operator permission, except `town renown`.
@@ -215,6 +227,7 @@ Tensura's own commands work on Devil x Slime's skills too.
 | `/tensura edit ability grant @s dxdtensura:forbidden_balor_view` | Gives you Forbidden Balor View |
 | `/tensura edit ability grant @s dxdtensura:absorption_line` | Gives you Absorption Line |
 | `/tensura edit ability grant @s dxdtensura:salvation_rose` | Gives you Salvation Rose |
+| `/tensura edit ability grant @s dxdtensura:crimson_elegy` | Gives you Crimson Elegy (refused while someone else holds it) |
 | `/tensura edit race @s set dxdtensura:seraph` | Makes you a Seraph, to try the [Brave Saints](../races/brave-saints.md) |
 | `/tensura edit ability mastery @s dxdtensura:boosted_gear 400` | Sets the mastery: 400 is the Base form, `max` the Boosted Gear Gift, `0` back to Initial |
 | `/ability set dxdtensura:boosted_gear <mode> <slot>` | Puts a mode on an ability slot (1 to 3). See the mode numbers on the [Boosted Gear](../boosted-gear/index.md#modes) and [Divine Dividing](../divine-dividing/index.md#modes) pages |
